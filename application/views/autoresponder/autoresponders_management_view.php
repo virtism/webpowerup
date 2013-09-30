@@ -57,7 +57,25 @@ $(document).ready(function(e) {
                 }
 				else
 				{
-                    $when_to_send = $row['respond_send_value'].' '.$row['respond_send_key'].' After '.$row['respond_send_after'];
+                   
+				   	if($row['respond_send_key'] == 'Weeks')
+					{
+						$respond_send_value = $row['respond_send_value']/7;
+					}
+					else if($row['respond_send_key'] == 'Months')
+					{
+						$respond_send_value = $row['respond_send_value']/30;
+					}
+					else if($row['respond_send_key'] == 'Years')
+					{
+						$respond_send_value = $row['respond_send_value']/365;
+					}
+					else
+					{
+						$respond_send_value = $row['respond_send_value'];
+					}
+					
+					$when_to_send = $respond_send_value.' '.$row['respond_send_key'].' After '.$row['respond_send_after'];
                 }
 				if($row['respond_active'] == '1')
 				{

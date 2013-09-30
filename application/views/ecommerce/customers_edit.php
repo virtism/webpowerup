@@ -59,7 +59,7 @@ $(document).ready(function() {
 <div style="float:left;width:65%;">
 	<?php
     $attributes = array('class' => 'contact', 'id' => 'registerform' ,  'name' => 'registerform',  'onsubmit'=>'javascript: return checkRegFormFields(this);' );
-    echo form_open(base_url().index_page().'MyAccount/account',$attributes);
+    echo form_open($path.'MyAccount/account',$attributes);
     echo form_hidden('action','updat_account');
     echo form_hidden('customer_id',$customer['customer_id']);
    // echo form_hidden('tag_tab',$tag_tab);
@@ -172,7 +172,15 @@ $(document).ready(function() {
 <?php
  
 echo form_close();
- 
+ if($this->config->item('seo_url') == 'On')
+	{
+		
+		$path = 'http://'.$_SERVER['SERVER_NAME'].'/';			
+	}
+	else
+	{
+		$path =  base_url().index_page();
+	}
 ?>
 </div>
 
@@ -181,16 +189,16 @@ echo form_close();
   <h2>My Account</h2>
   <div class="contentText">
     <ul class="accountLinkList">
-      <li><span class=""></span><a href="<?=base_url().index_page()?>MyAccount/account">My account information.</a></li>
-      <li><span class=""></span><a href="<?=base_url().index_page()?>MyAccount/AddressBook"> my address book.</a></li>
-      <li><span class=""></span><a href="<?=base_url().index_page()?>MyAccount/password_change">Change  password.</a></li>
+      <li><span class=""></span><a href="<?=$path?>MyAccount/account">My account information.</a></li>
+      <li><span class=""></span><a href="<?=$path?>MyAccount/AddressBook"> my address book.</a></li>
+      <li><span class=""></span><a href="<?=$path?>MyAccount/password_change">Change  password.</a></li>
       
-      <li><span class=""></span><a href="<?=base_url().index_page()?>group_managment/">Edit Groups</a></li>
+      <li><span class=""></span><a href="<?=$path?>group_managment/">Edit Groups</a></li>
       
       <?php
 	  if($private_page_exist)
 	  { ?>
-      <li><span class=""></span><a href="<?=base_url().index_page()?>MyAccount/private_pages">Private Pages</a></li>
+      <li><span class=""></span><a href="<?=$path?>MyAccount/private_pages">Private Pages</a></li>
       <?php
 	  } ?>
       
@@ -202,23 +210,23 @@ echo form_close();
 	  <h2>My Orders</h2>  
 	  <div class="contentText">
 		<ul class="accountLinkList">
-		  <li><span class=""></span><a href="<?=base_url().index_page()?>orders/order_site_list">View the orders I have made.</a></li>			
+		  <li><span class=""></span><a href="<?=$path?>orders/order_site_list">View the orders I have made.</a></li>			
 		</ul>
 	  </div>
 <? } ?>
-  <!--<h2>E-Mail Notifications</h2>
+<!--  <h2>E-Mail Notifications</h2>
   <div class="contentText">
     <ul class="accountLinkList">
       <li><span class=""></span><a href="#">Subscribe or unsubscribe from newsletters.</a></li>
       <li><span class=""></span><a href="#"> my product notification list.</a></li>
     </ul>
-  </div>        -->
+  </div>    -->
   
   <?php if(isset($invoice_exist) && $invoice_exist == 1){ ?>
     <h2>Invoices</h2>
 	<div class="contentText">	
 		<ul class="accountLinkList">
-		 	<li><span class=""></span><a href="<?=base_url().index_page()?>MyAccount/invoices">Invoices</a></li>		 
+		 	<li><span class=""></span><a href="<?=$path?>MyAccount/invoices">Invoices</a></li>		 
 		</ul>
 	</div>
   
@@ -228,7 +236,7 @@ echo form_close();
     <h2>Tickets</h2>
 	<div class="contentText">	
 		<ul class="accountLinkList">
-		 	<li><span class=""></span><a href="<?=base_url().index_page()?>ticket/my_ticket">My Ticket.</a></li>		 
+		 	<li><span class=""></span><a href="<?=$path?>ticket/my_ticket">My Ticket.</a></li>		 
 		</ul>
 	</div>
   
@@ -237,7 +245,7 @@ echo form_close();
     <h2>Video Conference</h2>
 	<div class="contentText">	
 		<ul class="accountLinkList">
-		 	<li><span class=""></span><a href="<?=base_url().index_page()?>room_management/user_rooms/">Meeting List</a></li>		 
+		 	<li><span class=""></span><a href="<?=$path?>room_management/user_rooms/">Meeting List</a></li>		 
 		</ul>
 	</div>
   
@@ -246,7 +254,7 @@ echo form_close();
     <h2>Webinars</h2>
 	<div class="contentText">	
 		<ul class="accountLinkList">
-		 	<li><span class=""></span><a href="<?=base_url().index_page()?>webinar_site/user_webinar/">webinar List</a></li>		 
+		 	<li><span class=""></span><a href="<?=$path?>webinar_site/user_webinar/">webinar List</a></li>		 
 		</ul>
 	</div>
   

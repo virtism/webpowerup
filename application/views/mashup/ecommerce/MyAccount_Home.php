@@ -22,7 +22,14 @@
     </ul>
   </div>
 
- 
+  <!--<h2>E-Mail Notifications</h2>
+
+  <div class="contentText">
+    <ul class="accountLinkList">
+      <li><span class=""></span><a href="#">Subscribe or unsubscribe from newsletters.</a></li>
+      <li><span class=""></span><a href="#"> my product notification list.</a></li>
+    </ul>
+  </div>       -->
 </div>
 
 

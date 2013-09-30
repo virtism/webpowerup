@@ -135,8 +135,9 @@ if(!session_start()){
 			
 			if($page_header == "Other")
 			{
-				//$header_image = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
-				$data['header_image'] = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
+				
+				//$data['header_image'] = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
+				$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
 				
 				//$data["header_image"] =  '<div style="height: 100px; background-image: url('."'".$header_image."'".'); background-repeat:no-repeat; background-size:960px 100px;">
 				//</div>';
@@ -156,7 +157,7 @@ if(!session_start()){
 			{
 				$header = "";         
 			}
-			
+			//echo '<pre>'; print_r($data);exit;
 			if($header_background=='Image')
 			{
 				$data['header_background_image'] = base_url().'headers/'.$this->Pages_Model->getHeaderBackgroundImage($page_id);         
@@ -199,9 +200,6 @@ if(!session_start()){
 			$pageMenus["site_id"] = $this->site_id; 
 			
 			//$this->template->write('title', $page_title);
-			
-			
-			
 			
 			$this->template->write('description', 'Online store for buy and get '); 
 			$this->template->write('keywords', 'online purchase, online get, '); 

@@ -229,9 +229,7 @@ class customers extends CI_Controller {
   
 	function group_process()
 	{
-		
-        //DebugBreak();
-        //$this->input->post("group_id");
+		//$this->input->post("group_id");
 		$member_id = $this->input->post("customer_id");
 		
 		$r = $this->Groups_Model->add_member_to_singel_group($member_id);
@@ -242,7 +240,7 @@ class customers extends CI_Controller {
 		}
 		else
 		{
-			$msg = "Group not added Successfully";
+			$msg = "Group not added successfully";
 			$error = 1;
 		}
 		/******		saving custom form data 	********/	

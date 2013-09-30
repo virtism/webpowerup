@@ -45,7 +45,8 @@ $(document).ready(function(e) {
 				//alert("");
 				$.ajax({
 				type: "POST",
-				url: "<?=base_url().index_page()?>group_managment/check_group_payment_status/",
+				//url: "<?=base_url().index_page()?>group_managment/check_group_payment_status/",
+				url: window.location.protocol+"/group_managment/check_group_payment_status/",
 				data: dataString,
 				async: false,
 				success: function(rsp){
@@ -102,7 +103,8 @@ $(document).ready(function(e) {
 				
 				$.ajax({
 				type: "POST",
-				url: "<?=base_url().index_page()?>sitegroups/group_fields_paypal_button/group_manage",
+				//url: "<?=base_url().index_page()?>sitegroups/group_fields_paypal_button/group_manage",
+				url: window.location.protocol+"/sitegroups/group_fields_paypal_button/group_manage",
 				data: dataString,
 				async: false,
 				beforeSend: function(){
@@ -127,7 +129,8 @@ $(document).ready(function(e) {
 			$.ajax({
 			type: "POST",
 			async: false,
-			url: "<?=base_url().index_page()?>customers/code_exist/"+group_code,
+			//url: "<?=base_url().index_page()?>customers/code_exist/"+group_code,
+			url: window.location.protocol+"/customers/code_exist/"+group_code,
 			data: dataString,
 			success: function(data){
 					if(data  == 'true')
@@ -161,7 +164,8 @@ $(document).ready(function(e) {
 		$.ajax({
 			type: "POST",
 			async: false,
-			url: "<?=base_url().index_page()?>group_managment/get_group_id_by_code/"+group_code,
+			//url: "<?=base_url().index_page()?>group_managment/get_group_id_by_code/"+group_code,
+			url: window.location.protocol+"/group_managment/get_group_id_by_code/"+group_code,
 			success: function(data){
 					// alert(data);
 					if(data != 'false')
@@ -398,15 +402,25 @@ $(document).ready(function(e) {
 <div>
 <?php 
 // echo "<pre>";	print_r($_SESSION['login_info']['customer_id']);		echo "</pre>";
+
+if($this->config->item('seo_url') == 'On')
+	{
+		
+		$path = 'http://'.$_SERVER['SERVER_NAME'].'/';			
+	}
+	else
+	{
+		$path =  base_url().index_page();
+	}
 ?>
 <h2>Sign up for a new group</h2>
 <div>
-	<a href="<?php echo base_url().index_page()."group_managment/" ?>"> Back </a>
+	<a href="<?php echo $path."group_managment/" ?>"> Back </a>
 </div>
 <div id="response">
 <?php echo $this->session->flashdata('response'); ?>
 </div>
-<form id="addGroupForm" method="post" action="<?php echo base_url().index_page()."group_managment/add_group" ?>" >
+<form id="addGroupForm" method="post" action="<?php echo $path."group_managment/add_group" ?>" >
 <input type="hidden" id="customer_id" name="customer_id" value="<?=$_SESSION['login_info']['customer_id'];?>" />
 <input type="hidden" name="site_id"  id="site_id" value="<?=$site_id?>" />
 <input type="hidden" name="group_id_by_code"  id="group_id_by_code" value="" />

@@ -47,7 +47,10 @@ class Ticket extends CI_Controller {
  
    function index()
    {
-	  	$this->is_login();
+	  	
+		
+		$this->is_login();
+		 
 		 
 		$site_user_id = "" ;
 		
@@ -91,22 +94,14 @@ class Ticket extends CI_Controller {
 		
 		if($page_header == "Other")
 		{
-			//$header_image = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
-			$data['header_image'] = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
 			
-			//$data["header_image"] =  '<div style="height: 100px; background-image: url('."'".$header_image."'".'); background-repeat:no-repeat; background-size:960px 100px;">
-			//</div>';
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+			
 		}
 		else if($page_header == "Slideshow")
 		{
 			//$header_image = $this->Site_Model->getSlideshowHeaderImgs($page_id);
-			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);
-			//$header = '<div class="slideshow">';
-			//foreach($header_image->result_array() as $rowImage)
-			//{
-			//    $header .= '<img src="'.base_url().'headers/'.$rowImage["header_image"].'" width="100%" height="150" />';    
-			//}
-			//$header .= '</div>';
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
 		} 
 		else
 		{
@@ -157,7 +152,8 @@ class Ticket extends CI_Controller {
 		$site_id = $this->site_id;
 		$temp_name =  $this->my_template_menu->set_get_template($site_id); // template name
 		$data['color_scheme'] = $this->Menus_Model->get_scheme_color($site_id);
-		
+		$data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
+
 		
 		//echo "<pre>";	print_r($data);		die();
 		$this->template->write('title', "Support Ticket");
@@ -209,7 +205,7 @@ class Ticket extends CI_Controller {
 		  $this->template->write_view('logo', $temp_name.'/logo', $data);
 		}
 		
-		 
+		
 		   
 		 $this->template->write_view('menu', $this->temp_name.'/menu', $data); 
 			
@@ -241,6 +237,8 @@ class Ticket extends CI_Controller {
 				$data['msgdepartment'] = $this->session->flashdata('msgdepartment'); 
             }
 			*/
+			
+			
 			$data['site_id'] = $site_id;
 			$this->template->write_view('content','ticket/front/ticketTable',$data);
 			$all_categories = $this->categories_model->getAllCategories_shop($this->site_id);
@@ -261,9 +259,11 @@ class Ticket extends CI_Controller {
 			$this->template->write_view('rightbar', $this->temp_name.'/rightbar', $data);     
 		}
 		$data['page_title'] = $rowHomepage["page_title"];
+		
 		if(isset($Regions['leftbar']))
 		{
 			$data['left_menus'] = $this->my_template_menu->getLeftbar($this->site_id, $page_id);
+			//echo $this->temp_name;exit;
 			$data['left_menus_type'] = 'site'; 
 			$this->template->write_view('leftbar', $this->temp_name.'/leftbar', $data); 
 		}
@@ -278,8 +278,6 @@ class Ticket extends CI_Controller {
   function new_ticket($site_id)
   {
        
-	   
-		   
 		   $this->load->helper("form");
 		   $this->load->library('form_validation');
 		   
@@ -289,16 +287,35 @@ class Ticket extends CI_Controller {
 	   
 		   if ($this->form_validation->run() == FALSE)
 		   {
-				$this->session->set_flashdata('formError', validation_errors() );
-				redirect('ticket/index/'.$site_id);
+				
+				
+				$this->session->set_flashdata('formError', validation_errors());
+				
+				if($this->config->item('seo_url') == 'On')
+				{
+					redirect('http://'.$_SERVER['SERVER_NAME'].'/'.'manage_ticket/index.html');
+				}
+				else
+				{
+					redirect('ticket/index/'.$site_id);
+				}
+				
 		   }
 		   else
 		   {
+				
 				$r = $this->support_ticket_model->add_ticket();
 				if($r)
 				{
 				  $this->session->set_flashdata('msgTicket',"1" );
-				  redirect('ticket/index/'.$site_id);
+				   if($this->config->item('seo_url') == 'On')
+					{
+						redirect('http://'.$_SERVER['SERVER_NAME'].'/'.'manage_ticket/index.html');
+					}
+					else
+					{
+						redirect('ticket/index/'.$site_id);
+					}
 				}
        	   }
       
@@ -358,7 +375,7 @@ class Ticket extends CI_Controller {
         if($page_header == "Other")
         {
             //$header_image = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
-            $data['header_image'] = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
+            $data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
             
             //$data["header_image"] =  '<div style="height: 100px; background-image: url('."'".$header_image."'".'); background-repeat:no-repeat; background-size:960px 100px;">
             //</div>';
@@ -463,6 +480,7 @@ class Ticket extends CI_Controller {
          
          
 		  $data['color_scheme'] = $this->Menus_Model->get_scheme_color($site_id);
+		  $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
 		  $this->template->write_view('menu', $this->temp_name.'/menu', $data); 
 		   
 		    $data['logo_image'] = $this->Site_Model->get_logo_image($_SESSION['site_id']);
@@ -683,6 +701,7 @@ class Ticket extends CI_Controller {
          
          
 		  $data['color_scheme'] = $this->Menus_Model->get_scheme_color($site_id);
+		  $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
 		  $this->template->write_view('menu', $this->temp_name.'/menu', $data); 
 		  
 		   
@@ -759,7 +778,18 @@ class Ticket extends CI_Controller {
 		   return true;
 	  }else
 	  {
-		  redirect('MyAccount/login','refresh'); 
+		  
+			if($this->config->item('seo_url') == 'On')
+			{
+					redirect('http://'.$_SERVER['SERVER_NAME'].'/'.'myaccount/login.html');
+			}
+			else
+			{
+					redirect('MyAccount/login','refresh'); 
+			}
+		  
+		  
+		  
 	  }
   }
   

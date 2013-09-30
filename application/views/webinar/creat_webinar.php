@@ -667,7 +667,7 @@ function myfunction($products, $needle)
 							<? }else { ?>
 							<div id="webinar_amount" style="clear:both;">
 							<? } ?>
-                    			<label for="color" class="NewsletterLabel">$</label><input type="text" size="30" name="webinar_amount" placeholder = "25"  value="<?=(!empty($webinar_info["webinar_amount"]) ? $webinar_info["webinar_amount"] : '');?>"/>
+                    			$<input type="text" size="30" name="webinar_amount" placeholder = "25"  value="<?=(!empty($webinar_info["webinar_amount"]) ? $webinar_info["webinar_amount"] : '');?>"/>
                     		</div>			
 						</dd>
 					</dl>                    

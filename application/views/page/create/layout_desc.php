@@ -1,6 +1,16 @@
 <script src="<?=base_url()?>js/jquery-1.5.1.min.js" type="text/javascript" language="javascript"></script> 
 <script language="javascript" type="text/javascript" src="<?=base_url();?>datetimepick/datetimepicker.js"></script>   
-<?php /*?><script src="http://connect.facebook.net/en_US/all.js"></script><?php */?>   
+<?php /*?><script src="http://connect.facebook.net/en_US/all.js"></script><?php */?>  
+<style>
+	.collapsedTable {
+    	border-collapse: collapse;
+	}
+
+	.paddedTD {
+    	padding-top: .5em;
+    	padding-bottom: .5em;
+	}
+</style> 
 <script language="javascript" type="text/javascript">
 
 countHeaderImages = 3;
@@ -14,14 +24,16 @@ function addMore()
     var lastRow = tbl.rows.length;
     var row = tbl.insertRow(lastRow);
     var cell1 = row.insertCell(0);
+	cell1.className = "paddedTD";
     cell1.innerHTML = '<label for="header_image_'+countHeaderImages+'">Image '+countHeaderImages+'</label>';
     var cell2 = row.insertCell(1);
-    
+    cell2.className = "paddedTD";
 	// cell2.innerHTML = '<input type="file" id="header_image_'+countHeaderImages+'" name="header_image_'+countHeaderImages+'" />';              
     cell2.innerHTML = '<input type="file" name="header_image_'+countHeaderImages+'" id="header_image_'+countHeaderImages+'" size="35" />'
 	
 	
 	var cell3 = row.insertCell(2);
+	cell3.className = "paddedTD";
     cell3.innerHTML = '<label class="messages" id="header_slideshow_image_message'+countHeaderImages+'"></label>'; 
 	NFFix();	
 }
@@ -497,34 +509,32 @@ $("img.NFCheck").live("click",function(){
                 	<input type="file" name="header_image" id="header_image" size="35" />
                     <span id="header_image_message"></span>
                 </div>
-               
-                
-                <div id="div_slideshow_image" style=" display: none; margin-top: 10px;">
-                    <table id="tbl_header_images" border="0" width="100%">
+                <div id="div_slideshow_image" style=" display: none; margin-top:5%;">
+                    <table id="tbl_header_images" width="100%" class="collapsedTable">
                         <tr>
-                            <td align="center" width="10%"><label for="">Image 1</label></td>
-                            <td width="25%"> 
+                            <td width="14%" class="paddedTD"><label for="">Image 1</label></td>
+                            <td width="50%" class="paddedTD"> 
                                <input type="file" name="header_image_1" id="header_image_1" size="35" />
                             </td>
-                            <td>
+                            <td class="paddedTD">
                                 <span id="header_slideshow_image_message1"></span>
                                 <span id="header_slideshow_message"></span>
                             </td>
                         </tr>
                         <tr>
-                            <td align="center"><label for="">Image 2</label></td>
-                            <td>
+                            <td class="paddedTD"><label for="">Image 2</label></td>
+                            <td class="paddedTD">
                                <input type="file" name="header_image_2" id="header_image_2" size="35" />
                             </td>
-                            <td>
+                            <td class="paddedTD">
                             <span id="header_slideshow_image_message2"></span></td>
                         </tr>
                         <tr>
-                            <td align="center"><label for="">Image 3</label></td>
-                            <td>
+                            <td class="paddedTD"><label for="">Image 3</label></td>
+                            <td class="paddedTD">
                                 <input type="file" name="header_image_3" id="header_image_3" size="35" />
                             </td>
-                            <td><span id="header_slideshow_image_message3"></span></td>
+                            <td class="paddedTD"><span id="header_slideshow_image_message3"></span></td>
                         </tr>                            
                     </table>
                     <a href="javascript: void(0);" onClick="addMore()">Add More Images</a>
@@ -682,7 +692,7 @@ $("img.NFCheck").live("click",function(){
 		
        </fieldset>
        
-       <dl>
+  <!--     <dl>
            <dt>
                
            </dt>
@@ -712,7 +722,7 @@ $("img.NFCheck").live("click",function(){
 			<br>
             
            </dd>
-    </dl>
+    </dl>-->
 		
        
     <div>

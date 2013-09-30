@@ -119,6 +119,13 @@ if(isset($groups) && sizeof($groups) >0)
         redirect(base_url().index_page().'Newsletter_Management'); 
     }
     
+    function delete_newsletter_group($id, $site_id)
+    {
+        $this->db->where('newsgroup_id',$id);
+        $this->db->where('newsgroup_site_id',$site_id);
+        $this->db->delete('newslettergroups');
+    }
+    
      //Method to edit contact data
     function update_newsletter ($reg_form_data = array(),$site_id)
     {
@@ -330,5 +337,32 @@ if(isset($groups) && sizeof($groups) >0)
 			//echo "<pre>";print_r($member_array);exit;
 			return $member_array;
 	}
+    
+    
+    function save_newsletter_group($data)
+     {
+         if($data['newsgroup_id'] != "")
+         {
+            $this->db->where('newsgroup_id', $data['newsgroup_id']);
+            $this->db->update('newslettergroups', $data);   
+         }
+         else
+         {
+            $this->db->insert('newslettergroups', $data);
+         }        
+         return true;
+    
+     }
+     function get_newsletter_groups ($id = false, $site_id)
+     {
+         if($id != ''){
+         $this->db->where('newsgroup_id', $id);
+         }
+         $this->db->where('newsgroup_site_id',$site_id);
+         $result = $this->db->get('newslettergroups');
+         return $result->result();
+         
+     } 
+    
 }
 ?>

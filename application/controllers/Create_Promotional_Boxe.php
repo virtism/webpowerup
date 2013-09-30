@@ -8,41 +8,41 @@ if(!session_start()){
       var $site_id; 
       function __construct()
       {
-        parent::__construct();
-        $this->load->database();
-        $this->load->helper('url');
-        $this->load->library('form_validation');
-        $this->load->library('Template');
-        // call load_asset_form
-        $this->load_asset_form(); 
-        $this->load->model('Promotional_Boxes_Model');  
-        $this->site_id = $_SESSION['site_id']; 
-        $this->load->model('product_model');      
-        $this->load->model('Menus_Model'); 
-        $this->load->model('PagesModel');
-        $this->load->model('Groups_Model');
-        $this->site_id = $_SESSION['site_id']; 
-        $this->load->library('session');
-        
-        $this->load->library('Webpowerup');
-        $this->webpowerup->initialize_template();
+		parent::__construct();
+		$this->load->database();
+		$this->load->helper('url');
+		$this->load->library('form_validation');
+		$this->load->library('Template');
+		// call load_asset_form
+		$this->load_asset_form(); 
+		$this->load->model('Promotional_Boxes_Model');  
+		$this->site_id = $_SESSION['site_id']; 
+		$this->load->model('product_model');      
+		$this->load->model('Menus_Model'); 
+		$this->load->model('PagesModel');
+		$this->load->model('Groups_Model');
+		$this->site_id = $_SESSION['site_id']; 
+		$this->load->library('session');
+		
+		$this->load->library('Webpowerup');
+		$this->webpowerup->initialize_template();
       }
       
       function index()
       { 
-      
-        
-        $this->breadcrumb->clear();
-        $this->breadcrumb->add_crumb('Main', $this->session->userdata("mainPage_link") );
-        $this->breadcrumb->add_crumb('Dashboard', $this->session->userdata("dashboard_link") ); 
-        $this->breadcrumb->add_crumb('Promotional Boxes Management', $this->session->userdata("promotion_link") );
-        $this->breadcrumb->add_crumb('Create' ); 
+	  
+		
+	    $this->breadcrumb->clear();
+		$this->breadcrumb->add_crumb('Main', $this->session->userdata("mainPage_link") );
+		$this->breadcrumb->add_crumb('Dashboard', $this->session->userdata("dashboard_link") ); 
+		$this->breadcrumb->add_crumb('Promotional Boxes Management', $this->session->userdata("promotion_link") );
+		$this->breadcrumb->add_crumb('Create' ); 
     
        $data['title'] = 'Promotional Boxes Management : Creat Promotional Boxes ';
        $data['products'] = $this->product_model->getProducts_new_promotion($this->site_id); 
-       $data['pages'] = $this->Menus_Model->getPages($this->site_id);
+	   $data['pages'] = $this->Menus_Model->getPages($this->site_id);
        $data['role'] = $this->Menus_Model->getRolesDropdown();
-       $data['groups'] = $this->Groups_Model->get_all_site_gropus($this->site_id);
+	   $data['groups'] = $this->Groups_Model->get_all_site_gropus($this->site_id);
        $data['ck_data'] = $this->ck_data;
          $data['menu_txt_color'] = '';  
        $data['menu_primary_color'] = '';  
@@ -108,7 +108,7 @@ if(!session_start()){
       { 
        
         //echo "<pre>";print_r($_POST);exit;
-        // $this->load->view('users_registration'); 
+	    // $this->load->view('users_registration'); 
         // $this->load->helper(array('form', 'url'));
         $this->load->library('');  
         $this->load->library('form_validation'); 
@@ -164,32 +164,32 @@ if(!session_start()){
              
              if($this->input->post('permissions') == 'Level of Access'){
                  
-                 $data[8] = 'Level of Access'; 
-                 $group_id = $this->input->post('options_acess_level');
-                 
+				 $data[8] = 'Level of Access'; 
+				 $group_id = $this->input->post('options_acess_level');
+				 
              }else{
-             
+			 
                  $data[8] = $this->input->post('permissions'); 
              }
              $data[9] = $this->input->post('content');
-             $data[10] = $this->site_id;
+			 $data[10] = $this->site_id;
              $data[11] = $this->input->post('prim_color');
              $data[12] = $this->input->post('prim_txt');
-            $d['data']= $data; 
-            if(isset($group_id))
-            {
-                $d['group_id']= $group_id;
-            }
-            else
-            {
-                $d['group_id']= '';
-            }
-            /*echo "<pre>";
-            print_r($data);
-            exit;*/
-            $this->Promotional_Boxes_Model->save_promotional_boxe($d, $this->site_id);
+			$d['data']= $data; 
+			if(isset($group_id))
+			{
+				$d['group_id']= $group_id;
+			}
+			else
+			{
+				$d['group_id']= '';
+			}
+			/*echo "<pre>";
+			print_r($data);
+			exit;*/
+		    $this->Promotional_Boxes_Model->save_promotional_boxe($d, $this->site_id);
             redirect('Promotional_Boxes_Management'); 
-            //echo "Data saved Successfully ....."; 
+			//echo "Data saved Successfully ....."; 
       }     
   }
 ?>

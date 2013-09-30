@@ -68,7 +68,26 @@
 					?>
                    <input type="radio" id="when_to_send2" name="when_to_send" value="according" <?=$according_check?> /> 
                    </div>
-                    <input type="text"  name="value_send" id="value_send" size="55" value="<?=$values[0]['respond_send_value'];?>" />
+				   <?
+				   	if($values[0]['respond_send_key'] == 'Weeks')
+					{
+						$respond_send_value = $values[0]['respond_send_value']/7;
+					}
+					else if($values[0]['respond_send_key'] == 'Months')
+					{
+						$respond_send_value = $values[0]['respond_send_value']/30;
+					}
+					else if($values[0]['respond_send_key'] == 'Years')
+					{
+						$respond_send_value = $values[0]['respond_send_value']/365;
+					}
+					else
+					{
+						$respond_send_value = $values[0]['respond_send_value'];
+					}
+				   
+				   ?>
+                    <input type="text"  name="value_send" id="value_send" size="55" value="<?=$respond_send_value?>" />
                 </dd>
             </dl>
             
@@ -78,12 +97,10 @@
                     
                     <div style=" float:left; position:relative;">
                     <select size="1" id="send_key" name="send_key"  style="width:163px"> 
-                        <option value="Minutes">Minutes</option>
-                        <option value="Hours">Hours</option>
-                        <option selected="selected" value="Days">Days</option>
-                        <option value="Weeks">Weeks</option>
-                        <option value="Months">Months</option>
-                        <option value="Years">Years</option>
+                        <option <? if($values[0]['respond_send_key'] == 'Days'){ echo 'selected';} ?> value="Days">Days</option>
+                        <option <? if($values[0]['respond_send_key'] == 'Weeks'){ echo 'selected';} ?> value="Weeks">Weeks</option>
+                        <option <? if($values[0]['respond_send_key'] == 'Months'){ echo 'selected';} ?> value="Months">Months</option>
+                        <option <? if($values[0]['respond_send_key'] == 'Years'){ echo 'selected';} ?> value="Years">Years</option>
                     </select>
                     </div>
                     <div style=" float:left; position:relative; margin:5px 5px 0px 20px">

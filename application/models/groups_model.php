@@ -128,7 +128,7 @@ class Groups_Model extends CI_Model{
 		
 		 
 		$page_show_title = "Yes";
-		$page_seo_url = "";
+		$page_seo_url = strtolower(str_replace (" ", "-", $page_title));
 		$page_code = $site_id.":".$page_title;
 		$page_ishomepage = "No";     
 		$page_create_date = date('Y-m-d h:i:s');
@@ -266,7 +266,7 @@ class Groups_Model extends CI_Model{
 	/*
 	  This function will Creates new Group.
 	*/
-	function insert_site_group($site_id)
+	function insert_site_group($site_id, $group_join_button = '')
 	{
 		
 		//echo "<pre>";	print_r($_POST['checkbox_items']); //die();
@@ -360,7 +360,8 @@ class Groups_Model extends CI_Model{
 							'group_menu_id' => $group_menu_id,
 							'fixed_price' => $fixed_price,
 							'group_page_id' => $group_page_id,
-							'creat_date' => $current_time  
+							'creat_date' => $current_time,
+							'group_join_button' => $group_join_button 
 							);
 							
 		$group_id = $this->db->insert('groups ', $group_data);
@@ -548,8 +549,10 @@ class Groups_Model extends CI_Model{
 	}
 	//End
 	
-	$button_page_id = $_POST['group_join_button_page_id'];	
-	$this->add_join_group_button_to_page($button_page_id,$group_id);	
+	$button_page_id = $_POST['group_join_button_page_id'];
+	
+	$this->add_join_group_button_to_page($button_page_id,$group_id);
+	
 	return true;							
 	}
 	
@@ -614,7 +617,7 @@ class Groups_Model extends CI_Model{
 	
 	/* This function will update group 	
 	*/
-	function do_update_site_group($group_id, $site_id)
+	function do_update_site_group($group_id, $site_id, $group_join_button = '')
 	{
 		
 		
@@ -694,6 +697,8 @@ class Groups_Model extends CI_Model{
 			$group_discount_type = $_REQUEST["discount_type"];		
 		}  
 		$current_time = date("Y-m-d H:i:s", time());
+		if(empty($group_join_button)){
+		
 		$group_data = array(
 							'group_name' => $_REQUEST["group_name"],
 							'group_code' => $group_code,
@@ -707,8 +712,29 @@ class Groups_Model extends CI_Model{
 							'group_menu_id' => $group_menu_id,
 							'fixed_price' => $fixed_price,
 							'group_page_id' => $group_page_id,
-							'creat_date' => $current_time  
+							'creat_date' => $current_time							 
 							);
+		}
+		else
+		{
+			$group_data = array(
+							'group_name' => $_REQUEST["group_name"],
+							'group_code' => $group_code,
+							'discount_value' => $group_discount,
+							'discount_type' => $group_discount_type,						  
+							'notify_emails' => $_REQUEST["notify_emails"],
+							'payment_method' => $_REQUEST["payment_type"],
+							'recurssion_payment' => $recurring_payment,
+							'group_type' =>  $group_type,
+							'group_link' => $group_link,
+							'group_menu_id' => $group_menu_id,
+							'fixed_price' => $fixed_price,
+							'group_page_id' => $group_page_id,
+							'creat_date' => $current_time,
+							'group_join_button' => $group_join_button							 
+							);
+		}
+							
 		$this->db->where('id', $group_id);
 		$this->db->update('groups', $group_data); 
 		
@@ -1641,7 +1667,7 @@ $group_data = array();
 		return $r;
 	}	
 	
-	function set_autoresponder_by_group_id($group_id, $member_id)
+	function set_autoresponder_by_group_id($member_id, $group_id)
     {
        $query_string = "SELECT * FROM autoresponders WHERE respond_group = $group_id  AND respond_active = 1";
        $q = $this->db->query($query_string); 
@@ -1665,6 +1691,7 @@ $group_data = array();
        return true;
     }
 	
+	
 	function add_member_to_singel_group($member_id)
 	{
 		
@@ -1679,7 +1706,7 @@ $group_data = array();
 		}
 		else
 		{		
-			$group_members = $this->set_autoresponder_by_group_id($group_id, $member_id);			
+			$group_members = $this->set_autoresponder_by_group_id($group_id, $member_id);
 			
 		}
 		
@@ -1699,44 +1726,13 @@ $group_data = array();
 	
 	function add_member_to_group_after_payment($member_id,$group_id)
 	{
-				
-		$group_data = $this->check_group_paid($group_id);					
-		//echo '<pre>';print_r($this->check_group_paid($group_id));
-		if($group_data[0]['payment_cycle_type'] == 'days')
-		{
-			
-			$next_payment_date 	= $this->calculate_trail_end_date(date("Y-m-d"), $group_data[0]['payment_cycle']);			
-			$expiry_limit 		= $this->calculate_trail_end_date(date("Y-m-d"), $group_data[0]['duration']);
-			
-		}
-		else if($group_data[0]['payment_cycle_type'] == 'weeks')
-		{
-		
-			$next_payment_date 	= $this->calculate_trail_end_date(date("Y-m-d"), ($group_data[0]['payment_cycle']*7));			
-			$expiry_limit 		= $this->calculate_trail_end_date(date("Y-m-d"), ($group_data[0]['duration']*7));
-		
-		}
-		else if($group_data[0]['payment_cycle_type'] == 'month')
-		{
-		
-			$next_payment_date 	= $this->calculate_trail_end_date(date("Y-m-d"), ($group_data[0]['payment_cycle']*30));			
-			$expiry_limit 		= $this->calculate_trail_end_date(date("Y-m-d"), ($group_data[0]['duration']*30));
-		
-		}
-		
 		$group_data = array(
-							'group_id' 					=> $group_id,
-							'customer_id' 				=> $member_id,
-							'group_joining_date'		=> date('Y-m-d'),
-							'group_payment_due_date'	=> $next_payment_date,
-							'group_expiry_date'			=> $expiry_limit
+							'group_id' => $group_id,
+							'customer_id' => $member_id
 							);
-		
-		
-		//echo '<pre>';print_r($group_data);exit;
-		$r = $this->db->insert('ec_customers_group_xref', $group_data);	
+							
 		$group_members = $this->set_autoresponder_by_group_id($group_id, $member_id);
-				
+		$r = $this->db->insert('ec_customers_group_xref', $group_data);
 		if($r)
 		{
 			return 1;
@@ -1744,7 +1740,6 @@ $group_data = array();
 		return 0;
 		
 	}
-	
 	
 	
 	function update_group($group_id,$member_id)
@@ -1755,7 +1750,8 @@ $group_data = array();
 							'group_id' => $this->input->post("group_id"),
 							'customer_id' => $member_id
 							);
-		$group_members = $this->set_autoresponder_by_group_id($this->input->post("group_id"), $member_id);						
+							
+		$group_members = $this->set_autoresponder_by_group_id($group_id, $member_id);
 		$r = $this->db->insert('ec_customers_group_xref', $group_data);
 		if($r)
 		{
@@ -1788,7 +1784,16 @@ $group_data = array();
 			$this->db->where('group_id', $current_group_id);
 			$this->db->where('customer_id', $member_id);
 			
-			$this->db->update('ec_customers_group_xref', $data); 
+			$this->db->update('ec_customers_group_xref', $data);
+			
+			//Delete Auto Responder Group Refrence
+			$this->db->query("DELETE FROM autorespond_email_record  WHERE customer_id = '$member_id' AND group_id = '$current_group_id'");
+			$this->set_autoresponder_by_group_id($upgrade_group_id, $member_id);
+			
+			
+			$this->db->query($query);
+			
+			 
 			return 1;
 		}
 		else if($n == 1)
@@ -1915,6 +1920,7 @@ $group_data = array();
 							'group_id' => $group_id,
 							'customer_id' => $this->input->post("customer_id")
 							);
+		
 		$group_members = $this->set_autoresponder_by_group_id($group_id, $this->input->post("customer_id"));					
 		$r = $this->db->insert('ec_customers_group_xref', $group_data);
 		if($r)
@@ -1930,9 +1936,8 @@ $group_data = array();
 							'group_id' => $this->input->post("pending_membershipid"),
 							'customer_id' => $this->input->post("customer_id")
 							);
-							
-		$group_members = $this->set_autoresponder_by_group_id($this->input->post("pending_membershipid"), $this->input->post("customer_id"));
 		
+		$group_members = $this->set_autoresponder_by_group_id($this->input->post("pending_membershipid"), $this->input->post("customer_id"));
 		$r = $this->db->insert('ec_customers_group_xref', $group_data);
 		if($r)
 		{
@@ -2040,8 +2045,6 @@ $group_data = array();
 	
 	function email_notification_group_custom_filed($fields,$group_id)
 	{
-		return;
-		
 		//echo "<pre>";	print_r($_REQUEST); 	die();
 		if(isset($_SESSION['login_info']['customer_id']) && !empty($_SESSION['login_info']['customer_id']))
 		{

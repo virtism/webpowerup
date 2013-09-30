@@ -442,6 +442,8 @@
 	 {
 		//echo $site_id."--".$e;
 		$numrow = 0;
+		
+		//$this->db->limit(1);
 		$Q = $this->db->query("select * from ec_customers where customer_login = '".$e."' AND site_id =".$site_id);
 		if ($Q->num_rows() > 0){
 			$numrow = TRUE;

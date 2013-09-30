@@ -118,7 +118,7 @@ function selectAllMenu(){
     <?php 
     $intCount = 0;
     $numRecords = $records->num_rows();
-	//echo "<pre>";print_r($records->result_array());exit;
+	//echo '<pre>';print_r($records->result_array());exit;
     foreach($records->result_array() as $row)
 	{
 		$intCount++;
@@ -159,6 +159,11 @@ function selectAllMenu(){
                     {
                         $strSort = '<a class="UpAction" href="'.base_url().index_page().'menusController/moveUp/'.$site_id.'/'.$from.'/'.$row['menu_order'].'"><img src="'.base_url().'images/webpowerup/UpAction.png" alt="button" /></a>';    
                     }
+					else if($intCount != $numRecords)
+                    {						
+						$strSort = '<a class="UpAction" href="'.base_url().index_page().'menusController/moveUp/'.$site_id.'/'.$from.'/'.$row['menu_order'].'"><img src="'.base_url().'images/webpowerup/UpAction.png" alt="button" /></a>'; 
+												
+					}	
                     else
                     {
                         $strSort = '&nbsp;';
@@ -173,15 +178,22 @@ function selectAllMenu(){
                  
                 
                  	<?php
+					
                     $strSort = '';
-                    if($intCount<$numRecords)
+                    if($intCount<=$numRecords && $from == 0)
                     {
                         $strSort = '<a class="DownAction" href="'.base_url().index_page().'menusController/moveDown/'.$site_id.'/'.$from.'/'.$row['menu_order'].'"><img src="'.base_url().'images/webpowerup/DownAction.png" alt="button" /></a>'; 
                     }
+					else if($intCount != $numRecords)
+                    {						
+						$strSort = '<a class="DownAction" href="'.base_url().index_page().'menusController/moveDown/'.$site_id.'/'.$from.'/'.$row['menu_order'].'"><img src="'.base_url().'images/webpowerup/DownAction.png" alt="button" /></a>';
+												
+					}					
                     else
                     {
                         $strSort = '&nbsp;';
                     }
+					//echo $intCount.'---'.$numRecords;
                     echo $strSort;
                     ?>
                  
@@ -197,14 +209,13 @@ function selectAllMenu(){
     <?php echo $paging;?>
     <br />
     Display # 
-    <select id="numRecords" name="numRecords" onChange="document.frmPages.submit();">            
-    <option value="5" <?php if($pageLimit==5){?>selected="selected"<?php }?>>5</option>
+     <select id="frmMenus" name="frmMenus" onChange="document.frmMenus.submit();">                      
+    <?php /*?><option value="5" <?php if($pageLimit==5){?>selected="selected"<?php }?>>5</option><?php */?>
     <option value="10" <?php if($pageLimit==10){?>selected="selected"<?php }?>>10</option>
-    <option value="20" <?php if($pageLimit==20){?>selected="selected"<?php }?>>20</option>    
+    <option value="20" <?php if($pageLimit==20){?>selected="selected"<?php }?>>20</option>   
     </select>
     Results <?php echo $from+1;?> - <?php echo $from+$numRecords;?> of <?=$totalRecords;?>
-    </div>
-        
+    </div>       
     
     <?php 
     } ?>   

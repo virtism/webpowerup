@@ -6,6 +6,7 @@ class Pages_Model extends CI_Model{
 		$this->load->database(); 
 		$this->load->library('my_template_menu');
 	}    
+	
 	//this function creates five default pages of a site
 	function create_main_and_footer_menus_and_pages($site_id)
 	{
@@ -837,22 +838,22 @@ class Pages_Model extends CI_Model{
          return $result->result_array();  
       }  
 	function set_template_layout_page()
-	{
-					//DebugBreak(); 
-					$page_id = $this->input->post('page_id');
-					$site_id = $this->input->post('site_id');
-					$page_template_options = $this->input->post('page_template_options');
-					/*echo "<pre>";
-					print_r($_POST);exit();*/
-					/** getting result from page template table **/
-					/*$this->db->select('page_id');
-					$this->db->where('page_id', $page_template_options);
-					$this->db->where('site_id', $site_id);
-					$query = $this->db->get('page_template');
-					$data = $query->result_array();
-					$page_tempalate_id = $data[0]['page_id'];*/
-					
-					// Start Header and Headder Page xref
+    {
+                    //DebugBreak(); 
+                    $page_id = $this->input->post('page_id');
+                    $site_id = $this->input->post('site_id');
+                    $page_template_options = $this->input->post('page_template_options');
+                    /*echo "<pre>";
+                    print_r($_POST);exit();*/
+                    /** getting result from page template table **/
+                    /*$this->db->select('page_id');
+                    $this->db->where('page_id', $page_template_options);
+                    $this->db->where('site_id', $site_id);
+                    $query = $this->db->get('page_template');
+                    $data = $query->result_array();
+                    $page_tempalate_id = $data[0]['page_id'];*/
+                    
+                    // Start Header and Headder Page xref
                     $query_page_template_exists = $this->db->query('SELECT * FROM  `page_template` WHERE page_id ='.$page_id);
                     $page_template_data_exists = $query_page_template_exists->result_array();
                     $query_page_template = $this->db->query('SELECT * FROM  `page_template` WHERE page_id ='.$page_template_options);
@@ -881,97 +882,97 @@ class Pages_Model extends CI_Model{
                     }
                     
                     
-					
-					$query_header = $this->db->query('SELECT * FROM  `headers` INNER JOIN pages_headers_xref ON headers.header_id = pages_headers_xref.header_id WHERE pages_headers_xref.page_id ='.$page_template_options);
-					$headers_data = $query_header->result_array();
-					if(!empty($headers_data))
-					{
-									$headers = array(                                                                                            
-														'header_image' => $headers_data[0]['header_image'],
-														'is_header' => $headers_data[0]['is_header'],
-														'header_status' => $headers_data[0]['header_status']
-													);
-																													
-									$this->db->insert('headers', $headers);
-									$new_header_id = $this->db->insert_id();
-									$headers_page_xref = array(                                                                                     
-															'page_id' => $page_id,
-															'header_id' => $new_header_id
-															);
-																													
-									$this->db->insert('pages_headers_xref', $headers_page_xref);
-					}
-					// End Header and Headder Page xref
-					
-					
-					// Start Page Background  and Headder Page Background xref
-					
-									$query_background = $this->db->query('SELECT * FROM  `backgrounds` INNER JOIN pages_backgrounds_xref ON backgrounds.background_id = pages_backgrounds_xref.background_id WHERE pages_backgrounds_xref.page_id ='.$page_template_options);
-									$background_data = $query_background->result_array();
-									if(!empty($background_data))
-									{
-													$background = array(                                                                                     
-																	'background_image' => $background_data[0]['background_image'],
-																	'background_status' => $background_data[0]['background_status'],
-																	'background_area' => $background_data[0]['background_area'],
-																	'background_style' => $background_data[0]['background_style'],
-																	'color_after_image' => $background_data[0]['color_after_image']
-																																	
-																	);
-																																	
-													$this->db->insert('backgrounds', $background);
-													$new_background_id = $this->db->insert_id();
-													$pages_backgrounds_xref = array(                                                                                         
-																	'page_id' => $page_id,
-																	'background_id' => $new_background_id
-																	);
-																																	
-													$this->db->insert('pages_backgrounds_xref', $pages_backgrounds_xref);
-					}
-					// End Page Background  and Headder Page Background xref
-					
-					// Start Header Background Image and Headder Background Image xref
-					
-					$query_header_background = $this->db->query('SELECT * FROM  `header_background_images` INNER JOIN pages_header_backgrounds_xref ON header_background_images.header_background_id  = pages_header_backgrounds_xref.header_background_id  WHERE pages_header_backgrounds_xref.page_id ='.$page_template_options);
-					$header_background_data = $query_header_background->result_array();
-					
-					if(!empty($header_background_data ))
-					{
-					
-									$background_image_data = array(                                                                                          
-																													'header_background_image' => $header_background_data[0]['header_background_image'],
-																													'header_background_status' => $header_background_data[0]['header_background_status']                                                                                                     
-																									);
-																													
-									$this->db->insert('header_background_images', $background_image_data);
-									$new_header_background_image_id = $this->db->insert_id();
-									$pages_header_backgrounds_xref = array(                                                                                        
-																													'page_id' => $page_id,
-																													'header_background_id' => $new_header_background_image_id
-																									);
-																													
-									$this->db->insert('pages_header_backgrounds_xref', $pages_header_backgrounds_xref);
-					}
-					//echo "<pre>";
-					//print_r($header_background_data);exit;
-					// End Header Background and Headder Page Background xref
-					
-					
-					
-					$page_query = $this->db->query('SELECT * FROM  pages   WHERE page_id ='.$page_template_options);
-					$page_data = $page_query->result_array();
-					/*echo "<pre>";
-					print_r($page_data);exit();*/
-					if(!empty($page_data))
-					{
-									$qryUpdatePageInfo = "UPDATE pages SET header_background='".$page_data[0]['header_background']."', page_header='".$page_data[0]['page_header']."', page_background='".$page_data[0]['page_background']."',page_title_status= '".$page_data[0]['page_title_status']."', page_status= '".$page_data[0]['page_status']."' WHERE page_id=".$page_id;
-									
-									return $this->db->query($qryUpdatePageInfo);
-					}
-					return true;
-	}
+                    
+                    $query_header = $this->db->query('SELECT * FROM  `headers` INNER JOIN pages_headers_xref ON headers.header_id = pages_headers_xref.header_id WHERE pages_headers_xref.page_id ='.$page_template_options);
+                    $headers_data = $query_header->result_array();
+                    if(!empty($headers_data))
+                    {
+                                    $headers = array(                                                                                            
+                                                        'header_image' => $headers_data[0]['header_image'],
+                                                        'is_header' => $headers_data[0]['is_header'],
+                                                        'header_status' => $headers_data[0]['header_status']
+                                                    );
+                                                                                                                    
+                                    $this->db->insert('headers', $headers);
+                                    $new_header_id = $this->db->insert_id();
+                                    $headers_page_xref = array(                                                                                     
+                                                            'page_id' => $page_id,
+                                                            'header_id' => $new_header_id
+                                                            );
+                                                                                                                    
+                                    $this->db->insert('pages_headers_xref', $headers_page_xref);
+                    }
+                    // End Header and Headder Page xref
+                    
+                    
+                    // Start Page Background  and Headder Page Background xref
+                    
+                                    $query_background = $this->db->query('SELECT * FROM  `backgrounds` INNER JOIN pages_backgrounds_xref ON backgrounds.background_id = pages_backgrounds_xref.background_id WHERE pages_backgrounds_xref.page_id ='.$page_template_options);
+                                    $background_data = $query_background->result_array();
+                                    if(!empty($background_data))
+                                    {
+                                                    $background = array(                                                                                     
+                                                                    'background_image' => $background_data[0]['background_image'],
+                                                                    'background_status' => $background_data[0]['background_status'],
+                                                                    'background_area' => $background_data[0]['background_area'],
+                                                                    'background_style' => $background_data[0]['background_style'],
+                                                                    'color_after_image' => $background_data[0]['color_after_image']
+                                                                                                                                    
+                                                                    );
+                                                                                                                                    
+                                                    $this->db->insert('backgrounds', $background);
+                                                    $new_background_id = $this->db->insert_id();
+                                                    $pages_backgrounds_xref = array(                                                                                         
+                                                                    'page_id' => $page_id,
+                                                                    'background_id' => $new_background_id
+                                                                    );
+                                                                                                                                    
+                                                    $this->db->insert('pages_backgrounds_xref', $pages_backgrounds_xref);
+                    }
+                    // End Page Background  and Headder Page Background xref
+                    
+                    // Start Header Background Image and Headder Background Image xref
+                    
+                    $query_header_background = $this->db->query('SELECT * FROM  `header_background_images` INNER JOIN pages_header_backgrounds_xref ON header_background_images.header_background_id  = pages_header_backgrounds_xref.header_background_id  WHERE pages_header_backgrounds_xref.page_id ='.$page_template_options);
+                    $header_background_data = $query_header_background->result_array();
+                    
+                    if(!empty($header_background_data ))
+                    {
+                    
+                                    $background_image_data = array(                                                                                          
+                                                                                                                    'header_background_image' => $header_background_data[0]['header_background_image'],
+                                                                                                                    'header_background_status' => $header_background_data[0]['header_background_status']                                                                                                     
+                                                                                                    );
+                                                                                                                    
+                                    $this->db->insert('header_background_images', $background_image_data);
+                                    $new_header_background_image_id = $this->db->insert_id();
+                                    $pages_header_backgrounds_xref = array(                                                                                        
+                                                                                                                    'page_id' => $page_id,
+                                                                                                                    'header_background_id' => $new_header_background_image_id
+                                                                                                    );
+                                                                                                                    
+                                    $this->db->insert('pages_header_backgrounds_xref', $pages_header_backgrounds_xref);
+                    }
+                    //echo "<pre>";
+                    //print_r($header_background_data);exit;
+                    // End Header Background and Headder Page Background xref
+                    
+                    
+                    
+                    $page_query = $this->db->query('SELECT * FROM  pages   WHERE page_id ='.$page_template_options);
+                    $page_data = $page_query->result_array();
+                    /*echo "<pre>";
+                    print_r($page_data);exit();*/
+                    if(!empty($page_data))
+                    {
+                                    $qryUpdatePageInfo = "UPDATE pages SET header_background='".$page_data[0]['header_background']."', page_header='".$page_data[0]['page_header']."', page_background='".$page_data[0]['page_background']."',page_title_status= '".$page_data[0]['page_title_status']."', page_status= '".$page_data[0]['page_status']."' WHERE page_id=".$page_id;
+                                    
+                                    return $this->db->query($qryUpdatePageInfo);
+                    }
+                    return true;
+    }
     
-    function update_upload_page_layout_desc()
+     function update_upload_page_layout_desc()
     {
         /*echo "<pre>";
         print_r($_POST);exit();*/
@@ -2537,8 +2538,9 @@ class Pages_Model extends CI_Model{
 	function get_join_group_button_by_page_id($page_id)
 	{
 		
-		$this->db->where('page_id',$page_id);
-		$r = $this->db->get('group_button_page_id'); 
+		$r = $this->db->query("SELECT * FROM groups g JOIN group_button_page_id gbp ON g.id = gbp.group_id  WHERE page_id=".$page_id);
+		/*$this->db->where('page_id',$page_id);
+		$r = $this->db->get('group_button_page_id'); */
 		
 		if ($r->num_rows() > 0 )
 		{

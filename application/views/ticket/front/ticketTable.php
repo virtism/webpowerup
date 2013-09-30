@@ -13,7 +13,7 @@
 ?>
 <br />
 </div>
-<form action="<?php echo base_url().index_page()."ticket/new_ticket/".$site_id ?>" method="post" >
+<form action="<?php echo 'http://'.$_SERVER['SERVER_NAME']."/ticket/new_ticket/".$site_id ?>" method="post" >
 <input type="hidden" name="t_uid" value="<?=$_SESSION['login_info']['customer_id'];?>" >
 <div>
 <table border="0">

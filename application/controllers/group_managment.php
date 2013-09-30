@@ -26,7 +26,8 @@ class Group_managment extends CI_Controller {
 		$this->load->Model('Webinar_Model');
 		$this->load->Model('Invoice_Model'); 
 		$this->load->model('Footer_Model');   
-		$this->load->model("Site_Model");   
+		$this->load->model("Site_Model");
+		$this->load->model('Autoresponders_Model');  
 		$this->load->library('cart');
 		$this->load->helper('url');      
 		$this->load->helper('html'); 
@@ -106,7 +107,18 @@ class Group_managment extends CI_Controller {
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 		$_SESSION['site_id'] = $data["site_id"];
 			
 			
@@ -274,7 +286,18 @@ class Group_managment extends CI_Controller {
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 		$_SESSION['site_id'] = $data["site_id"];
 			
 			
@@ -345,6 +368,8 @@ class Group_managment extends CI_Controller {
 		$data['group'] = $group[0];
 		
 		$data['upgradableGroups'] = $this->Groups_Model->get_upgradable_groups( $this->uri->segment(3, 0) ); 
+		
+		
 		
 		$this->template->write_view('content','site_groups/front/group_edit',$data);
 		
@@ -426,7 +451,17 @@ class Group_managment extends CI_Controller {
 				
 			}
 		}
-		$r = $this->Groups_Model->upgrade_group($member_id);
+		
+		$r = $this->Groups_Model->upgrade_group($member_id);		
+		if($this->config->item('seo_url') == 'On')
+		{
+			
+			$path = 'http://'.$_SERVER['SERVER_NAME'].'/group_managment';			
+		}
+		else
+		{
+			$path =  "group_managment";
+		}
 		
 		if($r == 1)
 		{
@@ -434,23 +469,56 @@ class Group_managment extends CI_Controller {
 			{
 				$data_save = $this->Groups_Model->save_group_field_data($form_values_arr, $this->input->post("upgrade_group_id") );
 			}
-			$this->session->set_flashdata('upgradeGroupRsp', 'Group was upgraded successfully');
-			redirect("group_managment");
+			$this->session->set_flashdata('upgradeGroupRsp', 'Group has upgraded successfully');
+			$autorespond_data = $this->Autoresponders_Model->get_autoresponder_by_group_id($this->input->post("upgrade_group_id"));
+			foreach($autorespond_data as $responder)
+			{
+				//echo "<pre>";print_r($responder);
+				$this->send_autoresponder($responder,$member_id);
+			} 
+			//exit;
+			redirect($path);
 		}
 		else if ($r == 2)
 		{
 			$this->session->set_flashdata('upgradeGroupRsp', 'You are already a member of this group');
-			redirect("group_managment");
+			redirect($path);
 		}
 		
 		else 
 		{
 			$this->session->set_flashdata('upgradeGroupRsp', 'Group was not upgraded successfully');
-			redirect("group_managment");
+			redirect($path);
 		}
 		
 	}
 	
+	
+	// method to send autoresponder email 
+      function send_autoresponder($data, $customer_id)
+      {
+        	//echo $customer_id;exit;
+			$this->load->library('email');
+			$config['mailtype'] = 'html';
+			$config['protocol'] = 'sendmail';
+			$config['charset'] = 'utf-8';
+			$config['wordwrap'] = TRUE;
+			$this->email->initialize($config);          
+            $subject = $data['respond_name'];
+            $body = $data['respond_subject'];
+			$emails_customers = $this->customers_model->getCustomer($customer_id);
+			//echo "<pre>";print_r($emails_customers);
+            $user_gruop = $data['respond_message_body'];
+			//echo $emails_customers['customer_email'];exit;
+			//echo $mail;exit;
+			$this->email->from($data['respond_from_addrress'], 'Your Name');
+			$this->email->to($emails_customers['customer_email']);           
+			$this->email->subject($subject);
+			$this->email->message($body);    
+			$this->email->send();
+			return true;			
+      }
+  
 	
 	function new_group()
 	{
@@ -495,7 +563,18 @@ class Group_managment extends CI_Controller {
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 		$_SESSION['site_id'] = $data["site_id"];
 			
 			
@@ -652,7 +731,18 @@ class Group_managment extends CI_Controller {
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 		$_SESSION['site_id'] = $data["site_id"];
 			
 			
@@ -809,7 +899,18 @@ class Group_managment extends CI_Controller {
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 		$_SESSION['site_id'] = $data["site_id"];
 			
 			
@@ -1161,7 +1262,18 @@ class Group_managment extends CI_Controller {
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 		$_SESSION['site_id'] = $data["site_id"];
 			
 			
@@ -1355,15 +1467,34 @@ class Group_managment extends CI_Controller {
 			$msg = "You did not join the group successfully";
 		}
 		$this->session->set_flashdata('response', $msg);
-		redirect("group_managment/new_group");
+		
+		if($this->config->item('seo_url') == 'On')
+		{
+		
+			redirect('http://'.$_SERVER['SERVER_NAME'].'/group_managment/new_group');
+		}
+		else
+		{
+			redirect("group_managment/new_group");
+		}
+			
 	}
 	
 	function unsubsribe($group_id)
 	{
 		$member_id = $this->customer_id;
 		$this->Groups_Model->unsubsribe_group($member_id,$group_id);
+		$r = $this->Groups_Model->upgrade_group($member_id);		
+		if($this->config->item('seo_url') == 'On')
+		{			
+			$path = 'http://'.$_SERVER['SERVER_NAME'].'/group_managment';			
+		}
+		else
+		{			
+			$path =  "group_managment";
+		}
 		
-		redirect("group_managment");
+		redirect($path);
 	}
 	
 	function check_group_payment_status()

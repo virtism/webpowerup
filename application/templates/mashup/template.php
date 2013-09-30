@@ -42,9 +42,6 @@
 				$('.slideshow').cycle({
 					fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
 				});
-				
-				
-				
 			}); // ready end
 		</script>
 	<?php
@@ -65,15 +62,17 @@
 	<ul>
 <?	  
 	//This is For Top Navigation Reg Form/Shop/Help Center/Login/logout
-	//echo '<pre>';print_r($other_top_navigation);
-    
-    if(!empty($other_top_navigation) || count ($other_top_navigation) > 0 )
+	if(!empty($other_top_navigation) || count ($other_top_navigation) > 0 )
 	{
 		for($a=0; $a<count($other_top_navigation); $a++)
 		{
 			if($mode=='edit')
 			{
 				$strLink = 'javascript: void(0);';    
+			}
+			else if($is_seo_enabled == 'On')
+			{
+				$strLink = $other_top_navigation[$a]['link'];
 			}
 			else
 			{
@@ -330,7 +329,7 @@
             ?>
             
 			<!-- <	MIDDLE CONTAINER >	-->
-			<div style="padding-bottom:50px; <? if($strStyle=='') { echo "width: auto !important;";} else{echo $strStyle;}?>  <?=$right_set?> " class="col2">
+			<div style="padding-bottom:50px;" class="col2" style=" <?=$strStyle?> <?=$right_set?> ">
 				<?=$content?>
 			</div>
             

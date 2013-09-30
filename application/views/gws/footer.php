@@ -54,11 +54,11 @@
       <tr>
         <td valign="top" width="54%"><br clear="all" />
           <ul>
-            <li><a class="selected" href="<? base_url().index_page()?>SiteController/sitebuilder/">Home</a></li>
+            <li><a class="selected" href="<? base_url().index_page()?>">Home</a></li>
             <li><a href="<?=base_url()?>features.html" >Features</a></li>
             <li><a href="#"  >Privacy</a></li>
-            <li><a href="<?=base_url()?>aboutus.html" >About us</a></li>
-            <li><a href="<?=base_url()?>contact.html" >Contact us</a></li>
+            <li><a href="<?=base_url()?>aboutus.html" >About Us</a></li>
+            <li><a href="<?=base_url()?>contact.html" >Contact Us</a></li>
           </ul>
           <br clear="all" />
          

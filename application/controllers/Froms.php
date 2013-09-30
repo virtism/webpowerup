@@ -52,6 +52,7 @@ if(!session_start())
         // $form_id = $this->uri->segment(3);
 		//$page_id.">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"; 
 		   //  DebugBreak();
+		    //echo 'in controller';exit;
         if($this->input->post('action') == 'done')
         {
            $this->form_id 	= trim($this->input->post('form_id'));
@@ -121,7 +122,8 @@ if(!session_start())
 					$config['charset'] = 'iso-8859-1';
 					$config['wordwrap'] = TRUE;
 					$config['mailtype'] = "html";
-					$this->email->initialize($config);			
+					$this->email->initialize($config);
+			
 					$this->email->from($form_detail['form_email_to'], $_SESSION['user_info']['company']);
                     $this->email->to($form_detail['form_email_to']);
                     $this->email->subject($site_admin_info['company']." | ".$form_detail['form_title']);
@@ -131,20 +133,36 @@ if(!session_start())
 					//$this->email->print_debugger();
                    // echo print_r($this->session->all_userdata());     exit;
 				$payment_request = $this->session->userdata('payment_request'); 
-				if(!empty($payment_request))
+			if(!empty($payment_request))
 				{
 					$site_id = $form_detail['site_id']; // site id
 					$form_id = $form_detail['form_id']; // page id 
-				  	$action = "Froms/index/".$site_id."/".$form_id;
-					redirect($action);
-				}					
+				  	if($this->config->item('seo_url') == 'On')
+					{
+						redirect($_SERVER['HTTP_ORIGIN'].'/forms/'.$form_detail['form_title'].$this->config->item('custom_url_suffix'));
+					}
+					else
+					{
+						$action = "Froms/index/".$site_id."/".$form_id;					
+						redirect($action);
+					}
+				}				
                 else if($form_detail['form_complete_action'] == 'Redirect URL')
 				{
 					// redirect to url
 					$site_id = $form_detail['site_id']; // site id
 					$page_id = $form_detail['form_redirect_to']; // page id
-					$action = "site_preview/page/".$site_id."/".$page_id;
-					redirect($action);
+					
+					
+					if($this->config->item('seo_url') == 'On')
+					{
+						redirect($_SERVER['HTTP_ORIGIN'].'/pages/'.$form_detail['form_title'].$this->config->item('custom_url_suffix'));
+					}
+					else
+					{
+						$action = "site_preview/page/".$site_id."/".$page_id;
+						redirect($action);
+					}
                     
                 }
 				else if($form_detail['form_complete_action'] == 'Show Thank You') 
@@ -152,12 +170,30 @@ if(!session_start())
                   //show thank u test 
 				  	$site_id = $form_detail['site_id']; // site id
 					$form_id = $form_detail['form_id']; // page id 
-				  	$action = "Froms/show_thank_u/".$site_id."/".$form_id;
-					redirect($action);
+								
+					if($this->config->item('seo_url') == 'On')
+					{
+						
+						
+						redirect($_SERVER['HTTP_ORIGIN'].'/forms/show_thank_u'.$this->config->item('custom_url_suffix'));
+					}
+					else
+					{
+						$action = "Froms/show_thank_u/".$site_id."/".$form_id;
+						redirect($action);
+					}
                 }
 				
 				
-                redirect(base_url().index_page().'Froms/show_thank_u/'.$this->site_id.'/'.$this->form_id, 'location');
+              if($this->config->item('seo_url') == 'On')
+					{
+						redirect('http://'.$_SERVER['SERVER_NAME'].'/forms/show_thank_u'.$this->config->item('custom_url_suffix'));
+					}
+					else
+					{
+						$action = "Froms/show_thank_u/".$site_id."/".$form_id;
+						redirect($action);
+					}
         }
         else
         {
@@ -204,8 +240,8 @@ if(!session_start())
 			if($page_header == "Other")
 			{
 				//$header_image = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
-				$data['header_image'] = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
-				
+				//$data['header_image'] = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
+				$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
 				//$data["header_image"] =  '<div style="height: 100px; background-image: url('."'".$header_image."'".'); background-repeat:no-repeat; background-size:960px 100px;">
 				//</div>';
 			}
@@ -242,9 +278,7 @@ if(!session_start())
 				$background_path = base_url()."backgrounds/";
 				$data['background_image'] = $background_path.$rowBackgroundImage['background_image'];
 				$data['background_area'] = $rowBackgroundImage['background_area'];
-				$data['background_style'] = $rowBackgroundImage['background_style'];
-				//$background_image = $data['background_image'];    
-				//$data['background'] = 'style="height:400px;width:690px;background-image: url('."'".base_url()."backgrounds/".$background_image."'".'); background-repeat: no-repeat; background-size:100% 100%"';
+				$data['background_style'] = $rowBackgroundImage['background_style'];				
 			}
 			
 			//get site template
@@ -254,8 +288,7 @@ if(!session_start())
 			$this->template->add_js('js/arial.js');
 			$this->template->add_js('js/radius.js');
 			$this->template->add_js('js/fancybox/jquery.fancybox-1.3.4.js');
-			$this->template->add_js('js/fancybox/jquery.mousewheel-3.0.4.pack.js');
-			
+			$this->template->add_js('js/fancybox/jquery.mousewheel-3.0.4.pack.js');			
 			$this->template->add_js('js/nivo-slider/jquery.nivo.slider.pack.js'); 
 			$this->template->add_css('js/nivo-slider/nivo-slider.css'); 
 			
@@ -277,8 +310,8 @@ if(!session_start())
 			   
 			   
 			 // menu requiired variable 
-			$data['color_scheme'] = $this->Menus_Model->get_scheme_color($site_id);
-                 $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
+			$data['color_scheme'] 		= $this->Menus_Model->get_scheme_color($site_id);
+            $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
 
 			$is_seo_enabled = $this->config->item('seo_url');
 			$site_id = $_SESSION['site_id'];
@@ -356,9 +389,9 @@ if(!session_start())
 					$data['is_user_paid'] = $this->Registration_Forms_Model->if_customer_paid_for_the_form($this->form_id,$_SESSION['login_info']['customer_id']);
 					$data['is_user_submit'] = $this->Registration_Forms_Model->if_customer_submitted_the_form($this->form_id,$_SESSION['login_info']['customer_id']);
 				}
-			   //echo '<pre>';   print_r($data['form_detail']);  exit();
-			   $payPal_id =  $this->Shop_model->get_paypal_id_of_store_of_site($site_id);
-			   $data['payPal_id'] = $payPal_id; 
+			  
+			  $payPal_id =  $this->Shop_model->get_paypal_id_of_store_of_site($site_id);
+			  $data['payPal_id'] = $payPal_id; 
 			  $this->template->write_view('content','Registration_Froms_View_User',$data);
 			  $this->template->render();  
         }
@@ -407,7 +440,7 @@ if(!session_start())
         if($page_header == "Other")
         {
             //$header_image = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
-            $data['header_image'] = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
+            $data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
             
             //$data["header_image"] =  '<div style="height: 100px; background-image: url('."'".$header_image."'".'); background-repeat:no-repeat; background-size:960px 100px;">
             //</div>';
@@ -430,7 +463,7 @@ if(!session_start())
         
         if($header_background=='Image')
         {
-            $data['header_background_image'] = base_url().'headers/'.$this->Pages_Model->getHeaderBackgroundImage($page_id);         
+            $data['header_background_image'] = $this->Pages_Model->getHeaderBackgroundImage($page_id);         
         } 
         
         if($page_background == "Default")

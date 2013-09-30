@@ -29,8 +29,7 @@ if(!session_start()){
 		$this->load->library('my_template_menu');
 		$this->load->model("Video_Gallery_Model");
 		$this->load->model("Shop_model");
-		
-		 
+				 
 		
 		if(isset($_SESSION['site_id']) && is_numeric($_SESSION['site_id']))
 		{
@@ -106,22 +105,12 @@ if(!session_start()){
 				
 		if($page_header == "Other")
 		{
-			//$header_image = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
-			$data['header_image'] = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
 			
-			//$data["header_image"] =  '<div style="height: 100px; background-image: url('."'".$header_image."'".'); background-repeat:no-repeat; background-size:960px 100px;">
-			//</div>';
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
 		}
 		else if($page_header == "Slideshow")
-		{
-			//$header_image = $this->Site_Model->getSlideshowHeaderImgs($page_id);
+		{			
 			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);
-			//$header = '<div class="slideshow">';
-			//foreach($header_image->result_array() as $rowImage)
-			//{
-			//    $header .= '<img src="'.base_url().'headers/'.$rowImage["header_image"].'" width="100%" height="150" />';    
-			//}
-			//$header .= '</div>';
 		} 
 		else
 		{
@@ -507,6 +496,23 @@ if(!session_start()){
 	 function submit_webinar($webinar_id)
 	 {
 		
+		//echo '<pre>'; print_r($_SERVER);exit;
+		//echo '<pre>'; echo current_url(); exit;
+		//print_r($ulr);
+		
+		
+		if(!empty($_REQUEST['payment_status']))
+		{
+			
+			
+			$private_customer_save = array(
+							'webinar_rid' => $_REQUEST['item_number'], 
+							'existing_att_id' => $_REQUEST['custom'],
+							'payment_info' => json_encode($_REQUEST)						
+							);
+			$this->db->insert('webinar_existing_attendie',$private_customer_save);
+			redirect(base_url()."webinar_site/index/".$_REQUEST['option_name1']."/".$_REQUEST['item_number']);
+		}
 		$webinar_info = $this->Webinar_Model->get_webinar_data($webinar_id);
 		//echo "<pre>";print_r($webinar_info);exit;
 		$email_user = $this->recursive_array_search('Email', $_REQUEST['field']);
@@ -593,7 +599,10 @@ if(!session_start()){
 							
 							
 							$this->db->insert('ec_customers_site_xref',$data_xref);
-							$this->db->insert('webinar_existing_attendie',$private_customer_save);
+							if(empty($webinar_info[0]["is_paid"]) && $webinar_info[0]["is_paid"] != 'on')
+							{
+								$this->db->insert('webinar_existing_attendie',$private_customer_save);
+							}
 			
 			$message = '';
 			$message .=  "Congratulation !  \n\n Your signup process copmlete \n ";
@@ -621,13 +630,14 @@ if(!session_start()){
 		
 		if($send)
 		{
-			$this->session->set_flashdata('message', 'Form submitted successfully! For joining webinar you need to pay $webinar_info[0]["webinar_amount"]');
+			$this->session->set_flashdata('message', 'Form submitted successfully! For joining webinar you need to pay $'.$webinar_info[0]["webinar_amount"]);
 			$this->session->set_flashdata('pay', '1');
 			$this->session->set_flashdata('customer_id', $this->customer_id);
 			
 			//echo 'aaaaaaaaaaaaaaaaaaa';
 			//echo $this->session->flashdata('message');exit;
-			redirect(base_url()."webinar_site/index/".$this->site_id."/".$webinar_id);
+			//redirect(base_url()."webinar_site/index/".$this->site_id."/".$webinar_id);
+			redirect('http://'.$_REQUEST['redirect_url']."/webinars/".str_replace(' ','_', $webinar_info[0]["title"]).$this->config->item('custom_url_suffix'));
 		}
 		else
 		{
@@ -635,7 +645,8 @@ if(!session_start()){
 			//$this->index($this->site_id,$webinar_id);
 			$this->session->set_flashdata('webinar_error', 'Email id already exist please try again thanks.');
 			$this->session->set_flashdata('pay', '0');
-			redirect(base_url()."webinar_site/index/".$this->site_id."/".$webinar_id);
+			//redirect(base_url()."webinar_site/index/".$this->site_id."/".$webinar_id);
+			redirect('http://'.$_REQUEST['redirect_url']."/webinars/".str_replace(' ','_', $webinar_info[0]["title"]).$this->config->item('custom_url_suffix'));
 		}
 		
 		
@@ -682,7 +693,18 @@ if(!session_start()){
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 		$_SESSION['site_id'] = $data["site_id"];
 			 $site_user_id = 0 ;        
 			 if(isset($_SESSION['user_info']['user_id']))

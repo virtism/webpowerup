@@ -29,17 +29,8 @@ form{
 background:none!important;
 border:none!important;
 }
-.alert-success
-{
-	text-align:center;
-	border:#CCCCCC;
-	color:#009900;
-	font-size:14px;
-	font-weight:bold;
-	margin: 5px;
-	
-}
 </style>
+
 
 <div class="RightColumnHeading">
     <h1>
@@ -99,16 +90,6 @@ border:none!important;
     </div>
 
 </div>
-<?
-	if($this->session->flashdata('message'))
-	{
-		$message = $this->session->flashdata('message');
-		?>
-		<div class="alert-success"><?php echo $message; ?> </div>
-		<?
-	}
-
-?>
 
 <?php
 	$register_counter = 1;
@@ -165,9 +146,7 @@ if (isset($search_result) && count($search_result)>0)
             <a href="<?=site_url()?>customers/delete/<?=$list['customer_id']?>" class="DeleteAction" onclick="return deleteForm()">
                 <img src="<?=base_url();?>images/webpowerup/DeleteAction.png" alt="button"/>
             </a>
-			<a title="Start Meeting" href="<?=base_url();?>room_management/start_direct_meeting/<?=$list['customer_id']?>" class="RefreshAction">
-                    <img src="<?=base_url();?>images/webpowerup/RefreshAction.png" alt="button"/>
-            </a>           
+            
             <br /><br /><br />
             <a href="<?=site_url()?>pagesController/basic_info/<?=$_SESSION['site_id']?>/private/<?=$list['customer_id']?>" >
                Create private page 
@@ -256,9 +235,7 @@ if (isset($customers) && count($customers))
             <a href="<?=site_url()?>customers/delete/<?=$list['customer_id']?>" class="DeleteAction" onclick="return deleteForm()">
                 <img src="<?=base_url();?>images/webpowerup/DeleteAction.png" alt="button"/>
             </a>
-            <a title="Start Meeting" href="<?=base_url();?>room_management/start_direct_meeting/<?=$list['customer_id']?>" class="RefreshAction">
-                    <img src="<?=base_url();?>images/webpowerup/RefreshAction.png" alt="button"/>
-            </a>  
+            
             <br />
             <a href="<?=site_url()?>pagesController/basic_info/<?=$_SESSION['site_id']?>/private/<?=$list['customer_id']?>" >
                Create private page 
@@ -345,16 +322,12 @@ if (isset($customers) && count($customers))
 				}			
 			}?></li><?php */?>
             <li class="Actions">
-            <a  href="<?=site_url()?>customers/edit/<?=$list['customer_id']?>" class="EditAction">
+            <a href="<?=site_url()?>customers/edit/<?=$list['customer_id']?>" class="EditAction">
                 <img src="<?=base_url();?>images/webpowerup/EditAction.png" alt="button"/>
             </a>
             <a href="<?=site_url()?>customers/delete/<?=$list['customer_id']?>" onclick="return deleteForm()" target="_blank" class="DeleteAction">
                 <img src="<?=base_url();?>images/webpowerup/DeleteAction.png" alt="button"/>
             </a>
-			<a  title="Start Meeting" href="<?=base_url();?>room_management/start_direct_meeting/<?=$list['customer_id']?>" class="RefreshAction">
-                    <img src="<?=base_url();?>images/webpowerup/RefreshAction.png" alt="button"/>
-            </a>  
-			
             <a href="<?=site_url()?>customers/group/<?=$list['customer_id']?>" >
               	Assign Group 
             </a>

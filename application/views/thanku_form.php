@@ -4,14 +4,6 @@
          <div  style="max-width: 688px; display:inline;">  
          
              <?php echo $form_detail['form_thank_u'];?>
-			 <div style="color:#006600"> 
-			 <?
-			 	if($this->session->flashdata('payment_request'))
-				{
-					echo $this->session->flashdata('payment_request');				
-				}
-			 ?>
-			 </div>
           
         </div>
     </div> 

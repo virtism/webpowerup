@@ -103,6 +103,7 @@
        
         // $this->load->view('users_registration'); 
         // $this->load->helper(array('form', 'url'));
+		//echo '<pre>'; print_r($_REQUEST);
         $this->load->library('');  
         $this->load->library('form_validation');
 		 $data = array();
@@ -114,13 +115,14 @@
 		 if($this->input->post('when_to_send')=='immediate' ){
 			 
 			 $data['respond_send_immediately'] = 'Yes';
-			 $data['respond_send_value'] = '';  
-			 $data['respond_send_key'] = $this->input->post('send_key');  
-			 $data['respond_send_after'] = $this->input->post('send_after'); 
+			 $data['respond_send_value'] 	= '';
+			 $data['respond_send_key'] 		= $this->input->post('send_key');  
+			 $data['respond_send_after'] 	= $this->input->post('send_after'); 
 			 
 		 }else if($this->input->post('when_to_send')=='according'){
 			 
 			$data['respond_send_immediately'] = 'No';
+			$data['respond_send_key'] 		  = $this->input->post('send_key');
 			if($data['respond_send_key'] == 'Weeks')
 			 {
 				 $data['respond_send_value'] 	= $this->input->post('value_send')*7;  
@@ -151,7 +153,7 @@
 		 $data['creation_date'] = date('Y-m-d h-i-s');
 		 
 		 $this->firephp->log($data);
-	  
+	   	 //echo '<pre>'; print_r($data);exit;
 		$this->Autoresponders_Model->update_autoresponder($data); 
 		
 		 

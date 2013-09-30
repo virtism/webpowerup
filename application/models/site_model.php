@@ -4,7 +4,6 @@ class Site_Model extends CI_Model{
 	{
 		parent::__construct();
 		$this->load->database();
-		
 	}
 	
 	function get_all_sites_by_user($user_id)

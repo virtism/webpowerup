@@ -50,7 +50,7 @@ else
             <ul class="submenu">                
                 <li><a href="<?=base_url().index_page()?>Registration_Froms/"><span>Create A Registration Form</span></a></li>
                 <li><a href="<?=base_url().index_page()?>Promotional_Boxes_Management/"><span>Create Promotional Ads</span></a></li>
-                <li><a href="#"><span>Create a poll(UC)</span></a></li>               
+                <!--<li><a href="#"><span>Create a poll(UC)</span></a></li>   -->            
             </ul>
         </li>
         
@@ -93,7 +93,7 @@ else
             <ul class="submenu">
                 <li><a href="<?=base_url().index_page()?>customers/"><span>Create Members/Search for Members</span></a></li>
                
-                <li><a href="#"><span>Add note to client's record(UC) </span></a></li>
+               <!-- <li><a href="#"><span>Add note to client's record(UC) </span></a></li>-->
             </ul>
         </li>
         

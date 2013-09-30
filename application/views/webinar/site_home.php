@@ -23,6 +23,7 @@
 					<form  action="<?=$this->paypal_lib->paypal_url?>" method="post" id="paypalForm" class="niceform" >
 					<input type="hidden" name="cmd" value="_xclick">
 					<!--<input type="hidden" name="upload" value="1">-->
+					<input type="hidden" name="on0" value="<?=$form_data['site_id']?>">
 					<input type="hidden" name="business" value="<?=$payPal_id?>">
 					<input type="hidden" name="currency_code" value="USD">
 					<input type="hidden" name="rm" value="2">   
@@ -30,7 +31,7 @@
 					<input type="hidden" name="cancel_return" value="<?=current_url()?>">
 					<input type="hidden" name="notify_url" value="<?=base_url().index_page()?>paypal/ipn">      
 					<input type="hidden" name="item_name" value="<?=$form_data['title']?>">
-					<input type="hidden" name="item_number" value="<?=$form_data['id']?>">
+					<input type="hidden" name="item_number" value="<?=$form_data['webinar_rid']?>">
 					<input type="hidden" name="quantity" value="1">
 					<input type="hidden" name="amount" id="price" value="<?=$form_data['webinar_amount']?>">
 					<input type="hidden" name="custom" value="<?=$this->session->flashdata('customer_id')?>">					
@@ -43,12 +44,12 @@
 		 	echo '<div style=" color:#009900; padding-bottom:25px;">'.$this->session->flashdata('webinar_error').'</div>';
 		 ?>	 
 			<form action="<?=base_url().index_page().'webinar_site/submit_webinar/'.$webinar_id?>" method="post">
-			
+				<input type="hidden" name="redirect_url" value="<?=$_SERVER['HTTP_HOST']?>" />
 				<h1>
 					<strong><?php if(isset($form_data['title'])){ echo $form_data['title']; } ?> </strong>
 				</h1>  
 				<?
-					if(isset($form_data['form_intro']))
+					if(!empty($form_data['form_intro']))
 					{
 						echo $form_data['form_intro'];
 						echo "<br>";

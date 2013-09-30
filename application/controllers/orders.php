@@ -150,7 +150,18 @@ class orders extends CI_Controller {
 			$page_start_date = $rowHomepage["page_start_date"];  
 			$page_end_date = $rowHomepage["page_end_date"];  
 			$page_access = $rowHomepage["page_access"];
-			
+			if($page_header == "Other")
+			{			
+				$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+			}
+			else if($page_header == "Slideshow")
+			{			
+				$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+			} 
+			else
+			{
+				$header = "";         
+			}
 			$_SESSION['site_id'] = $data["site_id"];
 			
 			//get & set site template

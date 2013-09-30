@@ -34,7 +34,7 @@ dd{
 </script>
 <div class="RightColumnHeading">
     <h1>
-        <span>Store Setting</span>
+        <span>Store Setting</span>s
     </h1>
 </div>
 

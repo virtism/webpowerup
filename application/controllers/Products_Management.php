@@ -40,12 +40,11 @@ class Products_Management extends CI_Controller {
 	function create($invoice_create_time=0){
 
 		  $data['invoice_create_time']= $invoice_create_time;
-		   /*echo "<pre>";
-			  print_r($_REQUEST);
-			  exit;*/
 		  if ($this->input->post('action') && $this->input->post('action') == 'product_add')
 		   {
-			 
+			  /*echo "<pre>";
+			  print_r($_REQUEST);
+			  exit;*/
 			   $items_image = $this->input->post('image');
 			   $items_attribute = $this->input->post('attribute');  
 			   $product_id=$this->product_model->addProduct($this->site_id,$items_image,$items_attribute);

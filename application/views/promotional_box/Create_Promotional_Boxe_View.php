@@ -15,32 +15,32 @@
       document.getElementById(it).style.display = vis;
     } 
     //--> 
-    
+	
 $("div.NFRadio").live("click",function(){
-    var id = $(this).next("input").attr("id");
-    //alert(id);
-    if(id == "display_page1")
-    {
-        $('#pages').fadeOut();
-    }    
-    if(id == "display_page2")
-    {
-        
-        
-        $('#pages').fadeIn();
-        NFFix();    
-    }
-    
-    if(id == "permissions1" || id == "permissions2")
-    {
-        $('#groups').fadeOut();
-    }    
-    if(id == "permissions3")
-    {
-        
-        $('#groups').fadeIn();
-        NFFix();    
-    }
+	var id = $(this).next("input").attr("id");
+	//alert(id);
+	if(id == "display_page1")
+	{
+		$('#pages').fadeOut();
+	}	
+	if(id == "display_page2")
+	{
+		
+		
+		$('#pages').fadeIn();
+		NFFix();	
+	}
+	
+	if(id == "permissions1" || id == "permissions2")
+	{
+		$('#groups').fadeOut();
+	}	
+	if(id == "permissions3")
+	{
+		
+		$('#groups').fadeIn();
+		NFFix();	
+	}
 });
 
 </script>  
@@ -48,20 +48,20 @@ $("div.NFRadio").live("click",function(){
 <style>
 
 .posttionDiv{
-    float:left; 
-    width:195px; 
-    margin:0 0 10px 0; 
+	float:left; 
+	width:195px; 
+	margin:0 0 10px 0; 
 }
 .posttionDiv label{
-    width:35px;
-    padding-right:10px;
+	width:35px;
+	padding-right:10px;
 }
 .radioDiv{
-    display:inline;
-    float:left;
+	display:inline;
+	float:left;
 }
 .textDiv{
-    float:left;
+	float:left;
 }
 </style>
 <div class="RightColumnHeading">
@@ -77,7 +77,7 @@ $("div.NFRadio").live("click",function(){
 <div class="form">
     <form action="<?=base_url().index_page()?>Create_Promotional_Boxe/create_promotional_boxe" name="reg_form" id="reg_form" method="post" class="niceform">
     
-        <dl>
+    	<dl>
             <dt><label for="email" class="NewsletterLabel"> Promotional Boxe Title :</label></dt>
             <dd><input type="text" name="title" id="title" size="55" /></dd>
         </dl>
@@ -103,22 +103,22 @@ $("div.NFRadio").live("click",function(){
               <dt><label for="color" class="NewsletterLabel"></label></dt>
               <dd>
                <?php
-               
-                if($products)
-                { ?>
+			   
+				if($products)
+				{ ?>
                 <div  style=" position:relative; float:left">
                 <select name="products" size="1" style="width:360px;"> 
-                            <option value="0" >Select Product</option>
+                			<option value="0" >Select Product</option>
                        <?php
-                       foreach($products as $product)
-                       { ?>
-                               <option value="<?=$product['product_id'];?>" ><?=$product['product']?></option>
+					   foreach($products as $product)
+					   { ?>
+                       		<option value="<?=$product['product_id'];?>" ><?=$product['product']?></option>
                        <?php
-                       } ?>
+					   } ?>
                </select>
                </div>
                <?php
-                } ?>
+				} ?>
             </dd>
         </dl>
         
@@ -148,9 +148,9 @@ $("div.NFRadio").live("click",function(){
              <input type="text" name="left_input" id="left_input" size="3" />
              </div>
              
-            </div>
+			</div>
             
-            <div class="posttionDiv">
+			<div class="posttionDiv">
              <label class="check_label">Right</label>
              
              <div class="radioDiv">
@@ -220,8 +220,8 @@ $("div.NFRadio").live("click",function(){
              <input type="radio" value="Registered Users" name="permissions" id="permissions2" />
              
              <?php
-             if ( count($groups) > 0 )
-             { ?>
+			 if ( count($groups) > 0 )
+			 { ?>
               <label class="check_label">Other</label>
               <input type="radio" value="Level of Access" name="permissions" id="permissions3" />
              
@@ -240,13 +240,13 @@ $("div.NFRadio").live("click",function(){
                     </div>
                 </div>
               <?php 
-              } 
-              else
-              { 
-                      echo "No group exist. First create group.";
-              } ?>
+			  } 
+			  else
+			  { 
+			  		echo "No group exist. First create group.";
+			  } ?>
             </dd>
-        </dl>
+    	</dl>
          
           <table width="590" border="0" cellpadding="3" cellspacing="3">       
               <tr>
@@ -266,7 +266,7 @@ $("div.NFRadio").live("click",function(){
         <dl>
               <dt><label for="color" class="NewsletterLabel">Intro Text:</label></dt>
               <dd>
-                      <textarea name="content" class="ckeditor" rows="10" cols="42"></textarea>
+              		<textarea name="content" class="ckeditor" rows="10" cols="42"></textarea>
               </dd>
         </dl>
         

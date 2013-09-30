@@ -56,7 +56,9 @@
         $this->breadcrumb->add_crumb('Main', $this->session->userdata("mainPage_link") );
         $this->breadcrumb->add_crumb('Dashboard', $this->session->userdata("dashboard_link") ); 
         $this->breadcrumb->add_crumb('Newsletter Management' );			  
-		$show_data['newsletter'] = $this->Newsletter_Model->get_all_newsletter();			
+		$show_data['newsletter']                = $this->Newsletter_Model->get_all_newsletter();
+        $show_data['newsletter_group']         = $this->Newsletter_Model->get_newsletter_groups('', $_SESSION['site_id']);	
+        //echo '<pre>'; print_r($show_data['newsletter_group']); exit;		
 		$this->template->write_view('content','newsletter/Newsletter_Management_View',$show_data);
 		$this->template->render();
       
@@ -93,6 +95,12 @@
       {
       	$page_id = $this->uri->segment(3);
         $contact_data = $this->Newsletter_Model->delete_hard($page_id);
+      }
+      
+      function delete_newsletter_group($group_id)
+      {
+         $this->Newsletter_Model->delete_newsletter_group($group_id, $_SESSION['site_id']);
+         redirect(base_url().index_page().'Newsletter_Management');   
       }
       
       // method to send newsletter throughh admin

@@ -34,7 +34,7 @@
 					<? if(isset($_SESSION['current_site_info']["site_id"]) && $_SESSION['current_site_info']["site_id"]!= NULL) 
 					{?>
 						<?php /*?><li><a target="_blank" href="<?=base_url().index_page()?>site_preview/site/<?=$_SESSION['current_site_info']["site_id"]?>">Preview</a></li><?php */?>
-											<li><a target="_blank" href="http://<?=$_SESSION['current_site_info']['site_domain'].'.webpowerup.com'?>">Preview</a></li>
+						<li><a target="_blank" href="http://<?=$_SESSION['current_site_info']['site_domain'].'.webpowerup.ca'?>">Preview</a></li>
 						<li><a href="<?=base_url().index_page()?>SiteController/sitehome/<?=$_SESSION['current_site_info']["site_id"]?>">Manage</a></li>
 					<? }
 				}
@@ -43,8 +43,8 @@
 		 {
 		 ?><div  class="top_nav">
       <ul>
-					<li><a href="<?=$strHomehref?>" >Home</a></li>
-					<li><a href="<?=base_url()?>aboutus.html">About us</a></li>
+					<li><a href="<?=base_url().index_page()?>" >Home</a></li>
+					<li><a href="<?=base_url()?>aboutus.html">About Us</a></li>
         <li><a href="features.html" class="features_list">Features</a> <div class="features" >
       <div class="features_top"></div>
       <div class="features_center">
@@ -77,7 +77,7 @@
       </div>
       <div class="features_bottom"></div>
     </div></li>
-        <li><a href="<?=base_url()?>contact.html">Contact us</a></li>
+        <li><a href="<?=base_url()?>contact.html">Contact Us</a></li>
 		</ul> 
     </div>
 		 <?		

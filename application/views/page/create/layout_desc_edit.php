@@ -17,13 +17,13 @@ function addMore()
     cell1.innerHTML = '<label for="header_image_'+countHeaderImages+'">Image '+countHeaderImages+'</label>';
     var cell2 = row.insertCell(1);
     
-	// cell2.innerHTML = '<input type="file" id="header_image_'+countHeaderImages+'" name="header_image_'+countHeaderImages+'" />';              
+    // cell2.innerHTML = '<input type="file" id="header_image_'+countHeaderImages+'" name="header_image_'+countHeaderImages+'" />';              
     cell2.innerHTML = '<input type="file" name="header_image_'+countHeaderImages+'" id="header_image_'+countHeaderImages+'" size="35" />'
-	
-	
-	var cell3 = row.insertCell(2);
+    
+    
+    var cell3 = row.insertCell(2);
     cell3.innerHTML = '<label class="messages" id="header_slideshow_image_message'+countHeaderImages+'"></label>'; 
-	NFFix();	
+    NFFix();    
 }
 
 
@@ -50,8 +50,8 @@ function validateFileUpload(fup)
 
 function validate()
 {
-	
-	
+    
+    
     submitFlag = true;
     
     $('.messages').empty();
@@ -175,254 +175,254 @@ function validate()
 }
 function onFacebookLoginStatus(response)
 {   
-	if (response.authResponse)
-	  { 
-	 	 var query = FB.Data.query('SELECT uid, first_name, last_name, email, sex, pic_square, timezone, birthday_date, current_location FROM user WHERE uid = me()', response.authResponse.id);
-		query.wait(function(rows) { 
-		
-		 console.log('fName : '+ rows[0].first_name);
-		 console.log('Email : ' +rows[0].email);
-		 console.log('User Id:' +rows[0].uid);
-		 console.log('LasName:' +rows[0].last_name);
-		 console.log('sex:' +rows[0].sex);
-		 console.log('Birthday:' +rows[0].birthday_date);
-		
-			var userId = rows[0].uid;     //user id which is unique to every user
-			var fname = rows[0].first_name  //split it to make username
-			//var userName = fname+ userId.substring(0,8);  //unique username for every incoming user
-			var email = rows[0].email;
-			var password = "1234";
-			var surname = rows[0].last_name;
-			var sex = rows[0].sex;
+    if (response.authResponse)
+      { 
+          var query = FB.Data.query('SELECT uid, first_name, last_name, email, sex, pic_square, timezone, birthday_date, current_location FROM user WHERE uid = me()', response.authResponse.id);
+        query.wait(function(rows) { 
+        
+         console.log('fName : '+ rows[0].first_name);
+         console.log('Email : ' +rows[0].email);
+         console.log('User Id:' +rows[0].uid);
+         console.log('LasName:' +rows[0].last_name);
+         console.log('sex:' +rows[0].sex);
+         console.log('Birthday:' +rows[0].birthday_date);
+        
+            var userId = rows[0].uid;     //user id which is unique to every user
+            var fname = rows[0].first_name  //split it to make username
+            //var userName = fname+ userId.substring(0,8);  //unique username for every incoming user
+            var email = rows[0].email;
+            var password = "1234";
+            var surname = rows[0].last_name;
+            var sex = rows[0].sex;
 
-			if($("#fb_status").val() != "What is in your mind?")
-			{
-				str_text = $("#fb_status").val();		
-			}
-			else
-			{
-				str_text = "GWS is sharing a Link With You.";	
-			}
-			
-			site_id = $('#fb_site_id').val();
-			page_id = $('#fb_page_id').val();
-			
-			str_link = "<?=base_url().index_page()?>site_preview/page/"+site_id+"/"+page_id;
+            if($("#fb_status").val() != "What is in your mind?")
+            {
+                str_text = $("#fb_status").val();        
+            }
+            else
+            {
+                str_text = "GWS is sharing a Link With You.";    
+            }
+            
+            site_id = $('#fb_site_id').val();
+            page_id = $('#fb_page_id').val();
+            
+            str_link = "<?=base_url().index_page()?>site_preview/page/"+site_id+"/"+page_id;
 
-				
-			var body = str_text+" "+str_link; 
-		  
-				// logged in and connected user, someone you know
-			  	FB.getLoginStatus(function(response) {
-			  if (response.authResponse) {
-				// logged in and connected user, someone you know
-			  FB.api('/'+userId+'/feed', 'post', { message: body }, function(response) {       
-								if (!response || response.error) {
-									alert('There is some Techinal Error Occured Please Try Some Later!'); 
-								} else {
-									alert('Request is Successfully Processed.');
-								}
-							});  
-			  } else {
-				// no user session available, someone you dont know
-				 alert("yor are not with facebook connected");
-			  }
-			});        
-			  
-			 
-				
-			
-		//  var dataString = 'facebook_userId='+userId+'&email='+ email+'&userName='+userName+'&fName='+fname+'&lName='+surname+'&sex='+sex+'&password='+password;
-			 //  var path='<?=base_url().index_page()?>html5/login';
-			   //alert(dataString)
-			  //alert(path)
-			/* $.ajax({
-			type: "POST",
-			url: path,
-			data: dataString, 
-			async : false,
-			success: function(data) {
-			 
-					alert("data is saved via ajax");
-					 var body = "you can get free 1GB online storage, Please click on this link: http://www.cloudify.in"  ;
-			FB.getLoginStatus(function(response) {
-			  if (response.authResponse) {
-				// logged in and connected user, someone you know
-			  FB.api('/'+f_id+'/feed', 'post', { message: body }, function(response) {       
-								if (!response || response.error) {
-									alert('Error occured');
-								} else {
-									alert('Successfully added 10MB in your storage quato');
-								}
-							});  
-			  } else {
-				// no user session available, someone you dont know
-				 alert("yor are not with facebook connected");
-			  }
-			});        
-			
-			
-				},
-			error:function(){
-				alert('Problem in your connection');
-				}
-			});*/
-		  
-		 });                      
-	  }
-	  else
-	  {
-		console.log('User cancelled login or did not fully authorize.');
-	  }
+                
+            var body = str_text+" "+str_link; 
+          
+                // logged in and connected user, someone you know
+                  FB.getLoginStatus(function(response) {
+              if (response.authResponse) {
+                // logged in and connected user, someone you know
+              FB.api('/'+userId+'/feed', 'post', { message: body }, function(response) {       
+                                if (!response || response.error) {
+                                    alert('There is some Techinal Error Occured Please Try Some Later!'); 
+                                } else {
+                                    alert('Request is Successfully Processed.');
+                                }
+                            });  
+              } else {
+                // no user session available, someone you dont know
+                 alert("yor are not with facebook connected");
+              }
+            });        
+              
+             
+                
+            
+        //  var dataString = 'facebook_userId='+userId+'&email='+ email+'&userName='+userName+'&fName='+fname+'&lName='+surname+'&sex='+sex+'&password='+password;
+             //  var path='<?=base_url().index_page()?>html5/login';
+               //alert(dataString)
+              //alert(path)
+            /* $.ajax({
+            type: "POST",
+            url: path,
+            data: dataString, 
+            async : false,
+            success: function(data) {
+             
+                    alert("data is saved via ajax");
+                     var body = "you can get free 1GB online storage, Please click on this link: http://www.cloudify.in"  ;
+            FB.getLoginStatus(function(response) {
+              if (response.authResponse) {
+                // logged in and connected user, someone you know
+              FB.api('/'+f_id+'/feed', 'post', { message: body }, function(response) {       
+                                if (!response || response.error) {
+                                    alert('Error occured');
+                                } else {
+                                    alert('Successfully added 10MB in your storage quato');
+                                }
+                            });  
+              } else {
+                // no user session available, someone you dont know
+                 alert("yor are not with facebook connected");
+              }
+            });        
+            
+            
+                },
+            error:function(){
+                alert('Problem in your connection');
+                }
+            });*/
+          
+         });                      
+      }
+      else
+      {
+        console.log('User cancelled login or did not fully authorize.');
+      }
 }
 
 function fblogin(){
 // document.getElementById('loading').style.display='block';
-	  FB.init({ 
-			appId:'293519274018980', cookie:true, 
-			status:true, xfbml:true });   
-	  
-	 
-	  FB.api('/me', function(response) {
-			   
-			   FB.login(onFacebookLoginStatus, {scope: 'email,publish_stream,user_birthday,user_location' });
-		  });    
+      FB.init({ 
+            appId:'293519274018980', cookie:true, 
+            status:true, xfbml:true });   
+      
+     
+      FB.api('/me', function(response) {
+               
+               FB.login(onFacebookLoginStatus, {scope: 'email,publish_stream,user_birthday,user_location' });
+          });    
 }
 function fb_authentication(element)
 {
-	//alert(element);
-	if ($('#'+element.id).attr('checked'))
-	{
-		//alert("ok");	
-		fblogin();
-	}
-	else
-	{
-		//alert("not required");
-	}
+    //alert(element);
+    if ($('#'+element.id).attr('checked'))
+    {
+        //alert("ok");    
+        fblogin();
+    }
+    else
+    {
+        //alert("not required");
+    }
 
 }
 function check_value(obj, text, valCheck)
 {
-	var objValue = obj.value;
-	if(valCheck != objValue)
-	{
-		if(objValue.length == 0)
-		{
-		
-			$(obj).css("border","solid 1px #e1e1e1");
-			obj.value = text;
-		}
-		
-	}
-	else
-	{
-		if(valCheck == "")
-		{
-			//$(obj).css("border","solid 1px #FF0000");
-		}
-		else
-		{
-			$(obj).css("border","solid 1px #e1e1e1");
-		}
+    var objValue = obj.value;
+    if(valCheck != objValue)
+    {
+        if(objValue.length == 0)
+        {
+        
+            $(obj).css("border","solid 1px #e1e1e1");
+            obj.value = text;
+        }
+        
+    }
+    else
+    {
+        if(valCheck == "")
+        {
+            //$(obj).css("border","solid 1px #FF0000");
+        }
+        else
+        {
+            $(obj).css("border","solid 1px #e1e1e1");
+        }
 
-		obj.value = text;
-	}	
+        obj.value = text;
+    }    
 }
 
 
 
 $(".NFCheck").live("click",function(){
 
-	var id = $(this).next("input").attr("id");
-	if(id == 'page_temp_on')
-	{
-		if(document.getElementById('page_temp_on').checked)
-		{ 
-			$('#temp_option_name_field').show();
-		}
-		else
-		{
-			$('#temp_option_name_field').hide();
-		}	
-	}
-	
-	
+    var id = $(this).next("input").attr("id");
+    if(id == 'page_temp_on')
+    {
+        if(document.getElementById('page_temp_on').checked)
+        { 
+            $('#temp_option_name_field').show();
+        }
+        else
+        {
+            $('#temp_option_name_field').hide();
+        }    
+    }
+    
+    
 });
 
 $("div.NFRadio").live("click",function(){
-	var id = $(this).next("input").attr("id");
-	//alert(id);
-	
-	if( id == "page_header_1")
-	{
+    var id = $(this).next("input").attr("id");
+    //alert(id);
+    
+    if( id == "page_header_1")
+    {
         $('#div_header_image').fadeOut('slow');
         $('#div_slideshow_image').fadeOut('slow');
         $('#tr_header_bg').fadeOut('slow'); 
     }
     
-	if( id == "page_header_2")
-	{
-		$('#div_header_image').fadeIn('slow');
-		$('#tr_header_bg').fadeIn('slow');
-		$('#div_slideshow_image').fadeOut('slow'); 
-	}
+    if( id == "page_header_2")
+    {
+        $('#div_header_image').fadeIn('slow');
+        $('#tr_header_bg').fadeIn('slow');
+        $('#div_slideshow_image').fadeOut('slow'); 
+    }
     
-	if( id == "page_header_3")
-	{
+    if( id == "page_header_3")
+    {
         $('#div_header_image').fadeOut('slow');
         $('#div_slideshow_image').fadeIn('slow'); 
         $('#tr_header_bg').fadeIn('slow');
-	}
+    }
     
-	if( id == "page_status_1")
-	{
-		$('#schedular').fadeOut('slow');
-	}
-	if( id == "page_status_2")
-	{
+    if( id == "page_status_1")
+    {
         $('#schedular').fadeOut('slow');
     }
-	if( id == "page_status_3")
-	{
+    if( id == "page_status_2")
+    {
+        $('#schedular').fadeOut('slow');
+    }
+    if( id == "page_status_3")
+    {
         $('#schedular').fadeIn('slow'); 
     }
-	
-	if( id == "page_background_1")
-	{
+    
+    if( id == "page_background_1")
+    {
         $('#div_background_image').fadeOut('slow');
         $('#div_background_style').fadeOut('slow');
         $('#div_background_area').fadeOut('slow');
     }
-	
-	if( id == "page_background_2")
-	{
+    
+    if( id == "page_background_2")
+    {
         $('#div_background_image').fadeIn('slow');
         $('#div_background_style').fadeIn('slow');
         $('#div_background_area').fadeIn('slow');
     }
-	
-	if( id == "header_background_1")
-	{
+    
+    if( id == "header_background_1")
+    {
         $('#hdr_db_uploader').fadeOut('slow');
     }
-	
-	if( id == "header_background_2")
-	{
+    
+    if( id == "header_background_2")
+    {
         $('#hdr_db_uploader').fadeOut('slow');
     }
-	
-	if( id == "header_background_3")
-	{
+    
+    if( id == "header_background_3")
+    {
         $('#hdr_db_uploader').fadeIn('slow'); 
     }
-	
+    
 });
 
 $("img.NFCheck").live("click",function(){
-	var id = $(this).next("input").attr("id");
-	
-	
+    var id = $(this).next("input").attr("id");
+    
+    
 });
 
 </script>
@@ -443,8 +443,8 @@ $("img.NFCheck").live("click",function(){
     <fieldset>
     
       <input type="hidden" id="fb_site_id" name="site_id" value="<?=$site_id?>" />
-		
-		<input type="hidden" id="fb_page_id" name="page_id" value="<?=$page_id?>" />
+        
+        <input type="hidden" id="fb_page_id" name="page_id" value="<?=$page_id?>" />
         
         <input type="hidden" id="numHeaderImages" name="numHeaderImages" value="3" />
         
@@ -457,23 +457,36 @@ $("img.NFCheck").live("click",function(){
                  <label for="" class="NewsletterLabel">Change in template will apply on all pages.</label>
             </dt>
             </dl>
-		<dl>
+        <dl>
             <dt>
                  <label for="" class="NewsletterLabel">Select Page Template</label>
             </dt>
             <dd>
-            	<div  style=" position:relative; margin-left:10px;">
+                <div  style=" position:relative; margin-left:10px;">
+                <? 
+                
+                        $outputArray = array(); // The results will be loaded into this array.
+                        $keysArray = array(); // The list of keys will be added here.
+                        foreach ($template_page_names as $innerArray) { // Iterate through your array.
+                            if (!in_array($innerArray['temp_option_name_field'], $keysArray)) { // Check to see if this is a key that's already been used before.
+                                $keysArray[] = $innerArray['temp_option_name_field']; // If the key hasn't been used before, add it into the list of keys.
+                                $outputArray[] = $innerArray; // Add the inner array into the output.
+                            }
+                        }
+                      //echo '<pre>';  print_r($outputArray);
+                
+                ?>
                     <select size="1" name="page_template_options" id="page_template_options" id=""  style="width:200px;"> 
                             <option value="0">Select Template</option>
                             <?
-							if(isset($template_page_names)) 
-							{
-							foreach($template_page_names as $temps)
-							{
+                            if(isset($outputArray)) 
+                            {
+                            foreach($outputArray as $temps)
+                            {
                                 
                                 if($item_id == $temps['id'])
                                 {
-							?>
+                            ?>
                             <option value="<?=$temps['page_id']?>" selected="selected"><?=$temps['temp_option_name_field']?></option> 
                             <?php
                                 }
@@ -482,14 +495,14 @@ $("img.NFCheck").live("click",function(){
    
                              <?   }
                             } 
-							
-							} ?>
+                            
+                            } ?>
                    </select>
                 </div>
 
             </dd>
         </dl>
-		<!---- Page Template Section ------->
+        <!---- Page Template Section ------->
             
         <!---->
         <dl>
@@ -498,7 +511,7 @@ $("img.NFCheck").live("click",function(){
             </dt>
             <dd>
             <? //echo '<pre>';print_r($editlayot[0]);?>
-            	<input id="page_header_1" name="page_header" type="radio" value="Default" checked="checked" />
+                <input id="page_header_1" name="page_header" type="radio" value="Default" checked="checked" />
                 <label class="check_label" >Use default</label>
    
                 <input id="page_header_2" name="page_header" type="radio" value="Other" />
@@ -508,7 +521,7 @@ $("img.NFCheck").live("click",function(){
                 <label class="check_label" >Create Slideshow Header</label>
                 
                 <div id="div_header_image" style="display: none; margin:10px 0 0 0; ">
-                	<input type="file" name="header_image" id="header_image" size="35" />
+                    <input type="file" name="header_image" id="header_image" size="35" />
                     <span id="header_image_message"></span>
                 </div>
                
@@ -567,7 +580,7 @@ $("img.NFCheck").live("click",function(){
                 <label class="check_label" >Upload Header Background Image</label>
                 
                 <div id="hdr_db_uploader" style="display: none; margin:10px 0 0 0;">
-                	<input type="file" name="header_background_image" id="header_background_image" size="35" />
+                    <input type="file" name="header_background_image" id="header_background_image" size="35" />
                 </div>
             </dd>
         </dl>
@@ -590,7 +603,7 @@ $("img.NFCheck").live("click",function(){
                      </div>
                </dd>
         </dl>  
-	<div id="div_background_area" style="display: none; margin:10px 0 0 0;">              
+    <div id="div_background_area" style="display: none; margin:10px 0 0 0;">              
     <dl>
            <dt>
                  <label for="" class="NewsletterLabel"> Background Area<span class="star">*</span></label>
@@ -619,14 +632,14 @@ $("img.NFCheck").live("click",function(){
                 <label class="check_label" >Tile</label>
            </dd>
     </dl>
-	</div>
+    </div>
     
     <!---- Page Title Section ------->
     <dl>
            <dt>
                  <label for="" class="NewsletterLabel"> Do you want to publish page title? <span class="star">*</span></label>
            </dt>
-           <dd>           		
+           <dd>                   
                 <input type="radio" id="page_title_status_1" name="page_title_status" value="Published" onClick="hideSchedule()" checked="checked" />
                 <label class="check_label" >Yes</label>
                 
@@ -642,7 +655,7 @@ $("img.NFCheck").live("click",function(){
                  <label for="" class="NewsletterLabel"> Do you want to activate this page? <span class="star">*</span></label>
            </dt>
            <dd>
-           		
+                   
                 <input type="radio" id="page_status_1" name="page_status" value="Published" onClick="hideSchedule()" checked="checked" />
                 <label class="check_label" >Yes</label>
                 
@@ -685,13 +698,13 @@ $("img.NFCheck").live("click",function(){
            <dd>
                 <input type="checkbox" onClick="showTempName()"  id="page_temp_on" name="page_temp" value="1" />
                 <div style="display:none;" id="temp_option_name_field" >
-					<label style="float:left; margin-right:5px;">Template Name: </label>
-					<input  type="text"  name="temp_option_name_field" />
-				</div>
+                    <label style="float:left; margin-right:5px;">Template Name: </label>
+                    <input  type="text"  name="temp_option_name_field" />
+                </div>
            </dd>
     </dl>      -->
     
-    <!---- Page Template Section ------->	   
+    <!---- Page Template Section ------->       
       <!---- Page Template all page ------->
   <!--  <dl>
            <dt>
@@ -703,7 +716,7 @@ $("img.NFCheck").live("click",function(){
     </dl>      -->
     
     <!---- Page Template Section ------->         
-		
+        
        </fieldset>
        
        <!--<dl>
@@ -712,32 +725,32 @@ $("img.NFCheck").live("click",function(){
            </dt>
            <dd>
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" id="usman">
-				<tr>
-					<td colspan="2">
-						<input type="checkbox" name="fb_save" id="fb_save" value="1" onClick="fb_authentication(this);" /> Add to Facebook
-					</td>	
-				</tr>
-				<tr>
-					<td width="31px"><img src="<?=base_url()?>images/fb_logo.png" alt="FB" border="0" /></td>
-					<td>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="fb_save" id="fb_save" value="1" onClick="fb_authentication(this);" /> Add to Facebook
+                    </td>    
+                </tr>
+                <tr>
+                    <td width="31px"><img src="<?=base_url()?>images/fb_logo.png" alt="FB" border="0" /></td>
+                    <td>
                     <input type="text" name="fb_status" id="fb_status" onfocus="check_value(this,'','What is in your mind?');" onblur="check_value(this,'What is in your mind?','');" value="What is in your mind?" name="textfield">
                     </td>
-				</tr>
-			</table>
+                </tr>
+            </table>
             <br>
             <table cellpadding="0" cellspacing="0" border="0" width="100%" >
-				<tr>
-					<td colspan="2">
-						<input type="checkbox" name="is_comments" id="is_comments" value="1"  /> Enable FaceBook Comments
-					</td>	
-				</tr>
-				
-			</table>
-			<br>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="is_comments" id="is_comments" value="1"  /> Enable FaceBook Comments
+                    </td>    
+                </tr>
+                
+            </table>
+            <br>
             
            </dd>
     </dl>                          -->
-		
+        
        
     <div>
         <input type="button" value="Back" onClick="document.getElementById('frmEditContent').submit();" />

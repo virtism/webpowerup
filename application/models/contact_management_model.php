@@ -1,5 +1,6 @@
 <?php
-class Contact_Management_Model extends CI_Model {
+
+  class Contact_Management_Model extends CI_Model {
 
       
 

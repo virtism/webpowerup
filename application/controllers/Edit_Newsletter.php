@@ -128,10 +128,14 @@ if(!session_start()){
       }  // end  load_asset_form
       
       // method used for contact save data 
- 	 function edit_newsletter ()
-     {      
+ function edit_newsletter ()
+      {
+ 
+      
        //echo '<pre>'; print_r($_REQUEST);exit;
-        $this->load->library('form_validation');	 
+        $this->load->library('form_validation'); 
+		 
+		 
 		$current 						= date("Y-m-d  H:i:s", time());
 		$data['news_subject'] 			= $this->input->post('subject'); 
 		$data['news_body'] 				= $this->input->post('body');
@@ -141,7 +145,7 @@ if(!session_start()){
 		$data['news_id'] 				= $this->input->post('id');
 		$data['from'] 					= $_REQUEST['from'];
 		$send_now						= $this->input->post('send_now');
-         $this->Newsletter_Model->update_newsletter($data, $_SESSION['site_id']); 
+         $this->Newsletter_Model->update_newsletter($data,$_SESSION['site_id']); 
          //echo "Data saved Successfully ....."; 
 		 if(isset($groups) && $send_now == 1)
 		 {

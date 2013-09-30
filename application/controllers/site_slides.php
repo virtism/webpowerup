@@ -426,7 +426,6 @@ class Site_slides extends CI_Controller
 		confirm that user has logged in*/
 		/*echo "<pre>";
 		print_r($_POST);
-		print_r($_FILES);
 		exit;*/
 		
 		$this->checkLogin();
@@ -506,7 +505,6 @@ class Site_slides extends CI_Controller
 							exit;
 						}*/
 				}
-				
 				if(isset($_POST['slide_title'.$i]) &&  $_POST['slide_title'.$i] == 'Title')
 				{
 					$slide_title = '';
@@ -585,44 +583,6 @@ class Site_slides extends CI_Controller
   
 				
 				
-			}
-			else
-			{
-			
-				$slide_image_url = $_POST['slide_image_url'.$i];
-				if(isset($slide_image_url)&& $slide_image_url!="URL" && !empty($slide_image_url))
-				{
-						$pos = strpos($slide_image_url, "http://");
-						if($pos === false)
-						{
-							$slide_image_url = "http://".$slide_image_url;
-						}
-						/*else
-						{
-							echo "found";
-							exit;
-						}*/
-				}
-				
-				if(isset($_POST['slide_title'.$i]) &&  $_POST['slide_title'.$i] == 'Title')
-				{
-					$slide_title = '';
-				}
-				else
-				{
-					$slide_title = $_POST['slide_title'.$i];
-				}
-				if(isset($_POST['slide_description'.$i]) &&  $_POST['slide_description'.$i] == 'Description')
-				{
-					$slide_description = '';
-				}
-				else
-				{
-					$slide_description = $_POST['slide_description'.$i];
-				}
-				$target = $_POST['slide_target'.$i];
-			
-				$this->Slideshow_Model->save_slideshow_image_info($slide_id, '', $slide_image_url,$slide_title,$slide_description, $target);
 			}
 		}
 		

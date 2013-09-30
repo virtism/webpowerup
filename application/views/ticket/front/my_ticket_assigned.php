@@ -1,5 +1,19 @@
 <div>
  <h2>Opened Ticket</h2>
+ 
+ <?
+ 
+ if($this->config->item('seo_url') == 'On')
+	{
+		
+		$path = 'http://'.$_SERVER['SERVER_NAME'].'/';			
+	}
+	else
+	{
+		$path =  base_url().index_page();
+	}
+ 
+ ?>
      <?php if ( ($opened_ticket) && $opened_ticket->num_rows() > 0)
 	 
 	 {
@@ -21,7 +35,7 @@
        <tr>
        
        <td><?=$row->t_no?></td>
-       <td><a href="<?=site_url();?>ticket/ticket_detail/<?=$row->t_id?>" ><?=$row->t_subject?></a></td>
+       <td><a href="<?=$path?>ticket/ticket_detail/<?=$row->t_id?>" ><?=$row->t_subject?></a></td>
        <td><?=$row->d_name?></td>
        </tr> 
      <?php endforeach;?>  
@@ -56,11 +70,11 @@ else
   </tr>
   
      <?php foreach($closed_ticket->result() as $row): ?>
-     <?//  print_r($row);?>
+     <? //  print_r($row);?>
        <tr>
        
        <td><?=$row->t_no?></td>
-       <td><a href="<?=site_url();?>ticket/ticket_detail/<?=$row->t_id?>" ><?=$row->t_subject?></a></td>
+       <td><a href="<?=$path?>ticket/ticket_detail/<?=$row->t_id?>" ><?=$row->t_subject?></a></td>
        <td><?=$row->d_name?></td>
        </tr> 
      <?php endforeach;?>  

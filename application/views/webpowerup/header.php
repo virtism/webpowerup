@@ -89,9 +89,14 @@ function closeProfilePopup()
                     <?php
 					if(isset($_SESSION['current_site_info']["site_id"]) && $_SESSION['current_site_info']["site_id"]!= NULL) 
 					{
+						if($this->config->item('seo_url')=='On'){
 				 	?>
-                    <li><a target="_blank" href="<?=base_url().index_page()?>site_preview/site/<?=$_SESSION['current_site_info']["site_id"]?>">Preview</a></li>
-                    <?php /*?><li><a target="_blank" href="http://<?=$_SESSION['current_site_info']['site_domain'].'.webpowerup.com'?>" class="iconPreview">Preview</a></li><?php */?>
+					<li><a target="_blank" href="http://<?=$_SESSION['current_site_info']['site_domain'].'.webpowerup.ca'?>" class="iconPreview">Preview</a></li>
+					<? } 
+					else
+					{ ?>
+                   <li><a target="_blank" href="<?=base_url().index_page()?>site_preview/site/<?=$_SESSION['current_site_info']["site_id"]?>">Preview</a></li>
+                   <? } ?>
                     <li><? if(isset($conferences) && $conferences > 0){?><span class="message"><? echo $conferences;}?></span><a href="<?=base_url().index_page()?>room_management/index/" class="iconConference">Conference Call</a></li>
                     <li><a href="<?=base_url().index_page()?>support_ticket/" class="iconSupport">Support Ticket</a></li>
                     <li><a href="#emailpopup" onclick="emailPopup()"; class="iconEmail" id="EmailIcon">Email</a></li>

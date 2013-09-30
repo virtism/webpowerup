@@ -168,8 +168,8 @@ $("img.NFCheck").live("click",function(){
     <dl>
            <dt>
                  <label  class="NewsletterLabel">
-                     Add this to facebook	<br>
-                     <img src="<?=base_url()?>images/fb_logo.png" alt="FB" border="0" />
+                    <!-- Add this to facebook	<br>
+                     <img src="<?=base_url()?>images/fb_logo.png" alt="FB" border="0" />    -->
                  </label>
            </dt>
            <dd style="height:70px; padding-left:30px; width:500px;">

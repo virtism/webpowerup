@@ -289,12 +289,9 @@ $main_menu_id=0;
 					}
 					$flagMenuSet = false;
 					// $this->firephp->log($menus->result_array());
-					//echo '<pre>';print_r($menus->result_array());exit;
 					foreach($menus->result_array() as $rowMenus)
 					{
 						
-						
-						//echo '<pre>';print_r($rowMenus);
 						$flag = $this->Pages_Model->isPageItemMenu($item_id, $rowMenus['menu_id']);
 						if($flag == true)
 						{                               
@@ -303,14 +300,12 @@ $main_menu_id=0;
 						}
 						else
 						{
-							
 							$strChecked = "";
 							
 						}
 						
 						if($rowMenus['menu_name'] == 'Main Menu')
 						{
-							
 							$main_menu_id = $rowMenus['menu_id'];
 						}
 						echo '<p></p>';
@@ -356,6 +351,10 @@ $main_menu_id=0;
 						</div>
 					</div>
 
+					
+				   
+	  
+					
 					<input type="radio" id="page_link3" name="page_link" value="Footer" onClick="uncheckMenus()" onChange="hideMe('link', this)" /> 
 					<label class="check_label">Footer Links</label>
 				   

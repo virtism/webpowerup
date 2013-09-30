@@ -616,7 +616,9 @@ class Gallery_Model extends CI_Model
 
 		WHERE 
 		g.gallery_type = 'image' AND
-		gpx.page_id=".$this->db->escape($page_id);		
+		gpx.page_id=".$this->db->escape($page_id);	
+        
+       // echo $qry;	
 
         $rslt = $this->db->query($qry);
 

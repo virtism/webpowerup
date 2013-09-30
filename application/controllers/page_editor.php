@@ -1514,13 +1514,14 @@ class Page_editor extends CI_Controller
 			{
 				$config['file_name'] = $this->input->post("DateTime").$_FILES['header_image']['name'];
 				$config['upload_path'] = "./media/ckeditor_uploads/".$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id']."/images/headers/";            
-				$config['allowed_types'] = 'gif|jpg|png';
-				$config['remove_spaces']		= true;                       
+				$config['allowed_types'] = 'gif|jpg|png';    
+				$config['remove_spaces']		= true;                    
 				$this->upload->initialize($config);
 				
 				$this->upload->do_upload('header_image');
 				$upload_data	= $this->upload->data();    
-				$header_image = $upload_data['file_name'];
+				$header_image = $upload_data['file_name'];				
+				//$header_image = $config['file_name'];
 				//save header info in db
 				$this->Pages_Model->updateOtherHeaderInfo($site_id, $page_id, $header_image);
 				
@@ -1540,8 +1541,9 @@ class Page_editor extends CI_Controller
 				{
 					$config['file_name'] = $this->input->post("DateTime").$_FILES['header_image_'.$i]['name'];
 					$config['upload_path'] = "./media/ckeditor_uploads/".$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id']."/images/headers/";            
-					$config['allowed_types'] = 'gif|jpg|png';                       
-					$config['remove_spaces']		= true; 
+					$config['allowed_types'] = 'gif|jpg|png';     
+					                  
+				
 					$this->upload->initialize($config);
 					$this->upload->do_upload("header_image_".$i);
 					
@@ -1571,6 +1573,8 @@ class Page_editor extends CI_Controller
 				$this->upload->do_upload("header_background_image");
 				$upload_data	= $this->upload->data();  
 				$header_background_image = $upload_data['file_name'];
+				
+				//$header_background_image = $config['file_name'];
 				//save header background info in db
 				$this->Pages_Model->updateHeaderBackgroundInfo($site_id, $page_id, $header_background_image);                   
 			}    
@@ -1679,14 +1683,17 @@ class Page_editor extends CI_Controller
 			{            
 				$config['file_name'] = $this->input->post("DateTime").$_FILES['background_image']['name'];
 				$config['upload_path'] = "./media/ckeditor_uploads/".$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id']."/images/background/";            
-				$config['allowed_types'] = 'gif|jpg|png';  
-				$config['remove_spaces']		= true;                       
+				$config['allowed_types'] = 'gif|jpg|png'; 
+				$config['remove_spaces']		= true;                        
 				$this->upload->initialize($config);
 				
-				$this->upload->do_upload("background_image");
-				$upload_data	= $this->upload->data();            
+				$this->upload->do_upload("background_image");            
 			}
+			
+			
+			$upload_data	= $this->upload->data();   
 			$background_image = $upload_data['file_name'];
+			//$background_image = $config['file_name'];
 			//upload & set new background
 			$this->Pages_Model->addBackgroundInfo($page_id, $background_image, $background_style, $background_area);
 		}

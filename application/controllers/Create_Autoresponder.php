@@ -89,6 +89,7 @@
  function create_autoresponder ()
       {
  
+			//echo '<pre>'; print_r($_REQUEST);
 			$this->load->library(''); 	
 			$this->load->library('form_validation'); 
       
@@ -136,7 +137,7 @@
              $data['respond_active'] = $this->input->post('active');  
              $data['site_id'] = $_SESSION['site_id'];
 			 $data['creation_date'] =  date("Y-m-d");
-			 
+			// echo '<pre>'; print_r($data);exit;
 			//echo  date("Y-m-d h:i:s", strtotime($data['creation_date']));exit;
 			
 			 $this->Autoresponders_Model->save_autoresponder($data); 

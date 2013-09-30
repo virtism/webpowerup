@@ -115,7 +115,7 @@ function do_delete()
 					<td width="41%" align="center">
                     
                     	<!--	this is the preview link for the live			-->
-                    	<a target="_blank" href="http://<?=$allSites[$i]["site_domain"].'.webpowerup.com'?>">Preview</a>
+                    	<a target="_blank" href="http://<?=$allSites[$i]["site_domain"].'.webpowerup.ca'?>">Preview</a>
 						
                         <!--	this is the preview link for the remote server 	-->
 						<?php /*?><a target="_blank" href="<?=base_url().index_page()?>site_preview/site/<?=$allSites[$i]["site_id"]?>">Preview</a><?php */?>

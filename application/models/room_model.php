@@ -169,10 +169,10 @@
 	}
 	
 	function check_customer_meeting($site_id, $customer_id)
-	{
-		$q = '';
-		$exist = 0;
-		//echo $customer_id;
+    {
+        $q = '';
+        $exist = 0;
+        //echo $customer_id;
        
         $select_customer = "SELECT * FROM room_existing_attendie  WHERE existing_att_id = ".$customer_id."";
          $qcustomer = $this->db->query($select_customer);
@@ -197,11 +197,10 @@
         */            return $room_data;            
                 }
          }
-		
         
-		return false;
-	}
-	
+        
+        return false;
+    }
 	
 	
 	function get_user_rooms($site_id, $customer_id)

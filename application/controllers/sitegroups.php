@@ -132,10 +132,41 @@ class SiteGroups extends CI_Controller {
 	function do_creat_site_group($first_group=0)
 	{
 	
-		
+		$file_name = '';
 	//	echo "<pre>";print_r($_REQUEST);exit;
 		$site_id = $_SESSION["site_id"];
-		$created = $this->Groups_Model->insert_site_group($site_id);
+		if($_FILES["logo_image"]["tmp_name"]!="")
+        {     
+		      	
+			/*** Start Image Upload Config******/	
+			$fileName 					= $_FILES['logo_image']['name'];			
+			$config['upload_path'] 		= realpath('.').'/media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/';			
+			$config['allowed_types'] 	= 'gif|jpg|ico|jpeg|png|GIF|JPG|JPEG|PNG';				
+			$config['maintain_ratio'] 	= true;
+			$config['max_width']		= '1024';
+			$config['max_height']		= '768';
+			$config['file_name'] 		= $fileName;
+			$config['overwrite']		= true;
+			$config['remove_spaces']	= true;
+			$config['create_thumb'] 	= true;				
+			$this->load->library('upload', $config);		
+			/*** End Image Upload Config******/
+			
+			if (!is_dir($config['upload_path'])) {
+				mkdir($config['upload_path'],0777);
+			} 
+	   
+			$this->upload->initialize($config);
+			if ($this->upload->do_upload("logo_image"))
+			{
+				$file_name = $config['file_name'];					
+				$response = "Logo have been uploaded successfully";
+				$this->session->set_userdata('rsp_logo_error', 0);		
+			}
+		}
+		
+		
+		$created = $this->Groups_Model->insert_site_group($site_id, $file_name);
 		
 		if($created)
 		{
@@ -285,9 +316,42 @@ class SiteGroups extends CI_Controller {
 		print_r($_REQUEST);
 		exit;*/
 		$site_id = $_SESSION["site_id"];
+		$file_name = '';
+		if($_FILES["logo_image"]["tmp_name"]!="")
+        {     
+		      	
+			/*** Start Image Upload Config******/	
+			$fileName 					= $_FILES['logo_image']['name'];			
+			$config['upload_path'] 		= realpath('.').'/media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/';			
+			$config['allowed_types'] 	= 'gif|jpg|ico|jpeg|png|GIF|JPG|JPEG|PNG';				
+			$config['maintain_ratio'] 	= true;
+			$config['max_width']		= '1024';
+			$config['max_height']		= '768';
+			$config['file_name'] 		= $fileName;
+			$config['overwrite']		= true;
+			$config['remove_spaces']	= true;
+			$config['create_thumb'] 	= true;				
+			$this->load->library('upload', $config);		
+			/*** End Image Upload Config******/
+			
+			if (!is_dir($config['upload_path'])) {
+				mkdir($config['upload_path'],0777);
+			} 
+	   
+			$this->upload->initialize($config);
+			if ($this->upload->do_upload("logo_image"))
+			{
+				$file_name = $this->upload->data();
+				$file_name = $file_name['file_name'];					
+				$response = "Logo have been uploaded successfully";
+				$this->session->set_userdata('rsp_logo_error', 0);		
+			}
+		}
+		
+		
 		if(isset($_REQUEST['group_id']))
 		{
-			$created = $this->Groups_Model->do_update_site_group($_REQUEST['group_id'], $site_id);	
+			$created = $this->Groups_Model->do_update_site_group($_REQUEST['group_id'], $site_id, $file_name);	
 				
 			if($created)
 			{

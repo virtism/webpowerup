@@ -65,22 +65,22 @@
 					if(isset($left_menus[$i]['is_default']) &&  $left_menus[$i]['is_default']==1)
 					{
 					?><li>
-						<a href="<?=base_url().index_page()?>MyAccount/account/<?=$site_id?>">Profile</a>
+						<a href="<?='http://'.$_SERVER['SERVER_NAME']?>/myaccount/account.html">Profile</a>
 						</li>
 						<li>	
-						<a href="<?=base_url().index_page()?>orders/order_site_list/<?=$site_id?>">Orders</a>
+						<a href="<?='http://'.$_SERVER['SERVER_NAME']?>/orders/order_site_list">Orders</a>
 						</li>                        
 						<li>	
-						<a href="<?=base_url().index_page()?>MyAccount/invoices/<?=$site_id?>">Invoices</a>
+						<a href="<?='http://'.$_SERVER['SERVER_NAME']?>/myaccount/invoices.html">Invoices</a>
 						</li>
 						<li>	
-						<a href="<?=base_url().index_page()?>ticket/my_ticket/<?=$site_id?>">Support Tickets</a>
+						<a href="<?='http://'.$_SERVER['SERVER_NAME']?>/manage_ticket/my_ticket.html">Support Tickets</a>
 						</li>
 						<li>	
-						<a href="<?=base_url().index_page()?>room_management/user_rooms/<?=$site_id?>">Online Meetings</a>
+						<a href="<?='http://'.$_SERVER['SERVER_NAME']?>/meeting_rooms/user_rooms.html">Online Meetings</a>
 						</li>
 						<li>	
-						<a href="<?=base_url().index_page()?>webinar_site/user_webinar/<?=$site_id?>">Webinar</a>
+						<a href="<?='http://'.$_SERVER['SERVER_NAME']?>/webinars/user_webinar.html">Webinar</a>
 						</li>
 					<?					
 					}
@@ -278,8 +278,16 @@
 						 //exit;				
 					}
 					
-				}?>
-				<?
+				}//  echo '<pre>';print_r($registartion_menue);
+                if($registartion_menue[0]['menu_id'] == $left_menus[$i]['menu_id'])
+               {
+                ?>
+                <li>    
+                <a  href="<?=base_url().'Froms/index/'.$site_id.'/'.$registartion_menue[0]['form_id']?>"><?=$registartion_menue[0]['form_title']?></a>
+                </li>
+                
+                <?
+                }
 					//Start 1
 					if(isset($left_menus[$i]["webinar_list"]) && count($left_menus[$i]["webinar_list"]) > 0)
 					{
@@ -341,12 +349,9 @@ if(isset($left_menus_type)){
 	   echo '</div>';
 	}
 }
-if(!empty($left_menus_Pbox) && $left_menus_type=='site')
+ /*?>if(!empty($left_menus_Pbox) && $left_menus_type=='site')
 {
-	/*echo "</div>";
-	echo "<pre>";
-	print_r($left_menus_Pbox);
-	exit;*/
+	
 	
 	?>
 	<div align="center" style="border:#C3C3C3 solid 0px; padding-top:3px; vertical-align:middle;">
@@ -379,8 +384,8 @@ if(!empty($left_menus_Pbox) && $left_menus_type=='site')
 	?>
 	</div>
 	<?php
-}
-?>
+}<?php */?>
+
 </div> 
  
 <?php 

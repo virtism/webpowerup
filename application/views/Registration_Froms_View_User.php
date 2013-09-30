@@ -236,6 +236,7 @@ if( ( !isset($thml_fixer)) )	// this fix the height problem for the view in spec
 	$action = site_url()."Froms/index/";
 	
 	
+	
 ?>
     
 
@@ -264,6 +265,7 @@ if($is_payment)
 			?>
 			<div style="color:#333333; font-weight:bold; padding-bottom:10px;"> Form is paid and it will charge ammount of $<?=$amount?> after form submission.</div>
 			<form action="<?=$action?>" method="post" id="regFormFields<?=$form_number?>" >
+			<input type="hidden" name="redirect_url" value="<?=$_SERVER['HTTP_HOST']?>" />
             <fieldset>           
                 <?php if(isset($form_data['form_intro'])){ echo $form_data['form_intro']; }?>      
             </fieldset>
@@ -409,6 +411,7 @@ else
 	
 	?>
 	<form action="<?=$action?>" method="post" id="regFormFields<?=$form_number?>" >
+	<input type="hidden" name="redirect_url" value="<?=$_SERVER['HTTP_HOST']?>" />
     <fieldset>           
         <?php if(isset($form_data['form_intro'])){ echo $form_data['form_intro']; }?>      
     </fieldset>

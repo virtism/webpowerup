@@ -1,6 +1,7 @@
 <h2>Private Pages</h2>
 
 <?php
+
 if ( $private_pages ) 
 { ?>
 
@@ -16,7 +17,17 @@ if ( $private_pages )
   { ?>
   <tr>
     <td><?=$i?></td>
-    <td><a href="<?=site_url()?>site_preview/page/<?=$row['site_id'];?>/<?=$row['page_id'];?>"><?=$row['page_title'];?></a></td>
+	
+	<? if($this->config->item('seo_url') == 'On'){?>
+	
+    <td><a href="<?='http://'.$_SERVER['HTTP_HOST'].'/'.'pages/'.$row['page_seo_url'].$this->config->item('custom_url_suffix');?>"><?=$row['page_title'];?></a></td>
+	<? } 
+	else
+	{ 
+	?>
+	<td><a href="<?=site_url()?>site_preview/page/<?=$row['site_id'];?>/<?=$row['page_id'];?>"><?=$row['page_title'];?></a></td>
+	<? } ?>
+	
   </tr>
   <?php
   $i++;

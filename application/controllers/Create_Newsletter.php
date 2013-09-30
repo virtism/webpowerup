@@ -14,6 +14,8 @@ if(!session_start()){
 			$this->load->library('Template');
 			$this->load->library('session');
 			$this->load->model('Groups_Model');
+            $this->load->model("Site_Preview");
+            $this->load->model("Menus_Model"); 
 			$this->load->model('Newsletter_Model'); 
 			$this->load_asset_form(); 
 			$this->load->library('session');
@@ -22,6 +24,7 @@ if(!session_start()){
 				$this->site_id = $_SESSION['current_site_info']['site_id']; 
 			}			
 			$this->load->library('Webpowerup');
+            $this->load->library('form_validation'); 
 			$this->webpowerup->initialize_template();
       }
       
@@ -156,10 +159,12 @@ if(!session_start()){
 			$config['charset'] = 'utf-8';
 			$config['wordwrap'] = TRUE;
 			$this->email->initialize($config);
+			//print_r($user_gruop);exit;
 			foreach($user_gruop as $group_id)
 			{
-				//print_r($group_id);exit;
+				
 				$customers = $this->Newsletter_Model->get_site_gropus_customer_by_group_id($group_id);
+				//print_r($customers);exit;
 				foreach($customers as $mail)
 				{
 					$this->email->from($data['from'] , 'WebpowerUp');
@@ -172,5 +177,105 @@ if(!session_start()){
 		
 			
       }
+ //////////////////// under this all function is for news letter Goroup////////////////////////
+ 
+     function creat_newsletter_group($id=false)
+     {
+         
+         
+         
+         
+        $this->breadcrumb->clear();
+        $this->breadcrumb->add_crumb('Main', $this->session->userdata("mainPage_link") );
+        $this->breadcrumb->add_crumb('Dashboard', $this->session->userdata("dashboard_link") ); 
+        $this->breadcrumb->add_crumb('Newsletter Management', $this->session->userdata("news_link") ); 
+        $this->breadcrumb->add_crumb('Create' );
+        $site_id                    = $_SESSION['site_id'];  
+        $data['ck_data']            = $this->ck_data;
+        $data['pages']              = $this->Menus_Model->get_page_with_type($site_id,"Normal");
+        $data['template_name']      = $this->Site_Preview->getSiteTemplate($site_id);  
+        $data['groups']             = $this->Groups_Model->get_all_site_gropus($site_id);
+        $data['id']                             = '';
+        $data['ngroup_name']                    = '';
+        $data['position']                       = '';
+        $data['publish']                        = '';
+        $data['dispaly_page']                   = '';
+        $data['user_see']                       = '';
+        $data['signup_titile']                  = '';
+        $data['intro_text']                     = '';
+        
+        if($id!='')
+         {
+            $getnewlerer = $this->Newsletter_Model->get_newsletter_groups($id ,$site_id);
+            $data['id']                             = $id;
+            $data['ngroup_name']                    = $getnewlerer['0']->newsgroup_name;
+            $data['position']                       = $getnewlerer['0']->newsgroup_position;
+            $data['publish']                        = $getnewlerer['0']->newsgroup_publish;
+            $data['dispaly_page']                   = $getnewlerer['0']->newsgroup_page;
+            $data['user_see']                       = $getnewlerer['0']->newsgroup_how_see;
+            $data['signup_titile']                  = $getnewlerer['0']->newsgroup_sup_title;
+            $data['intro_text']                     = $getnewlerer['0']->newsgroup_intro_text;
+             
+            // $getnewlerer = $this->Newsletter_Model->get_newsletter_groups($id ,$site_id);
+             //echo '<pre>'; print_r($getnewlerer);exit;
+             
+         }
+         $this->form_validation->set_rules('subject', 'Group Name', 'trim|required');
+         if ($this->form_validation->run() == FALSE)
+        {
+            $this->template->write_view('content','newsletter/Cereat_NewsletterGroup_view',$data);
+            $this->template->render();
+        }
+        else{
+             $save                                      = array();
+             $save['newsgroup_id']                      = $id;
+             $save['newsgroup_site_id']                 = $_SESSION['site_id'];  
+             $save['newsgroup_name']                    = $this->input->post('subject');
+             $save['newsgroup_position']                = $this->input->post('positionorder');
+             $save['newsgroup_publish']                 = $this->input->post('published');
+             $save['newsgroup_page']                    = $this->input->post('displayonpage');
+             $save['newsgroup_how_see']                 = $this->input->post('rdoRights');
+             if($id == ''){
+             $save['newsgroup_date']                    = date("Y-m-d  H:i:s", time());
+             }
+             //$save['newsgroup_pcolor']                  = $this->input->post('prim_color');
+             //$save['newsgroup_tcolor']                  = $this->input->post('prim_txt');
+             $save['newsgroup_sup_title']               = $this->input->post('sup_title');
+             $save['newsgroup_intro_text']              = $this->input->post('body');
+             $this->Newsletter_Model->save_newsletter_group($save);
+             redirect('Newsletter_Management');
+            
+        }
+         
+        
+        
+           
+     }
+     /*function save_newsletter_group()
+     {
+        // $site_id                                   = $_SESSION['site_id'];
+         
+         $save                                      = array();
+         $save['newsgroup_id']                      = $this->input->post('edit_id');
+         $save['newsgroup_site_id']                 = $_SESSION['site_id'];  
+         $save['newsgroup_name']                    = $this->input->post('subject');
+         $save['newsgroup_position']                = $this->input->post('positionorder');
+         $save['newsgroup_publish']                 = $this->input->post('published');
+         $save['newsgroup_page']                    = $this->input->post('displayonpage');
+         $save['newsgroup_how_see']                 = $this->input->post('rdoRights');
+         if($this->input->post('edit_id') ==""){
+         $save['newsgroup_date']                    = date("Y-m-d  H:i:s", time());
+         }
+         //$save['newsgroup_pcolor']                  = $this->input->post('prim_color');
+         //$save['newsgroup_tcolor']                  = $this->input->post('prim_txt');
+         $save['newsgroup_sup_title']               = $this->input->post('sup_title');
+         $save['newsgroup_intro_text']              = $this->input->post('body');
+         $this->Newsletter_Model->save_newsletter_group($save);
+         redirect('Newsletter_Management');  
+         
+     }*/
+      
+      
+      
   }
 ?>

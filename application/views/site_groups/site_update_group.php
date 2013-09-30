@@ -256,7 +256,7 @@ function addRadioItem(id, radio_count)
 
 <div class="form">
 <? //echo "<pre>"; print_r($data); exit;?>
-<form class="niceform" action="<?=base_url().index_page()?>sitegroups/do_update_site_group/" method="post" name="group_site" id="group_site" >
+<form class="niceform" action="<?=base_url().index_page()?>sitegroups/do_update_site_group/" method="post" name="group_site" id="group_site"  enctype="multipart/form-data">
  <input type="hidden" name="group_id" value="<?=$group_id?>"/>
         <fieldset>
             <dl>
@@ -832,7 +832,46 @@ ages to send a visitor directly to signup for this Group. Link Here
                       </select>
                 </dd>
             </dl>
-            
+            <dl>
+    <div class="RightColumnHeading">
+        <h1>
+            <span>Upload Group Join Button</span>
+        </h1>
+	</div>
+
+	<div class="clr"></div>
+    <div class="InnerMain" >
+        <input type="hidden" name="site_id" value="<?=$site_id?>" />
+        <input type="hidden" name="code" value="<?=date('his')?>" />
+        
+          <dl>
+           <dt>
+                 <label  class="NewsletterLabel">Upload Button Image</label>
+           </dt>
+           <dd>
+		   <? 
+		   	$upload_path  = base_url().'/media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/';  
+			if(isset($data[0]['group_join_button']) && !empty($data[0]['group_join_button']))
+			{
+				$image_name_array = $data[0]['group_join_button'];
+				
+			?>
+            	<div style="float:right; padding-right:60px; "><img src="<?=$upload_path.$image_name_array?>" /></div>
+                <input type="hidden" name="hidden_filename" value="<?=$image_name_array?>" />
+			<? 
+			}
+			?>
+               <div class="uploader" >
+                    <input type="file" name="logo_image" id="logo_image" size="19" style="opacity: 0;">
+                    <span class="filename" style="-moz-user-select: none;">No file selected</span>
+                    <span class="action" style="-moz-user-select: none;">Choose File</span>
+               </div>
+               
+                
+           </dd>
+        </dl>       
+   </div>
+    </dl>
 
 
         <dl>

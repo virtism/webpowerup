@@ -184,7 +184,7 @@
 
 
             <?php 
-                //echo "<pre>";print_r($pages_templates[0]);    exit();
+               // echo "<pre>";print_r($pages_templates);
                 $intCount = 0;
                 foreach($records->result_array() as $row)
                 {

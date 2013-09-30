@@ -1,7 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 if(!session_start()){
 	session_start(); }  
-    
 class MyAccount extends CI_Controller {
 	var $site_id;  
 	var $flage_step;
@@ -9,7 +8,7 @@ class MyAccount extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		// DebugBreak();
+		
 		$this->load->library('Paypal_Lib');
 		$this->load->model("Menus_Model");
 		$this->load->model("UsersModel");
@@ -32,8 +31,7 @@ class MyAccount extends CI_Controller {
 		$this->load->model("Autoresponders_Model");
 		$this->load->library('cart');
 		$this->load->library('cezpdf');
-        
-		//$this->load->library('mpdf/mpdf');
+		$this->load->library('mpdf/mpdf');
 		$this->load->helper('pdf');
 		
 		$this->load->helper('security');
@@ -133,7 +131,7 @@ class MyAccount extends CI_Controller {
 		if($page_header == "Other")
 		{
 			//$header_image = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
-			$data['header_image'] = base_url()."headers/".$this->Site_Model->getHeaderImage($data["page_id"]);
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
 			
 			//$data["header_image"] =  '<div style="height: 100px; background-image: url('."'".$header_image."'".'); background-repeat:no-repeat; background-size:960px 100px;">
 			//</div>';
@@ -271,7 +269,6 @@ class MyAccount extends CI_Controller {
 			$cid = $_SESSION["login_info"]["customer_id"];
 			/*	check user have room meeting */
 			//echo $this->site_id.'--'.$cid;
-           // DebugBreak();
 			$data['room_exist'] = $this->Room_Model->check_customer_meeting($this->site_id, $cid);
 			//echo "<pre>"; print_r($data['room_exist']);exit;
 			/*	check user have room meeting */
@@ -331,11 +328,11 @@ class MyAccount extends CI_Controller {
   }
   function login()
   {
-		//DebugBreak();
-		if(empty($this->site_id)){
-			
-		 $this->is_login();
-		 }
+		
+		if(empty($this->site_id))
+		{			
+		 	$this->is_login();
+		}
 		
 		
 		//echo "<pre>"; print_r($_POST);exit;
@@ -437,23 +434,40 @@ class MyAccount extends CI_Controller {
 						redirect(base_url().index_page().'MyShop/mycart/'.$this->site_id,'refresh'); 
 					}
 					
+					$page_info = $this->pages_model->page_seo_link($group_page);
+					//echo '<pre>';print_r($page_info);exit;
 					//$group_page = $this->customers_model->get_customer_group_page($_SESSION['login_info']['customer_id']);
 					if(isset($group_page) && $group_page !=0)
-					{
-					
-						//redirect(base_url().index_page().'site_preview/page/'.$this->site_id.'/'.$group_page, 'refresh');
-						redirect(base_url().index_page().'site_preview/page/'.$this->site_id.'/'.$group_page, 'refresh');                
+					{					
+						if($this->config->item('seo_url') == 'On')
+						{
+							redirect('http://'.$_SERVER['SERVER_NAME'].'/pages/'.$page_info.'.html', 'refresh');
+						}
+						else
+						{
+							redirect(base_url().index_page().'site_preview/page/'.$this->site_id.'/'.$group_page, 'refresh');
+						}
 					}
 					else
 					{
-						redirect(base_url().index_page().'site_preview/site/'.$this->site_id,'refresh');        
+						
+						if($this->config->item('seo_url') == 'On')
+						{
+							redirect('http://'.$_SERVER['SERVER_NAME'].'/pages/home.html', 'refresh');
+						}
+						else
+						{
+							redirect(base_url().index_page().'site_preview/site/'.$this->site_id,'refresh'); 
+						}
 					}        
 				}
 				else
 				{
-					if($this->input->post('log_in') == 'shiptime')
+					
+					
+					if($this->config->item('seo_url') == 'On')
 					{
-						redirect(base_url().index_page().'site_preview/site/'.$this->site_id, 'refresh');   
+						redirect('http://'.$_SERVER['SERVER_NAME'].'/myaccount/login.html');   
 					}
 					else
 					{
@@ -592,8 +606,9 @@ class MyAccount extends CI_Controller {
 		//$this->template->write('background', $background);
 		$site_id = $this->site_id;   
 		$data['color_scheme'] = $this->Menus_Model->get_scheme_color($site_id);  
-		$data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
-  
+                $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
+
+		   
 		// menu requiired variable 
 		
 		$is_seo_enabled = $this->config->item('seo_url');
@@ -716,11 +731,19 @@ class MyAccount extends CI_Controller {
 		   // session_destroy();  
 			unset($_SESSION['login_info']);
 			unset($_SESSION["customer_group_id"]);
-		 //  session_destroy($_SESSION['login_info']);
 			
-		  //  $_SESSION[] = array();
-			//$_SESSION['user_info'] = array();
-		   redirect(base_url().index_page().'MyAccount/login','refresh'); 
+			
+			if($this->config->item('seo_url') == 'On')
+			{
+			
+				
+				 redirect('http://'.$_SERVER['SERVER_NAME'].'/myaccount/login.html','refresh'); 			
+			}
+			else
+			{
+				 redirect(base_url().index_page().'MyAccount/login','refresh'); 
+			}
+		  
 		//---------------------------------------------------------------------//
 		
 		//######## For Using Codeigniter Session Class ####### //
@@ -946,8 +969,9 @@ http://www.webpowerup.com/
 	//$this->template->write('background', $background);
 	 $site_id = $this->site_id;   
 	 $data['color_scheme'] = $this->Menus_Model->get_scheme_color($site_id);
-	 $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
+     $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
 
+	 
 	 // menu requiired variable 
 	
 	$is_seo_enabled = $this->config->item('seo_url');
@@ -1264,7 +1288,14 @@ http://www.webpowerup.com/
 			$this->Groups_Model->send_group_notification($this->input->post("customer_id"),$group_id);
 	  }
 	  
-	  redirect(base_url().index_page().'MyAccount/login','refresh');
+	  if($this->config->item('seo_url') == 'On')
+	  {
+	  	redirect("http://".$_SERVER['SERVER_NAME'].'/myaccount/login.html','refresh');
+	  }
+	  else
+	  {
+	  	redirect(base_url().index_page().'MyAccount/login','refresh');
+	  }
   }
   
   function payment_process()
@@ -1588,9 +1619,11 @@ http://www.webpowerup.com/
   
   function is_login()
   {
-	  if(isset ($_SESSION['login_info']) && isset ($_SESSION['login_info']['customer_id']) ){
+	  if(isset ($_SESSION['login_info']) && isset ($_SESSION['login_info']['customer_id']) )
+	  {
 		   return true;
-	  }else
+	  }
+	  else
 	  {
 		 
 		 // redirect('MyAccount/login'); 
@@ -1635,7 +1668,6 @@ http://www.webpowerup.com/
 		$header_background = $rowHomepage["header_background"];
 		$data['header_background'] = $header_background;
 		$data['header_background_image'] = ''; 
-		
 		$data["footer_content"] = "";
 		
 		//This is for Footer Dynamic
@@ -1649,7 +1681,18 @@ http://www.webpowerup.com/
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 		$_SESSION['site_id'] = $data["site_id"];
 			
 			$top_site_menu_basic =  $this->Menus_Model->top_navigation_default($this->site_id);
@@ -1787,7 +1830,18 @@ http://www.webpowerup.com/
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 		$_SESSION['site_id'] = $data["site_id"];
 					
 					
@@ -1850,6 +1904,8 @@ http://www.webpowerup.com/
 				$data['other_top_navigation'] =  $this->Menus_Model->get_register_link();			
 			}       
 			$data['color_scheme'] = $this->Menus_Model->get_scheme_color($site_id);
+                    $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
+
 		   $this->template->write_view('menu', $temp_name.'/menu', $data); 
 			
 			$data['title'] = "My Account Informations";
@@ -1974,7 +2030,18 @@ http://www.webpowerup.com/
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 			$_SESSION['site_id'] = $data["site_id"];
 			$site_id = $data["site_id"];
 			
@@ -2305,7 +2372,7 @@ http://www.webpowerup.com/
 			$temp_name =  $this->my_template_menu->set_get_template($this->site_id);
 			$data = array ();
 			
-			$rsltHomepage = $this->Site_Model->getHomepage($this->site_id);
+		$rsltHomepage = $this->Site_Model->getHomepage($this->site_id);
 		$rowHomepage = $rsltHomepage->row_array();
 		
 		$data["mode"] = '';
@@ -2339,7 +2406,18 @@ http://www.webpowerup.com/
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 		$_SESSION['site_id'] = $data["site_id"];
 			
 			
@@ -2659,7 +2737,18 @@ http://www.webpowerup.com/
 		$page_start_date = $rowHomepage["page_start_date"];  
 		$page_end_date = $rowHomepage["page_end_date"];  
 		$page_access = $rowHomepage["page_access"];
-		
+		if($page_header == "Other")
+		{			
+			$data['header_image'] = $this->Site_Model->getHeaderImage($data["page_id"]);
+		}
+		else if($page_header == "Slideshow")
+		{			
+			$data['header_image'] = $this->Site_Model->getSlideshowHeaderImgs($page_id);			
+		} 
+		else
+		{
+			$header = "";         
+		}
 			$_SESSION['site_id'] = $data["site_id"];
 			$site_id = $data["site_id"];
 			

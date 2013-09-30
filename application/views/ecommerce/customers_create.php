@@ -178,10 +178,11 @@ $(document).ready(function() {
 		
 		dataString = "fname="+fname+"&lname="+lname+"&email="+email+"&password="+password;
 		//alert(dataString);
-		
+		//alert(window.location.protocol);
 		$.ajax({
 		type: "POST",
-		url: "<?=base_url().index_page()?>MyAccount/register_process/",
+		//url: "<?=base_url().index_page()?>MyAccount/register_process/",
+		url: window.location.protocol+"/MyAccount/register_process/",
 		data: dataString,
 		success: function(rsp){
 			  
@@ -556,7 +557,8 @@ background:none;
     <div id="rsp"></div>
 	<div id="closeRsp"></div>
 </div>
-<form name="registerform" id="registerform" class="contact" method="post" action="<?=base_url().index_page()?>MyAccount/join_group">
+
+<form name="registerform" id="registerform" class="contact" method="post" action="http://<?=$_SERVER['SERVER_NAME']?>/MyAccount/join_group">
 <input type="hidden" id="customer_id" name="customer_id" value="0" />
 <input type="hidden" name="site_id" value="<?=$site_id?>" id="site_id" />
 <? //	echo "<pre>";"-----------------".print_r($membership);exit;	  ?>

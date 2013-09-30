@@ -36,15 +36,17 @@ h1{
 
     
 
-   <a target="_blank" href="<?=base_url().index_page()?>site_preview/page/<?=$site_id?>/<?=$page_id?>">
-   <?=base_url().index_page()?>site_preview/page/<?=$site_id?>/<?=$page_id?>
-   </a>
+   <?php /*?> <a target="_blank" href="<?=base_url().index_page()?>site_preview/page/<?=$site_id?>/<?=$page_id?>">
+
+    <?=base_url().index_page()?>site_preview/page/<?=$site_id?>/<?=$page_id?>
+
+    </a><?php */?>
 	
-	<?php /*?> <a target="_blank" href="http://<?=$_SESSION['current_site_info']['site_domain'].".webpowerup.com"?>/site_preview/page/<?=$site_id?>/<?=$page_id?>">
+	 <a target="_blank" href="http://<?=$_SESSION['current_site_info']['site_domain'].".webpowerup.com"?>/site_preview/page/<?=$site_id?>/<?=$page_id?>">
 
     http://<?=$_SESSION['current_site_info']['site_domain'].".webpowerup.com"?>/site_preview/page/<?=$site_id?>/<?=$page_id?>
 
-    </a><?php */?>
+    </a>
 
     
 

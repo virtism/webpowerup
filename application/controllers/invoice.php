@@ -158,7 +158,9 @@ if(!session_start()){
 		{
 			$data['user_name'] = $_SESSION['user_info']['user_login'];        
 			$data['products'] = $this->product_model->getDigitalProductsDropdown_invoice($this->site_id);
-			$data['categories'] = $this->categories_model->getAllCategories($this->site_id);		
+			$data['categories'] = $this->categories_model->getAllCategories($this->site_id);
+			
+			
 			//echo "<pre>";print_r($data['categories']);
 		}
 		else

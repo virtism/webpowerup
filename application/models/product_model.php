@@ -1515,6 +1515,6 @@ WHERE product_id =".$row['product_id']);
 		
 	}
  
-}
+}// 
  
 ?>

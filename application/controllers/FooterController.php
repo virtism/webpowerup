@@ -14,6 +14,7 @@ class FooterController extends CI_Controller {
         $this->load->library('Template'); 
 		//Check user Login
 		$this->load->library('check_user_login');
+		$this->load->library('session');
         $this->check_user_login->checkLogin();       
         $this->load->model('Footer_Model');
         $this->load->helper('security');
@@ -84,6 +85,7 @@ class FooterController extends CI_Controller {
         $this->template->render();   
             
     }
+	
     function update_footer($site_id = 0)
     {
 		if(isset($site_id) && $site_id!=0)
@@ -97,22 +99,22 @@ class FooterController extends CI_Controller {
 			redirect(base_url().index_page().'FooterController/index/'.$site_id);      
         }    
      }
+	 
 	 function send_conatct_email()
 	 {
-		$site_id = $_SESSION['site_id'];
-	 	$data = $this->Contact_Management_Model->check_contact_form($site_id);
-		$email_to = $data['caption_EmailTo'];
+		$site_id 	= $_SESSION['site_id'];
+	 	$data 		= $this->Contact_Management_Model->check_contact_form($site_id);
+		$email_to 	= $data['caption_EmailTo'];
 		//$email_to = $this->config->item('contact_mail_to');
 		$email_from = $_REQUEST["email"];
-		$body = $_REQUEST["msg"];
-		$subject = "Contact Us";
-		
-		$full_name = $_REQUEST["name"];
+		$body 		= $_REQUEST["msg"];
+		$subject 	= "Contact Us";		
+		$full_name 	= $_REQUEST["name"];
 			
-		$config['mailtype'] = 'text';
-		$config['protocol'] = 'sendmail';
-		$config['charset'] = 'utf-8';
-		$config['wordwrap'] = TRUE;
+		$config['mailtype'] 	= 'text';
+		$config['protocol'] 	= 'sendmail';
+		$config['charset'] 		= 'utf-8';
+		$config['wordwrap'] 	= TRUE;
 		
 		$this->email->initialize($config);
 		//$send = $this->email->send();
@@ -133,42 +135,48 @@ class FooterController extends CI_Controller {
 		}
 		
 	 }
+	 
 	 function conatct_form_email()
 	 {
 	 	
+		//echo '<pre>'; print_r($_SERVER['HTTP_REFERER']);exit;
 		//echo "<pre>";print_r($_POST);exit;
-		$site_id = $_SESSION['site_id'];
+		$site_id 	= $_SESSION['site_id'];
 		//$page_id = $_SESSION['page_id'];
-	 	$data = $this->Contact_Management_Model->check_contact_form($site_id);
-		$email_to = $data['caption_EmailTo'];
+	 	$data 		= $this->Contact_Management_Model->check_contact_form($site_id);
+		$email_to 	= $data['caption_EmailTo'];
 		//$email_to = $this->config->item('contact_mail_to');
-		$name = $_POST['txtcap1'];
+		$name 		= $_POST['txtcap1'];
 		$email_from = $_POST['email_from'];
-		$subject = $_POST["txtcap2"];
-		$message = "Name: ".$_POST['txtcap1']."\n\nE-mail From:".$_POST["email_from"]."\n\nMessage:".$_POST["message"];
+		$subject 	= $_POST["txtcap2"];
+		$message 	= "Name: ".$_POST['txtcap1']."\n\nE-mail From:".$_POST["email_from"]."\n\nMessage:".$_POST["message"];
 		
-		$config['mailtype'] = 'text';
-		$config['protocol'] = 'sendmail';
-		$config['charset'] = 'utf-8';
-		$config['wordwrap'] = TRUE;
+		$config['mailtype'] 	= 'text';
+		$config['protocol'] 	= 'sendmail';
+		$config['charset'] 		= 'utf-8';
+		$config['wordwrap'] 	= TRUE;
 		
 		$this->email->initialize($config);
 		//$send = $this->email->send();
 		$this->email->from($email_from, $name);
 		$this->email->subject($subject);
 		$this->email->message($message);
-		$this->email->to($email_to);
-		
+		$this->email->to($email_to);		
 		$send = $this->email->send();
-	
+		
 		if($send)
 		{
 			$_SESSION['mail_sent'] = 1;
-			redirect('contact-us.html');
+			$this->session->set_userdata('message', 'Email has been sent successfully.');
+			//echo $this->session->userdata('message');exit;
+			redirect($_SERVER['HTTP_REFERER']);
 		}
 		else
 		{
-			echo "ERROR: We are trying to solve ASAP...";
+			
+			$this->session->set_userdata('message', 'Please enter valid email.');
+			//echo $this->session->userdata('error');exit;
+			redirect($_SERVER['HTTP_REFERER']);
 		}
 		
 	 }		 

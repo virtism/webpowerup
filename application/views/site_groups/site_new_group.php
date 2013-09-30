@@ -272,7 +272,7 @@ function addRadioItem(id)
 
 <div class="form">
 <? $page_id = $this->uri->segment(3); ?>
- <form class="niceform" action="<?=base_url().index_page()?>sitegroups/do_creat_site_group/<?=$page_id?>" method="post" name="group_form" id="group_form" >
+ <form class="niceform" action="<?=base_url().index_page()?>sitegroups/do_creat_site_group/<?=$page_id?>" method="post" name="group_form" id="group_form" enctype="multipart/form-data" >
  
         <fieldset>
             <dl>
@@ -774,7 +774,47 @@ ages to send a visitor directly to signup for this Group. Link Here
                       </select>
                 </dd>
             </dl>
-            
+           <!----Logo Upload----->
+    <dl>
+    <div class="RightColumnHeading">
+        <h1>
+            <span>Upload Group Join Button</span>
+        </h1>
+	</div>
+
+	<div class="clr"></div>
+    <div class="InnerMain" >
+        <input type="hidden" name="site_id" value="<?=$site_id?>" />
+        <input type="hidden" name="code" value="<?=date('his')?>" />
+        
+          <dl>
+           <dt>
+                 <label  class="NewsletterLabel">Upload Button Image</label>
+           </dt>
+           <dd>
+		   <? 
+		   	$upload_path  = base_url().'/media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/logo/';  
+			if(isset($store_settings['store_logo']) && !empty($store_settings['store_logo']))
+			{
+				$image_name_array = explode('.',$store_settings['store_logo']);
+				$thumbnail_name = $image_name_array[0]."_thumb.".$image_name_array[1];
+			?>
+            	<div style="float:right; padding-right:60px; "><img src="<?=$upload_path.$thumbnail_name?>" /></div>
+                <input type="hidden" name="hidden_filename" value="<?=$store_settings['store_logo']?>" />
+			<? 
+			}
+			?>
+               <div class="uploader" >
+                    <input type="file" name="logo_image" id="logo_image" size="19" style="opacity: 0;">
+                    <span class="filename" style="-moz-user-select: none;">No file selected</span>
+                    <span class="action" style="-moz-user-select: none;">Choose File</span>
+               </div>
+               
+                
+           </dd>
+        </dl>       
+   </div>
+    </dl>        
 
 
         <dl>
@@ -795,8 +835,7 @@ ages to send a visitor directly to signup for this Group. Link Here
                 </dd>
                 
             </dl>
-
-             
+   
             
         </fieldset>
 

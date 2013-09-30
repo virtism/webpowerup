@@ -422,7 +422,7 @@ class PagesController extends CI_Controller{
 		//fills content region of template with page/create/page_menu with $data
 		$data['page'] = $this->PagesModel->get_pages_normal_dropdown($site_id);
 		$data['template_name'] = $this->Site_Preview->getSiteTemplate($site_id);
-		//echo '<pre>';print_r($data);exit;
+		//print_r($data);exit;
 		$this->template->write_view('content','page/create/page_menu', $data);
 		$this->template->render();
 	} 
@@ -613,7 +613,7 @@ class PagesController extends CI_Controller{
         //echo $item_id;
         //$this->load->view("page/create/layout_desc");   
     }
-    function upadte_upload_page_layout_desc()
+      function upadte_upload_page_layout_desc()
     {
         /*         echo "<pre>";
         print_r($_POST);
@@ -758,6 +758,7 @@ class PagesController extends CI_Controller{
         
         
     }
+    
 	function save_upload_page_layout_desc()
 	{
 	/*	     echo "<pre>";
@@ -776,7 +777,7 @@ class PagesController extends CI_Controller{
 		$data['site_id'] =  $this->input->post("site_id");
 		$site_id =  $this->input->post("site_id");
 		$page_id =  $this->input->post("page_id");
-		 
+		  
 		$page_header = $this->input->post("page_header");
 		$numHeaderImages = $this->input->post("numHeaderImages");
 		$path = './media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/images/';
@@ -852,6 +853,9 @@ class PagesController extends CI_Controller{
 					}
 		
 				} 
+		
+				
+		
 				$header_background = $this->input->post("header_background");
 		
 				if($header_background == "Image" && $_FILES["header_background_image"]["tmp_name"]!=""){            
@@ -1518,12 +1522,13 @@ class PagesController extends CI_Controller{
 		$data['site_id'] = $site_id;
 				
 		$data["records"] = $this->Pages_Model->getAllPagesListing($from, $data["pageLimit"], $site_id);
-        $data["pages_list"] = $this->Pages_Model->getAllPages($site_id);
-		$data["pages_templates"] = array_unique($this->Pages_Model->get_page_templates($site_id));
+		$data["pages_list"] = $this->Pages_Model->getAllPages($site_id);
+        $data["pages_templates"] = $this->Pages_Model->get_page_templates($site_id);
+
 		
-       /* echo "<pre>";
-        	print_r($data["pages_list"]);
-	        exit;*/
+	//	echo "<pre>";
+//		print_r($this->Pages_Model->getAllPages($site_id));
+	//	exit;
 		
 		$data["numRecords"] = $data["records"]->num_rows();
 		$data["from"] = $from;        

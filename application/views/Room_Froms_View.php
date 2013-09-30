@@ -61,7 +61,7 @@ $(document).ready(function(e) {
                	<?=$row['reg_date_start']?>
             </li>
             <li class="Actions">
-                <a target="_blank" href="<?=base_url();?>broadcast/GWSWhiteboard.html#roomID=<?=$row['room_rid']?>&attendee_id=<?php echo ($row['presenter_id'] * 2) ; ?>" class="RefreshAction">
+                <a target="_blank" href="http://23.23.227.152/broadcast/GWSWhiteboard.html#roomID=<?=$row['room_rid']?>&attendee_id=<?php echo ($row['presenter_id'] * 2) ; ?>" class="RefreshAction">
                     <img src="<?=base_url();?>images/webpowerup/RefreshAction.png" alt="button"/>
                 </a>
                  <a href="<?=base_url().index_page();?>room_management/edit_room/<?=$row['id']?>" class="EditAction">

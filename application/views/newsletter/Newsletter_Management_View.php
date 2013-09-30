@@ -29,6 +29,11 @@ $(document).ready(function(e) {
             <img src="<?=base_url();?>images/webpowerup/createNewsletter.png" alt="Rooms Management"/>
         </a>
     </div>
+    <div class="RightSideButton">
+        <a href="<?php echo base_url().index_page() ?>Create_Newsletter/creat_newsletter_group">
+            <img src="<?=base_url();?>images/webpowerup/createNewsletter.png" alt="Rooms Management"/>
+        </a>
+    </div>
 </div>
 
 <div class="PageDetail">
@@ -103,4 +108,72 @@ $(document).ready(function(e) {
 			</ul>
 		 <?php 
 		 } ?>
+</div>
+
+<!-------------------------Newsletter Group Listing------------------------------>
+
+ <div class="PageDetail">
+<h2>Newsletter Group Listing</h2>
+</div>
+<div class="DataGrid2">
+        <ul>
+            <li>Subject </li>
+            
+            
+            <li>Newsletter Created </li>
+            <li class="Actions">Action</li>
+        </ul>
+         <?php
+         if($newsletter_group)
+         {
+             foreach($newsletter_group as $row )
+             { 
+                 //echo "<pre>";    print_r($row);    echo "</pre>"; die();
+                
+                 $link = "";
+                //if($row['news_date_sent'] == '' || $row['news_date_sent'] == 'NULL')
+                //{
+                  $link='<a href=" '. base_url().index_page().'Newsletter_Management/send_newsletter_admin/'.$row->newsgroup_id.' " >   [Click Here To Send]</a>|';  
+                //}
+             ?>   
+                <ul>
+                    <li>
+                        <?=$row->newsgroup_name;?> 
+                    </li>
+                    <!--<li>
+                        <?=$row->news_body;?> 
+                    </li>
+                     <li>
+                        <? if(isset($row->group_names)){ echo implode(',',$row->group_names);}?> 
+                    </li>-->
+                    <li>
+                       <span class="GridCalendar"><?=$row->newsgroup_date;?> </span>
+                    </li>
+                    <!--<li>
+                        <span class="GridCalendar"><? //$row['news_date_sent'];?> date</span>
+                    </li>-->
+                    <li class="Actions">
+                         <a href="<?=base_url().index_page()?>Create_Newsletter/creat_newsletter_group/<?=$row->newsgroup_id?>" class="EditAction">
+                            <img src="<?=base_url();?>images/webpowerup/EditAction.png" alt="button"/>
+                        </a>
+                         <a href="<?=base_url().index_page()?>Newsletter_Management/delete_newsletter_group/<?=$row->newsgroup_id?>" onClick="return do_delete()" href= "" class="DeleteAction">
+                            <img src="<?=base_url();?>images/webpowerup/DeleteAction.png" alt="button"/>
+                        </a><br />
+                        <?=$link;?>
+                    </li>
+                </ul>
+             <?php
+             }
+         }
+         else
+         { ?>
+            <ul class="TableData">
+                <li>
+                <span class="NoData">
+                Sorry! No Record Found.
+                </span>
+                </li>
+            </ul>
+         <?php 
+         } ?>
 </div>

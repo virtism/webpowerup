@@ -356,7 +356,7 @@ class MenusController extends CI_Controller{
     }
     //loads menus management home menusView.php(view)
     //pagination applied from ci pagination library
-    function index($site_id, $from)
+    function index($site_id, $from = 0)
     {  
 		
 		$menu_link = current_url();
@@ -391,19 +391,19 @@ class MenusController extends CI_Controller{
         else
         {
             //applies pre-defined/fixed/constant paging limit below:
-            $data["pageLimit"] = 5;
+            $data["pageLimit"] = 10;
         }
         
         //save paging limit in seesion, prepare $data for pagination
-        if($this->input->post("numRecords"))
+        if($this->input->post("frmMenus"))
         {            
-            $this->session->set_userdata("ses_showMenuLimit", $this->input->post("numRecords"));
+            $this->session->set_userdata("ses_showMenuLimit", $this->input->post("frmMenus"));
             $data["pageLimit"] = $this->session->userdata("ses_showMenuLimit");
         }        
         
         //prepares $data 
         $data["records"] = $this->Menus_Model->showMenus($from, $data["pageLimit"], $site_id);
-        $data["numRecords"] = $data["records"]->num_rows();
+        $data["frmMenus"] = $data["records"]->num_rows();
         $data["from"] = $from;        
         $data["totalRecords"] = $this->Menus_Model->totalMenus($site_id);
         

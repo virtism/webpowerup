@@ -105,11 +105,11 @@ class Gallery_Management extends CI_Controller
 		//exit();
 		/*echo '<pre>';  print_r($_POST); echo '</pre>';
 		exit();*/
-		/*$path 	= realpath('.').'/media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/galleries'; 
+		$path 	= realpath('.').'/media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/galleries'; 
 		if(!is_dir($path))
 		{
-			mkdir($path,0777,true);
-		}*/
+			mkdir($path,0777);
+		}
 		for($i=1; $i<= intval($numImages); $i++)
 		{
 			$file_info 		= array ();
@@ -138,10 +138,10 @@ class Gallery_Management extends CI_Controller
 				
 				//$config['file_name'] 	= $slide_image;
 				$config['encrypt_name'] = true;			
-				$config['upload_path'] 	= realpath('.').'/media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/galleries/full';             	/*if(!is_dir($config['upload_path']))
+				$config['upload_path'] 	= realpath('.').'/media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/galleries/full';             	if(!is_dir($config['upload_path']))
 				{
-					mkdir($config['upload_path'],0777,true);
-				}*/
+					mkdir($config['upload_path'],0777);
+				}
 				$config['allowed_types'] 	= 'gif|jpg|png|ico|img|jpeg|jpe'; 
 				$config['remove_spaces'] 	= TRUE; 
 				$config['max_size']   		= '10240';			   
@@ -155,10 +155,10 @@ class Gallery_Management extends CI_Controller
 					$this->load->library('image_lib'); 
 					$config_resize['source_image'] 		= $file_info['full_path'];
 					$config_resize['new_image'] 		= realpath('.').'/media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/galleries/middle/';
-					/*if(!is_dir($config_resize['new_image']))
+					if(!is_dir($config_resize['new_image']))
 					{
-						mkdir($config_resize['new_image'],0777,true);
-					}*/
+						mkdir($config_resize['new_image'],0777);
+					}
 					$config_resize['maintain_ratio'] 	= TRUE;
 					$config_resize['width'] 			= 400;  
 					$config_resize['height'] 			= 300;
@@ -171,10 +171,10 @@ class Gallery_Management extends CI_Controller
 					
 					$config_resize['source_image'] 		= $file_info['full_path'];
 					$config_resize['new_image'] 		= realpath('.').'/media/ckeditor_uploads/'.$_SESSION['user_info']['user_login'].'_'.$_SESSION['user_info']['user_id'].'/galleries/thumb/';
-					/*if(!is_dir($config_resize['new_image']))
+					if(!is_dir($config_resize['new_image']))
 					{
-						mkdir($config_resize['new_image'],0777,true);
-					}*/
+						mkdir($config_resize['new_image'],0777);
+					}
 					$config_resize['maintain_ratio'] 	= FALSE;
 					$config_resize['width'] 			= 28;  
 					$config_resize['height'] 			= 28;
@@ -184,7 +184,6 @@ class Gallery_Management extends CI_Controller
 					
 				}  
 										  
-					
 				
 				$gallery_image_info['gallery_id'] 			= $gallery_id;
 				$gallery_image_info['gallery_image'] 		= $file_info['file_name'];
@@ -438,8 +437,7 @@ class Gallery_Management extends CI_Controller
 			$this->edit($site_id, $gallery_id);
 		}
 		
-	
-        //save gallery info
+		//save gallery info
 		$gallery_data = array();
 		//$gallery_data['gallery_id'] = $gallery_id;
 		$gallery_data['gallery_title'] 			= $this->input->post('slider_title');
@@ -506,7 +504,6 @@ class Gallery_Management extends CI_Controller
 			if(isset($_POST['slide_id'.$i]) && !empty($_POST['slide_id'.$i])){
 			$image_id 				= $_POST['slide_id'.$i];		  
 			}
-
 			if(!empty($_FILES['slide_image'.$i]['name']))
 			{
 				
@@ -580,8 +577,7 @@ class Gallery_Management extends CI_Controller
 	
 	function edit_gallery($site_id, $gallery_id)
 	{
-		
-        $this->edit_gallery_info($site_id, $gallery_id);		
+		$this->edit_gallery_info($site_id, $gallery_id);		
 		redirect("gallery_management/index/".$site_id);		
 	}
 	

@@ -7,31 +7,31 @@
 <script type="text/javascript"> 
   
 $("div.NFRadio").live("click",function(){
-    var id = $(this).next("input").attr("id");
-    //alert(id);
-    if(id == "display_page1")
-    {
-        $('#pages').fadeOut();
-    }    
-    if(id == "display_page2")
-    {
-        
-        
-        $('#pages').fadeIn();
-        NFFix();    
-    }
-    
-    if(id == "permissions1" || id == "permissions2")
-    {
-        $('#groups').fadeOut();
-    }    
-    if(id == "permissions3")
-    {
-        
-        
-        $('#groups').fadeIn();
-        NFFix();    
-    }
+	var id = $(this).next("input").attr("id");
+	//alert(id);
+	if(id == "display_page1")
+	{
+		$('#pages').fadeOut();
+	}	
+	if(id == "display_page2")
+	{
+		
+		
+		$('#pages').fadeIn();
+		NFFix();	
+	}
+	
+	if(id == "permissions1" || id == "permissions2")
+	{
+		$('#groups').fadeOut();
+	}	
+	if(id == "permissions3")
+	{
+		
+		
+		$('#groups').fadeIn();
+		NFFix();	
+	}
 });
 
 </script>  
@@ -41,20 +41,20 @@ $("div.NFRadio").live("click",function(){
 <style>
 
 .posttionDiv{
-    float:left; 
-    width:195px; 
-    margin:0 0 10px 0; 
+	float:left; 
+	width:195px; 
+	margin:0 0 10px 0; 
 }
 .posttionDiv label{
-    width:35px;
-    padding-right:10px;
+	width:35px;
+	padding-right:10px;
 }
 .radioDiv{
-    display:inline;
-    float:left;
+	display:inline;
+	float:left;
 }
 .textDiv{
-    float:left;
+	float:left;
 }
 </style>
 
@@ -75,7 +75,7 @@ $("div.NFRadio").live("click",function(){
 
     <form action="<?=site_url()?>Edit_Promotional_Boxe/edit_promotional_boxe" name="reg_form" id="reg_form" method="post" class="niceform">
     <input type="hidden" name="id" value="<?=$values[0]['box_id'];?>"
-        <dl>
+    	<dl>
             <dt><label for="email" class="NewsletterLabel"> Promotional Boxe Title :</label></dt>
             <dd><input type="text" name="title" id="title" size="55" value="<?=$values[0]['box_title'];?>" /></dd>
         </dl>
@@ -83,8 +83,8 @@ $("div.NFRadio").live("click",function(){
             <dt><label for="email" class="NewsletterLabel"></label></dt>
             <dd>
             <?php
-            $chk = ( $values[0]['box_show_title'] == "Yes") ? "checked=\"checked\" " : ""; 
-            ?>
+			$chk = ( $values[0]['box_show_title'] == "Yes") ? "checked=\"checked\" " : ""; 
+			?>
              <input type="checkbox" name="show_title" id="show_title" value="1" <?=$chk;?>  />   
              <label class="check_label">Show this title </label>
             </dd>
@@ -104,24 +104,24 @@ $("div.NFRadio").live("click",function(){
               <dt><label for="color" class="NewsletterLabel"></label></dt>
               <dd>
                <?php
-               
-                if($products)
-                { ?>
+			   
+				if($products)
+				{ ?>
                 <div  style=" position:relative; float:left">
                 <select name="products" size="1" style="width:360px;"> 
                 <option value="0" >Select Product</option>
                        <?php
-                       foreach($products as $product)
-                       { ?>
-                               <option value="<?=$product['product_id'];?>" <?php if($values[0]["box_product"] == $product['product_id']) { ?> selected="selected" <?php } ?> >
-                            <?=$product['product']?>
+					   foreach($products as $product)
+					   { ?>
+                       		<option value="<?=$product['product_id'];?>" <?php if($values[0]["box_product"] == $product['product_id']) { ?> selected="selected" <?php } ?> >
+							<?=$product['product']?>
                             </option>
                        <?php
-                       } ?>
+					   } ?>
                </select>
                </div>
                <?php
-                } ?>
+				} ?>
             </dd>
         </dl>
         
@@ -152,9 +152,9 @@ $("div.NFRadio").live("click",function(){
              <input type="text" name="left_input" id="left_input" size="3" />
              </div>
              
-            </div>
+			</div>
             
-            <div class="posttionDiv">
+			<div class="posttionDiv">
              <label class="check_label">Right</label>
              
              <div class="radioDiv">
@@ -183,19 +183,19 @@ $("div.NFRadio").live("click",function(){
             <dt><label for="email" class="NewsletterLabel">Published:<span class="star"> *</span> </label></dt>
             <dd>
             <?php
-                $val = $values[0]["box_publish"];
-                if($val == 1)
-                {
-                    $yes = " checked=\"checked\"";
-                    $no = "";
-                }
-                else
-                {
-                    $yes = "";
-                    $no = " checked=\"checked\"";
-                }
-                
-            ?>
+				$val = $values[0]["box_publish"];
+				if($val == 1)
+				{
+					$yes = " checked=\"checked\"";
+					$no = "";
+				}
+				else
+				{
+					$yes = "";
+					$no = " checked=\"checked\"";
+				}
+				
+			?>
             <label class="check_label">Yes</label>
              <input type="radio" name="publish" id="publish1" value="1" <?=$yes?>  />
              <label class="check_label">No</label>
@@ -255,7 +255,7 @@ $("div.NFRadio").live("click",function(){
                 </div>
                 
             </dd>
-        </dl>
+    	</dl>
            <table width="590" border="0" cellpadding="3" cellspacing="3">       
               <tr>
                 <td width="141" align="right" ><label for="page_title" class="NewsletterLabel">Primary Color :</label> </td>
@@ -274,7 +274,7 @@ $("div.NFRadio").live("click",function(){
         <dl>
               <dt><label for="color" class="NewsletterLabel">Intro Text:</label></dt>
               <dd>
-                      <textarea name="content" id="ck_content" class="ckeditor" rows="10" cols="42"><?=$values[0]['box_content'];?></textarea>
+              		<textarea name="content" id="ck_content" class="ckeditor" rows="10" cols="42"><?=$values[0]['box_content'];?></textarea>
               </dd>
         </dl>
         

@@ -607,7 +607,9 @@ Follows the nubered items below to create the order. For help with a specific it
 that is located deside the title of each item. Also, you can right-click anywhere on the page choose "Apply" to save your progress.
 </p>
 
-<?php 
+<?php
+
+
 if(isset($invoice_info[0]['username']))
 { ?>
 	<h3>Biller: <?= $invoice_info[0]['username'];?></h3>

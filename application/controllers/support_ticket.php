@@ -15,7 +15,8 @@
 		$this->load->helper(array('form', 'url'));
 		$this->load->library('Webpowerup');
 		$this->webpowerup->initialize_template();
-		
+		          //    echo '<pre>';print_r("sdfsf");echo '</pre>';exit;
+
 		if(isset($_SESSION["site_id"]) && is_numeric($_SESSION["site_id"]))
 		{
 			$this->site_id = $_SESSION['site_id'];
@@ -27,7 +28,7 @@
 			$this->site_id = $this->uri->segment(3);
 			$_SESSION['site_id'] = $this->uri->segment(3);
 		}
-
+          
       }
 
         function checkLogin()
@@ -48,7 +49,6 @@
 		
       function index()
 	  {
-			
 			
 			$this->checkLogin();
 			//echo $this->site_id.'-------------------'.$_SESSION['site_id'];exit;
@@ -214,9 +214,12 @@
          }
       }
       
-      function new_department(){
-	  
-	  	  $this->breadcrumb->clear();
+      function new_department()
+      {
+
+	  	         
+
+          $this->breadcrumb->clear();
        	  $this->breadcrumb->add_crumb('Main', $this->session->userdata("mainPage_link") );
 		  $this->breadcrumb->add_crumb('Dashboard', $this->session->userdata("dashboard_link") ); 
 		  $this->breadcrumb->add_crumb('Manage Tickets', $this->session->userdata("ticket_link") ); 
@@ -227,7 +230,6 @@
           $currSiteId = $_SESSION['current_site_info']['site_id'];
           $q = "SELECT gp.id,gp.group_name FROM groups gp,groups_sites_xref gpref WHERE gp.id = gpref.group_id AND gpref.site_id = '".$currSiteId."' ";
           $data['q'] = $this->db->query($q);
-
           $this->template->write_view('content','ticket/new_department',$data);
           $this->template->render();
 		  

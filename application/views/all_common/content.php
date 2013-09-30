@@ -206,6 +206,7 @@ if(sizeof($top_slideshows)>0)
 {
 	display:block;
 	width:100%; 
+	height:511px;
 }
 .clear
 {
@@ -682,8 +683,8 @@ if(sizeof($top_slideshows)>0)
 				<!--		LEFT SLIDESHOW IF ANY		-->
 				
 				<!--	MIDDLE CONTENT		-->
-				<div id="pageMiddleContent" style="position: absolute; <?=(isset($left_slideshows) && sizeof($left_slideshows)>0 ) ? "left: 115px;" : "left: 0;" ; ?> <?=(isset($right_slideshows) && sizeof($right_slideshows)>0 ) ? "right: 115px;" : "right: 0;" ; ?>">
-				
+				<div id="pageMiddleContent" style="position: absolute; <?=(isset($left_slideshows) && sizeof($left_slideshows)>0 ) ? "left: 115px;" : "left: 15px;" ; ?> <?=(isset($right_slideshows) && sizeof($right_slideshows)>0 ) ? "right: 115px;" : "right: 0;" ; ?>">
+				<?   //echo '----------------'.$this->session->userdata('message');//if($this->session->userdata('message')){ echo $this->session->userdata('message'); exit;}  ?>
 					<?=$content?>
 				</div>
 				<!--	MIDDLE CONTENT		-->

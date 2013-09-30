@@ -1,4 +1,5 @@
 <?php
+
 class Slideshow_Model extends CI_Model
 
 {
@@ -724,3 +725,4 @@ class Slideshow_Model extends CI_Model
 }
 
 ?>
+

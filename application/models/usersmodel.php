@@ -1,12 +1,10 @@
 <?php
 @session_start();
 class UsersModel extends CI_Model {
-    
 	function UsersModel()
 	{
 		parent::__construct();
 		$this->load->model("sitesmodel");
-		
 	}
     function admin_login($id)
 	{
@@ -92,7 +90,7 @@ class UsersModel extends CI_Model {
 				$userInfo[$key] = $val; 
 			}
 			
-			$_SESSION["user_info"] = $userInfo; 
+			$_SESSION["user_info"] = $userInfo;
 			$user_id =$userDate[0]->user_id;  
 			
 			$rowSites = $this->sitesmodel->get_all_sites_by_user($user_id);

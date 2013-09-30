@@ -44,7 +44,6 @@ class Site_preview extends CI_Controller
 	//Used to show Site's Preview(homepage)
 	function site($site_id='')
 	{
-       
 		/*echo "<pre>";
 		echo $_SESSION['user_info']['user_id'];
 		print_r($_SESSION['user_info']);
@@ -231,12 +230,14 @@ class Site_preview extends CI_Controller
 		 /***********	Basic Menu Start		************/
 		
 		$top_site_menu_basic =  $this->Menus_Model->top_navigation_default($site_id,$is_seo_enabled);
+                
+        $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
+
 		  
 		$dataMenu = $top_site_menu_basic;
 		//print_r($temp_name);	die();
 		$top_site_menu_basic = $this->Menus_Model->make_menu_top_old($dataMenu,'preview',$is_seo_enabled,$temp_name); 	// menu without style
-		$data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
-
+		
 		
 		$data['menu'] =  $top_site_menu_basic;	
 		
@@ -442,8 +443,7 @@ class Site_preview extends CI_Controller
 		if(isset($Regions['leftbar']))
 		//case: template with leftbar & rightbar regions to show left menus in leftbar and right menus in rightbar regions respectively
 		{
-			//echo "doesnot exist";	
-            //DebugBreak();		
+			//echo "doesnot exist";			
 			$data['left_menus'] = $this->my_template_menu->getLeftbar($site_id, $page_id);
 			
 			$data['private_page_users'] =  $this->Menus_Model->get_private_users_Pages($site_id);
@@ -538,6 +538,7 @@ class Site_preview extends CI_Controller
 	function page($site_id, $page_id="")
 	{
 		//echo $site_id;exit;
+		
 		$_SESSION['site_id'] = $site_id; 
 		if($page_id != "")
 		{
@@ -706,7 +707,6 @@ class Site_preview extends CI_Controller
 		}
 		
 		//get site template
-        //DebugBreak();
 		$temp_name =  $this->my_template_menu->set_get_template($site_id); 
 		$color_scheme_css =  $this->my_template_menu->set_site_color_scheme($site_id);
 		$this->template->add_css($color_scheme_css,'embed');
@@ -753,6 +753,9 @@ class Site_preview extends CI_Controller
 	   /***********	Basic Menu Start		************/
 		
 		$top_site_menu_basic =  $this->Menus_Model->top_navigation_default($site_id,$is_seo_enabled);
+        
+                $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
+
 		  
 		$dataMenu = $top_site_menu_basic;
 		
@@ -773,7 +776,6 @@ class Site_preview extends CI_Controller
 		{
 			$site_user_id = $_SESSION['user_info']['user_id'];
 		}
-        //DebugBreak();
 		$other_top_navigation =  $this->Menus_Model->top_navigation_eshop($site_id, $site_user_id); 
 		if(count($other_top_navigation)>1) //when shop is not active login links show default
 		{			
@@ -826,15 +828,9 @@ class Site_preview extends CI_Controller
 			$user_id = "";
 		}
 		$main_menu_id = $main_menu_id['menu_id'];
-        //DebugBreak();
-        $data['main_menu_form_links'] =  $this->Menus_Model->fetch_reg_frm_menu($site_id, $user_id, $main_menu_id);
-		//$data['_id'] = $main_menu_id;
-        
-        
-        $data['registartion_menue'] =  $this->Menus_Model->get_registartion_menue($site_id);
+		$data['main_menu_form_links'] =  $this->Menus_Model->fetch_reg_frm_menu($site_id, $user_id, $main_menu_id);
 		// 28 March - Mohsin
 		
-        //echo '<pre>';print_r($data['registartion_menue']);
 		$top_site_menu_advance =  $this->my_template_menu->getTopNavigation($site_id, $page_id); 
 		
 		
@@ -1163,7 +1159,7 @@ class Site_preview extends CI_Controller
 	function create_gallery_html($gallery_data, $temp_name)
 	{
 		
-		//echo "<pre>";print_r($gallery_data);echo "</pre>";
+		//echo "<pre>";print_r($gallery_data);echo "</pre>";  exit();
 		$gallery_html = '';		
 		$thumb_image_js_file_included = 0;
 		for($i =0; $i<count($gallery_data); $i++)
@@ -1206,10 +1202,10 @@ class Site_preview extends CI_Controller
 			
 			$gallery_images = $this->Gallery_Model->get_gallery_images($gallery_data[$i]['gallery_id']);
 		
-			$image_path = base_url()."media/ckeditor_uploads/".$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id']."/galleries/middle/";
+			$image_path = base_url()."media/ckeditor_uploads/".$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id']."/galleries/";
 			$result = $this->Video_Gallery_Model->get_user_of_site($_SESSION['site_id']);
 	
-			$image_path = base_url().'media/ckeditor_uploads/'.$result[0]['user_login'].'_'.$result[0]['user_id'].'/galleries/middle/';
+			$image_path = base_url().'media/ckeditor_uploads/'.$result[0]['user_login'].'_'.$result[0]['user_id'].'/galleries/';
 			//echo "<pre>";print_r($gallery_images);exit;
 			if(isset($gallery_data[$i]['folder_name']) && $gallery_data[$i]['folder_name'] == 'imageflow')
 			{
@@ -1323,7 +1319,7 @@ class Site_preview extends CI_Controller
 		// ['login_info']['customer_id']
 		$output = "<div class=\"group_join_content_button\">";
 		$output.= "<a href=\" ".$link." \">";
-		$output.= "JOIN GROUP NOW";
+		$output.= img('media/ckeditor_uploads/'.$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id'].'/'.$button['group_join_button']);
 		$output.= "</a>";
 		
 		$output.= "</div>";
@@ -1334,7 +1330,7 @@ class Site_preview extends CI_Controller
 	function create_video_html($video_gallery_data,$site_id)
 	{
 		
-		// DebugBreak();
+		
 		$video_html ='';
 		$video_html .= '<link type="text/css" rel="stylesheet" href="http://www.webpowerup.com/video_gallery/stylesheets/style.css" />';
 			$video_html .=  '<script type="text/javascript" src="http://gettopup.com/releases/latest/top_up-min.js"></script>';
@@ -1436,10 +1432,10 @@ class Site_preview extends CI_Controller
 		$content .= $cf_html;
 		//Gallery Image
 		//$gallery_data = $this->Gallery_Model->gallery_count($page_id);		
-		
+		//echo $page_id;exit();
 		$gallery_data = $this->Gallery_Model->get_all_gallery_data($_SESSION['site_id'], $page_id);
 		
-		// echo "<pre>";	print_r($gallery_data); echo "</pre>";exit;
+		//echo "<pre>";	print_r($gallery_data); echo "</pre>";exit;
 		//$gallery_data = $this->Gallery_Model->get_all_gallery_data($page_id);
 		
 		if(count($gallery_data)>0)
@@ -1767,7 +1763,8 @@ class Site_preview extends CI_Controller
 			
 			// GROUP JOIN BUTTON 
 			$group_buttons = $this->Pages_Model->get_join_group_button_by_page_id($page_id);
-			
+			/*echo "<pre>";
+			print_r($group_buttons);exit;*/
 			if($group_buttons)
 			{
 				foreach($group_buttons as $button)
