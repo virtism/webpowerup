@@ -63,6 +63,24 @@
 		$this->template->render();
       
       }
+      function NLgroup_user_listing($id)
+      { 
+      
+        $news_link = current_url();
+        $this->session->set_userdata("news_link", $news_link);        
+        $this->breadcrumb->clear();
+        $this->breadcrumb->add_crumb('Main', $this->session->userdata("mainPage_link") );
+        $this->breadcrumb->add_crumb('Dashboard', $this->session->userdata("dashboard_link") ); 
+        $this->breadcrumb->add_crumb('Newsletter Management' );              
+        //$show_data['newsletter']               = $this->Newsletter_Model->get_all_newsletter();
+        //$show_data['newsletter_group']         = $this->Newsletter_Model->get_newsletter_groups('', $_SESSION['site_id']);
+        $show_data['NLgroup_lising']           = $this->Newsletter_Model->get_userBy_NLgroup($id , $_SESSION['site_id']);
+        //echo '<pre>'; print_r($show_data['NLgroup_lising']);exit;    
+        //echo '<pre>'; print_r($show_data['newsletter_group']); exit;        
+        $this->template->write_view('content','newsletter/NLgroup_user_listing',$show_data);
+        $this->template->render();
+      
+      }
    
       // view individual contact page description 
      function  view_newsletter ()
@@ -101,6 +119,13 @@
       {
          $this->Newsletter_Model->delete_newsletter_group($group_id, $_SESSION['site_id']);
          redirect(base_url().index_page().'Newsletter_Management');   
+      }
+      function delete_NLgroup_user($user_id , $site_id , $group_id)
+      {
+          $this->Newsletter_Model->delete_NLgroup_user($user_id , $site_id);
+          redirect(base_url().index_page().'Newsletter_Management/NLgroup_user_listing/'.$group_id);
+          
+          
       }
       
       // method to send newsletter throughh admin

@@ -1,12 +1,98 @@
 <script language="javascript" type="text/javascript" src="<?=base_url()?>ckeditor/ckeditor.js"></script>
 <script type="text/javascript">
-$("div.NFRadio").live("click",function(){ 
-if(id == "rdoPosition2")
+
+
+$("div.NFRadio").live("click",function(){
+    var id = $(this).next("input").attr("id");
+    
+     //alert("asdasd");
+    if(id == "rdoPublished3")
     {
+        $("#schedular").fadeIn();
+    }
+    if(id == "rdoPublished1" || id == "rdoPublished2")
+    {
+        $("#schedular").fadeOut();
+    }
+    
+    if(id == "rdodisplay1")
+    {
+        $('#pages').fadeOut('slow');
+                 
+    }
+    
+    if(id == "rdodisplay2")
+    {
+        //alert(' page 2 comdition');
+        
+        /*var commonWidth = 205;
+        var commonHeight = "90px";
+        $("#pages").children().children("div:nth-child(2n+1)").css({
+           width : 205,
+           height:"10px"
+           
+        });
+         
+         $("#pages").children().children("div:nth-child(2)").css({
+           width : commonWidth+5,
+           height:commonHeight
+           
+        }); 
+        $("#pages").children().children("div:nth-child(2)").children("div").css({
+           width : "5px",
+           height:"82px"
+        });
+        $("#pages").children().children("div:nth-child(2)").children("select").css({
+           width : commonWidth-5,
+           height:commonHeight,
+           position: 'static'
+          
+        });*/
+        
+        
         $('#pages').fadeIn('slow');  
         NFFix(); 
+    } 
+    
+    if(id == "rdoRights1" || id == "rdoRights2")
+    {
+        $('#roles').fadeOut('slow');        
     }
-})
+    
+    if(id == "rdoRights3" )
+    {
+        /*var commonWidth = 205;
+        var commonHeight = "90px";
+        
+        $("#roles").children().children("div:nth-child(2n+1)").css({
+           width : 205,
+           height:"10px"
+           
+        });
+         
+         $("#roles").children().children("div:nth-child(2)").css({
+           width : commonWidth+5,
+           height:commonHeight
+           
+        }); 
+        $("#roles").children().children("div:nth-child(2)").children("div").css({
+           width : "5px",
+           height:"82px"
+        });
+        $("#roles").children().children("div:nth-child(2)").children("select").css({
+           width : commonWidth-5,
+           height:commonHeight,
+           position: 'static'
+          
+        });*/
+        
+        $('#roles').fadeIn('slow');   
+        NFFix();     
+    }
+    
+});
+
+
 </script>
 
 
@@ -55,10 +141,10 @@ if(id == "rdoPosition2")
                </dt>
                <dd>
                     <label class="check_label">All Pages</label>
-                    <input type="radio" value="yes" name="displayonpage" id="rdoPosition1" checked="checked" <?php if($id != ''){if($dispaly_page == 'yes'){echo 'checked="checked"';}}else{echo 'checked="checked"';}?> />
+                    <input type="radio" value="no" name="displayonpage" id="rdodisplay1" checked="checked" <?php if($id != ''){if($dispaly_page == 'no'){echo 'checked="checked"';}}else{echo 'checked="checked"';}?> />
                     
                     <label class="check_label">Some Pages</label>
-                    <input type="radio" value="no" name="displayonpage" id="rdoPosition2" <?php if($dispaly_page == 'no'){echo 'checked="checked"';}?>  />
+                    <input type="radio" value="yes" name="displayonpage" id="rdodisplay2" <?php if($dispaly_page == 'yes'){echo 'checked="checked"';}?>  />
                     <div id="pages" style="display: none; clear:both;">
                         <div  style=" position:relative; margin-top:15px; float:left;">
                         <select id="lstPages" name="lstPages[]" multiple="multiple" size="5" style="width:360px;">

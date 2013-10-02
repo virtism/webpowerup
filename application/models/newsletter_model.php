@@ -119,12 +119,7 @@ if(isset($groups) && sizeof($groups) >0)
         redirect(base_url().index_page().'Newsletter_Management'); 
     }
     
-    function delete_newsletter_group($id, $site_id)
-    {
-        $this->db->where('newsgroup_id',$id);
-        $this->db->where('newsgroup_site_id',$site_id);
-        $this->db->delete('newslettergroups');
-    }
+    
     
      //Method to edit contact data
     function update_newsletter ($reg_form_data = array(),$site_id)
@@ -338,7 +333,7 @@ if(isset($groups) && sizeof($groups) >0)
 			return $member_array;
 	}
     
-    
+ ////////////////////////////////////////this section is for news letter group/////////////////////////////   
     function save_newsletter_group($data)
      {
          if($data['newsgroup_id'] != "")
@@ -353,16 +348,58 @@ if(isset($groups) && sizeof($groups) >0)
          return true;
     
      }
+     
      function get_newsletter_groups ($id = false, $site_id)
      {
          if($id != ''){
-         $this->db->where('newsgroup_id', $id);
+         $this->db->where_in('newsgroup_id', $id);
          }
          $this->db->where('newsgroup_site_id',$site_id);
          $result = $this->db->get('newslettergroups');
          return $result->result();
          
-     } 
+     }
+     function get_newsletter_groups_all ($id = false, $site_id)
+     {
+         if($id != ''){
+         $this->db->where_in('newsgroup_id', $id);
+         }
+         $this->db->where('newsgroup_page', 'no');
+         $this->db->where('newsgroup_site_id',$site_id);
+         $result = $this->db->get('newslettergroups');
+         return $result->result();
+         
+     }
+     
+     function save_group_NLuser($data)
+     {
+         
+       $this->db->insert('user_entry_newslettergroup', $data);
+       return true;   
+     }
+     
+     function get_userBy_NLgroup($id , $site_id)
+     {
+         $this->db->where('newsgroup_id',$id);
+         $this->db->where('site_id',$site_id); 
+         $result            = $this->db->get('user_entry_newslettergroup');
+         return $result->result();
+          
+     }
+     
+    function delete_newsletter_group($id, $site_id)
+    {
+        $this->db->where('newsgroup_id',$id);
+        $this->db->where('newsgroup_site_id',$site_id);
+        $this->db->delete('newslettergroups');
+    }
+    
+    function delete_NLgroup_user($id , $site_id)
+    {
+        $this->db->where('id',$id);
+        $this->db->where('site_id',$site_id);
+        $this->db->delete('user_entry_newslettergroup');
+    } 
     
 }
 ?>

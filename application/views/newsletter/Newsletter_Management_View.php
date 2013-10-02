@@ -115,7 +115,9 @@ $(document).ready(function(e) {
  <div class="PageDetail">
 <h2>Newsletter Group Listing</h2>
 </div>
+
 <div class="DataGrid2">
+        <a <?php if($this->session->flashdata('group_success_send')!=''){echo "style = 'background: greenyellow'";}?>> <?php echo $this->session->flashdata('group_success_send');?></a>
         <ul>
             <li>Subject </li>
             
@@ -133,12 +135,12 @@ $(document).ready(function(e) {
                  $link = "";
                 //if($row['news_date_sent'] == '' || $row['news_date_sent'] == 'NULL')
                 //{
-                  $link='<a href=" '. base_url().index_page().'Newsletter_Management/send_newsletter_admin/'.$row->newsgroup_id.' " >   [Click Here To Send]</a>|';  
+                  $link='<a href=" '. base_url().index_page().'Create_Newsletter/sent_newsletter_toAll/'.$row->newsgroup_id.' " >   [Click Here To Send]</a>|';  
                 //}
              ?>   
                 <ul>
                     <li>
-                        <?=$row->newsgroup_name;?> 
+                        <a href="<?php echo base_url().index_page().'Newsletter_Management/NLgroup_user_listing/'.$row->newsgroup_id; ?>"><u><?=$row->newsgroup_name;?></u> </a>
                     </li>
                     <!--<li>
                         <?=$row->news_body;?> 

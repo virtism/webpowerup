@@ -1,5 +1,4 @@
 <?php
-
 //class definition for Admin_model
 
 class Admin_model extends CI_Model
@@ -110,4 +109,3 @@ class Admin_model extends CI_Model
 }
 
 ?>
-

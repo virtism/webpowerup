@@ -26,7 +26,222 @@
     background-image: linear-gradient(#b0d0cf, #B7EDFF);
 	margin-bottom:5px;
 }
+
+
+
+
+    div.newsletter
+    {
+        display: table;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+
+        background: rgba(255,255,255,0.4);
+        border: 1px solid #b8b8b8;
+        padding: 5px;
+    }
+
+    div.email-wrapper
+    {
+        float: left;
+    }
+
+    div.email-wrapper input[type=text]
+    {
+        border: 1px solid #cacaca;
+        background: white;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        padding: 10px 15px;
+
+        color: #9f9e9e;
+
+        -moz-box-shadow: inset 0 2px 11px -5px rgba(0,0,0,0.5);
+        -webkit-box-shadow: inset 0 2px 11px -5px rgba(0,0,0,0.5);
+        box-shadow: inset 0 2px 11px -5px rgba(0,0,0,0.5);
+    }
+    div.email-wrapper input[type=text]:hover
+    {
+        -moz-box-shadow: inset 0 2px 11px -5px rgba(0,0,0,0.8);
+        -webkit-box-shadow: inset 0 2px 11px -5px rgba(0,0,0,0.8);
+        box-shadow: inset 0 2px 11px -5px rgba(0,0,0,0.8);
+    }
+
+    div.submit-wrapper
+    {
+        /*float: right;*/
+        margin-left: 10px;
+    }
+
+    div.submit-wrapper input[type=submit]
+    {
+        border: 1px solid #59a751;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        padding: 10px 25px;
+        text-shadow: 0px 1px 0px rgba(0,0,0,.3);
+
+        color: white;
+
+        background: #58bef1; /* Old browsers */
+        background: -moz-linear-gradient(top, #58bef1 0%, #58bef1 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66c975), color-stop(100%,#52bd5f)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #58bef1 0%,#58bef1 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #58bef1 0%,#58bef1 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #58bef1 0%,#58bef1 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #58bef1 0%,#58bef1 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c975', endColorstr='#52bd5f',GradientType=0 ); /* IE6-9 */
+
+        -moz-box-shadow: inset 0 3px -2px -2px rgba(255,255,255,0.4);
+        -webkit-box-shadow: inset 0 3px -2px -2px rgba(255,255,255,0.4);
+        box-shadow: inset 0 3px -2px -2px rgba(255,255,255,0.4);
+
+        cursor: pointer;
+    }
+
+    div.submit-wrapper input[type=submit]:hover
+    {
+        background: #66c975; /* Old browsers */
+        background: -moz-linear-gradient(top, #58bef1 0%, #58bef1 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66c975), color-stop(100%,#48a057)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #58bef1 0%,#58bef1 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #58bef1 0%,#58bef1 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #58bef1 0%,#58bef1 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #58bef1 0%,#58bef1 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c975', endColorstr='#48a057',GradientType=0 ); /* IE6-9 */
+    }
+    div.submit-wrapper input[type=submit]:active
+    {
+        background: #66c975; /* Old browsers */
+        background: -moz-linear-gradient(top, #58bef1 0%, #58bef1 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66c975), color-stop(100%,#89b780)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #58bef1 0%,#58bef1 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #58bef1 0%,#58bef1 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #58bef1 0%,#58bef1 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #58bef1 0%,#58bef1 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c975', endColorstr='#89b780',GradientType=0 ); /* IE6-9 */
+    }
+
+    
+/**
+ *  END FREEBIE STYLES
+ */
+    
+
+/**
+ *    Not important styles
+ */
+
+
+   
 </style>
+<?php
+    if($newsletter_groups_a!='')
+    {
+        foreach($newsletter_groups_a as $newsletter_groups_all)
+        {
+            if($newsletter_groups_all->newsgroup_position == 'Right')
+            {
+                 
+           
+               if($this->config->item('seo_url') == 'On')
+				{?>
+ 						<form action="<?='http://'.$_SERVER['SERVER_NAME']?>/Create_Newsletter/save_newsletter_user/" method="post">				
+				<? }
+				else
+				{?>
+						<form action="<?=base_url().index_page()?>Create_Newsletter/save_newsletter_user/" method="post">
+				<? }			
+				?>	
+                <input type="hidden" value="<?php echo $newsletter_groups_all->newsgroup_id;?>" name="NL_group_id">
+                <input type="hidden" name="url" value="<?php echo $this->uri->uri_string();?>">
+                <div> <?php echo $this->session->flashdata('success_msg');?></div>
+                <div id="content">
+                    <ul id="newsletter-freebie">
+                        <li>
+                            <!-- Start Freebie -->
+                            <div class="newsletter">
+                            <div id="smalltext"> <h3>Subscribe to Our Newsletter</h3></div>
+                            <div id="smalltext"> </div> 
+                                <div class="email-wrapper">
+                                    <label style="float: left; background: none; color: black;"> Name</label>
+                                    <input align="middle" placeholder="User Name"  style="float: left;" type="text" id="name" name="user_name" value=""/>
+                                    <div> <?php echo $this->session->flashdata('error_name');?></div> 
+                                    <label style="float: left; background: none; color: black;"> Email</label>
+                                    <input align="middle" style="float: left;" placeholder="email@email.com" type="text" id="email" name="user_email" value=""/>
+                                    <div> <?php echo $this->session->flashdata('error_email');?></div> 
+                                </div>
+                                <div class="submit-wrapper">
+                                    <input type="submit" id="sub-news" name="sub-news" value="Subscribe"/>
+                                </div>
+                            </div>
+                            <!-- End Freebie -->
+                        </li>
+                    </ul>
+                </div>
+                </form>
+            <?php                
+            }  
+        }
+        
+    }
+
+?>
+</br>
+<?php
+    if($newsletter_groups_p!='')
+    {
+        foreach($newsletter_groups_p as $newsletter_groups_show)
+        {
+            if($newsletter_groups_show->newsgroup_position == 'Right')
+            {
+                 
+           		if($this->config->item('seo_url') == 'On')
+				{?>
+ 						<form action="<?='http://'.$_SERVER['SERVER_NAME']?>/Create_Newsletter/save_newsletter_user/" method="post">				
+				<? }
+				else
+				{?>
+						<form action="<?=base_url().index_page()?>Create_Newsletter/save_newsletter_user/" method="post">
+				<? }			
+				?>	
+                <input type="hidden" value="<?php echo $newsletter_groups_show->newsgroup_id;?>" name="NL_group_id">
+                <input type="hidden" name="url" value="<?php echo $this->uri->uri_string();?>">
+                <div> <?php echo $this->session->flashdata('success_msg');?></div>
+                <div id="content">
+                    <ul id="newsletter-freebie">
+                        <li>
+                            <!-- Start Freebie -->
+                            <div class="newsletter">
+                            <div id="smalltext"> <h3>Subscribe to Our Newsletter</h3></div>
+                            <div id="smalltext"> </div> 
+                                <div class="email-wrapper">
+                                    <label style="float: left; background: none; color: black;"> Name</label>
+                                    <input align="middle" placeholder="User Name"  style="float: left;" type="text" id="name" name="user_name" value=""/>
+                                    <div> <?php echo $this->session->flashdata('error_name');?></div> 
+                                    <label style="float: left; background: none; color: black;"> Email</label>
+                                    <input align="middle" style="float: left;" placeholder="email@email.com" type="text" id="email" name="user_email" value=""/>
+                                    <div> <?php echo $this->session->flashdata('error_email');?></div> 
+                                </div>
+                                <div class="submit-wrapper">
+                                    <input type="submit" id="sub-news" name="sub-news" value="Subscribe"/>
+                                </div>
+                            </div>
+                            <!-- End Freebie -->
+                        </li>
+                    </ul>
+                </div>
+                </form>
+            <?php                
+            }  
+        }
+        
+    }
+
+?>
 <?php
 if(!isset($mode))
 {
