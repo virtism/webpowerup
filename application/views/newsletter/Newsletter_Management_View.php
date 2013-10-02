@@ -117,7 +117,7 @@ $(document).ready(function(e) {
 </div>
 
 <div class="DataGrid2">
-        <a <?php if($this->session->flashdata('group_success_send')!=''){echo "style = 'background: greenyellow'";}?>> <?php echo $this->session->flashdata('group_success_send');?></a>
+        <a <?php if($this->session->flashdata('group_success_send')!=''){echo "style = 'color:greenyellow'";}?>> <?php echo $this->session->flashdata('group_success_send');?></a>
         <ul>
             <li>Subject </li>
             

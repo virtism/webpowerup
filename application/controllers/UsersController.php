@@ -101,13 +101,25 @@ class UsersController extends CI_Controller {
 	}
 	
 	//loads myaccount.php(view)
-	function myaccount()
+	function myaccount($user_id = false)
 	{
+        $data['user'] = '';
 		$this->webpowerup->hide_left_menu();
 		$this->webpowerup->hide_top_content();
 		//confirm user is logged in
-		$this->checkLogin();
-		$status = $this->UsersModel->get_status($_SESSION['user_info']['user_id']);
+        $seccession = $this->session->all_userdata();
+       // echo '<pre>'; print_r($seccession['user_info']['user_type']); exit;
+        if($_SESSION == '' || $seccession['user_info']['user_type'] == '0' ){
+		    $this->checkLogin();
+		    $status = $this->UsersModel->get_status($_SESSION['user_info']['user_id']);
+         }
+         if( $seccession['user_info']['user_type'] == '1')
+         {
+             $data['user'] = $this->UsersModel->get_user_details_by_user_id($user_id);
+             //echo '<pre>'; print_r($data['user']['0']); exit;
+         }
+         
+         
 		if($status == "Suspend")
 		{
 			redirect("UsersController/upgrade_package");
@@ -1117,13 +1129,23 @@ class UsersController extends CI_Controller {
 		
 	}
 	
-	function changePassword()
+	function changePassword($user_pId = false)
 	{
+        $seccession = $this->session->all_userdata();
+        if($_SESSION == '' || $seccession['user_info']['user_type'] == '0' ){
+            $this->checkLogin();
+            $data['user_id'] = $_SESSION['user_info']['user_id'];
+         }
+         if( $seccession['user_info']['user_type'] == '1')
+         {
+             $user_detail = $this->UsersModel->get_user_details_by_user_id($user_pId);
+             $data['user_id'] = $user_detail['0']['user_id'];
+             //echo '<pre>'; print_r($data['user_id']); exit;
+         }
 		//confirm user is logged in
-		$this->checkLogin();
 		
 		//load view
-		$data['user_id'] = $_SESSION['user_info']['user_id'];
+		
 		$data['message'] = ''; 
 		$this->template->write_view('content', 'changePassword', $data);
 		$this->template->render();    
@@ -1233,6 +1255,7 @@ Thank you for using WebPowerUp.
  }
 	function updatePassword()
 	{
+       //echo $this->input->post('user_id');exit;
 		$this->UsersModel->updatePassword();
 		$data['message'] = 'Your password has been changed successfully.';
 		$this->template->write_view('content', 'changePassword', $data);
@@ -1240,11 +1263,11 @@ Thank you for using WebPowerUp.
 	}
 	
 	//checks if the password is correct for this logged in user, form posted from changePassword.php (view)
-	function isUserPassword()
+	function isUserPassword($user_id = false)
 	{
     
 		//echo "sfsssfsfsdfsfs";
-		$boolFlag = $this->UsersModel->isUserPassword();
+		$boolFlag = $this->UsersModel->isUserPassword($user_id);
 		
 		if($boolFlag == 'TRUE')
 		{

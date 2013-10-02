@@ -1,0 +1,311 @@
+/* Main CSS Start */
+body {
+	background:url(../images/bg.gif) repeat-x #fff left 25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+#wrapper {
+	width: 901px;
+	margin: 0 auto;
+}
+/* Main CSS End */
+#header {
+margin:48px 0 4px 0 ;
+}
+p, label{
+font-family:Arial, Helvetica, sans-serif;
+color:#666666;
+font-size:14px;
+line-height:22px;
+}
+a{
+text-decoration:none;
+}
+.logo {
+width:344px;
+float:right;
+display:block;
+margin: 0 0 2px 0;
+}
+/* Header CSS End */
+/* Menu CSS Start */
+#menu {
+    float: left;
+    margin: 20px 0 0;
+    width: 550px;
+}
+#menu ul {
+list-style:none;
+padding:0;
+}
+#menu ul li {
+float:left;
+display:block;
+padding: 6px 12px;
+}
+#menu ul li a{
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#333333;
+text-decoration:none;
+display:block;
+}
+#menu ul li a:hover{
+}
+#menu ul li a.active{
+border-bottom:#000 5px solid !important;
+display:block;
+}
+#banner{
+background:url(../images/banner.jpg) no-repeat left top;
+height:198px;
+padding:40px 0 0 25px;
+}
+#banner label{
+font-family:Arial, Helvetica, sans-serif;
+font-size:39px;
+color:#FFFFFF;
+display:block;
+font-weight:bold;
+padding: 0 0 14px;
+}
+#banner p{
+font-family:Arial, Helvetica, sans-serif;
+font-size:15px;
+color:#FFFFFF;
+display:block;
+font-weight:normal;
+
+
+}
+#content {
+background:white;
+padding:60px 0 0 0;
+}
+.side_bar {
+    margin: 0 0 10px 0;
+    width: 285px;
+}
+
+.side_bar label{
+font-weight:bold;
+display:block;
+background:#58bef1;
+color:#FFFFFF;
+padding:15px 10px;
+margin: 0 0 4px;
+}
+.links_area{
+background:#f0eeef;
+border-bottom: 1px solid #E1E1E1;
+border-left: 1px solid #E1E1E1;
+border-right: 1px solid #E1E1E1;
+}
+.links_area ul li{
+border-bottom:#E1E1E1 1px solid;
+padding:5px 0 5px 10px;
+}
+.links_area ul li a{
+color:#666666;
+font-size:14px;
+}
+.links_area ul li a:hover{
+color:#000;
+font-style:italic;
+font-size:14px;
+}
+.links_area ul li a.active{
+color:#000;
+font-size:14px;
+}
+/* Footer CSS Start */
+#footer {
+border-bottom:#4cb2e5 8px solid;
+margin:10px auto;
+width:100%;
+}
+.footer{
+	width: 901px;
+	margin: 0 auto;
+	padding:20px 0 0 0;
+	height:61px;
+	text-align:center;
+	border-top:#999999 1px solid;
+}
+
+/* Footer CSS End */
+/* ********************Login Form*********************************** */
+.right_side{
+	float:left;
+	width:500px;
+	}
+.login {
+    background:#fff;
+    padding: 10px !important;
+    width: 500px;
+}
+.login ul li{
+padding:0 0 32px 0;
+display:block;
+}
+.login ul li label{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#666;
+display:block;
+float:left;
+width:175px;
+padding:0 15px 0 0;
+text-transform:capitalize;
+}
+.the_form_below{
+		color: #000000;
+    font-size: 12px;
+    text-transform: none !important;
+	padding:10px 0 !important;
+	}
+.forgot_passwrd {
+    background:#fff;
+    padding: 10px;
+    width: 500px;
+}
+.forgot_passwrd p{
+	padding:5px 0 12px 0;
+	display:block;
+}
+.forgot_passwrd ul li{
+padding:0 0 18px 0;
+display:block;
+}
+.forgot_passwrd ul li label{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#000;
+display:block;
+float:left;
+width:75px;
+padding:0 15px 0 0;
+text-transform:capitalize;
+}
+
+
+.acccept{
+	margin:0 0 0 187px;
+	font-size:13px;
+	text-transform: none;
+}
+.logout{
+font-family:Arial, Helvetica, sans-serif;
+font-size:20px;
+font-weight:normal;
+color:#000;
+display:block;
+padding:0 15px 0 0;
+text-transform:capitalize;
+
+	}
+.login ul li input{
+float:left;
+display:block;
+}
+#gp_drop_down{
+	float:left;
+display:block;
+
+	}
+.p1 {
+    display: block;
+    float: left;
+    margin: 0 4px!important;
+    padding: 0 !important;
+	text-transform:none;
+	font-size:12px;
+}.tabdljj{
+	float:left;
+	}
+	.gender{
+	display: block;
+    float: left;
+    height: 30px;
+	margin: 0 11px 0 0;
+	width:70px;
+		}
+	.gender input {
+    display:inline-block;
+	border:none;
+	background:none;
+    float: left;
+    height: 15px !important;
+    margin: 3px 0 0 !important;
+    padding: 0 0 0 0 !important;
+	width:15px;
+}
+.input_field{
+background:#E1E1E1;
+border-top:#ccc 2px solid;
+border-left:#ccc 2px solid;
+border-bottom:#fff 1px solid;
+border-right:#fff 1px solid;
+color:#000;
+}
+.button{
+background:#E1E1E1;
+border-top:#fff 2px solid!important;
+border-left:#fff 2px solid!important;
+border-bottom:#ccc 2px solid!important;
+border-right:#ccc 2px solid!important;
+color:#000!important;
+width:70px !important;
+font-weight:bold;
+}
+.forgot_pass{
+text-decoration:underline;
+color: #EC981F;
+float:left;
+display:block;
+}
+.login, .forgot_passwrd label{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:15px;
+	text-transform:uppercase;
+	padding:10px 0 12px 0;
+	display:block;
+}
+
+<!-----------------Login Bar-------------------------->
+#top-login-bar{
+	background:#000;
+	border:#000 5px solid;
+	}
+.login-bar{
+height:25px;
+width:901px;
+margin:0 auto;
+}
+.login-bar ul{
+float:right;
+list-style:none;
+}
+.login-bar ul li{
+float:left;
+padding:3px 10px;
+display:block;
+}
+.login-bar ul li a{
+color:#fff;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+}
+.blank_page_message{
+color:#F00;
+font-family:Arial, Helvetica, sans-serif;
+font-size:24px;
+}
+
+.left_side{
+	float:left;
+	width:300px;
+	}

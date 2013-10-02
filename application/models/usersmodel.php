@@ -598,8 +598,13 @@ class UsersModel extends CI_Model {
 	}
 	function updatePassword()
 	{
-		$user_password = $this->input->post('txtNewPassword');
-		$user_id = $_SESSION['user_info']['user_id'];
+		$user_password          = $this->input->post('txtNewPassword');
+		$user_id                = $_SESSION['user_info']['user_id'];
+        $seccession             = $this->session->all_userdata();
+        if( $seccession['user_info']['user_type'] == '1')
+         {
+             $user_id           = $this->input->post('user_id');
+         }
 		$qryUpdatePassword = "UPDATE users SET user_password='".md5($user_password)."' WHERE user_id=".$user_id;
 		$this->db->query($qryUpdatePassword);
 		return;
@@ -618,9 +623,10 @@ class UsersModel extends CI_Model {
 	}
 	
 	//checks if the password provided in correct for this user, ajax call from changePassword.php(view)
-	function isUserPassword()
+	function isUserPassword($user_id)
 	{
-		$user_id = $_SESSION['user_info']['user_id'];
+		//$user_id = $_SESSION['user_info']['user_id'];
+        
 		$user_password = $this->input->post('password');
 		$pwd = md5($user_password);
 		$qryUserPassword = "SELECT user_id FROM users WHERE user_id=".$user_id." AND user_password='".$pwd."'";  

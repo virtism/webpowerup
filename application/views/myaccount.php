@@ -152,7 +152,7 @@ function setLogin(user_login)
 
 <div class="form">
 	<form action="<?=base_url().index_page()?>UsersController/updateUserInfo" method="post" id="frmMyAccount" name="frmMyAccount" class="niceform">
-    <input type="hidden" name="user_id" value="<?=$_SESSION['user_info']['user_id']?>" />
+    <input type="hidden" name="user_id" value="<?php if($user !=""){echo $user['0']['user_id'];}else{echo $_SESSION['user_info']['user_id'];}?>" />
     
     
     <dl>
@@ -161,7 +161,7 @@ function setLogin(user_login)
              
        </dt>
        <dd> 
-            <input type="text" id="user_fname" name="user_fname" maxlength="30" value="<?=$_SESSION['user_info']['user_fname']?>" size="55"  />
+            <input type="text" id="user_fname" name="user_fname" maxlength="30" value="<?php if($user !=""){echo $user['0']['user_fname'];}else{echo $_SESSION['user_info']['user_fname'];}?>" size="55"  />
 
        </dd>
 	</dl>
@@ -171,7 +171,7 @@ function setLogin(user_login)
              
        </dt>
        <dd>
-            <input type="text" name="user_lname" id="user_lname" maxlength="30" value="<?=$_SESSION['user_info']['user_lname']?>" size="55"  />
+            <input type="text" name="user_lname" id="user_lname" maxlength="30" value="<?php if($user !=""){echo $user['0']['user_lname'];}else{echo $_SESSION['user_info']['user_lname'];}?>" size="55"  />
        </dd>
 	</dl>
     
@@ -180,7 +180,7 @@ function setLogin(user_login)
            <label for="" class="NewsletterLabel">User Login</label>
        </dt>
        <dd>
-       		<?=$_SESSION['user_info']['user_login']?>
+       		<?php if($user !=""){echo $user['0']['user_login'];}else{echo $_SESSION['user_info']['user_login'];}?>
        </dd>
 	</dl>
     
@@ -189,7 +189,7 @@ function setLogin(user_login)
             <label for="" class="NewsletterLabel">Email Address</label>
        </dt>
        <dd>
-       		<?=$_SESSION['user_info']['user_email']?>
+       		<?php if($user !=""){echo $user['0']['user_email'];}else{echo $_SESSION['user_info']['user_email'];}?>
        </dd>
 	</dl>
     
@@ -198,7 +198,7 @@ function setLogin(user_login)
             <label for="" class="NewsletterLabel">Password</label>
        </dt>
        <dd>
-       		<a href="<?=base_url().index_page()?>UsersController/changePassword">Change Password</a>
+       		<a href="<?=base_url().index_page()?>UsersController/changePassword/<?php if($user !=""){echo $user['0']['user_id'];}?>">Change Password</a>
        </dd>
 	</dl>
     

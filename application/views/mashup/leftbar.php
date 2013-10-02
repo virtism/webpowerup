@@ -711,16 +711,8 @@ if(!empty($left_menus_Pbox) && $left_menus_type=='site')
             if($newsletter_groups_all->newsgroup_position == 'Left')
             {
                  
-            
-                if($this->config->item('seo_url') == 'On')
-				{ ?>
- 						<form action="<?='http://'.$_SERVER['SERVER_NAME']?>/Create_Newsletter/save_newsletter_user/" method="post">				
-				<? }
-				else
-				{?>
-						<form action="<?=base_url().index_page()?>Create_Newsletter/save_newsletter_user/" method="post">
-				<? }			
-				?>	
+            ?>
+                <form action="<?=base_url().index_page()?>Create_Newsletter/save_newsletter_user/" method="post">
                 <input type="hidden" value="<?php echo $newsletter_groups_all->newsgroup_id;?>" name="NL_group_id">
                 <input type="hidden" name="url" value="<?php echo $this->uri->uri_string();?>">
                 <div> <?php echo $this->session->flashdata('success_msg');?></div>
@@ -764,17 +756,8 @@ if(!empty($left_menus_Pbox) && $left_menus_type=='site')
             if($newsletter_groups_show->newsgroup_position == 'Left')
             {
                  
-			
-				if($this->config->item('seo_url') == 'On')
-				{?>
- 						<form action="<?='http://'.$_SERVER['SERVER_NAME']?>/Create_Newsletter/save_newsletter_user/" method="post">				
-				<? }
-				else
-				{?>
-						<form action="<?=base_url().index_page()?>Create_Newsletter/save_newsletter_user/" method="post">
-				<? }			
-				?>	
-                
+            ?>
+                <form action="<?=base_url().index_page()?>Create_Newsletter/save_newsletter_user/" method="post">
                 <input type="hidden" value="<?php echo $newsletter_groups_show->newsgroup_id;?>" name="NL_group_id">
                 <input type="hidden" name="url" value="<?php echo $this->uri->uri_string();?>">
                 <div> <?php echo $this->session->flashdata('success_msg');?></div>

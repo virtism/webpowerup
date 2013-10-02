@@ -292,9 +292,7 @@ if(!session_start()){
          
          $this->session->set_flashdata('success_msg', 'Message is successfull send');
          $this->send_newsletter_group($this->input->post('NL_group_id'),$this->input->post('url'),$this->input->post('user_email'));
-         //echo $this->input->post('url');exit;
-		 redirect('http://'.$_SERVER['SERVER_NAME'].'/'.$this->input->post('url'));
-		 //redirect($this->input->post('url')); 
+         redirect($this->input->post('url')); 
          //echo'<pre>'; print_r($_POST); exit;
          //$this->Newsletter_Model->save_NLuser_ajax($save);
          

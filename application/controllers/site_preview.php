@@ -19,9 +19,9 @@ class Site_preview extends CI_Controller
 		$this->load->model('customers_model');
 		$this->load->model('Promotional_Boxes_Model');
 		$this->load->model('Contact_Management_Model');
-		$this->load->model("Newsletter_Model");
 		$this->load->model("Gallery_Model");
 		$this->load->model("Video_Gallery_Model");
+        $this->load->model("Newsletter_Model");
 		$this->load->library('pagination');
 		$this->load->library('session');
 		$this->load->library('form_validation');       
@@ -539,37 +539,55 @@ class Site_preview extends CI_Controller
 	function page($site_id, $page_id="")
 	{
 		//echo $site_id;exit;
-		
-		//news letter gorup start
-		
-		$all_newsletter_group = $this->Newsletter_Model->get_newsletter_groups('' , $site_id);
-		//echo '<pre>'; print_r($all_newsletter_group); exit;
-		foreach($all_newsletter_group as $check_all)
-		{
-			if($check_all->newsgroup_page_ids == '' && $check_all->newsgroup_page == 'no')
-			{
-			//echo $check_all->newsgroup_id.'kafhkdjshfdkjhfkasdhfkjsdhkfjshdkfhskdhfksd';
-			$data['newsletter_groups_a'] = $this->Newsletter_Model->get_newsletter_groups_all('' , $site_id);
-			//echo '<pre>';print_r($data['newsletter_groups_a']); 
-			
-			}
-		}		
-		
-		$newsletter_groups = $this->Newsletter_Model->get_newsletter_groups('' , $site_id);
-		foreach($newsletter_groups as $newsletter_group)
-		{
-			$pages_ids = $newsletter_group->newsgroup_page_ids;
-			$array_ids = explode(',',$pages_ids);
-			if(in_array($page_id , $array_ids, true))
-			{
-			   $group_ids .= $newsletter_group->newsgroup_id.',';
-			}
-		}
-		$remove_last = substr($group_ids, 0, -1);
-		$final_value = explode(',',$group_ids);
-		$data['newsletter_groups_p'] = $this->Newsletter_Model->get_newsletter_groups($final_value , $site_id);
-		
-		
+                  $all_newsletter_group = $this->Newsletter_Model->get_newsletter_groups('' , $site_id);
+                  //echo '<pre>'; print_r($all_newsletter_group); exit;
+                  foreach($all_newsletter_group as $check_all)
+                  {
+                      if($check_all->newsgroup_page_ids == '' && $check_all->newsgroup_page == 'no')
+                      {
+                          //echo $check_all->newsgroup_id.'kafhkdjshfdkjhfkasdhfkjsdhkfjshdkfhskdhfksd';
+                          $data['newsletter_groups_a'] = $this->Newsletter_Model->get_newsletter_groups_all('' , $site_id);
+                          //echo '<pre>';print_r($data['newsletter_groups_a']); 
+                          
+                      }
+                  }
+                      
+                         
+                         $newsletter_groups = $this->Newsletter_Model->get_newsletter_groups('' , $site_id);
+                          foreach($newsletter_groups as $newsletter_group)
+                          {
+                              $pages_ids = $newsletter_group->newsgroup_page_ids;
+                              $array_ids = explode(',',$pages_ids);
+                               if(in_array($page_id , $array_ids, true))
+                               {
+                                   $group_ids .= $newsletter_group->newsgroup_id.',';
+                               }
+                         }
+                          $remove_last = substr($group_ids, 0, -1);
+                          $final_value = explode(',',$group_ids);
+                          $data['newsletter_groups_p'] = $this->Newsletter_Model->get_newsletter_groups($final_value , $site_id);
+                         //echo '<pre>';print_r($data['newsletter_groups_p']);
+                          
+                      
+                  
+                  /*$newsletter_groups = $this->Newsletter_Model->get_newsletter_groups('' , $site_id);
+                  foreach($newsletter_groups as $newsletter_group)
+                  {
+                      $pages_ids = $newsletter_group->newsgroup_page_ids;
+                      $array_ids = explode(',',$pages_ids);
+                       if(in_array($page_id , $array_ids, true))
+                       {
+                           $group_ids .= $newsletter_group->newsgroup_id.',';
+                       }
+                 }
+                  $remove_last = substr($group_ids, 0, -1);
+                  $final_value = explode(',',$group_ids);
+                  $data['newsletter_groups_p'] = $this->Newsletter_Model->get_newsletter_groups($final_value , $site_id);*/
+                  
+                  
+                  
+                  
+                         
 		$_SESSION['site_id'] = $site_id; 
 		if($page_id != "")
 		{
@@ -1334,49 +1352,23 @@ class Site_preview extends CI_Controller
 	function create_group_button($button)
 	{
 		
-	    //echo "<pre>";	print_r($button);		echo "</pre>";exit;
-	   if($this->config->item('seo_url') == 'On')
- 		{ 
-		   if (!isset($_SESSION['login_info']['customer_id']))
-		   {
-			   //$link = base_urL().index_page()."MyAccount/register/".$_SESSION['site_id'];			   
-			   $link = 'http://'.$_SERVER['SERVER_NAME'].'/myaccount/register.'.$this->config->item('custom_url_suffix');
-		   }
-		   else if(isset($_SESSION['login_info']['customer_id']))
-		   {
-			  // $link = base_url().index_page()."group_managment/new_group";
-			   $link = 'http://'.$_SERVER['SERVER_NAME'].'/group_managment/new_group.'.$this->config->item('custom_url_suffix');
-		   }
-	   }
-	   else
+	   // echo "<pre>";	print_r($_SESSION);		echo "</pre>";
+	   
+	   if (!isset($_SESSION['login_info']['customer_id']))
 	   {
-	   		if (!isset($_SESSION['login_info']['customer_id']))
-		   {
-			   $link = base_urL().index_page()."MyAccount/register/".$_SESSION['site_id'];
-		   }
-		   else if(isset($_SESSION['login_info']['customer_id']))
-		   {
-			   $link = base_urL().index_page()."group_managment/new_group";
-		   }
-			
-			
+		   $link = base_urL().index_page()."MyAccount/register/".$_SESSION['site_id'];
+	   }
+	   else if(isset($_SESSION['login_info']['customer_id']))
+	   {
+		   $link = base_urL().index_page()."group_managment/new_group";
 	   }
 	   
-	   if(empty($button['group_join_button']))
-	   {
-	   
-	    	$image_path = 'media/ckeditor_uploads/'.$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id'].'/'.$button['group_join_button'];
-	   }
-	   else
-	   {
-	   		$image_path = 'images/Join-Now-Button.png';
-	   }
 		// die();
 		
 		// ['login_info']['customer_id']
 		$output = "<div class=\"group_join_content_button\">";
 		$output.= "<a href=\" ".$link." \">";
-		$output.= img($image_path);
+		$output.= img('media/ckeditor_uploads/'.$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id'].'/'.$button['group_join_button']);
 		$output.= "</a>";
 		
 		$output.= "</div>";

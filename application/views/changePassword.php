@@ -47,12 +47,13 @@ $('#txtCurrentPass').live("blur",  function() {
 	
     var password = document.getElementById('txtCurrentPass');
     var password_mesg = document.getElementById('password_mesg');
+    var user_id = document.getElementById('passworduser_id_admin_mesg');
 	//alert(password);
     if(password.value != "")
     {
         //alert(user_email);
         dataString = "password="+password.value;
-		var path =  "<?=base_url().index_page()?>UsersController/isUserPassword/";
+		var path =  "<?=base_url().index_page()?>UsersController/isUserPassword/"+user_id;
         $.ajax({
         type: "POST",
         url: path,
@@ -94,7 +95,7 @@ if($message!='')
 
 <div class="form">
 <form id="frmChangePassword" name="frmChangePassword" method="post" action="<?=base_url().index_page()?>UsersController/updatePassword" onsubmit="return validatePassword()" class="niceform">
-    
+<input type="hidden" value="<?php if($user_id !=""){echo $user_id;}else{echo $_SESSION['user_info']['user_id'];}?>" id="user_id_admin" name="user_id">    
         
         
         <dl>
