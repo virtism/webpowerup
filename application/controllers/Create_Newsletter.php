@@ -304,6 +304,7 @@ if(!session_start()){
           $data['NLgroup']                  = $this->Newsletter_Model->get_newsletter_groups($group_id,$exp['2']);
           $subject                          = $data['NLgroup']['0']->newsgroup_name;
           $body                             =  $data['NLgroup']['0']->newsgroup_intro_text;
+          
             //$user_gruop = explode(',',$data['news_recipient_group']);
             //print_r($user_gruop);exit;
             $config['mailtype']             = 'html';
@@ -317,15 +318,18 @@ if(!session_start()){
             $this->email->from('info@WebpowerUp.com' , 'WebpowerUp');
             $this->email->subject($subject);
             $this->email->message($body);    
-            $this->email->to($email_NL); 
+            $this->email->to($email_NL);
+             
             $send = $this->email->send();
       }
      function sent_newsletter_toAll ($group_id)
       {
+        $body = '';  
         $group_delait                     = $this->Newsletter_Model->get_newsletter_groups($group_id , $_SESSION['site_id']);
         $this->load->library('email');
         $subject                        = $group_delait['0']->newsgroup_name;
         $body                           = $group_delait['0']->newsgroup_intro_text;
+        
         $get_group_user                 = $this->Newsletter_Model->get_userBy_NLgroup($group_id , $_SESSION['site_id']);
 
         $config['mailtype']             = 'html';
@@ -335,14 +339,38 @@ if(!session_start()){
         $this->email->initialize($config);
         foreach($get_group_user as $get_group_users)
         {
+            $body                          .= '<a href ="www.webpowerup.com.ca/Create_Newsletter/unsubcribe_view/'.$get_group_users->id.'">Unsubcribe News Letter</a>';
             $this->email->from('info@webpowerup.com' , 'WebpowerUp');
             $this->email->subject($subject);
-            $this->email->message($body);    
+            $this->email->message($body);   
             $this->email->to($get_group_users->user_email); 
             $send = $this->email->send();
         }
         $this->session->set_flashdata('group_success_send', 'Message is successfull send to all'); 
         redirect('Newsletter_Management'); 
+      }
+      function unsubcribe_view($unsubcriber_id = false)
+      {
+          $this->webpowerup->hide_left_menu();
+          $this->webpowerup->hide_top_content(); 
+          //echo 'ksajdfksjdkfhsakdjfhj'; exit;
+          $this->template->write_view('content' , 'unsubcribe_user/unsubcribe_user_view');
+          $this->template->render();
+      }
+      function unsubcribe_user()
+      {
+        if($this->input->post('yes') == 'Yes'){ 
+            $id = $this->input->post('user_id');
+            $this->db->where('id', $id);
+            $this->db->delete('user_entry_newslettergroup');
+            redirect('UsersController/login/sitelogin');
+        }
+        if($this->input->post('no') == 'No')
+        {
+             redirect('UsersController/login/sitelogin'); 
+
+        }
+           
       }
       
       
