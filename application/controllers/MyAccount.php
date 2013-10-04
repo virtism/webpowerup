@@ -990,7 +990,7 @@ http://www.webpowerup.com/
 	$top_site_menu_basic =  $this->Menus_Model->top_navigation_default($site_id,$is_seo_enabled);
 	  
 	$dataMenu = $top_site_menu_basic;
-	
+    $data['aboutUsPage'] = $dataMenu['2']['page_id'];
 	$top_site_menu_basic = $this->Menus_Model->make_menu_top_old($dataMenu,'preview',$is_seo_enabled,$temp_name); 	// menu without style
 	
 	$data['menu'] =  $top_site_menu_basic;

@@ -381,7 +381,8 @@ if(isset($groups) && sizeof($groups) >0)
      function get_userBy_NLgroup($id , $site_id)
      {
          $this->db->where('newsgroup_id',$id);
-         $this->db->where('site_id',$site_id); 
+         $this->db->where('site_id',$site_id);
+         $this->db->group_by('user_email'); 
          $result            = $this->db->get('user_entry_newslettergroup');
          return $result->result();
           

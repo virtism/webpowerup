@@ -300,8 +300,9 @@ if(!session_start()){
      function send_newsletter_group($group_id , $site_id , $email_NL)
       {
           $this->load->library('email'); 
-          $exp                              = explode('/', $site_id);
-          $data['NLgroup']                  = $this->Newsletter_Model->get_newsletter_groups($group_id,$exp['2']);
+          //$exp                              = explode('/', $site_id);
+          $data['NLgroup']                  = $this->Newsletter_Model->get_newsletter_groups($group_id,$_SESSION['site_id']);
+          
           $subject                          = $data['NLgroup']['0']->newsgroup_name;
           $body                             =  $data['NLgroup']['0']->newsgroup_intro_text;
           
@@ -317,7 +318,8 @@ if(!session_start()){
                     //print_r($customers);exit;                   
             $this->email->from('info@WebpowerUp.com' , 'WebpowerUp');
             $this->email->subject($subject);
-            $this->email->message($body);    
+            $this->email->message($body);
+            //echo $body; exit;    
             $this->email->to($email_NL);
              
             $send = $this->email->send();
@@ -331,7 +333,7 @@ if(!session_start()){
         $body                           = $group_delait['0']->newsgroup_intro_text;
         
         $get_group_user                 = $this->Newsletter_Model->get_userBy_NLgroup($group_id , $_SESSION['site_id']);
-
+         //echo '<pre>'; print_r($get_group_user);exit;
         $config['mailtype']             = 'html';
         $config['protocol']             = 'sendmail';
         $config['charset']              = 'utf-8';

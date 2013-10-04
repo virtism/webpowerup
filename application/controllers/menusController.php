@@ -107,7 +107,7 @@ class MenusController extends CI_Controller{
 		$this->breadcrumb->add_crumb('Main', $this->session->userdata("mainPage_link") );
 		$this->breadcrumb->add_crumb('Dashboard', $this->session->userdata("dashboard_link") ); 
 		$this->breadcrumb->add_crumb('Manage Menus', $this->session->userdata("menu_link") ); 
-		$this->breadcrumb->add_crumb('Edit'); 
+		//$this->breadcrumb->add_crumb('Edit'); 
 		//confirms user is logged in
         $this->checkLogin();
         
@@ -289,7 +289,7 @@ class MenusController extends CI_Controller{
 		$this->breadcrumb->add_crumb('Main', $this->session->userdata("mainPage_link") );
 		$this->breadcrumb->add_crumb('Dashboard', $this->session->userdata("dashboard_link") ); 
 		$this->breadcrumb->add_crumb('Manage Menus', $this->session->userdata("menu_link") ); 
-		$this->breadcrumb->add_crumb('Create'); 
+		$this->breadcrumb->add_crumb('Edit'); 
 		
 		//confirm user logged in 
         $this->checkLogin(); 

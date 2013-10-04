@@ -13,7 +13,7 @@ else
 ?>
 <div class="SwitchMenu">
     <ul id="masterdiv">
-        <li class="heading">
+        <li>
         <a href="<?=base_url().index_page();?>SiteController/sitebuilder/" class="mainMenu">
         <img src="<?=base_url();?>images/webpowerup/MainMenu.png" alt="menu"/>
         </a>
@@ -143,5 +143,6 @@ else
                 <li><a href="#"><span>Create Affiliates for your Website (UC)</span></a></li>
             </ul>
         </li>
+        <br/>
     </ul>
 </div>

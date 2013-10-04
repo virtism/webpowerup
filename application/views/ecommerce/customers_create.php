@@ -442,8 +442,22 @@ function checkGroupCode(group_code)
 }
 function checkEmail(user_mail)
 {
+    
 	var msg_email = document.getElementById('email_id');
 	var dataString = 'user_login='+user_mail;
+    
+ var emailStr = document.getElementById('email').value;  
+   var emailRegexStr = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+   var isvalid = emailRegexStr.test(emailStr); 
+ 
+   if (!isvalid) {
+       msg_email.innerHTML = '<code style="color: red;">Invalid Email address</code>'; 
+ //alert('Invalid email address!');
+// emailInputBox.focus;
+ }
+  else{
+    // alert(user_mail); 
+        
 	if(user_mail != ""){
 	   // alert(user_mail);
 		$.ajax({
@@ -456,19 +470,21 @@ function checkEmail(user_mail)
 				{
 					submitFlag = false;
 					//msg_email.innerHTML = '<label class="error">This user login already exist.</font>';
-					msg_email.innerHTML = '<code style="color: red;">This user Email is already in use.</code>';
+					msg_email.innerHTML = '<code style="color: red;">This Email is already in use.</code>';
 				   // alert('Email is already in use');    
 						
 				}
 				else{
 					submitFlag = true;     
 					//msg_email.innerHTML = "<label style='color:green;font-size:12px;font:italic;margin-left:10px;'>OK!</label>";
-					msg_email.innerHTML = '<code style="color: green;">This user login is available.</code>';
+					msg_email.innerHTML = '<code style="color: green;">This Email is available.</code>';
 				   // alert('login is available');
 				}
 			}
 		});
-	}        
+	}
+  } 
+           
 }
 function submitBtn(option)
 {
@@ -623,7 +639,7 @@ background:none;
    </tr>                  
    <tr>
 	  <td class="register-newbie-note" colspan="3" style="padding-left: 162px;;">
-		  I accept the <a href="<?=base_url()."about-us.html"?>">"Terms &amp; Conditions"</a>
+		  I accept the <a href="<?php if($this->config->item('seo_url') == 'On'){echo 'http://'.$_SERVER['SERVER_NAME'].'/'.'site_preview/page/'.$site_id.'/'.$aboutUsPage;}else{ echo base_url().'site_preview/page/'.$site_id.'/'.$aboutUsPage;}?>">"Terms &amp; Conditions"</a>
 		  <!-- I accept the <a target="_blank" onclick="javascript:popupOpen(this.href, '', {width:800,height:600}); return false;" href="#">"Terms &amp; Conditions"</a>-->
 	  </td>
    </tr> 
