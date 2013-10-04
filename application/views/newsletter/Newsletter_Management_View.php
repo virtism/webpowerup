@@ -73,7 +73,8 @@ $(document).ready(function(e) {
                         <?=$row['news_subject'];?> 
                     </li>
                     <li>
-                        <?=$row['news_body'];?> 
+                        <?php $remove_tag = preg_replace('/(?:<|&lt;)\/?([a-zA-Z]+) *[^<\/]*?(?:>|&gt;)/', '', $row['news_body']);?>
+                        <?=$this->template->limited_words($remove_tag,'6');?> 
                     </li>
                      <li>
                         <? if(isset($row['group_names'])){ echo implode(',',$row['group_names']);}?> 

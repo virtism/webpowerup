@@ -22,7 +22,7 @@ $(document).ready(function(e) {
 <div class="RightColumnHeading">
     <h1>
     	<img src="<?=base_url();?>images/webpowerup/CreateResponder.png" alt="Registration Forms Management"/>
-        <span>Registration Froms Management</span>
+        <span>Registration Forms Management</span>
     </h1>
     
     <div class="RightSideButton">

@@ -13,7 +13,7 @@
 	<h2>Signup Successfull !</h2> 
     <p>
       
-      Please login to Creat Site 
+      Please login to Create Site 
       <a href="<?=base_url().index_page()?>UsersController/login/sitelogin" > You can login here </a>
     </p>
 </div>

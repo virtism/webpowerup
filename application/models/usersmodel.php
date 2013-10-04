@@ -548,11 +548,12 @@ class UsersModel extends CI_Model {
 		$rsltUserEmail = $this->db->query($qryUserEmail);
 		if($rsltUserEmail->num_rows()>0)
 		{
-			return TRUE;
+            
+			echo 'TRUE';
 		}
 		else
 		{
-			return FALSE;
+			echo 'FALSE';
 		}
 	}
 	

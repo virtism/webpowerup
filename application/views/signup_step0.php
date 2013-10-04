@@ -148,14 +148,17 @@ function checkUserEmail(user_email)
     var dataString = 'user_email='+user_email;
     if(user_email != "" && isValidEmail(user_email)==true){
         //alert(user_email);
+        //console.log(user_email);
         $.ajax({
         type: "POST",
         url: "<?=base_url().index_page()?>UsersController/isUserEmailExist/",
         data: dataString,
         success: function(data){
                 //alert(data);
+                //console.log(data); 
                 if(data == 'TRUE')
                 {
+                    //console.log(data);
                     submitFlag = false;
                     //email_mesg.innerHTML = '<label class="error">This user email already exist.</font>';
                     email_mesg.innerHTML = '<code>This user email is already in use.</code>';     

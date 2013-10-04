@@ -88,7 +88,7 @@ background-color: #FFBABA;
     </div>
     
     <h1>
-        <span>Blog Managment</span>
+        <span>Blog Management</span>
     </h1>
     
 </div>

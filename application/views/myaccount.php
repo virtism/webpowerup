@@ -207,7 +207,7 @@ function setLogin(user_login)
             
        </dt>
        <dd>
-       		<a id="cancleAcc" href="<?=base_url().index_page()?>UsersController/suspend_account">Cancle Account</a>
+       		<a id="cancleAcc" href="<?=base_url().index_page()?>UsersController/suspend_account">Cancel Account</a>
        </dd>
 	</dl>
     <div class="ButtonRow">

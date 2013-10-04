@@ -583,15 +583,16 @@ class UsersController extends CI_Controller {
 		echo $boolFlag;
 		return $boolFlag;   
 	}
-	function isUserEmailExist()
+	function isUserEmailExist($email=false)
 	{
 		$user_email = $this->input->post('user_email');
-		$boolFlag = 'FALSE';
-		
-		if($this->UsersModel->isUserEmailExist()==TRUE)
-		{
-			$boolFlag = 'TRUE';
-		} 
+		//$boolFlag = 'FALSE';
+		  $boolFlag = $this->UsersModel->isUserEmailExist();
+          
+		//if($this->UsersModel->isUserEmailExist() == TRUE)
+		//{
+			//$boolFlags = 'TRUE';
+		//} 
 		//echo $boolFlag;
 		return $boolFlag;        
 	}
