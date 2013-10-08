@@ -26,6 +26,9 @@
     <li>
         <a href="<?=base_url().index_page()?>administrator/packages/all_subAdmin">Sub Admins</a>
     </li>
+    <li>
+        <a href="<?=base_url().index_page()?>administrator/packages/affiliate_member">Affiliate list</a>
+    </li>
 </ul>
 
 <ul>

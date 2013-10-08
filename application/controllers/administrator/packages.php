@@ -86,6 +86,17 @@ class Packages extends CI_Controller{
         $this->template->render();
         
     }
+    function affiliate_member()
+    {
+        $this->check_login(); 
+        $data['sub_admins'] = $this->UsersModel->get_affiliate_user();
+        //echo'<pre>'; print_r($data['sub_admins']);
+        //exit;
+        //$this->check_login();
+        $this->template->write_view('sidebar', 'gws_admin/sidebar');
+        $this->template->write_view('content', 'admin/sub_admins/affiliater_list', $data); 
+        $this->template->render();
+    }
     
     function addnew()
     {

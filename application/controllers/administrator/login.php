@@ -30,6 +30,7 @@ class Login extends CI_Controller
     //this function loads login screen(view) of administrator
     function index()
     {
+        
         //get user session info
         $user_info = $this->session->userdata('user_info');
         $user_role = $this->session->userdata('user_role');
@@ -74,6 +75,7 @@ class Login extends CI_Controller
         {
             //check user login-credentials
             $boolLogin = $this->Admin_model->isUser($user_login, $user_password);
+            //echo '<pre>'; print_r($boolLogin); exit; 
             
             if($boolLogin == TRUE)
             {

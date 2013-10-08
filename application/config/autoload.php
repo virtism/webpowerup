@@ -37,8 +37,8 @@
 |
 */
 
-$autoload['packages'] = array(APPPATH.'third_party');
-
+//$autoload['packages'] = array(APPPATH.'third_party');
+$autoload['packages'] = array();
 
 /*
 | -------------------------------------------------------------------
