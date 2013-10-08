@@ -1,5 +1,5 @@
 <?php
-class affiliate_dashboard extends Front_Controller
+class wpuadmin_dashboard extends Front_Controller
 {
     function __construct()
     {
@@ -10,7 +10,7 @@ class affiliate_dashboard extends Front_Controller
         $this->load->library('form_validation');
     if($this->session->userdata('auth-info')=="")
      {
-        redirect('affiliate/affiliate_signup/login');  
+        redirect('wpuadmin/wpuadmin_signup/');  
      }
         
     }
@@ -24,7 +24,7 @@ class affiliate_dashboard extends Front_Controller
     function logout()
     {
         $this->session->unset_userdata('auth-info');
-        redirect('affiliate/affiliate_signup/login'); 
+        redirect('wpuadmin/wpuadmin_signup'); 
     }
     function edit_affiliate()
     {
@@ -64,12 +64,12 @@ class affiliate_dashboard extends Front_Controller
         } 
          $this->Affiliate_Model->insert_affiliate($save);
          $this->session->set_flashdata('change_passrowd', 'Password Is Changed Successfully');
-         redirect('affiliate/affiliate_dashboard');
+         redirect('wpuadmin/wpuadmin_dashboard');
         }
         else
         {
             $this->session->set_flashdata('password_error', 'Please Enter The Correct Old Password');
-            redirect('affiliate/affiliate_dashboard/edit_affiliate'); 
+            redirect('wpuadmin/wpuadmin_dashboard/edit_affiliate'); 
             
         }
         

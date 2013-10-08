@@ -50,7 +50,7 @@ function checkPassWord(password)
     var user_id = document.getElementById('affiliate_id').value;
     var dataString = "password="+password;
             var j = jQuery.noConflict();
-        var path =  "<?=base_url().index_page()?>affiliate/affiliate_dashboard/check_password/"+user_id;
+        var path =  "<?=base_url().index_page()?>wpuadmin/wpuadmin_dashboard/check_password/"+user_id;
         j.ajax({
         type: "POST",
         url: path,
@@ -118,12 +118,12 @@ function checkPassWord(password)
                     <?php 
                     if($this->config->item('seo_url') == 'On')
                     {
-                        echo form_open('http://'.$_SERVER['SERVER_NAME'].'/'.'affiliate/affiliate_dashboard/change_password/','class="mws-form" id="mws-validate"');
+                        echo form_open('http://'.$_SERVER['SERVER_NAME'].'/'.'wpuadmin/wpuadmin_dashboard/change_password/','class="mws-form" id="mws-validate"');
                         //redirect('http://'.$_SERVER['SERVER_NAME'].'/'.'forms');
                     }
                     else
                     {
-                        echo form_open(base_url().index_page().'affiliate/affiliate_dashboard/change_password/', 'class="mws-form" id="mws-validate"');
+                        echo form_open(base_url().index_page().'wpuadmin/wpuadmin_dashboard/change_password/', 'class="mws-form" id="mws-validate"');
                         //redirect(base_url().index_page().'MyAccount/login','refresh');
                     }
                     

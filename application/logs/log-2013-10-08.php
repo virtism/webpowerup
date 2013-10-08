@@ -16344,3 +16344,5289 @@ ERROR - 2013-10-08 16:16:24 --> Severity: Warning  --> mysql_query() [<a href='f
 ERROR - 2013-10-08 16:16:24 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
 ERROR - 2013-10-08 16:16:24 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
 ERROR - 2013-10-08 16:16:24 --> 404 Page Not Found --> affiliate/images
+DEBUG - 2013-10-08 17:12:04 --> Config Class Initialized
+DEBUG - 2013-10-08 17:12:04 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:12:04 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:12:04 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:12:05 --> URI Class Initialized
+DEBUG - 2013-10-08 17:12:05 --> Router Class Initialized
+ERROR - 2013-10-08 17:12:05 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:12:05 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:12:05 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:12:05 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:12:05 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:12:05 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:12:05 --> 404 Page Not Found --> affiliate
+DEBUG - 2013-10-08 17:12:12 --> Config Class Initialized
+DEBUG - 2013-10-08 17:12:12 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:12:12 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:12:12 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:12:12 --> URI Class Initialized
+DEBUG - 2013-10-08 17:12:12 --> Router Class Initialized
+ERROR - 2013-10-08 17:12:12 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:12:12 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:12:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:12:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:12:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:12:13 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:12:13 --> Output Class Initialized
+DEBUG - 2013-10-08 17:12:13 --> Input Class Initialized
+DEBUG - 2013-10-08 17:12:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:12:13 --> Language Class Initialized
+ERROR - 2013-10-08 17:12:13 --> 404 Page Not Found --> wpuadmin_signup/index
+DEBUG - 2013-10-08 17:12:26 --> Config Class Initialized
+DEBUG - 2013-10-08 17:12:26 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:12:26 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:12:26 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:12:26 --> URI Class Initialized
+DEBUG - 2013-10-08 17:12:26 --> Router Class Initialized
+ERROR - 2013-10-08 17:12:26 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:12:26 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:12:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:12:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:12:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:12:27 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:12:27 --> Output Class Initialized
+DEBUG - 2013-10-08 17:12:27 --> Input Class Initialized
+DEBUG - 2013-10-08 17:12:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:12:27 --> Language Class Initialized
+ERROR - 2013-10-08 17:12:27 --> 404 Page Not Found --> wpuadmin_signup/index
+DEBUG - 2013-10-08 17:12:33 --> Config Class Initialized
+DEBUG - 2013-10-08 17:12:33 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:12:33 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:12:33 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:12:33 --> URI Class Initialized
+DEBUG - 2013-10-08 17:12:33 --> Router Class Initialized
+ERROR - 2013-10-08 17:12:33 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:12:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:12:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:12:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:12:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:12:34 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:12:34 --> No URI present. Default controller set.
+DEBUG - 2013-10-08 17:12:34 --> Output Class Initialized
+DEBUG - 2013-10-08 17:12:34 --> Input Class Initialized
+DEBUG - 2013-10-08 17:12:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:12:34 --> Language Class Initialized
+DEBUG - 2013-10-08 17:12:34 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:12:34 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:12:34 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:12:34 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:12:34 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:12:34 --> Session Class Initialized
+DEBUG - 2013-10-08 17:12:34 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:12:34 --> Session routines successfully run
+DEBUG - 2013-10-08 17:12:34 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:12:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:12:35 --> Model Class Initialized
+ERROR - 2013-10-08 17:12:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:12:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:12:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:12:35 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:12:35 --> Model Class Initialized
+ERROR - 2013-10-08 17:12:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:12:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:12:35 --> Model Class Initialized
+ERROR - 2013-10-08 17:12:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:12:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:12:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:12:35 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:12:35 --> File loaded: application/views/welcome_message.php
+DEBUG - 2013-10-08 17:12:35 --> File loaded: application/views/gws/logo.php
+DEBUG - 2013-10-08 17:12:35 --> File loaded: application/views/gws/header.php
+DEBUG - 2013-10-08 17:12:35 --> File loaded: application/views/gws/footer.php
+DEBUG - 2013-10-08 17:12:35 --> File loaded: application/views/../templates/gws/template.php
+DEBUG - 2013-10-08 17:12:36 --> Final output sent to browser
+DEBUG - 2013-10-08 17:12:36 --> Total execution time: 2.3704
+DEBUG - 2013-10-08 17:12:45 --> Config Class Initialized
+DEBUG - 2013-10-08 17:12:45 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:12:45 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:12:45 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:12:45 --> URI Class Initialized
+DEBUG - 2013-10-08 17:12:45 --> Router Class Initialized
+ERROR - 2013-10-08 17:12:45 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:12:45 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:12:45 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:12:45 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:12:45 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:12:45 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:12:45 --> Output Class Initialized
+DEBUG - 2013-10-08 17:12:45 --> Input Class Initialized
+DEBUG - 2013-10-08 17:12:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:12:46 --> Language Class Initialized
+ERROR - 2013-10-08 17:12:46 --> 404 Page Not Found --> wpuadmin_signup/index
+DEBUG - 2013-10-08 17:14:08 --> Config Class Initialized
+DEBUG - 2013-10-08 17:14:08 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:14:08 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:14:08 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:14:08 --> URI Class Initialized
+DEBUG - 2013-10-08 17:14:08 --> Router Class Initialized
+ERROR - 2013-10-08 17:14:09 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:14:09 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:09 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:09 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:09 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:09 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:14:09 --> Output Class Initialized
+DEBUG - 2013-10-08 17:14:09 --> Input Class Initialized
+DEBUG - 2013-10-08 17:14:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:14:09 --> Language Class Initialized
+DEBUG - 2013-10-08 17:14:09 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:14:09 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:14:09 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:14:09 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:14:09 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:14:09 --> Session Class Initialized
+DEBUG - 2013-10-08 17:14:09 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:14:09 --> Session routines successfully run
+DEBUG - 2013-10-08 17:14:09 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:14:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:09 --> Model Class Initialized
+ERROR - 2013-10-08 17:14:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:14:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Config Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:14:10 --> URI Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Router Class Initialized
+ERROR - 2013-10-08 17:14:10 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:14:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:10 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:10 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:10 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:14:10 --> Output Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Input Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:14:10 --> Language Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:14:10 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:14:10 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:14:11 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:14:11 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:14:11 --> Session Class Initialized
+DEBUG - 2013-10-08 17:14:11 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:14:11 --> Session routines successfully run
+DEBUG - 2013-10-08 17:14:11 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:14:11 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:11 --> Model Class Initialized
+ERROR - 2013-10-08 17:14:11 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:14:11 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:11 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:11 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:14:11 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:11 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:14:11 --> File loaded: application/views/affiliate_view/dashboard.php
+DEBUG - 2013-10-08 17:14:11 --> Final output sent to browser
+DEBUG - 2013-10-08 17:14:11 --> Total execution time: 1.3717
+DEBUG - 2013-10-08 17:14:12 --> Config Class Initialized
+DEBUG - 2013-10-08 17:14:12 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:14:12 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:14:12 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:14:12 --> URI Class Initialized
+DEBUG - 2013-10-08 17:14:12 --> Router Class Initialized
+ERROR - 2013-10-08 17:14:12 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:14:12 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:12 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:12 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:12 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:12 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:14:12 --> 404 Page Not Found --> wpuadmin/images
+DEBUG - 2013-10-08 17:14:14 --> Config Class Initialized
+DEBUG - 2013-10-08 17:14:14 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:14:14 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:14:14 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:14:14 --> URI Class Initialized
+DEBUG - 2013-10-08 17:14:14 --> Router Class Initialized
+ERROR - 2013-10-08 17:14:14 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:14:14 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:14 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:14 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:15 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:15 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:14:15 --> Output Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Input Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:14:15 --> Language Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:14:15 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:14:15 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:14:15 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Session Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:14:15 --> Session routines successfully run
+DEBUG - 2013-10-08 17:14:15 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:14:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Model Class Initialized
+ERROR - 2013-10-08 17:14:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:14:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:15 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> Config Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:14:16 --> URI Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> Router Class Initialized
+ERROR - 2013-10-08 17:14:16 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:14:16 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:16 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:16 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:16 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:16 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:14:16 --> Output Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> Input Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:14:16 --> Language Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:14:16 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:14:16 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:14:16 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> Session Class Initialized
+DEBUG - 2013-10-08 17:14:16 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:14:16 --> Session routines successfully run
+DEBUG - 2013-10-08 17:14:17 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:14:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Model Class Initialized
+ERROR - 2013-10-08 17:14:17 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:14:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:14:17 --> Final output sent to browser
+DEBUG - 2013-10-08 17:14:17 --> Total execution time: 1.4386
+DEBUG - 2013-10-08 17:14:17 --> Config Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Config Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Config Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Config Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Config Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:14:17 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:14:17 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:14:17 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:14:17 --> URI Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:14:17 --> URI Class Initialized
+DEBUG - 2013-10-08 17:14:17 --> URI Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> URI Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Router Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Router Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Router Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> URI Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Router Class Initialized
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:14:18 --> Router Class Initialized
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:14:18 --> Output Class Initialized
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:14:18 --> Input Class Initialized
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:14:18 --> Output Class Initialized
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:14:18 --> Output Class Initialized
+ERROR - 2013-10-08 17:14:18 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:14:18 --> Input Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:14:18 --> Output Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Output Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Language Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Input Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Input Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:14:18 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Input Class Initialized
+DEBUG - 2013-10-08 17:14:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:14:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:14:18 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:14:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:14:19 --> Language Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:14:19 --> Language Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Language Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Language Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:14:19 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:14:19 --> Session Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:14:19 --> Session routines successfully run
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:14:19 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:14:19 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Session Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Session Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Session Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:14:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Session routines successfully run
+DEBUG - 2013-10-08 17:14:19 --> Session Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Session routines successfully run
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: html_helper
+ERROR - 2013-10-08 17:14:19 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:14:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Session routines successfully run
+DEBUG - 2013-10-08 17:14:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Session routines successfully run
+DEBUG - 2013-10-08 17:14:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:19 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:14:19 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:14:20 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:14:20 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+ERROR - 2013-10-08 17:14:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:14:20 --> 404 Page Not Found --> wpuadmin_signup/plugins
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+ERROR - 2013-10-08 17:14:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:14:20 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+ERROR - 2013-10-08 17:14:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:20 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:14:21 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:21 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:14:21 --> 404 Page Not Found --> wpuadmin_signup/jui
+DEBUG - 2013-10-08 17:14:21 --> Model Class Initialized
+ERROR - 2013-10-08 17:14:21 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:14:21 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:21 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:21 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:14:21 --> Model Class Initialized
+DEBUG - 2013-10-08 17:14:21 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:14:21 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:15:35 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:35 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:35 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:35 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:35 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:35 --> Router Class Initialized
+ERROR - 2013-10-08 17:15:35 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:15:35 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:35 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:35 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:35 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:35 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:15:35 --> Output Class Initialized
+DEBUG - 2013-10-08 17:15:35 --> Input Class Initialized
+DEBUG - 2013-10-08 17:15:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:15:35 --> Language Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:15:36 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:15:36 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:15:36 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Session Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:15:36 --> Session routines successfully run
+DEBUG - 2013-10-08 17:15:36 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:15:36 --> Model Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Model Class Initialized
+ERROR - 2013-10-08 17:15:36 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:15:36 --> Model Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Model Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Model Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:15:36 --> Final output sent to browser
+DEBUG - 2013-10-08 17:15:36 --> Total execution time: 1.3404
+DEBUG - 2013-10-08 17:15:36 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:36 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:37 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> Router Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> Router Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> Router Class Initialized
+DEBUG - 2013-10-08 17:15:37 --> Router Class Initialized
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:15:37 --> Router Class Initialized
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:15:37 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:15:37 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:37 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:15:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:38 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:15:38 --> 404 Page Not Found --> wpuadmin/plugins
+ERROR - 2013-10-08 17:15:38 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:15:38 --> 404 Page Not Found --> wpuadmin/jui
+DEBUG - 2013-10-08 17:15:40 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:40 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:40 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:40 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:40 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:40 --> Router Class Initialized
+ERROR - 2013-10-08 17:15:40 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:15:40 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:40 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:40 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:15:40 --> Output Class Initialized
+DEBUG - 2013-10-08 17:15:40 --> Input Class Initialized
+DEBUG - 2013-10-08 17:15:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:15:40 --> Language Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:15:41 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:15:41 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:15:41 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Session Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:15:41 --> Session routines successfully run
+DEBUG - 2013-10-08 17:15:41 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:15:41 --> Model Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Model Class Initialized
+ERROR - 2013-10-08 17:15:41 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:15:41 --> Model Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Model Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Model Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:15:41 --> Final output sent to browser
+DEBUG - 2013-10-08 17:15:41 --> Total execution time: 1.3457
+DEBUG - 2013-10-08 17:15:41 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Config Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:41 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:42 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:42 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:42 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:42 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> Router Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> URI Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:15:42 --> Router Class Initialized
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:15:42 --> Router Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> Router Class Initialized
+DEBUG - 2013-10-08 17:15:42 --> URI Class Initialized
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:15:42 --> Router Class Initialized
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:15:42 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:15:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:43 --> 404 Page Not Found --> wpuadmin/plugins
+ERROR - 2013-10-08 17:15:43 --> 404 Page Not Found --> wpuadmin/jui
+ERROR - 2013-10-08 17:15:43 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:15:43 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:15:43 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:15:43 --> 404 Page Not Found --> wpuadmin/js
+DEBUG - 2013-10-08 17:20:51 --> Config Class Initialized
+DEBUG - 2013-10-08 17:20:51 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:20:51 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:20:51 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:20:52 --> URI Class Initialized
+DEBUG - 2013-10-08 17:20:52 --> Router Class Initialized
+ERROR - 2013-10-08 17:20:52 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:20:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:52 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:20:52 --> Output Class Initialized
+DEBUG - 2013-10-08 17:20:52 --> Input Class Initialized
+DEBUG - 2013-10-08 17:20:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:20:52 --> Language Class Initialized
+DEBUG - 2013-10-08 17:20:52 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:20:52 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:20:52 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:20:52 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:20:52 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:20:52 --> Session Class Initialized
+DEBUG - 2013-10-08 17:20:52 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:20:52 --> Session routines successfully run
+DEBUG - 2013-10-08 17:20:52 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:20:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:20:52 --> Model Class Initialized
+ERROR - 2013-10-08 17:20:52 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:20:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:20:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Model Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:20:53 --> Final output sent to browser
+DEBUG - 2013-10-08 17:20:53 --> Total execution time: 1.3484
+DEBUG - 2013-10-08 17:20:53 --> Config Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Config Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Config Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Config Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Config Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:20:53 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:20:53 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:20:53 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> URI Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> URI Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> URI Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:20:53 --> Router Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Router Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:20:53 --> Router Class Initialized
+ERROR - 2013-10-08 17:20:53 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:20:53 --> URI Class Initialized
+ERROR - 2013-10-08 17:20:53 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:20:53 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:20:53 --> URI Class Initialized
+ERROR - 2013-10-08 17:20:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:20:53 --> Router Class Initialized
+DEBUG - 2013-10-08 17:20:53 --> Router Class Initialized
+ERROR - 2013-10-08 17:20:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:20:54 --> 404 Page Not Found --> wpuadmin/plugins
+ERROR - 2013-10-08 17:20:54 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:54 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:20:54 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:20:54 --> 404 Page Not Found --> wpuadmin/jui
+ERROR - 2013-10-08 17:20:54 --> 404 Page Not Found --> wpuadmin/js
+DEBUG - 2013-10-08 17:21:04 --> Config Class Initialized
+DEBUG - 2013-10-08 17:21:04 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:21:04 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:21:04 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:21:04 --> URI Class Initialized
+DEBUG - 2013-10-08 17:21:04 --> Router Class Initialized
+ERROR - 2013-10-08 17:21:04 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:21:04 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:04 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:04 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:21:04 --> Output Class Initialized
+DEBUG - 2013-10-08 17:21:04 --> Input Class Initialized
+DEBUG - 2013-10-08 17:21:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:21:04 --> Language Class Initialized
+DEBUG - 2013-10-08 17:21:04 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:21:04 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:21:04 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:21:05 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:21:05 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:21:05 --> Session Class Initialized
+DEBUG - 2013-10-08 17:21:05 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:21:05 --> Session routines successfully run
+DEBUG - 2013-10-08 17:21:05 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:21:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:05 --> Model Class Initialized
+ERROR - 2013-10-08 17:21:05 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:21:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:05 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:21:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:05 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:21:05 --> 404 Page Not Found --> wpuadmin_signup/login
+DEBUG - 2013-10-08 17:21:34 --> Config Class Initialized
+DEBUG - 2013-10-08 17:21:34 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:21:34 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:21:34 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:21:34 --> URI Class Initialized
+DEBUG - 2013-10-08 17:21:34 --> Router Class Initialized
+ERROR - 2013-10-08 17:21:34 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:21:34 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:34 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:34 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:21:34 --> Output Class Initialized
+DEBUG - 2013-10-08 17:21:34 --> Input Class Initialized
+DEBUG - 2013-10-08 17:21:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:21:34 --> Language Class Initialized
+DEBUG - 2013-10-08 17:21:34 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:21:34 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:21:34 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:21:34 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:21:35 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:21:35 --> Session Class Initialized
+DEBUG - 2013-10-08 17:21:35 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:21:35 --> Session routines successfully run
+DEBUG - 2013-10-08 17:21:35 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:21:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:35 --> Model Class Initialized
+ERROR - 2013-10-08 17:21:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:21:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:35 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:21:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:35 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:21:35 --> 404 Page Not Found --> wpuadmin_signup/login
+DEBUG - 2013-10-08 17:21:36 --> Config Class Initialized
+DEBUG - 2013-10-08 17:21:36 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:21:36 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:21:36 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:21:36 --> URI Class Initialized
+DEBUG - 2013-10-08 17:21:36 --> Router Class Initialized
+ERROR - 2013-10-08 17:21:36 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:21:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:37 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:21:37 --> Output Class Initialized
+DEBUG - 2013-10-08 17:21:37 --> Input Class Initialized
+DEBUG - 2013-10-08 17:21:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:21:37 --> Language Class Initialized
+DEBUG - 2013-10-08 17:21:37 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:21:37 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:21:37 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:21:37 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:21:37 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:21:37 --> Session Class Initialized
+DEBUG - 2013-10-08 17:21:37 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:21:37 --> Session routines successfully run
+DEBUG - 2013-10-08 17:21:37 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:21:37 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:37 --> Model Class Initialized
+ERROR - 2013-10-08 17:21:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:21:37 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:37 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:38 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:21:38 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:38 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:21:38 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:21:38 --> Final output sent to browser
+DEBUG - 2013-10-08 17:21:38 --> Total execution time: 1.5368
+DEBUG - 2013-10-08 17:21:39 --> Config Class Initialized
+DEBUG - 2013-10-08 17:21:39 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:21:39 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:21:39 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:21:39 --> URI Class Initialized
+DEBUG - 2013-10-08 17:21:39 --> Router Class Initialized
+ERROR - 2013-10-08 17:21:39 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:21:39 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:39 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:40 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:21:40 --> Output Class Initialized
+DEBUG - 2013-10-08 17:21:40 --> Input Class Initialized
+DEBUG - 2013-10-08 17:21:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:21:40 --> Language Class Initialized
+DEBUG - 2013-10-08 17:21:40 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:21:40 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:21:40 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:21:40 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:21:40 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:21:40 --> Session Class Initialized
+DEBUG - 2013-10-08 17:21:40 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:21:40 --> Session routines successfully run
+DEBUG - 2013-10-08 17:21:40 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:21:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:40 --> Model Class Initialized
+ERROR - 2013-10-08 17:21:40 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:21:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:40 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:21:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-10-08 17:21:41 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:21:41 --> Final output sent to browser
+DEBUG - 2013-10-08 17:21:41 --> Total execution time: 1.5492
+DEBUG - 2013-10-08 17:21:41 --> Config Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Config Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Config Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Config Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Config Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:21:41 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:21:41 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:21:41 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:21:41 --> URI Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> URI Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> URI Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:21:41 --> URI Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Router Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Router Class Initialized
+DEBUG - 2013-10-08 17:21:41 --> Router Class Initialized
+ERROR - 2013-10-08 17:21:41 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:21:41 --> URI Class Initialized
+ERROR - 2013-10-08 17:21:41 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:21:41 --> Router Class Initialized
+ERROR - 2013-10-08 17:21:41 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:21:41 --> Router Class Initialized
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:21:42 --> Output Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Output Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Output Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Output Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Input Class Initialized
+ERROR - 2013-10-08 17:21:42 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:21:42 --> Input Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Input Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Input Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:21:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:21:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:21:42 --> Output Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:21:42 --> Language Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Language Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Language Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Input Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Language Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:21:42 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Config Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Language Class Initialized
+DEBUG - 2013-10-08 17:21:42 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:21:42 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:21:43 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:21:43 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:21:43 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:21:43 --> URI Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:21:43 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Session Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:21:43 --> Router Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:21:43 --> Session Class Initialized
+ERROR - 2013-10-08 17:21:43 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:21:43 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Session routines successfully run
+DEBUG - 2013-10-08 17:21:43 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: string_helper
+ERROR - 2013-10-08 17:21:43 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:21:43 --> Session Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Session Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Session routines successfully run
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:21:43 --> Session Class Initialized
+ERROR - 2013-10-08 17:21:43 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:21:43 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:21:43 --> Session routines successfully run
+ERROR - 2013-10-08 17:21:43 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:21:43 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Session routines successfully run
+ERROR - 2013-10-08 17:21:43 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:21:43 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:21:43 --> Session routines successfully run
+DEBUG - 2013-10-08 17:21:43 --> Helper loaded: html_helper
+ERROR - 2013-10-08 17:21:43 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:21:44 --> Model Class Initialized
+ERROR - 2013-10-08 17:21:44 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:21:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Output Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:21:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Input Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:21:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Language Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Loader Class Initialized
+ERROR - 2013-10-08 17:21:44 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:21:44 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:21:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Helper loaded: form_helper
+ERROR - 2013-10-08 17:21:44 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:21:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:21:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:21:44 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Session Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:21:45 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Session routines successfully run
+ERROR - 2013-10-08 17:21:45 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Helper loaded: html_helper
+ERROR - 2013-10-08 17:21:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:21:45 --> 404 Page Not Found --> wpuadmin_signup/jui
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+ERROR - 2013-10-08 17:21:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:45 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:21:45 --> 404 Page Not Found --> wpuadmin_signup/plugins
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+ERROR - 2013-10-08 17:21:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:21:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:46 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:46 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:21:46 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:46 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:21:46 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:21:46 --> Model Class Initialized
+ERROR - 2013-10-08 17:21:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:21:46 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:46 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:46 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:21:46 --> Model Class Initialized
+DEBUG - 2013-10-08 17:21:46 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:22:28 --> Config Class Initialized
+DEBUG - 2013-10-08 17:22:28 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:22:29 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:22:29 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:22:29 --> URI Class Initialized
+DEBUG - 2013-10-08 17:22:29 --> Router Class Initialized
+ERROR - 2013-10-08 17:22:29 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:22:29 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:29 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:29 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:29 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:29 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:22:29 --> Output Class Initialized
+DEBUG - 2013-10-08 17:22:29 --> Input Class Initialized
+DEBUG - 2013-10-08 17:22:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:22:29 --> Language Class Initialized
+DEBUG - 2013-10-08 17:22:29 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:22:29 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:22:29 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:22:29 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:22:29 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:22:29 --> Session Class Initialized
+DEBUG - 2013-10-08 17:22:29 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:22:29 --> Session routines successfully run
+DEBUG - 2013-10-08 17:22:29 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:22:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Model Class Initialized
+ERROR - 2013-10-08 17:22:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:22:30 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-10-08 17:22:30 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:22:30 --> Final output sent to browser
+DEBUG - 2013-10-08 17:22:30 --> Total execution time: 1.4068
+DEBUG - 2013-10-08 17:22:30 --> Config Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Config Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Config Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Config Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Config Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:22:30 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:22:30 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:22:30 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:22:30 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:22:30 --> URI Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> URI Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> URI Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> URI Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Router Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> URI Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Router Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Router Class Initialized
+DEBUG - 2013-10-08 17:22:30 --> Router Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Router Class Initialized
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:22:31 --> Output Class Initialized
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:22:31 --> Output Class Initialized
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:22:31 --> Input Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Output Class Initialized
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:22:31 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:22:31 --> Input Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:22:31 --> Input Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:22:31 --> Language Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Output Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Output Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:22:31 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Language Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Input Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Input Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Language Class Initialized
+DEBUG - 2013-10-08 17:22:31 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:22:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:22:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:22:32 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Language Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Language Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:22:32 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:22:32 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:22:32 --> Session Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:22:32 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:22:32 --> Session Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Session Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:22:32 --> Session routines successfully run
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:22:32 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:22:32 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Session routines successfully run
+DEBUG - 2013-10-08 17:22:32 --> Session Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Session routines successfully run
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:22:32 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Session Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:22:32 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:22:32 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:32 --> Session routines successfully run
+ERROR - 2013-10-08 17:22:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:22:33 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:22:33 --> Session routines successfully run
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:22:33 --> 404 Page Not Found --> wpuadmin_signup/plugins
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+ERROR - 2013-10-08 17:22:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:22:33 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+ERROR - 2013-10-08 17:22:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:33 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:22:34 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:22:34 --> Model Class Initialized
+ERROR - 2013-10-08 17:22:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:22:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:22:34 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:22:34 --> Config Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> Hooks Class Initialized
+ERROR - 2013-10-08 17:22:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:22:34 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:22:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> URI Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> Router Class Initialized
+DEBUG - 2013-10-08 17:22:34 --> Model Class Initialized
+ERROR - 2013-10-08 17:22:34 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:22:34 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:22:34 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:34 --> 404 Page Not Found --> wpuadmin_signup/jui
+ERROR - 2013-10-08 17:22:34 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:22:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:35 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:22:35 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:22:35 --> Output Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Input Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:22:35 --> Language Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:22:35 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:22:35 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:22:35 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Session Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:22:35 --> Session routines successfully run
+DEBUG - 2013-10-08 17:22:35 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:22:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Model Class Initialized
+ERROR - 2013-10-08 17:22:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:22:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:22:35 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:23:04 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:04 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:04 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:04 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:04 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:04 --> Router Class Initialized
+ERROR - 2013-10-08 17:23:04 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:23:04 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:04 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:04 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:23:04 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:04 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:04 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:04 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:04 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:05 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:23:05 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:05 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:05 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:05 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:05 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-10-08 17:23:05 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:23:05 --> Final output sent to browser
+DEBUG - 2013-10-08 17:23:05 --> Total execution time: 1.5605
+DEBUG - 2013-10-08 17:23:05 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:05 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:06 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:06 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:06 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:06 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:06 --> Router Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Router Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Router Class Initialized
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:23:06 --> Router Class Initialized
+DEBUG - 2013-10-08 17:23:06 --> Router Class Initialized
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:23:07 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Output Class Initialized
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:23:07 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Input Class Initialized
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:23:07 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:07 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:07 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:07 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:07 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:07 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:07 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Router Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: form_helper
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: form_helper
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: form_helper
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:23:07 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:07 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:07 --> Database Driver Class Initialized
+ERROR - 2013-10-08 17:23:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:23:07 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:23:07 --> Database Driver Class Initialized
+ERROR - 2013-10-08 17:23:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:08 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:08 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:08 --> Session routines successfully run
+ERROR - 2013-10-08 17:23:08 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:08 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:08 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:08 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: html_helper
+ERROR - 2013-10-08 17:23:08 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:08 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:23:08 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Helper loaded: custom_helper
+ERROR - 2013-10-08 17:23:08 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:23:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:08 --> Database Driver Class Initialized
+ERROR - 2013-10-08 17:23:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:09 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:09 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:09 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:23:09 --> 404 Page Not Found --> wpuadmin_signup/jui
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:09 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:23:10 --> 404 Page Not Found --> wpuadmin_signup/plugins
+DEBUG - 2013-10-08 17:23:10 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:23:10 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:23:10 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:23:10 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:23:10 --> Final output sent to browser
+DEBUG - 2013-10-08 17:23:10 --> Total execution time: 3.6147
+DEBUG - 2013-10-08 17:23:18 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:18 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:18 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:18 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:18 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:18 --> Router Class Initialized
+ERROR - 2013-10-08 17:23:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:23:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:18 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:23:18 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:18 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:18 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:18 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:18 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:18 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:23:18 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:18 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:23:18 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:18 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:19 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:19 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:19 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:19 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:19 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:19 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:19 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:23:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:19 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:19 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:23:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:19 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:19 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:19 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:19 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:23:19 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:23:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:19 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:23:19 --> Email Class Initialized
+DEBUG - 2013-10-08 17:23:19 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:20 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:23:20 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:23:20 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:23:20 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:23:20 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:23:20 --> Final output sent to browser
+DEBUG - 2013-10-08 17:23:20 --> Total execution time: 2.3133
+DEBUG - 2013-10-08 17:23:27 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:27 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:27 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:27 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:27 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:27 --> Router Class Initialized
+ERROR - 2013-10-08 17:23:27 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:23:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:28 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:23:28 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:28 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:28 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:28 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:28 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:28 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:23:28 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:28 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:23:28 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:28 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:28 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:28 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:28 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:28 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:28 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:28 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:29 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:29 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:23:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:29 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:23:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:29 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:29 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:23:29 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:23:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:29 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:23:29 --> Email Class Initialized
+DEBUG - 2013-10-08 17:23:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:29 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:23:29 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:23:29 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:23:29 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:23:29 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:23:29 --> Final output sent to browser
+DEBUG - 2013-10-08 17:23:30 --> Total execution time: 2.3033
+DEBUG - 2013-10-08 17:23:47 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:47 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:47 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:47 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:47 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:47 --> Router Class Initialized
+ERROR - 2013-10-08 17:23:47 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:23:47 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:47 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:47 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:23:47 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:47 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:47 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:47 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:47 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:47 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:23:47 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:48 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:23:48 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:48 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:48 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:48 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:48 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:48 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:48 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:48 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:48 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:48 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:23:48 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:48 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:23:48 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:48 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:48 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:48 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:23:48 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:23:49 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:49 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:23:49 --> Email Class Initialized
+DEBUG - 2013-10-08 17:23:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:49 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:23:49 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:23:49 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:23:49 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:23:49 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:23:49 --> Final output sent to browser
+DEBUG - 2013-10-08 17:23:49 --> Total execution time: 2.1837
+DEBUG - 2013-10-08 17:23:50 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:50 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:50 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:50 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:50 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:51 --> Router Class Initialized
+ERROR - 2013-10-08 17:23:51 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:23:51 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:51 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:51 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:51 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:51 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:23:51 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:51 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:51 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:51 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:51 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:51 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:23:51 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:51 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:23:51 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:51 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:51 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:51 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:51 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:52 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:52 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:52 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:23:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:52 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:52 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:23:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:52 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:52 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:52 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:23:52 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:23:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:52 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:23:52 --> Email Class Initialized
+DEBUG - 2013-10-08 17:23:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:23:52 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:23:52 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:23:52 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:23:52 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:23:52 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:23:53 --> Final output sent to browser
+DEBUG - 2013-10-08 17:23:53 --> Total execution time: 2.1800
+DEBUG - 2013-10-08 17:23:55 --> Config Class Initialized
+DEBUG - 2013-10-08 17:23:56 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:23:56 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:23:56 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:23:56 --> URI Class Initialized
+DEBUG - 2013-10-08 17:23:56 --> Router Class Initialized
+ERROR - 2013-10-08 17:23:56 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:23:56 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:56 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:23:56 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:56 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:23:56 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:23:56 --> Output Class Initialized
+DEBUG - 2013-10-08 17:23:56 --> Input Class Initialized
+DEBUG - 2013-10-08 17:23:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:23:56 --> Language Class Initialized
+DEBUG - 2013-10-08 17:23:56 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:23:56 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:23:56 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:23:56 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:23:56 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:23:56 --> Session Class Initialized
+DEBUG - 2013-10-08 17:23:57 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:23:57 --> Session routines successfully run
+DEBUG - 2013-10-08 17:23:57 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:23:57 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:57 --> Model Class Initialized
+ERROR - 2013-10-08 17:23:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:23:57 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:57 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:57 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:23:57 --> Model Class Initialized
+DEBUG - 2013-10-08 17:23:57 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:23:57 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:23:57 --> Final output sent to browser
+DEBUG - 2013-10-08 17:23:57 --> Total execution time: 1.5529
+DEBUG - 2013-10-08 17:24:35 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:35 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:35 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:35 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:35 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:35 --> Router Class Initialized
+ERROR - 2013-10-08 17:24:35 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:35 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:35 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:35 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:35 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:35 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:24:35 --> Output Class Initialized
+DEBUG - 2013-10-08 17:24:35 --> Input Class Initialized
+DEBUG - 2013-10-08 17:24:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:24:35 --> Language Class Initialized
+DEBUG - 2013-10-08 17:24:36 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:24:36 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:24:36 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:24:36 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:24:36 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:24:36 --> Session Class Initialized
+DEBUG - 2013-10-08 17:24:36 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:24:36 --> Session routines successfully run
+DEBUG - 2013-10-08 17:24:36 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:24:36 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:36 --> Model Class Initialized
+ERROR - 2013-10-08 17:24:36 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:24:36 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:36 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:36 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:24:36 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:36 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:24:36 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:24:36 --> Final output sent to browser
+DEBUG - 2013-10-08 17:24:36 --> Total execution time: 1.5663
+DEBUG - 2013-10-08 17:24:36 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:37 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Router Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> URI Class Initialized
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:24:37 --> Router Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Router Class Initialized
+DEBUG - 2013-10-08 17:24:37 --> Router Class Initialized
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:24:37 --> Router Class Initialized
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:37 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:24:38 --> Output Class Initialized
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:24:38 --> Input Class Initialized
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:24:38 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:24:38 --> Output Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:24:38 --> Output Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Output Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Input Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Output Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Language Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:24:38 --> Input Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Input Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Input Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Language Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:24:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:24:38 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:24:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:24:38 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Language Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Language Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:24:38 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:24:38 --> Language Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:24:38 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:24:38 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:24:38 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:24:38 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:24:38 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:24:39 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Session Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:24:39 --> Session Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:24:39 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Session Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Session routines successfully run
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:24:39 --> Session routines successfully run
+DEBUG - 2013-10-08 17:24:39 --> Session Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:24:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Session routines successfully run
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:24:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:24:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Session routines successfully run
+DEBUG - 2013-10-08 17:24:39 --> Session Class Initialized
+ERROR - 2013-10-08 17:24:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:24:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:24:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Session routines successfully run
+DEBUG - 2013-10-08 17:24:39 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:39 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:24:40 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+ERROR - 2013-10-08 17:24:40 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+ERROR - 2013-10-08 17:24:40 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:40 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:40 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:24:40 --> 404 Page Not Found --> wpuadmin_signup/plugins
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+ERROR - 2013-10-08 17:24:40 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:40 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:40 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:24:40 --> 404 Page Not Found --> wpuadmin_signup/jui
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+ERROR - 2013-10-08 17:24:40 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:40 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:41 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:24:41 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:41 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:24:41 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:24:41 --> Model Class Initialized
+ERROR - 2013-10-08 17:24:41 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:24:41 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:41 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:41 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:24:41 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:41 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:24:41 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:24:42 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:42 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:42 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:42 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:43 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:43 --> Router Class Initialized
+ERROR - 2013-10-08 17:24:43 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:43 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:43 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:43 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:43 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:43 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:24:43 --> Output Class Initialized
+DEBUG - 2013-10-08 17:24:43 --> Input Class Initialized
+DEBUG - 2013-10-08 17:24:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:24:43 --> Language Class Initialized
+DEBUG - 2013-10-08 17:24:43 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:24:43 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:24:43 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:24:43 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:24:43 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:24:43 --> Session Class Initialized
+DEBUG - 2013-10-08 17:24:43 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:24:43 --> Session routines successfully run
+DEBUG - 2013-10-08 17:24:43 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:24:43 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:43 --> Model Class Initialized
+ERROR - 2013-10-08 17:24:44 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:24:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-10-08 17:24:44 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:44 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> Router Class Initialized
+ERROR - 2013-10-08 17:24:44 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:44 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:24:44 --> Output Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> Input Class Initialized
+DEBUG - 2013-10-08 17:24:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:24:45 --> Language Class Initialized
+DEBUG - 2013-10-08 17:24:45 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:24:45 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:24:45 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:24:45 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:24:45 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:24:45 --> Session Class Initialized
+DEBUG - 2013-10-08 17:24:45 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:24:45 --> Session routines successfully run
+DEBUG - 2013-10-08 17:24:45 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:24:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:45 --> Model Class Initialized
+ERROR - 2013-10-08 17:24:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:24:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:45 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:24:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:45 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:24:45 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:24:45 --> Final output sent to browser
+DEBUG - 2013-10-08 17:24:45 --> Total execution time: 1.6123
+DEBUG - 2013-10-08 17:24:46 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:46 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:46 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:46 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:46 --> Router Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> Router Class Initialized
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:24:46 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:46 --> URI Class Initialized
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:24:46 --> Router Class Initialized
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:24:46 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:46 --> Router Class Initialized
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:24:46 --> URI Class Initialized
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:24:46 --> Router Class Initialized
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:46 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:47 --> 404 Page Not Found --> wpuadmin/plugins
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:47 --> 404 Page Not Found --> wpuadmin/jui
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:24:47 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:24:47 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:24:47 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:24:47 --> 404 Page Not Found --> wpuadmin/js
+DEBUG - 2013-10-08 17:24:49 --> Config Class Initialized
+DEBUG - 2013-10-08 17:24:49 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:24:49 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:24:49 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:24:49 --> URI Class Initialized
+DEBUG - 2013-10-08 17:24:49 --> Router Class Initialized
+ERROR - 2013-10-08 17:24:49 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:24:49 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:49 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:24:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:24:49 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:24:49 --> Output Class Initialized
+DEBUG - 2013-10-08 17:24:49 --> Input Class Initialized
+DEBUG - 2013-10-08 17:24:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:24:49 --> Language Class Initialized
+DEBUG - 2013-10-08 17:24:50 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:24:50 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:24:50 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:24:50 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:24:50 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:24:50 --> Session Class Initialized
+DEBUG - 2013-10-08 17:24:50 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:24:50 --> Session routines successfully run
+DEBUG - 2013-10-08 17:24:50 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:24:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:50 --> Model Class Initialized
+ERROR - 2013-10-08 17:24:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:24:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:50 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:24:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:24:50 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:24:50 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:24:50 --> Final output sent to browser
+DEBUG - 2013-10-08 17:24:50 --> Total execution time: 1.5801
+DEBUG - 2013-10-08 17:25:28 --> Config Class Initialized
+DEBUG - 2013-10-08 17:25:28 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:25:28 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:25:28 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:25:28 --> URI Class Initialized
+DEBUG - 2013-10-08 17:25:28 --> Router Class Initialized
+ERROR - 2013-10-08 17:25:28 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:25:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:25:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:25:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:25:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:25:28 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:25:28 --> Output Class Initialized
+DEBUG - 2013-10-08 17:25:28 --> Input Class Initialized
+DEBUG - 2013-10-08 17:25:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:25:29 --> Language Class Initialized
+DEBUG - 2013-10-08 17:25:29 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:25:29 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:25:29 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:25:29 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:25:29 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:25:29 --> Session Class Initialized
+DEBUG - 2013-10-08 17:25:29 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:25:29 --> Session routines successfully run
+DEBUG - 2013-10-08 17:25:29 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:25:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:29 --> Model Class Initialized
+ERROR - 2013-10-08 17:25:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:25:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:29 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:25:29 --> Model Class Initialized
+ERROR - 2013-10-08 17:25:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:25:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:29 --> Model Class Initialized
+ERROR - 2013-10-08 17:25:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:25:30 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:25:30 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:25:30 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:25:30 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:25:30 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:25:30 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:30 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:25:30 --> Email Class Initialized
+DEBUG - 2013-10-08 17:25:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:25:30 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:25:30 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:25:30 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:25:30 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:25:30 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:25:30 --> Final output sent to browser
+DEBUG - 2013-10-08 17:25:30 --> Total execution time: 2.4222
+DEBUG - 2013-10-08 17:25:37 --> Config Class Initialized
+DEBUG - 2013-10-08 17:25:37 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:25:37 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:25:37 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:25:37 --> URI Class Initialized
+DEBUG - 2013-10-08 17:25:37 --> Router Class Initialized
+ERROR - 2013-10-08 17:25:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:25:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:25:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:25:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:25:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:25:37 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:25:37 --> Output Class Initialized
+DEBUG - 2013-10-08 17:25:37 --> Input Class Initialized
+DEBUG - 2013-10-08 17:25:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:25:37 --> Language Class Initialized
+DEBUG - 2013-10-08 17:25:37 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:25:37 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:25:37 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:25:38 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:25:38 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:25:38 --> Session Class Initialized
+DEBUG - 2013-10-08 17:25:38 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:25:38 --> Session routines successfully run
+DEBUG - 2013-10-08 17:25:38 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:25:38 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:38 --> Model Class Initialized
+ERROR - 2013-10-08 17:25:38 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:25:38 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:38 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:38 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:25:38 --> Model Class Initialized
+ERROR - 2013-10-08 17:25:38 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:25:38 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:38 --> Model Class Initialized
+ERROR - 2013-10-08 17:25:38 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:25:38 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:25:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:25:38 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:25:38 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:25:38 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:25:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:25:39 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:25:39 --> Email Class Initialized
+DEBUG - 2013-10-08 17:25:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:25:39 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:25:39 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:25:39 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:25:39 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:25:39 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:25:39 --> Final output sent to browser
+DEBUG - 2013-10-08 17:25:39 --> Total execution time: 2.1904
+DEBUG - 2013-10-08 17:26:18 --> Config Class Initialized
+DEBUG - 2013-10-08 17:26:18 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:26:18 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:26:18 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:26:18 --> URI Class Initialized
+DEBUG - 2013-10-08 17:26:18 --> Router Class Initialized
+ERROR - 2013-10-08 17:26:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:26:19 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:26:19 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:26:19 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:26:19 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:26:19 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:26:19 --> Output Class Initialized
+DEBUG - 2013-10-08 17:26:19 --> Input Class Initialized
+DEBUG - 2013-10-08 17:26:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:26:19 --> Language Class Initialized
+DEBUG - 2013-10-08 17:26:19 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:26:19 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:26:19 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:26:19 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:26:19 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:26:19 --> Session Class Initialized
+DEBUG - 2013-10-08 17:26:19 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:26:19 --> Session routines successfully run
+DEBUG - 2013-10-08 17:26:19 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:26:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:26:19 --> Model Class Initialized
+ERROR - 2013-10-08 17:26:19 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:26:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:26:19 --> Model Class Initialized
+DEBUG - 2013-10-08 17:26:19 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:26:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:26:20 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:26:20 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:26:20 --> Final output sent to browser
+DEBUG - 2013-10-08 17:26:20 --> Total execution time: 1.4302
+DEBUG - 2013-10-08 17:27:08 --> Config Class Initialized
+DEBUG - 2013-10-08 17:27:08 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:27:08 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:27:08 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:27:08 --> URI Class Initialized
+DEBUG - 2013-10-08 17:27:08 --> Router Class Initialized
+ERROR - 2013-10-08 17:27:08 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:27:08 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:27:08 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:27:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:27:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:27:08 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:27:08 --> Output Class Initialized
+DEBUG - 2013-10-08 17:27:09 --> Input Class Initialized
+DEBUG - 2013-10-08 17:27:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:27:09 --> Language Class Initialized
+DEBUG - 2013-10-08 17:27:09 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:27:09 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:27:09 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:27:09 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:27:09 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:27:09 --> Session Class Initialized
+DEBUG - 2013-10-08 17:27:09 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:27:09 --> Session routines successfully run
+DEBUG - 2013-10-08 17:27:09 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:27:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:27:09 --> Model Class Initialized
+ERROR - 2013-10-08 17:27:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:27:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:27:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:27:09 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:27:09 --> Model Class Initialized
+ERROR - 2013-10-08 17:27:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:27:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:27:10 --> Model Class Initialized
+ERROR - 2013-10-08 17:27:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:27:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:27:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:27:10 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:27:10 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:27:10 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:27:10 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:27:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:27:10 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:27:10 --> Email Class Initialized
+DEBUG - 2013-10-08 17:27:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:27:10 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:27:10 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:27:10 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:27:10 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:27:10 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:27:10 --> Final output sent to browser
+DEBUG - 2013-10-08 17:27:10 --> Total execution time: 2.4337
+DEBUG - 2013-10-08 17:29:27 --> Config Class Initialized
+DEBUG - 2013-10-08 17:29:27 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:29:27 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:29:27 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:29:27 --> URI Class Initialized
+DEBUG - 2013-10-08 17:29:27 --> Router Class Initialized
+ERROR - 2013-10-08 17:29:27 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:29:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:29:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:29:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:29:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:29:27 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:29:27 --> Output Class Initialized
+DEBUG - 2013-10-08 17:29:27 --> Input Class Initialized
+DEBUG - 2013-10-08 17:29:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:29:27 --> Language Class Initialized
+DEBUG - 2013-10-08 17:29:27 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:29:27 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:29:27 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:29:28 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:29:28 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:29:28 --> Session Class Initialized
+DEBUG - 2013-10-08 17:29:28 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:29:28 --> Session routines successfully run
+DEBUG - 2013-10-08 17:29:28 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:29:28 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:28 --> Model Class Initialized
+ERROR - 2013-10-08 17:29:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:29:28 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:28 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:28 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:29:28 --> Model Class Initialized
+ERROR - 2013-10-08 17:29:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:29:28 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:28 --> Model Class Initialized
+ERROR - 2013-10-08 17:29:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:29:28 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:29:28 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:29:28 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:29:29 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:29:29 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:29:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:29 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:29:29 --> Email Class Initialized
+DEBUG - 2013-10-08 17:29:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:29:29 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:29:29 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:29:29 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:29:29 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:29:29 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:29:29 --> Final output sent to browser
+DEBUG - 2013-10-08 17:29:29 --> Total execution time: 2.3785
+DEBUG - 2013-10-08 17:29:31 --> Config Class Initialized
+DEBUG - 2013-10-08 17:29:31 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:29:31 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:29:31 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:29:31 --> URI Class Initialized
+DEBUG - 2013-10-08 17:29:31 --> Router Class Initialized
+ERROR - 2013-10-08 17:29:31 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:29:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:29:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:29:32 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:29:32 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:29:32 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:29:32 --> Output Class Initialized
+DEBUG - 2013-10-08 17:29:32 --> Input Class Initialized
+DEBUG - 2013-10-08 17:29:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:29:32 --> Language Class Initialized
+DEBUG - 2013-10-08 17:29:32 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:29:32 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:29:32 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:29:32 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:29:32 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:29:32 --> Session Class Initialized
+DEBUG - 2013-10-08 17:29:32 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:29:32 --> Session routines successfully run
+DEBUG - 2013-10-08 17:29:32 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:29:32 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:32 --> Model Class Initialized
+ERROR - 2013-10-08 17:29:32 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:29:32 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:32 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:33 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:29:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:33 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:29:33 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:29:33 --> Final output sent to browser
+DEBUG - 2013-10-08 17:29:33 --> Total execution time: 1.5784
+DEBUG - 2013-10-08 17:29:58 --> Config Class Initialized
+DEBUG - 2013-10-08 17:29:58 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:29:58 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:29:58 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:29:58 --> URI Class Initialized
+DEBUG - 2013-10-08 17:29:58 --> Router Class Initialized
+ERROR - 2013-10-08 17:29:58 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:29:58 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:29:58 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:29:58 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:29:58 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:29:58 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:29:58 --> Output Class Initialized
+DEBUG - 2013-10-08 17:29:58 --> Input Class Initialized
+DEBUG - 2013-10-08 17:29:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:29:58 --> Language Class Initialized
+DEBUG - 2013-10-08 17:29:59 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:29:59 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:29:59 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:29:59 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:29:59 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:29:59 --> Session Class Initialized
+DEBUG - 2013-10-08 17:29:59 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:29:59 --> Session routines successfully run
+DEBUG - 2013-10-08 17:29:59 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:29:59 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:59 --> Model Class Initialized
+ERROR - 2013-10-08 17:29:59 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:29:59 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:59 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:59 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:29:59 --> Model Class Initialized
+DEBUG - 2013-10-08 17:29:59 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:29:59 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:29:59 --> Final output sent to browser
+DEBUG - 2013-10-08 17:29:59 --> Total execution time: 1.5506
+DEBUG - 2013-10-08 17:30:11 --> Config Class Initialized
+DEBUG - 2013-10-08 17:30:11 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:30:11 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:30:11 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:30:11 --> URI Class Initialized
+DEBUG - 2013-10-08 17:30:11 --> Router Class Initialized
+ERROR - 2013-10-08 17:30:11 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:30:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:30:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:30:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:30:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:30:11 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:30:11 --> Output Class Initialized
+DEBUG - 2013-10-08 17:30:11 --> Input Class Initialized
+DEBUG - 2013-10-08 17:30:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:30:11 --> Language Class Initialized
+DEBUG - 2013-10-08 17:30:11 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:30:12 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:30:12 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:30:12 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:30:12 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:30:12 --> Session Class Initialized
+DEBUG - 2013-10-08 17:30:12 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:30:12 --> Session routines successfully run
+DEBUG - 2013-10-08 17:30:12 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:30:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:12 --> Model Class Initialized
+ERROR - 2013-10-08 17:30:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:30:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:12 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:30:12 --> Model Class Initialized
+ERROR - 2013-10-08 17:30:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:30:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:12 --> Model Class Initialized
+ERROR - 2013-10-08 17:30:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:30:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:30:12 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:30:13 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:30:13 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:30:13 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:30:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:13 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:30:13 --> Email Class Initialized
+DEBUG - 2013-10-08 17:30:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:30:13 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:30:13 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:30:13 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:30:13 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:30:13 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:30:13 --> Final output sent to browser
+DEBUG - 2013-10-08 17:30:13 --> Total execution time: 2.4186
+DEBUG - 2013-10-08 17:30:15 --> Config Class Initialized
+DEBUG - 2013-10-08 17:30:15 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:30:15 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:30:15 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:30:15 --> URI Class Initialized
+DEBUG - 2013-10-08 17:30:15 --> Router Class Initialized
+ERROR - 2013-10-08 17:30:15 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:30:15 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:30:15 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:30:15 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:30:15 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:30:15 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:30:15 --> Output Class Initialized
+DEBUG - 2013-10-08 17:30:15 --> Input Class Initialized
+DEBUG - 2013-10-08 17:30:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:30:15 --> Language Class Initialized
+DEBUG - 2013-10-08 17:30:15 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:30:15 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:30:15 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:30:15 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:30:16 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:30:16 --> Session Class Initialized
+DEBUG - 2013-10-08 17:30:16 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:30:16 --> Session routines successfully run
+DEBUG - 2013-10-08 17:30:16 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:30:16 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:16 --> Model Class Initialized
+ERROR - 2013-10-08 17:30:16 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:30:16 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:16 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:16 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:30:16 --> Model Class Initialized
+ERROR - 2013-10-08 17:30:16 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:30:16 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:16 --> Model Class Initialized
+ERROR - 2013-10-08 17:30:16 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:30:16 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:30:16 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:30:16 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:30:16 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:30:16 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:30:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:30:17 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:30:17 --> Email Class Initialized
+DEBUG - 2013-10-08 17:30:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:30:17 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:30:17 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:30:17 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:30:17 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:30:17 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:30:17 --> Final output sent to browser
+DEBUG - 2013-10-08 17:30:17 --> Total execution time: 2.3978
+DEBUG - 2013-10-08 17:31:01 --> Config Class Initialized
+DEBUG - 2013-10-08 17:31:01 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:31:01 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:31:01 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:31:01 --> URI Class Initialized
+DEBUG - 2013-10-08 17:31:01 --> Router Class Initialized
+ERROR - 2013-10-08 17:31:01 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:31:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:31:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:31:01 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:31:01 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:31:01 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:31:01 --> Output Class Initialized
+DEBUG - 2013-10-08 17:31:01 --> Input Class Initialized
+DEBUG - 2013-10-08 17:31:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:31:01 --> Language Class Initialized
+DEBUG - 2013-10-08 17:31:01 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:31:01 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:31:02 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:31:02 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:31:02 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:31:02 --> Session Class Initialized
+DEBUG - 2013-10-08 17:31:02 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:31:02 --> Session routines successfully run
+DEBUG - 2013-10-08 17:31:02 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:31:02 --> Model Class Initialized
+DEBUG - 2013-10-08 17:31:02 --> Model Class Initialized
+ERROR - 2013-10-08 17:31:02 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:31:02 --> Model Class Initialized
+DEBUG - 2013-10-08 17:31:02 --> Model Class Initialized
+DEBUG - 2013-10-08 17:31:02 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:31:02 --> Model Class Initialized
+DEBUG - 2013-10-08 17:31:02 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:31:02 --> Language file loaded: language/english/form_validation_lang.php
+ERROR - 2013-10-08 17:31:02 --> Severity: Notice  --> Undefined index:  user_id C:\AppServ\www\webpowerup\application\models\affiliate_model.php 13
+DEBUG - 2013-10-08 17:32:11 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:11 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:11 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:11 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:11 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:11 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:11 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:12 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:12 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:12 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:12 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:12 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:12 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:12 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:12 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:12 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:12 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:12 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:12 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:12 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:12 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:12 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:12 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:13 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:13 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:32:13 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:32:13 --> Final output sent to browser
+DEBUG - 2013-10-08 17:32:13 --> Total execution time: 1.5826
+DEBUG - 2013-10-08 17:32:16 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:16 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:16 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:16 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:16 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:16 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:16 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:16 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:16 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:16 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:16 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:16 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:16 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:16 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:16 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:16 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:16 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:17 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:17 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:17 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:17 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:17 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:17 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:17 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:17 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:17 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:17 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:17 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:17 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:32:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:17 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:17 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:32:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:17 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:17 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:17 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:32:18 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:32:18 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:18 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:32:18 --> Email Class Initialized
+DEBUG - 2013-10-08 17:32:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:18 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:32:18 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:32:18 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:32:18 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:32:18 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:32:18 --> Final output sent to browser
+DEBUG - 2013-10-08 17:32:18 --> Total execution time: 2.2336
+DEBUG - 2013-10-08 17:32:20 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:20 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:20 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:20 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:21 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:21 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:21 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:21 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:21 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:21 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:21 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:21 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:21 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:21 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:21 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:21 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:21 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:21 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:21 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:21 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:21 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:21 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:21 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:21 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:21 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:21 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:22 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:22 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:22 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:22 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:22 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:22 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:32:22 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:22 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:22 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:32:22 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:22 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:22 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:22 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:22 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:32:22 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:32:22 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:22 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:32:22 --> Email Class Initialized
+DEBUG - 2013-10-08 17:32:22 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:22 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:32:22 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:32:22 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:32:22 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:32:23 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:32:23 --> Final output sent to browser
+DEBUG - 2013-10-08 17:32:23 --> Total execution time: 2.2236
+DEBUG - 2013-10-08 17:32:23 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:23 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:23 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:23 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:23 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:23 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:23 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:24 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:24 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:24 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:24 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:24 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:24 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:24 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:24 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:24 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:24 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:24 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:24 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:24 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:24 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:24 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:24 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:24 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:24 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:24 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:24 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:24 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:24 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:25 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:25 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:25 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:32:25 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:25 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:25 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:32:25 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:25 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:25 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:25 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:25 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:32:25 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:32:25 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:25 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:32:25 --> Email Class Initialized
+DEBUG - 2013-10-08 17:32:25 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:25 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:32:25 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:32:25 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:32:25 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:32:25 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:32:25 --> Final output sent to browser
+DEBUG - 2013-10-08 17:32:25 --> Total execution time: 2.2079
+DEBUG - 2013-10-08 17:32:28 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:28 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:28 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:28 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:28 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:28 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:28 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:28 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:28 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:28 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:28 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:28 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:28 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:28 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:28 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:28 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:29 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:29 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:29 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:29 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:29 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:29 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:29 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:32:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:29 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:32:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:29 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:29 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:32:29 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:32:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:30 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:32:30 --> Email Class Initialized
+DEBUG - 2013-10-08 17:32:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:32:30 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:32:30 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:32:30 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:32:30 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:32:30 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:32:30 --> Final output sent to browser
+DEBUG - 2013-10-08 17:32:30 --> Total execution time: 2.4181
+DEBUG - 2013-10-08 17:32:33 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:33 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:33 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:33 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:33 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:33 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:33 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:34 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:34 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:34 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:34 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:34 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:34 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:34 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:34 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:34 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:34 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:34 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:34 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:34 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:34 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:35 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:35 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:35 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:32:35 --> Language file loaded: language/english/form_validation_lang.php
+ERROR - 2013-10-08 17:32:35 --> Severity: Notice  --> Undefined index:  user_id C:\AppServ\www\webpowerup\application\models\affiliate_model.php 13
+DEBUG - 2013-10-08 17:32:35 --> Email Class Initialized
+ERROR - 2013-10-08 17:32:36 --> Severity: Warning  --> mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\AppServ\www\webpowerup\system\libraries\Email.php 1540
+DEBUG - 2013-10-08 17:32:36 --> Language file loaded: language/english/email_lang.php
+ERROR - 2013-10-08 17:32:36 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\system\core\Exceptions.php:170) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+ERROR - 2013-10-08 17:32:36 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\system\core\Exceptions.php:170) C:\AppServ\www\webpowerup\system\helpers\url_helper.php 543
+DEBUG - 2013-10-08 17:32:40 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:40 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:40 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:40 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:40 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:41 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:41 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:41 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:41 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:41 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:41 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:41 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:41 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:41 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:41 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:41 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:41 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:41 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:41 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:41 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:41 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:41 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:41 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:41 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:42 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:42 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:42 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:42 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:42 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:42 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:42 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:42 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:32:42 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:32:42 --> Final output sent to browser
+DEBUG - 2013-10-08 17:32:42 --> Total execution time: 1.7311
+DEBUG - 2013-10-08 17:32:46 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:46 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:46 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:46 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:46 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:46 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:46 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:46 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:46 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:46 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:46 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:46 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:47 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:47 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:47 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:47 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:47 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:47 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:47 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:47 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:32:47 --> Final output sent to browser
+DEBUG - 2013-10-08 17:32:47 --> Total execution time: 1.5294
+DEBUG - 2013-10-08 17:32:47 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:47 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:48 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:48 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:48 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:48 --> Router Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> URI Class Initialized
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:32:48 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Router Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Router Class Initialized
+DEBUG - 2013-10-08 17:32:48 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:32:48 --> UTF-8 Support Enabled
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:32:48 --> URI Class Initialized
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:32:48 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:49 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:49 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:49 --> Output Class Initialized
+ERROR - 2013-10-08 17:32:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:49 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:32:49 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:32:49 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Output Class Initialized
+ERROR - 2013-10-08 17:32:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:49 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:49 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Global POST and COOKIE data sanitized
+ERROR - 2013-10-08 17:32:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:32:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:49 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Global POST and COOKIE data sanitized
+ERROR - 2013-10-08 17:32:49 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:49 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:49 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:49 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:49 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:49 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:49 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:49 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:50 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:32:50 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:50 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:50 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:50 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:32:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:32:50 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: html_helper
+ERROR - 2013-10-08 17:32:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Session Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:32:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Session routines successfully run
+DEBUG - 2013-10-08 17:32:50 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:32:50 --> Helper loaded: html_helper
+ERROR - 2013-10-08 17:32:50 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:32:51 --> 404 Page Not Found --> wpuadmin_signup/jui
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:32:51 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:51 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:32:52 --> 404 Page Not Found --> wpuadmin_signup/plugins
+DEBUG - 2013-10-08 17:32:52 --> Model Class Initialized
+ERROR - 2013-10-08 17:32:52 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:32:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:52 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:32:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:32:52 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:32:52 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:32:59 --> Config Class Initialized
+DEBUG - 2013-10-08 17:32:59 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:32:59 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:32:59 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:32:59 --> URI Class Initialized
+DEBUG - 2013-10-08 17:32:59 --> Router Class Initialized
+ERROR - 2013-10-08 17:32:59 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:32:59 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:59 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:32:59 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:59 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:32:59 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:32:59 --> Output Class Initialized
+DEBUG - 2013-10-08 17:32:59 --> Input Class Initialized
+DEBUG - 2013-10-08 17:32:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:32:59 --> Language Class Initialized
+DEBUG - 2013-10-08 17:32:59 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:32:59 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:00 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:00 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:00 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:00 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:00 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:00 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:00 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:00 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-10-08 17:33:00 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:00 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:00 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:01 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:01 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:01 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:01 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:01 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:01 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:01 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:01 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:01 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:01 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:01 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:01 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:01 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:01 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:01 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:01 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:01 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:01 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:02 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:02 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:33:02 --> Final output sent to browser
+DEBUG - 2013-10-08 17:33:02 --> Total execution time: 1.6019
+DEBUG - 2013-10-08 17:33:02 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:02 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:02 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Router Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:02 --> Hooks Class Initialized
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:33:03 --> Router Class Initialized
+DEBUG - 2013-10-08 17:33:03 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:03 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:03 --> Utf8 Class Initialized
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:33:03 --> URI Class Initialized
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:33:03 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:03 --> UTF-8 Support Enabled
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:03 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:33:03 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:03 --> URI Class Initialized
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:03 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:03 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:03 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:03 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:04 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:04 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:04 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:04 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:33:04 --> 404 Page Not Found --> wpuadmin/plugins
+ERROR - 2013-10-08 17:33:04 --> 404 Page Not Found --> wpuadmin/jui
+DEBUG - 2013-10-08 17:33:07 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:07 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:08 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:08 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:08 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:08 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:08 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:08 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:08 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:08 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:08 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:08 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:08 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:08 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:08 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:08 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:08 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:08 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:08 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:09 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:09 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-10-08 17:33:09 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:33:09 --> Final output sent to browser
+DEBUG - 2013-10-08 17:33:09 --> Total execution time: 1.7129
+DEBUG - 2013-10-08 17:33:09 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:09 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:10 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:10 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> Router Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> Router Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:10 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:10 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> URI Class Initialized
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:33:10 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> UTF-8 Support Enabled
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:33:10 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:33:10 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:10 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:10 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:33:11 --> Output Class Initialized
+ERROR - 2013-10-08 17:33:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:11 --> Input Class Initialized
+ERROR - 2013-10-08 17:33:11 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:11 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:11 --> Output Class Initialized
+ERROR - 2013-10-08 17:33:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:11 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Language Class Initialized
+ERROR - 2013-10-08 17:33:11 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:11 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:11 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:11 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:11 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:11 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:11 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:11 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:11 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:11 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:12 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:12 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:12 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:12 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:12 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:12 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:12 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: html_helper
+ERROR - 2013-10-08 17:33:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:12 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:12 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:12 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:12 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:33:12 --> 404 Page Not Found --> wpuadmin_signup/jui
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:33:13 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:33:13 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:13 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:33:13 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:33:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Config Class Initialized
+ERROR - 2013-10-08 17:33:13 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:13 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:13 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:14 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:14 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:14 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:14 --> 404 Page Not Found --> wpuadmin_signup/plugins
+ERROR - 2013-10-08 17:33:14 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:33:14 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:14 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:14 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:14 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+ERROR - 2013-10-08 17:33:14 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:14 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:14 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:14 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:14 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:14 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:14 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:14 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:14 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:14 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:14 --> Global POST and COOKIE data sanitized
+ERROR - 2013-10-08 17:33:14 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:33:14 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:14 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:15 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:15 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:15 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:15 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:15 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:15 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:15 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:15 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:15 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:15 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:15 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:15 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:33:15 --> Final output sent to browser
+DEBUG - 2013-10-08 17:33:15 --> Total execution time: 2.2331
+DEBUG - 2013-10-08 17:33:28 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:28 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:28 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:28 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:28 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:28 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:28 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:29 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:29 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:29 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:29 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:29 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:29 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:29 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:29 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:29 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:29 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:29 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:29 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:29 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:29 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:29 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:29 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:30 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:33:30 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:30 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:33:30 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:33:30 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:33:30 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:33:30 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:33:30 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:33:30 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:30 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:33:30 --> Email Class Initialized
+DEBUG - 2013-10-08 17:33:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:33:30 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:33:30 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:33:30 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:33:30 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:30 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:33:31 --> Final output sent to browser
+DEBUG - 2013-10-08 17:33:31 --> Total execution time: 2.5124
+DEBUG - 2013-10-08 17:33:32 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:32 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:32 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:32 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:32 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:32 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:32 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:32 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:33 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:33 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:33 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:33 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:33 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:33 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:33 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:33 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:33 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:33 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:33 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:33 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:33 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:33 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:33 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:34 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:34 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\packagemodel.php 2
+DEBUG - 2013-10-08 17:33:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:34 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-10-08 17:33:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:33:34 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:33:34 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:33:34 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-10-08 17:33:34 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-10-08 17:33:34 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:34 --> Helper loaded: date_helper
+DEBUG - 2013-10-08 17:33:34 --> Email Class Initialized
+DEBUG - 2013-10-08 17:33:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-10-08 17:33:34 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-10-08 17:33:34 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-10-08 17:33:35 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-10-08 17:33:35 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:35 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-10-08 17:33:35 --> Final output sent to browser
+DEBUG - 2013-10-08 17:33:35 --> Total execution time: 2.5446
+DEBUG - 2013-10-08 17:33:37 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:38 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:38 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:38 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:38 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:38 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:38 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:38 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:38 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:38 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:38 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:38 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:38 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:38 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:38 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:38 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:38 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:38 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:39 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:39 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:39 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:39 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:39 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:39 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:39 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:39 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:39 --> Language file loaded: language/english/form_validation_lang.php
+ERROR - 2013-10-08 17:33:39 --> Severity: Notice  --> Undefined index:  user_id C:\AppServ\www\webpowerup\application\models\affiliate_model.php 13
+DEBUG - 2013-10-08 17:33:39 --> Email Class Initialized
+ERROR - 2013-10-08 17:33:40 --> Severity: Warning  --> mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\AppServ\www\webpowerup\system\libraries\Email.php 1540
+DEBUG - 2013-10-08 17:33:40 --> Language file loaded: language/english/email_lang.php
+ERROR - 2013-10-08 17:33:40 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\system\core\Exceptions.php:170) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+ERROR - 2013-10-08 17:33:40 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\system\core\Exceptions.php:170) C:\AppServ\www\webpowerup\system\helpers\url_helper.php 543
+DEBUG - 2013-10-08 17:33:43 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:43 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:44 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:44 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:44 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:44 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:44 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:44 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:44 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:44 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:44 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:44 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:44 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:44 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:44 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:44 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:44 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:45 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:45 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:45 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:45 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:45 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:45 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:45 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:45 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:33:45 --> Final output sent to browser
+DEBUG - 2013-10-08 17:33:45 --> Total execution time: 1.6894
+DEBUG - 2013-10-08 17:33:49 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:49 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:49 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:49 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:49 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:49 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:49 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:49 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:49 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:49 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:49 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:49 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:50 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:50 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:50 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:50 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:50 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:50 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:33:50 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:33:51 --> Final output sent to browser
+DEBUG - 2013-10-08 17:33:51 --> Total execution time: 1.7163
+DEBUG - 2013-10-08 17:33:51 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:51 --> Config Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:51 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:51 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:33:51 --> Router Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> UTF-8 Support Enabled
+ERROR - 2013-10-08 17:33:51 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:33:51 --> Router Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> URI Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> URI Class Initialized
+ERROR - 2013-10-08 17:33:51 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:33:51 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:51 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:33:51 --> Router Class Initialized
+DEBUG - 2013-10-08 17:33:51 --> Router Class Initialized
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:52 --> Output Class Initialized
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:52 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:52 --> Output Class Initialized
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:33:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:52 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:52 --> Output Class Initialized
+ERROR - 2013-10-08 17:33:52 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:33:52 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:52 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:52 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:52 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:52 --> Output Class Initialized
+DEBUG - 2013-10-08 17:33:52 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:52 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:52 --> Input Class Initialized
+DEBUG - 2013-10-08 17:33:52 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:53 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:53 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Language Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:53 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:53 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:33:53 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:53 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:33:53 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:53 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:33:53 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:53 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:53 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:53 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:53 --> Session Class Initialized
+DEBUG - 2013-10-08 17:33:53 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Helper loaded: string_helper
+ERROR - 2013-10-08 17:33:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Session routines successfully run
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:33:54 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:54 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:33:54 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:33:55 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:33:55 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:55 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:55 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:33:55 --> 404 Page Not Found --> wpuadmin_signup/plugins
+DEBUG - 2013-10-08 17:33:55 --> Model Class Initialized
+ERROR - 2013-10-08 17:33:55 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:33:55 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Model Class Initialized
+DEBUG - 2013-10-08 17:33:55 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:33:55 --> 404 Page Not Found --> wpuadmin_signup/jui
+DEBUG - 2013-10-08 17:34:00 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:00 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:00 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:00 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:00 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:00 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:00 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:00 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:00 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:00 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:00 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:00 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:00 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:00 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:01 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:01 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:01 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:01 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:01 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:01 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:01 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-10-08 17:34:01 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:01 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:01 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:02 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:02 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:02 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:02 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:02 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:02 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:02 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:02 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:02 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:02 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:02 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:02 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:02 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:02 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:02 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:02 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:03 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:03 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:03 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:03 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:03 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:03 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:03 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:03 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:03 --> File loaded: application/views/affiliate_view/dashboard.php
+DEBUG - 2013-10-08 17:34:03 --> Final output sent to browser
+DEBUG - 2013-10-08 17:34:03 --> Total execution time: 1.7164
+DEBUG - 2013-10-08 17:34:03 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:03 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:03 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:03 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:03 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:03 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:03 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:04 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:04 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:34:04 --> 404 Page Not Found --> wpuadmin/images
+DEBUG - 2013-10-08 17:34:06 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:06 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:06 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:06 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:06 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:06 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:06 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:06 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:06 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:06 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:06 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:06 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:06 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:06 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:07 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:07 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:07 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:07 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:07 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:07 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> File loaded: application/views/affiliate_view/affiliate_edit_pro.php
+DEBUG - 2013-10-08 17:34:07 --> Final output sent to browser
+DEBUG - 2013-10-08 17:34:07 --> Total execution time: 1.5935
+DEBUG - 2013-10-08 17:34:07 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:07 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:08 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:08 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:08 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:08 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:08 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:08 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:08 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:08 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:08 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:08 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:08 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:08 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:08 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:08 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:08 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:08 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:08 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:09 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:09 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:09 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:09 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:34:09 --> 404 Page Not Found --> wpuadmin_dashboard/images
+DEBUG - 2013-10-08 17:34:11 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:11 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:11 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:11 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:11 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:11 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:11 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:12 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:12 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:12 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:12 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:12 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:12 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:12 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:12 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:12 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:12 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:12 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:12 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:12 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:12 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:12 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:13 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:13 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:13 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:13 --> File loaded: application/views/affiliate_view/dashboard.php
+DEBUG - 2013-10-08 17:34:13 --> Final output sent to browser
+DEBUG - 2013-10-08 17:34:13 --> Total execution time: 1.6953
+DEBUG - 2013-10-08 17:34:13 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:13 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:13 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:13 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:13 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:13 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:13 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:13 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:34:13 --> 404 Page Not Found --> wpuadmin/images
+DEBUG - 2013-10-08 17:34:14 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:14 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:14 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:14 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:14 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:14 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:14 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:14 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:14 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:14 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:14 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:14 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:14 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:14 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:14 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:14 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:15 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:15 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:15 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:15 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:15 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> File loaded: application/views/affiliate_view/list_of_member.php
+DEBUG - 2013-10-08 17:34:15 --> Final output sent to browser
+DEBUG - 2013-10-08 17:34:15 --> Total execution time: 1.5920
+DEBUG - 2013-10-08 17:34:15 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:15 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:16 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:16 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:16 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:16 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:16 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:16 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:16 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:16 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:16 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:16 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:16 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:16 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:16 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:16 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:16 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:16 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:16 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:16 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:16 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:16 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:17 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:17 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:17 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:17 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:17 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:17 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:34:17 --> 404 Page Not Found --> wpuadmin_dashboard/images
+DEBUG - 2013-10-08 17:34:19 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:19 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:19 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:19 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:19 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:19 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:19 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:19 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:19 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:19 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:20 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:20 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:20 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:20 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:20 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:20 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:20 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:20 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:20 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:20 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:20 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:20 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:20 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:20 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:20 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:20 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:20 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:21 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:21 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:21 --> File loaded: application/views/affiliate_view/dashboard.php
+DEBUG - 2013-10-08 17:34:21 --> Final output sent to browser
+DEBUG - 2013-10-08 17:34:21 --> Total execution time: 1.6153
+DEBUG - 2013-10-08 17:34:21 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:21 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:21 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:21 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:21 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:21 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:21 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:21 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:21 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:21 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:21 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:21 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:34:21 --> 404 Page Not Found --> wpuadmin/images
+DEBUG - 2013-10-08 17:34:23 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:23 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:24 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:24 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:24 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:24 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:24 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:24 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:24 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:24 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:24 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:24 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:24 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:24 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:24 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:24 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:24 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:24 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:24 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:24 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:24 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:24 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:25 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:25 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:25 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:25 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:25 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:25 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:25 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:25 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:25 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:25 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:25 --> File loaded: application/views/affiliate_view/affiliate_edit_pro.php
+DEBUG - 2013-10-08 17:34:25 --> Final output sent to browser
+DEBUG - 2013-10-08 17:34:25 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:25 --> Total execution time: 1.5806
+DEBUG - 2013-10-08 17:34:25 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:25 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:25 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:25 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:25 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:25 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:25 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:26 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:26 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:26 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:26 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:26 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:26 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:26 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:26 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:26 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:26 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:26 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:26 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:26 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:26 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:26 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:26 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:26 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:26 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:26 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:27 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:27 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:27 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:27 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:34:27 --> 404 Page Not Found --> wpuadmin_dashboard/images
+DEBUG - 2013-10-08 17:34:29 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:29 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:29 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:30 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:30 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:30 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:30 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:30 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:30 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:30 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:30 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:30 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:30 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:30 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:30 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:30 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:30 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:30 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:30 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:30 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:30 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:31 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:31 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:31 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:31 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:31 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:31 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:31 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:31 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:31 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:31 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:31 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:31 --> Final output sent to browser
+DEBUG - 2013-10-08 17:34:31 --> Total execution time: 1.6837
+DEBUG - 2013-10-08 17:34:43 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:43 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:43 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:43 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:43 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:43 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:43 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:43 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:43 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:43 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:43 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:43 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:44 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:44 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:44 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:44 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:44 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:44 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:44 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:44 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:44 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:44 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:44 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:44 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:44 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:44 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:44 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:44 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:45 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:45 --> Final output sent to browser
+DEBUG - 2013-10-08 17:34:45 --> Total execution time: 1.6656
+DEBUG - 2013-10-08 17:34:49 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:49 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:49 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:50 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:50 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:50 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:50 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:50 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:50 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:50 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:50 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:50 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:50 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:50 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:50 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:50 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:50 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:50 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:50 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:50 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:50 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:51 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:51 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:51 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:51 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:51 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:51 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:52 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:52 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:52 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:52 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:52 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:52 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:52 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:52 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:52 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:52 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:52 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:52 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:52 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:52 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:52 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:52 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:53 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:53 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:53 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:53 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:53 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:53 --> File loaded: application/views/affiliate_view/dashboard.php
+DEBUG - 2013-10-08 17:34:53 --> Final output sent to browser
+DEBUG - 2013-10-08 17:34:53 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:53 --> Total execution time: 1.6792
+DEBUG - 2013-10-08 17:34:53 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:53 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:53 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:53 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:53 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:53 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:53 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:34:53 --> 404 Page Not Found --> wpuadmin/images
+DEBUG - 2013-10-08 17:34:56 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:56 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:56 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:56 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:56 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:56 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:56 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:56 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:56 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:56 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:56 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:56 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:56 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:56 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:56 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:56 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:56 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:56 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:56 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:56 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:57 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:57 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:57 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:57 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:57 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:57 --> Router Class Initialized
+ERROR - 2013-10-08 17:34:57 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:34:57 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:58 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:34:58 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:58 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:34:58 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:34:58 --> Output Class Initialized
+DEBUG - 2013-10-08 17:34:58 --> Input Class Initialized
+DEBUG - 2013-10-08 17:34:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:34:58 --> Language Class Initialized
+DEBUG - 2013-10-08 17:34:58 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:34:58 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:34:58 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:34:58 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:34:58 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:34:58 --> Session Class Initialized
+DEBUG - 2013-10-08 17:34:58 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:34:58 --> Session routines successfully run
+DEBUG - 2013-10-08 17:34:58 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:34:58 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:58 --> Model Class Initialized
+ERROR - 2013-10-08 17:34:59 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:34:59 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Model Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:34:59 --> Final output sent to browser
+DEBUG - 2013-10-08 17:34:59 --> Total execution time: 1.7659
+DEBUG - 2013-10-08 17:34:59 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:34:59 --> URI Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Router Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Config Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Config Class Initialized
+ERROR - 2013-10-08 17:34:59 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:34:59 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:34:59 --> Hooks Class Initialized
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:35:00 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:00 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:00 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:00 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:00 --> URI Class Initialized
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:35:00 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:00 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:00 --> Router Class Initialized
+DEBUG - 2013-10-08 17:35:00 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:00 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:35:00 --> URI Class Initialized
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:35:00 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:35:00 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:00 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:35:00 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:35:01 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:35:01 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:01 --> 404 Page Not Found --> wpuadmin/plugins
+ERROR - 2013-10-08 17:35:01 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:01 --> 404 Page Not Found --> wpuadmin/jui
+ERROR - 2013-10-08 17:35:01 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:35:01 --> 404 Page Not Found --> wpuadmin/js
+DEBUG - 2013-10-08 17:35:07 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:07 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:07 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:07 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:07 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:07 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:07 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:08 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:35:08 --> Output Class Initialized
+DEBUG - 2013-10-08 17:35:08 --> Input Class Initialized
+DEBUG - 2013-10-08 17:35:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:35:08 --> Language Class Initialized
+DEBUG - 2013-10-08 17:35:08 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:35:08 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:35:08 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:35:08 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:35:08 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:35:08 --> Session Class Initialized
+DEBUG - 2013-10-08 17:35:08 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:35:08 --> Session routines successfully run
+DEBUG - 2013-10-08 17:35:08 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:35:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:08 --> Model Class Initialized
+ERROR - 2013-10-08 17:35:08 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:35:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:09 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:35:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:09 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:35:09 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-10-08 17:35:09 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:09 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:09 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:09 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:09 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:09 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:09 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:09 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:09 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:09 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:09 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:09 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:35:09 --> Output Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Input Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:35:10 --> Language Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:35:10 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:35:10 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:35:10 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Session Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:35:10 --> Session routines successfully run
+DEBUG - 2013-10-08 17:35:10 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:35:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Model Class Initialized
+ERROR - 2013-10-08 17:35:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:35:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:10 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:35:11 --> File loaded: application/views/affiliate_view/dashboard.php
+DEBUG - 2013-10-08 17:35:11 --> Final output sent to browser
+DEBUG - 2013-10-08 17:35:11 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:11 --> Total execution time: 1.6960
+DEBUG - 2013-10-08 17:35:11 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:11 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:11 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:11 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:11 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:11 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:11 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:35:11 --> 404 Page Not Found --> wpuadmin/images
+DEBUG - 2013-10-08 17:35:13 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:13 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:13 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:13 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:13 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:13 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:13 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:14 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:14 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:35:14 --> Output Class Initialized
+DEBUG - 2013-10-08 17:35:14 --> Input Class Initialized
+DEBUG - 2013-10-08 17:35:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:35:14 --> Language Class Initialized
+DEBUG - 2013-10-08 17:35:14 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:35:14 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:35:14 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:35:14 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:35:14 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:35:14 --> Session Class Initialized
+DEBUG - 2013-10-08 17:35:14 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:35:14 --> Session routines successfully run
+DEBUG - 2013-10-08 17:35:14 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:35:14 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:14 --> Model Class Initialized
+ERROR - 2013-10-08 17:35:14 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:35:14 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:15 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:15 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:15 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:15 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:15 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:15 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:15 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:35:15 --> Output Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> Input Class Initialized
+DEBUG - 2013-10-08 17:35:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:35:16 --> Language Class Initialized
+DEBUG - 2013-10-08 17:35:16 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:35:16 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:35:16 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:35:16 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:35:16 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:35:16 --> Session Class Initialized
+DEBUG - 2013-10-08 17:35:16 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:35:16 --> Session routines successfully run
+DEBUG - 2013-10-08 17:35:16 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:35:16 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:16 --> Model Class Initialized
+ERROR - 2013-10-08 17:35:16 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:35:16 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:16 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:16 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:35:16 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:16 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:35:16 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:35:16 --> Final output sent to browser
+DEBUG - 2013-10-08 17:35:17 --> Total execution time: 1.7060
+DEBUG - 2013-10-08 17:35:17 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:17 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Router Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Config Class Initialized
+ERROR - 2013-10-08 17:35:17 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:35:17 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Utf8 Class Initialized
+ERROR - 2013-10-08 17:35:17 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:35:17 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> UTF-8 Support Enabled
+ERROR - 2013-10-08 17:35:17 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:35:17 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> UTF-8 Support Enabled
+ERROR - 2013-10-08 17:35:17 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:35:17 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:17 --> Router Class Initialized
+DEBUG - 2013-10-08 17:35:17 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:17 --> URI Class Initialized
+ERROR - 2013-10-08 17:35:17 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:17 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:35:18 --> Router Class Initialized
+DEBUG - 2013-10-08 17:35:18 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:18 --> URI Class Initialized
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:35:18 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:18 --> 404 Page Not Found --> wpuadmin/js
+DEBUG - 2013-10-08 17:35:18 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:18 --> 404 Page Not Found --> wpuadmin/plugins
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:18 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:18 --> 404 Page Not Found --> wpuadmin/js
+ERROR - 2013-10-08 17:35:18 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:35:18 --> 404 Page Not Found --> wpuadmin/jui
+DEBUG - 2013-10-08 17:35:53 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:53 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:53 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:53 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:53 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:53 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:53 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:54 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:35:54 --> Output Class Initialized
+DEBUG - 2013-10-08 17:35:54 --> Input Class Initialized
+DEBUG - 2013-10-08 17:35:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:35:54 --> Language Class Initialized
+DEBUG - 2013-10-08 17:35:54 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:35:54 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:35:54 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:35:54 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:35:54 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:35:54 --> Session Class Initialized
+DEBUG - 2013-10-08 17:35:54 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:35:54 --> Session routines successfully run
+DEBUG - 2013-10-08 17:35:54 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:35:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:54 --> Model Class Initialized
+ERROR - 2013-10-08 17:35:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:35:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:54 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:35:54 --> Model Class Initialized
+DEBUG - 2013-10-08 17:35:55 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:35:55 --> File loaded: application/views/affiliate_view/sign_up_affiliate.php
+DEBUG - 2013-10-08 17:35:55 --> Final output sent to browser
+DEBUG - 2013-10-08 17:35:55 --> Total execution time: 1.6575
+DEBUG - 2013-10-08 17:35:59 --> Config Class Initialized
+DEBUG - 2013-10-08 17:35:59 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:35:59 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:35:59 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:35:59 --> URI Class Initialized
+DEBUG - 2013-10-08 17:35:59 --> Router Class Initialized
+ERROR - 2013-10-08 17:35:59 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:35:59 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:59 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:35:59 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:59 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:35:59 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:35:59 --> Output Class Initialized
+DEBUG - 2013-10-08 17:35:59 --> Input Class Initialized
+DEBUG - 2013-10-08 17:35:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:35:59 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:00 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:00 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:00 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:36:00 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:36:00 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:00 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:00 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:00 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:00 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:00 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:00 --> Model Class Initialized
+ERROR - 2013-10-08 17:36:00 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:00 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:00 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:00 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:00 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:00 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:36:00 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:36:00 --> Final output sent to browser
+DEBUG - 2013-10-08 17:36:01 --> Total execution time: 1.8095
+DEBUG - 2013-10-08 17:36:01 --> Config Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Config Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Config Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Config Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:01 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:01 --> Config Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:01 --> Config Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:01 --> URI Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> URI Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> URI Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Router Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Router Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:01 --> URI Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Router Class Initialized
+ERROR - 2013-10-08 17:36:01 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:36:01 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:36:01 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:01 --> URI Class Initialized
+ERROR - 2013-10-08 17:36:01 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:36:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:36:01 --> Router Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> URI Class Initialized
+DEBUG - 2013-10-08 17:36:01 --> Router Class Initialized
+ERROR - 2013-10-08 17:36:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:36:01 --> Router Class Initialized
+ERROR - 2013-10-08 17:36:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:01 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:36:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:36:02 --> Output Class Initialized
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:36:02 --> Output Class Initialized
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:36:02 --> Output Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Input Class Initialized
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:36:02 --> Input Class Initialized
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:36:02 --> Global POST and COOKIE data sanitized
+ERROR - 2013-10-08 17:36:02 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:36:02 --> Input Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:36:02 --> Output Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Output Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:36:02 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Output Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Input Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Input Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Input Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:36:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:36:03 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:03 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:36:03 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:03 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:36:03 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:36:03 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:36:03 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:36:03 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:36:03 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:03 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:03 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:03 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:03 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:36:03 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:03 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:03 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:03 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:03 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:03 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:03 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:03 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:04 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:04 --> Helper loaded: html_helper
+ERROR - 2013-10-08 17:36:04 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:04 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:36:04 --> 404 Page Not Found --> wpuadmin_signup/jui
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+ERROR - 2013-10-08 17:36:04 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:04 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:36:04 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:36:04 --> Model Class Initialized
+ERROR - 2013-10-08 17:36:05 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:36:05 --> 404 Page Not Found --> wpuadmin_signup/plugins
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+ERROR - 2013-10-08 17:36:05 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:36:05 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+ERROR - 2013-10-08 17:36:05 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:05 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> File loaded: application/views/affiliate_view/index.php
+DEBUG - 2013-10-08 17:36:06 --> Final output sent to browser
+DEBUG - 2013-10-08 17:36:06 --> Total execution time: 5.0415
+DEBUG - 2013-10-08 17:36:06 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Config Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Config Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Config Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Config Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Hooks Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Utf8 Class Initialized
+ERROR - 2013-10-08 17:36:06 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:06 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:06 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:06 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:06 --> URI Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:06 --> URI Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> URI Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> URI Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Router Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Router Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Router Class Initialized
+ERROR - 2013-10-08 17:36:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:36:06 --> Router Class Initialized
+DEBUG - 2013-10-08 17:36:06 --> Controller Class Initialized
+ERROR - 2013-10-08 17:36:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:36:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:36:07 --> Model Class Initialized
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:36:07 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:07 --> 404 Page Not Found --> wpuadmin_signup/js
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:36:07 --> Output Class Initialized
+DEBUG - 2013-10-08 17:36:07 --> Config Class Initialized
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:36:07 --> Hooks Class Initialized
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:36:07 --> Input Class Initialized
+DEBUG - 2013-10-08 17:36:07 --> Output Class Initialized
+ERROR - 2013-10-08 17:36:07 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:36:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:36:07 --> Utf8 Class Initialized
+DEBUG - 2013-10-08 17:36:07 --> Output Class Initialized
+DEBUG - 2013-10-08 17:36:07 --> Input Class Initialized
+DEBUG - 2013-10-08 17:36:07 --> Input Class Initialized
+DEBUG - 2013-10-08 17:36:07 --> UTF-8 Support Enabled
+DEBUG - 2013-10-08 17:36:07 --> Output Class Initialized
+DEBUG - 2013-10-08 17:36:07 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:36:07 --> Input Class Initialized
+DEBUG - 2013-10-08 17:36:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:36:07 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> URI Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:36:08 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Router Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:08 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: form_helper
+ERROR - 2013-10-08 17:36:08 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:08 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: url_helper
+ERROR - 2013-10-08 17:36:08 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:36:08 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: form_helper
+ERROR - 2013-10-08 17:36:08 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: custom_helper
+DEBUG - 2013-10-08 17:36:08 --> Session routines successfully run
+ERROR - 2013-10-08 17:36:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:36:08 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: custom_helper
+ERROR - 2013-10-08 17:36:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:08 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Database Driver Class Initialized
+ERROR - 2013-10-08 17:36:08 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-10-08 17:36:08 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:08 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:08 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:09 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Output Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Session Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:09 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:09 --> Input Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Model Class Initialized
+ERROR - 2013-10-08 17:36:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:09 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-10-08 17:36:09 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:09 --> Language Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:09 --> Loader Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:09 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Helper loaded: url_helper
+DEBUG - 2013-10-08 17:36:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Helper loaded: form_helper
+DEBUG - 2013-10-08 17:36:09 --> Form Validation Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Helper loaded: custom_helper
+ERROR - 2013-10-08 17:36:09 --> 404 Page Not Found --> wpuadmin_signup/plugins
+DEBUG - 2013-10-08 17:36:09 --> Database Driver Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:09 --> Session Class Initialized
+ERROR - 2013-10-08 17:36:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:10 --> Helper loaded: string_helper
+DEBUG - 2013-10-08 17:36:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:10 --> Session routines successfully run
+DEBUG - 2013-10-08 17:36:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:10 --> Helper loaded: html_helper
+DEBUG - 2013-10-08 17:36:10 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:10 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:36:10 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:36:10 --> Model Class Initialized
+ERROR - 2013-10-08 17:36:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:10 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:10 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:36:10 --> 404 Page Not Found --> wpuadmin_signup/js
+DEBUG - 2013-10-08 17:36:10 --> Model Class Initialized
+ERROR - 2013-10-08 17:36:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:10 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:11 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:11 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:11 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:11 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:36:11 --> 404 Page Not Found --> wpuadmin_signup/jui
+DEBUG - 2013-10-08 17:36:11 --> Model Class Initialized
+ERROR - 2013-10-08 17:36:11 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-10-08 17:36:11 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:11 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:11 --> Controller Class Initialized
+DEBUG - 2013-10-08 17:36:11 --> Model Class Initialized
+DEBUG - 2013-10-08 17:36:11 --> Form Validation Class Initialized
+ERROR - 2013-10-08 17:36:11 --> 404 Page Not Found --> wpuadmin_signup/js

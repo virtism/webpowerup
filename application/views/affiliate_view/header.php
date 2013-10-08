@@ -11,7 +11,7 @@
         
         <!-- User Tools (notifications, logout, profile, change password) -->
         <div id="mws-user-tools" class="clearfix">
-        <a href="<?php echo base_url().'/affiliate/affiliate_dashboard/logout';?>" class="btn btn-danger btn-small" > <i class="icon-lock"></i> Logout</a>
+        <a href="<?php echo base_url().'/wpuadmin/wpuadmin_dashboard/logout';?>" class="btn btn-danger btn-small" > <i class="icon-lock"></i> Logout</a>
             <!-- Notifications -->
                          
             <!-- Messages -->

@@ -45,12 +45,12 @@
             <?php 
                     if($this->config->item('seo_url') == 'On')
                     {
-                        echo form_open('http://'.$_SERVER['SERVER_NAME'].'/'.'affiliate/affiliate_signup/login','class="mws-form" id="mws-validate"');
+                        echo form_open('http://'.$_SERVER['SERVER_NAME'].'/'.'wpuadmin/wpuadmin_signup/','class="mws-form" id="mws-validate"');
                         //redirect('http://'.$_SERVER['SERVER_NAME'].'/'.'forms');
                     }
                     else
                     {
-                        echo form_open(base_url().index_page().'affiliate/affiliate_signup/login', 'class="mws-form" id="mws-validate"');
+                        echo form_open(base_url().index_page().'wpuadmin/wpuadmin_signup/', 'class="mws-form" id="mws-validate"');
                         //redirect(base_url().index_page().'MyAccount/login','refresh');
                     }
                     
@@ -77,7 +77,7 @@
                     <div class="mws-form-row">
                         
                         <input type="submit" value="Login" class="btn btn-success mws-login-button">
-                        <a href="<?php echo base_url().'affiliate/affiliate_signup';?>" class="btn btn-success mws-login-button"  style="width: 240px; height: 20px;">Sign  Up</a>
+                        <a href="<?php echo base_url().'wpuadmin/wpuadmin_signup/signup';?>" class="btn btn-success mws-login-button"  style="width: 240px; height: 20px;">Sign  Up</a>
                     </div>
                 </form>
             </div>

@@ -38,13 +38,13 @@
                     <div class="mws-panel-body no-padding">
                         <ul class="mws-summary clearfix">
                             <li>
-                                <span class="key"><i class="icon-support"></i><a href="<?php echo base_url().'affiliate/affiliate_dashboard/edit_affiliate';?>"> Edit Profile</a></span>
+                                <span class="key"><i class="icon-support"></i><a href="<?php echo base_url().'wpuadmin/wpuadmin_dashboard/edit_affiliate';?>"> Edit Profile</a></span>
                                 <span class="val">
                                     <span class="text-nowrap">332</span>
                                 </span>
                             </li>
                             <li>
-                                <span class="key"><i class="icon-certificate"></i><a href="<?php echo base_url().'affiliate/affiliate_dashboard/list_of_member';?>">List Of Members</a></span>
+                                <span class="key"><i class="icon-certificate"></i><a href="<?php echo base_url().'wpuadmin/wpuadmin_dashboard/list_of_member';?>">List Of Members</a></span>
                                 <span class="val">
                                     <span class="text-nowrap">71% <i class="up icon-arrow-up"></i></span>
                                 </span>

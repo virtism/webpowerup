@@ -18,7 +18,7 @@
             <!-- Main Navigation -->
             <div id="mws-navigation">
                 <ul>
-                    <li <?php if( $left_bar == "dashboard" ){ echo 'class="active"';}?> ><a href="<?php echo base_url().'affiliate/affiliate_dashboard/';?>"><i class="icon-home"></i> Dashboard</a></li>
+                    <li <?php if( $left_bar == "dashboard" ){ echo 'class="active"';}?> ><a href="<?php echo base_url().'wpuadmin/wpuadmin_dashboard';?>"><i class="icon-home"></i> Dashboard</a></li>
 
                     <!--<li <?php if( $left_bar == "user" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_user';?>"><i class="icon-users"></i> Users</a></li>
                     <li <?php if( $left_bar == "category" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_categories';?>"><i class="icon-network"></i>Categories</a></li>

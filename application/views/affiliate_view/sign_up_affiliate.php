@@ -116,12 +116,12 @@ function checkUserEmail(user_email)
                     <?php 
                     if($this->config->item('seo_url') == 'On')
                     {
-                        echo form_open('http://'.$_SERVER['SERVER_NAME'].'/'.'affiliate/affiliate_signup/','class="mws-form" id="mws-validate"');
+                        echo form_open('http://'.$_SERVER['SERVER_NAME'].'/'.'wpuadmin/wpuadmin_signup/signup/','class="mws-form" id="mws-validate"');
                         //redirect('http://'.$_SERVER['SERVER_NAME'].'/'.'forms');
                     }
                     else
                     {
-                        echo form_open(base_url().index_page().'affiliate/affiliate_signup/', 'class="mws-form" id="mws-validate"');
+                        echo form_open(base_url().index_page().'wpuadmin/wpuadmin_signup/signup/', 'class="mws-form" id="mws-validate"');
                         //redirect(base_url().index_page().'MyAccount/login','refresh');
                     }
                     
