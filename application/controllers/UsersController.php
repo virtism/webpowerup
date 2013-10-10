@@ -11,7 +11,8 @@ class UsersController extends CI_Controller {
 		$client_site = "";
 		parent::__construct();
 		$this->load->helper('url');
-		$this->load->library('Template'); 
+		$this->load->library('Template');
+ 
 		//$this->load->view('signup');	
 		$this->load->database();
 		//$this->load->library('pagination');
@@ -50,6 +51,7 @@ class UsersController extends CI_Controller {
 		 $this->template->render(); 
 		 
 	}
+
 	
 	//Numaan 08/09/2011
 	//checks that user has logged-in Or not

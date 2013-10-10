@@ -21,7 +21,7 @@ else
         <li>
         	<a href="#" class="mainmenu submenuheader"><span class="asideIconWebPages">Web Pages</span></a>
             <ul class="submenu">
-                <li><a href="<?=base_url().index_page()?>pagesController/basic_info/<?=$site_id?>"><span>Create A Page</span></a></li>
+                    <li><a href="<?=base_url().index_page()?>pagesController/basic_info/<?=$site_id?>"><span>Create A Page</span></a></li>
                 <li><a href="<?=base_url().index_page()?>pagesController/basic_info/<?=$site_id?>/private"><span>Create A Private Page</span></a></li>
                 <li><a href="<?=base_url().index_page()?>SiteController/contact_management/<?=$site_id?>"><span>Create A Contact Page</span></a></li>
                 <li><a href="<?=base_url().index_page()?>pagesController/index/<?=$site_id?>/0"><span>Manage Web Pages</span></a></li>
@@ -141,6 +141,13 @@ else
                 <li><a href="<?=base_url().index_page()?>thirdpartyintegration/"><span>3rd party Configuration</span></a></li>
                 <li><a href="#"><span>Manage files and Bulk upload (UC)</span></a></li>
                 <li><a href="#"><span>Create Affiliates for your Website (UC)</span></a></li>
+            </ul>
+        </li>
+        <li>
+        <a href="#" class="mainmenu submenuheader"><span class="asideIconSettings">Affiliate</span></a>
+            <ul class="submenu">
+            <li><a href="<?=base_url().index_page()?>wpuadmin_signup/memberOfAffiliate/"><span>Affiliate Member</span></a></li>
+            <li><a href="<?=base_url().index_page()?>wpuadmin_signup/affiliate/<?=$site_id?>"><span>Affiliate Registration</span></a></li>
             </ul>
         </li>
         <br/>

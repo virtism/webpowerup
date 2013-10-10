@@ -8,6 +8,18 @@ class Affiliate_Model extends CI_Model{
         // Call the Model constructor
         parent::__construct();
     }
+    
+    function ChangeToAffilate($data)
+    {
+        if($data['user_id'] != '')
+        {
+            $this->db->where('user_id', $data['user_id']);
+            $this->db->update("users", $data);
+            $success                = 'success'; 
+            return $success;
+        }
+        
+    }
     function insert_affiliate($data)
     {
         if($data['user_id'] != '')
@@ -104,8 +116,13 @@ class Affiliate_Model extends CI_Model{
     }
     function get_affiliate_member($affiliate_id)
     {
-        $this->db->where('affiliate_id', $affiliate_id);
-        $query                      = $this->db->get('users');
+        $this->db->select('*');
+        $this->db->from('users');
+        $this->db->join('sites', 'sites.user_id = users.user_id');
+        $this->db->join('packages', 'packages.package_id = sites.package_id');
+        $this->db->where('users.affiliate_id', $affiliate_id);
+        $query = $this->db->get('');
+        //echo $this->db->last_query(); exit;
         return $query->result();
     }
  

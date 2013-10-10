@@ -17,6 +17,14 @@ class Admin_model extends CI_Model
         
 
     }
+    function adminLogin($login , $password)
+    {
+        $this->db->where('user_login', $login);
+        $this->db->where('user_password ', $password);
+        $this->db->where('user_type', '1');
+        $query = $this->db->get('users');
+        return $query->result();
+    }
 
     
 

@@ -67,7 +67,7 @@ $("div.NFRadio").live("click",function(){
 <div class="RightColumnHeading">
     <h1>
         <img src="<?=base_url();?>images/webpowerup/CreateResponder.png" alt="New Form"/>
-        <span>Creat Promotional Boxes</span>
+        <span>Create Promotional Boxes</span>
     </h1>
     
 </div>
@@ -78,7 +78,7 @@ $("div.NFRadio").live("click",function(){
     <form action="<?=base_url().index_page()?>Create_Promotional_Boxe/create_promotional_boxe" name="reg_form" id="reg_form" method="post" class="niceform">
     
     	<dl>
-            <dt><label for="email" class="NewsletterLabel"> Promotional Boxe Title :</label></dt>
+            <dt><label for="email" class="NewsletterLabel"> Promotional Box Title :</label></dt>
             <dd><input type="text" name="title" id="title" size="55" /></dd>
         </dl>
         <dl>

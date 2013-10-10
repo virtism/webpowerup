@@ -1,112 +1,51 @@
 <?php
-//class definition for Administrator controller
 class Login extends CI_Controller
 {
-    //constructor for Administrator controller 
-    function Login()
+    function __construct()
     {
-        //parent constructor
+        // Call the Model constructor
         parent::__construct();
-        
-        //load html helper functions
-        $this->load->helper('html');
-        
-        //load template library for gws_admin template
-        $this->load->library('Template');
-        
-        //set views gws_admin/template.php as template
-        $this->template->set_template('gws_admin');
-        
-        //load Admin_model for DB interaction
+         if($this->session->userdata('auth_info') != "")
+         {
+            redirect('administrator/Dashboard/');;   
+         }
+        $this->load->model('Affiliate_Model');
         $this->load->model('admin/Admin_model');
         
-        //load session library for using sessions
-        $this->load->library('session');
+        $this->load->helper(array('form', 'url'));
         
-        //load URL helper
-        $this->load->helper('url');
+        $this->load->library('form_validation');
     }
-        
-    //this function loads login screen(view) of administrator
+
     function index()
     {
+        $data['title']                  = 'Super Admin Login';
+        $login                          = $this->input->post('login');
+        $password                       = $this->input->post('password');
         
-        //get user session info
-        $user_info = $this->session->userdata('user_info');
-        $user_role = $this->session->userdata('user_role');
-        
-        //go to admin_home if user has already logged-in
-        if($user_info!='' && $user_role!='')
+        $this->form_validation->set_rules('login', 'Login', 'trim|required'); 
+        $this->form_validation->set_rules('password', 'Password', 'trim|required');
+        if ($this->form_validation->run() == FALSE)
         {
-            //go to Admin Home
-            redirect('administrator/dashboard');
+            $this->load->view('s_admin/index', $data);
         }
-        
-        //load jquery & jquery-validation plugin
-        $this->template->add_js('js/jquery-1.5.min.js', 'import', FALSE);
-        $this->template->add_js('js/validation/jquery.validate.js', 'import', FALSE);
-        
-        //load inline javascripts witten in $scripts variable
-        //$scripts = 'window.alert("hello world")';
-        //$this->template->add_js($scripts, 'embed', FALSE);
-        
-        $data['user_login'] = '';
-        $data['message'] = '';
-        
-        //write admin/login(view) in content region in gws_admin/template.php(view)
-        $this->template->write_view('content', 'admin/login', $data);
-        
-        //display the template with its regions written above
-        $this->template->render();           
-    }
-    
-    //this function is called when user provides login details(user_login & password)
-    function verify()
-    {
-        $user_login = $this->input->post('user_login');
-        $user_password = $this->input->post('user_password');
-        
-        if(!isset($user_login))
-        {
-            //go to login screen
-            $this->index();    
-        }   
         else
         {
-            //check user login-credentials
-            $boolLogin = $this->Admin_model->isUser($user_login, $user_password);
-            //echo '<pre>'; print_r($boolLogin); exit; 
-            
-            if($boolLogin == TRUE)
+            $get_result                 = $this->Admin_model->adminLogin($login, md5($password));
+            $count                      = count($get_result) ;
+            if($count == 0)
             {
-                //write user_info in Session
-                $this->session->set_userdata('user_role', 'Administrator');
-                
-                $rsltUserInfo = $this->Admin_model->getUserInfo();
-                $user_info['user_info'] = $rsltUserInfo->row_array();
-                $this->session->set_userdata($user_info);
-                
-                //go to Admin Home
-                redirect('administrator/dashboard/');
-                
-            }    
-            else
-            {
-                //go to login screen with invalid login message
-                
-                //prefill user_login field
-                $data['user_login'] = $user_login;
-                $data['message'] = 'Invalid User Login and/or Password combination.';
-                
-                //write admin/login(view) in content region in gws_admin/template.php(view)
-                $this->template->write_view('content', 'admin/login', $data);
-                
-                //display the template with its regions written above
-                $this->template->render();
+                $this->session->set_flashdata('unregister', 'Please Enter Correct "Email" And Password');
+                redirect('administrator/Login/');  
             }
-            
-        }     
+                
+           if($count>0)
+           {
+                $auth_array['auth_info'] = $get_result;
+                $this->session->set_userdata($auth_array);
+                redirect('administrator/Dashboard/');
+           }
+        }
     }
-    
 }
 ?>

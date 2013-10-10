@@ -11,6 +11,40 @@
 
 </style>
 <script language="javascript" type="text/javascript">
+$( "li#head img.NFCheck" ).live( "click", function() {
+    var getImageId = $('li#head img').attr("class");
+    console.log(getImageId);
+    var state = document.getElementById('chkPageAll').checked;
+    if(getImageId == 'NFCheck NFh'){
+        //var state = $('li#head input').attr("id");
+        //console.log(state);     
+        for(i=1;i<='<?=$numRecords?>';i++){
+             //console.log('<?=$numRecords?>');
+              document.getElementById('chkPage'+i).checked=state;         
+             $('img.NFCheck').addClass('NFCheck NFh');  
+             $('input#chkPag'+i).attr('checked','checked');        
+        }
+    }
+    if(getImageId == 'NFCheck'){
+        for(i=1;i<='<?=$numRecords?>';i++){
+             //console.log('<?=$numRecords?>'); 
+             $('img.NFCheck').removeClass( "NFCheck NFh" ).addClass( "NFCheck" );  
+             //$('input#chkPag'+i).removeAttr('checked','checked');;        
+        }
+        
+    }
+
+}); 
+/*$( document ).on( "click", "img.NFCheck", function() {
+    alert('this is the test function');
+        state = document.getElementById('chkPageAll').checked;    
+        for(i=1;i<='<?=$numRecords?>';i++){        
+            document.getElementById('chkPage'+i).checked=state;        
+        }  
+   
+}); */
+</script>
+<script language="javascript" type="text/javascript">
     function isChecked(){
         for(i=1;i<='<?=$numRecords?>';i++){
             if(document.getElementById('chkPage'+i).checked==true){
@@ -63,11 +97,12 @@
             return;
         }    
     }
-    function selectAllPage(){
-        state = document.getElementById('chkPageAll').checked;    
-        for(i=1;i<='<?=$numRecords?>';i++){        
+    function AllPage(){
+        alert('this is the test function');
+        //state = document.getElementById('chkPageAll').checked;    
+        /*for(i=1;i<='<?=$numRecords?>';i++){        
             document.getElementById('chkPage'+i).checked=state;        
-        }       
+        } */      
     }
 
 
@@ -172,8 +207,8 @@
         <div class="DataGrid2">
 
             <ul>
-                <li class="Serial">
-                    <input type="checkbox" value="0" name="chkPageAll" id="chkPageAll" onClick="selectAllPage()"  />  
+                <li class="Serial" id="head">
+                    <input type="checkbox" value="0" name="chkPageAll" id="chkPageAll"/>  
                 </li>
                 <li>Title</li>
                 <li>Page Templates</li>
