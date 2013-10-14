@@ -31,7 +31,7 @@
                 </div>                
                 <!-- Panels Start -->
 
-                
+                 <a href="<?=base_url().index_page()?>administrator/packages/addnew" style="margin-bottom: 10px; margin-left: 10px;" class="btn btn-success"> <i class=""></i>Add New</a>
                 <div class="mws-panel grid_8">
                     <div class="mws-panel-header">
                         <span><i class="icon-table"></i>All Packages</span>
@@ -66,9 +66,8 @@
                                     <td><?php echo $package->package_fixed_price;?></td> 
                                     <td><?php echo $package->package_status;?></td>
                                     <td>
-                                        <a href="<?php echo URL.'index.php/pages/view_cat/';?>" class="btn btn-warning btn-small"> <i class="icon-search"></i>View</a>
-                                        <a href="<?php echo URL.'index.php/pages/add_category/';?>" class="btn btn-primary btn-small"> <i class="icon-pencil"></i> Edit</a>
-                                        <a href="<?php echo URL.'index.php/pages/delete/'."/category/all_categories";?>" class="btn btn-danger btn-small" onClick="confirm('Do You Really Want To Delete');"> <i class="icon-fire"></i> Delete</a>
+                                        <a href="<?=base_url().index_page()?>administrator/packages/editPackage/<?=$package->package_id;?>" class="btn btn-primary btn-small"> <i class="icon-pencil"></i> Edit</a>
+                                        <a href="<?=base_url().index_page()?>administrator/packages/deletePackage/<?=$package->package_id;?>" class="btn btn-danger btn-small" onClick="confirm('Do You Really Want To Delete');"> <i class="icon-fire"></i> Delete</a>
                                     </td>
                                     
                                 </tr>

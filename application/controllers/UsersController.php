@@ -20,7 +20,8 @@ class UsersController extends CI_Controller {
 		$this->load->Model('RolesModel');   
 		$this->load->Model('PackageModel');
 		$this->load->Model('SitesModel');
-		$this->load->Model('Menus_Model');   
+		$this->load->Model('Menus_Model');
+        $this->load->helper('recaptchalib');   
 		$this->load->library('session');    
 		$this->output->cache(0);  // caches
 		
@@ -615,8 +616,9 @@ class UsersController extends CI_Controller {
 			}
 		   $get_package_value = array ();  
 		   $path= realpath( getcwd() ); 
-		   
-		  $this->load->helper('captcha');
+		    
+            
+		  /*$this->load->helper('captcha');
 			$configs = array(
 					'img_path' => $path.'/captcha/',
 					'img_url' => base_url() . 'captcha/',
@@ -633,7 +635,7 @@ class UsersController extends CI_Controller {
 				);
 				
 			$get_package_value['captcha_data'] = $cap;
-			$get_package_value['captcha_image'] = $cap['image'];			  
+			$get_package_value['captcha_image'] = $cap['image'];*/			  
 			$this->template->write_view('content','signup_step0',$get_package_value);
 			$this->template->render();     
 		
@@ -641,6 +643,28 @@ class UsersController extends CI_Controller {
 	
 	function register_process()
 	{
+        $publickey = "6LdOvugSAAAAAHTGzCUvNMgQVYFla-RYQnIGGmn1";
+        $privatekey = "6LdOvugSAAAAAHjxO4A7cvUYjZj9o95RGOkJnycb";
+        $resp = null;
+        # the error code from reCAPTCHA, if any
+        $error = null;
+        if ($_POST["recaptcha_response_field"]) {
+                $resp = recaptcha_check_answer ($privatekey,
+                                                $_SERVER["REMOTE_ADDR"],
+                                                $_POST["recaptcha_challenge_field"],
+                                                $_POST["recaptcha_response_field"]);
+
+                if ($resp->is_valid) {
+                        echo "You got it!";
+                } else {
+                        # set the error code so that we can display it
+                        //echo "error in the error condition";
+                        $error = $resp->error;
+                        $this->session->set_flashdata('capchError', 'Incorrect Captcha');
+                        redirect("UsersController/signup_step1");
+                         
+                }
+            }
 		$this->webpowerup->hide_left_menu();
 		$this->webpowerup->hide_top_content();
 

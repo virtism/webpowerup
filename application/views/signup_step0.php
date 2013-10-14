@@ -254,6 +254,18 @@ div.errorSignup{
 
  <!-- end Validation  -->   
 
+  <script type="text/javascript">
+    var RecaptchaOptions = {
+    theme : 'clean',
+    incorrect_try_again : "Scorretto. Riprova.",
+    };
+ </script>
+ <script>
+    $( window ).load(function() {
+        var RemoveStyle = $('#recaptcha_response_field').removeAttr( "style" ); 
+        //RemoveStyle.removeAttr( "style" );
+        });
+ </script>
 <div class="RightColumnHeading">
     <h1>
         <span>Sign Up</span>
@@ -263,10 +275,20 @@ div.errorSignup{
 
 
 <div class="mainContentDiv">
-
-
+<?php 
+if($this->session->flashdata('capchError')!= '')
+{?>
+<div id="login_mesg" style="padding:5px; color: red"> <?php echo $this->session->flashdata('capchError');?></div> 
+<?php }?>
 
 <form id="signupForm" name="user" method="post" accept-charset="utf-8" action="<?=base_url().index_page()?>UsersController/register_process" class="niceform">
+<?php 
+$publickey = "6LdOvugSAAAAAHTGzCUvNMgQVYFla-RYQnIGGmn1";
+$privatekey = "6LdOvugSAAAAAHjxO4A7cvUYjZj9o95RGOkJnycb";
+$resp = null;
+# the error code from reCAPTCHA, if any
+$error = null;
+?>
     <fieldset>
         <input type="hidden" value="register" name="action">
         
@@ -331,12 +353,13 @@ div.errorSignup{
         <div style="clear:left;">
             <label >Please Enter the image below</label>
              <div>
-             	<input id="code" name="code" id="code" type="text" value="" />
+             <?php echo recaptcha_get_html($publickey, $error);?>
+             	<!--<input id="code" name="code" id="code" type="text" value="" />
                     <span id="Info"></span>
                     <span style="padding-left:10px;" id="Loading">
                     <?=$captcha_data['image'];?>
                     <input type="hidden" name="captcha" id="captcha" value="<?=$captcha_data['word'];?>"/>
-                    </span>
+                    </span>-->
              </div>
        	  </div>
         
