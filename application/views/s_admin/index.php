@@ -45,12 +45,12 @@
             <?php 
                     if($this->config->item('seo_url') == 'On')
                     {
-                        echo form_open('http://'.$_SERVER['SERVER_NAME'].'/'.'administrator/Login/','class="mws-form" id="mws-validate"');
+                        echo form_open('http://'.$_SERVER['SERVER_NAME'].'/'.'administrator/login/','class="mws-form" id="mws-validate"');
                         //redirect('http://'.$_SERVER['SERVER_NAME'].'/'.'forms');
                     }
                     else
                     {
-                        echo form_open(base_url().index_page().'administrator/Login/', 'class="mws-form" id="mws-validate"');
+                        echo form_open(base_url().index_page().'administrator/login/', 'class="mws-form" id="mws-validate"');
                         //redirect(base_url().index_page().'MyAccount/login','refresh');
                     }
                     

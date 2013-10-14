@@ -14,8 +14,6 @@ class Admin_model extends CI_Model
 
         parent::__construct();
 
-        
-
     }
     function adminLogin($login , $password)
     {
@@ -23,6 +21,31 @@ class Admin_model extends CI_Model
         $this->db->where('user_password ', $password);
         $this->db->where('user_type', '1');
         $query = $this->db->get('users');
+        return $query->result();
+    }
+    function get_packages()
+    {
+        $this->db->where('package_status !=', 'Deleted');
+        $query = $this->db->get('packages');
+        return $query->result();
+        
+    }
+    function get_affiliate()
+    {
+        $this->db->where('user_role','affiliate');
+        $query = $this->db->get('users');
+        return $query->result();
+        
+    }
+    function get_affiliate_member($affiliate_id)
+    {
+        $this->db->select('*');
+        $this->db->from('users');
+        $this->db->join('sites', 'sites.user_id = users.user_id');
+        $this->db->join('packages', 'packages.package_id = sites.package_id');
+        $this->db->where('users.affiliate_id', $affiliate_id);
+        $query = $this->db->get('');
+        //echo $this->db->last_query(); exit;
         return $query->result();
     }
 

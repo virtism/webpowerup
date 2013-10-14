@@ -17,7 +17,8 @@ class Packages extends CI_Controller{
         //$this->load->library('pagination');
         $this->load->Model('UsersModel');
         $this->load->Model('RolesModel'); 
-        $this->load->Model('PackageModel');   
+        $this->load->Model('PackageModel');
+         $this->load->model('admin/Admin_model');    
         
         //load session library for using sessions
         $this->load->library('session');
@@ -53,49 +54,30 @@ class Packages extends CI_Controller{
         }   
          
     }
-    
     function index()
     {
-        //confirm that user has logged-in
-        $this->check_login();
-        
-        //write admin/login(view) in sidebar region in gws_admin/template.php(view)
-        $this->template->write_view('sidebar', 'gws_admin/sidebar');
-        
-        //write admin/login(view) in content region in gws_admin/template.php(view)
-        $qry = "SELECT * FROM packages WHERE package_status != 'Deleted'";
-
-        $query = $this->db->query($qry);
-        $packages = $query->result_array(); 
-        $data["packages"] = $packages;
-        $this->template->write_view('content', 'admin/packages/index', $data);
-        
-        //display the template with its regions written above
-        $this->template->render();
+        $data['left_bar']                   = 'packages';
+        $data['packages']                   = $this->Admin_model->get_packages();
+        $this->load->view('s_admin/packages' , $data);
     }
     function all_subAdmin()
     {
-       // echo '<pre>'; print_r($this->check_login());exit;
-        $this->check_login(); 
+        $data['left_bar']                   = 'subadmin';
         $data['sub_admins'] = $this->UsersModel->get_user_by_id();
-        //echo'<pre>'; print_r($data['sub_admins']);
-        //exit;
-        //$this->check_login();
-        $this->template->write_view('sidebar', 'gws_admin/sidebar');
-        $this->template->write_view('content', 'admin/sub_admins/sub_admins', $data); 
-        $this->template->render();
-        
+        $this->load->view('s_admin/sub_admin' , $data);
     }
-    function affiliate_member()
+    function affiliate()
     {
-        $this->check_login(); 
-        $data['sub_admins'] = $this->UsersModel->get_affiliate_user();
-        //echo'<pre>'; print_r($data['sub_admins']);
-        //exit;
-        //$this->check_login();
-        $this->template->write_view('sidebar', 'gws_admin/sidebar');
-        $this->template->write_view('content', 'admin/sub_admins/affiliater_list', $data); 
-        $this->template->render();
+        $data['left_bar']                   = 'affiliate';  
+        $data['affiliates'] = $this->Admin_model->get_affiliate();
+        $this->load->view('s_admin/affiliate_list' , $data);
+    }
+    function get_affiliate_member($affiliate_id)
+    {
+        $data['left_bar']                   = 'affiliate';
+        $data['affiliate_members']          = $this->Admin_model->get_affiliate_member($affiliate_id);
+        $this->load->view('s_admin/affiliate_member', $data);
+        
     }
     
     function addnew()
@@ -110,7 +92,7 @@ class Packages extends CI_Controller{
         //$this->load->view('new_package',$data);
         
         //confirm that user has logged-in
-        $this->check_login();
+        //$this->check_login();
         
         //write admin/login(view) in sidebar region in gws_admin/template.php(view)
         $this->template->write_view('sidebar', 'gws_admin/sidebar');
@@ -141,7 +123,7 @@ class Packages extends CI_Controller{
         //$this->load->view("new_package",$data);
         
         //confirm that user has logged-in
-        $this->check_login();
+        //$this->check_login();
         
         //write admin/login(view) in sidebar region in gws_admin/template.php(view)
         $this->template->write_view('sidebar', 'gws_admin/sidebar');

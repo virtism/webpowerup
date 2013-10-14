@@ -18,15 +18,15 @@
             <!-- Main Navigation -->
             <div id="mws-navigation">
                 <ul>
-                    <li <?php if( $left_bar == "dashboard" ){ echo 'class="active"';}?> ><a href="<?php echo base_url().'wpuadmin/wpuadmin_dashboard';?>"><i class="icon-home"></i> Dashboard</a></li>
-                    <li><a href="<?=base_url().index_page()?>administrator/design_config/"><i class="icon-frame small"></i>Design & Configuration</a></li>
-                    <li><a href="<?=base_url().index_page()?>administrator/site_content/"> <i class="icon-archive"></i>archiveSite Content</a></li>
-                    <li><a href="<?=base_url().index_page()?>administrator/members_groups/"> <i class="icon-users"></i>Members & Groups</a></li>
-                    <li><a href="<?=base_url().index_page()?>administrator/newsletter/"> <i class="icon-envelope"></i>Newsletter</a></li>
-                    <li><a href="<?=base_url().index_page()?>administrator/ecommerce/"> <i class="icon-shopping-cart"></i>E-Commerce</a></li>
-                    <li><a href="<?=base_url().index_page()?>administrator/packages/"> <i class="icon-briefcase"></i>Packages</a></li>
-                    <li><a href="<?=base_url().index_page()?>administrator/packages/all_subAdmin"> <i class="icon-accessibility-2"></i>Sub Admins</a></li>
-                    <li><a href="<?=base_url().index_page()?>administrator/packages/affiliate_member"> <i class="icon-accessibility"></i>Affiliate list</a></li>
+                    <li <?php if( $left_bar == "dashboard" ){ echo 'class="active"';}?> ><a href="<?php echo base_url().'administrator/dashboard';?>"><i class="icon-home"></i> Dashboard</a></li>
+                    <li <?php if( $left_bar == "design_congif" ){ echo 'class="active"';}?>><a href="<?=base_url().index_page()?>administrator/design_config/"><i class="icon-frame small"></i>Design & Configuration</a></li>
+                    <li <?php if( $left_bar == "site_content" ){ echo 'class="active"';}?> ><a href="<?=base_url().index_page()?>administrator/site_content/"> <i class="icon-archive"></i>archiveSite Content</a></li>
+                    <li <?php if( $left_bar == "member_group" ){ echo 'class="active"';}?> ><a href="<?=base_url().index_page()?>administrator/members_groups/"> <i class="icon-users"></i>Members & Groups</a></li>
+                    <!--<li><a href="<?=base_url().index_page()?>administrator/newsletter/"> <i class="icon-envelope"></i>Newsletter</a></li>
+                    <li><a href="<?=base_url().index_page()?>administrator/ecommerce/"> <i class="icon-shopping-cart"></i>E-Commerce</a></li>-->
+                    <li <?php if( $left_bar == "packages" ){ echo 'class="active"';}?> ><a href="<?=base_url().index_page()?>administrator/packages/"> <i class="icon-briefcase"></i>Packages</a></li>
+                    <li <?php if( $left_bar == "subadmin" ){ echo 'class="active"';}?> ><a href="<?=base_url().index_page()?>administrator/user_affiliate/all_subAdmin"> <i class="icon-accessibility-2"></i>Sub Admins</a></li>
+                    <li <?php if( $left_bar == "affiliate" ){ echo 'class="active"';}?> ><a href="<?=base_url().index_page()?>administrator/user_affiliate/affiliate"> <i class="icon-accessibility"></i>Affiliate</a></li>
 
                     <!--<li <?php if( $left_bar == "user" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_user';?>"><i class="icon-users"></i> Users</a></li>
                     <li <?php if( $left_bar == "category" ){ echo 'class="active"';}?>><a href="<?php echo URL.'index.php/pages/all_categories';?>"><i class="icon-network"></i>Categories</a></li>

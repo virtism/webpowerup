@@ -7,7 +7,7 @@ class Dashboard extends CI_Controller
         parent::__construct();
         if($this->session->userdata('auth_info') == "")
          {
-            redirect('administrator/Login/');;   
+            redirect('administrator/login/');;   
          }
     }
     

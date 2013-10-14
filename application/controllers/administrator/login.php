@@ -7,7 +7,7 @@ class Login extends CI_Controller
         parent::__construct();
          if($this->session->userdata('auth_info') != "")
          {
-            redirect('administrator/Dashboard/');;   
+            redirect('administrator/dashboard/');;   
          }
         $this->load->model('Affiliate_Model');
         $this->load->model('admin/Admin_model');
@@ -36,14 +36,14 @@ class Login extends CI_Controller
             if($count == 0)
             {
                 $this->session->set_flashdata('unregister', 'Please Enter Correct "Email" And Password');
-                redirect('administrator/Login/');  
+                redirect('administrator/login/');  
             }
                 
            if($count>0)
            {
                 $auth_array['auth_info'] = $get_result;
                 $this->session->set_userdata($auth_array);
-                redirect('administrator/Dashboard/');
+                redirect('administrator/dashboard/');
            }
         }
     }
