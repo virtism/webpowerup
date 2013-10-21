@@ -11,6 +11,11 @@ class Packages extends CI_Controller{
         $packageArray = array();
         
         parent::__construct();
+        
+        if($this->session->userdata('auth_info') == "")
+         {
+            redirect('administrator/login/');;   
+         }
         $this->load->helper('url');
         //$this->load->view('signup');    
         $this->load->database();
@@ -54,25 +59,7 @@ class Packages extends CI_Controller{
         }   
          
     }
-    /*function index()
-    {
-        //confirm that user has logged-in
-        //$this->check_login();
-        
-        //write admin/login(view) in sidebar region in gws_admin/template.php(view)
-        $this->template->write_view('sidebar', 'gws_admin/sidebar');
-        
-        //write admin/login(view) in content region in gws_admin/template.php(view)
-        $qry = "SELECT * FROM packages WHERE package_status != 'Deleted'";
 
-        $query = $this->db->query($qry);
-        $packages = $query->result_array(); 
-        $data["packages"] = $packages;
-        $this->template->write_view('content', 'admin/packages/index', $data);
-        
-        //display the template with its regions written above
-        $this->template->render();
-    }*/
     function index()
     {
         $data['left_bar']                   = 'packages';

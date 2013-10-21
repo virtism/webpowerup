@@ -5,38 +5,12 @@ class Design_config extends CI_Controller
     {
         parent::__construct();
         
-        //load template library for gws_admin template
-        $this->load->library('Template');
-        
-        //set views gws_admin/template.php as template
-        $this->template->set_template('gws_admin');
-        
-        //load session library for using sessions
-        $this->load->library('session');
-        
-        //load URL helper
-        $this->load->helper('url');
+         if($this->session->userdata('auth_info') == "")
+         {
+            redirect('administrator/login/');;   
+         }
     }  
-    
-    //checks that user has logged-in Or not
-    function check_login()
-    {
-        //checks if session user_info is set
-        $user_info = $this->session->userdata('user_info');
-        $user_role = $this->session->userdata('user_role');
-        
-        if($user_info=='' && $user_role=='')
-        {
-            //go to login controller
-            redirect('administrator/index');
-        }
-        else
-        {
-            //ok, let go
-            return;
-        }   
-         
-    }
+
     function index()
     {
         $data['left_bar']               = 'design_congif'; 
