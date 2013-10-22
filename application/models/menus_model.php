@@ -111,8 +111,12 @@ class Menus_Model extends CI_Model{
 					$strCustomLink 		= $_POST['_lstItemPage'.$j];
 				}			
 				
-					
-				$this->db->query("INSERT INTO menuitems(item_name, item_published, item_status, item_link, item_target, display_order) VALUES('".$txtItemName."',  '".$rdoItemPublished."', 'Active','".$strCustomLink."','".$menuTarget."','".$i."')");
+				// this is for replace " to ' 
+                    $txtItemName = str_replace('"',' ',$txtItemName);
+                
+                // end 
+                    $this->db->query('INSERT INTO menuitems(item_name, item_published, item_status, item_link, item_target, display_order) VALUES("'.$txtItemName.'",  "'.$rdoItemPublished.'", "Active","'.$strCustomLink.'","'.$menuTarget.'","'.$i.'")');	
+				//$this->db->query("INSERT INTO menuitems(item_name, item_published, item_status, item_link, item_target, display_order) VALUES('".$txtItemName."',  '".$rdoItemPublished."', 'Active','".$strCustomLink."','".$menuTarget."','".$i."')");
 				
 				$intItemId = $this->db->insert_id();				
 				$this->db->query("INSERT INTO menus_menuitems_xref(menu_id, item_id) VALUES(".$this->db->escape($id).", ".$this->db->escape($intItemId).")");

@@ -328,6 +328,7 @@ class MyAccount extends CI_Controller {
   }
   function login()
   {
+      
 		
 		if(empty($this->site_id))
 		{			
@@ -358,16 +359,25 @@ class MyAccount extends CI_Controller {
 						$group_id = $row['group_id'];
 						
 						$group_data = $this->customers_model->check_group_paid($group_id);
+                        //echo '<pre>'; print_r($group_data); echo '</hr>';
 						$trialDays = $group_data[0]['duration'];
 						$payment_method = $group_data[0]['payment_method'];
 						
 							
 						if ($payment_method == 'Trial' || $payment_method == 'Recursion')
 						{
+                            
 							
 							$join_date = $row['group_joining_date'];
-							$trial_expire_date = add_days_to_date($join_date,$trialDays);  
-							$is_expire = is_date_expired($trial_expire_date); 
+                            $trialDays = $row['groups_pay_date'];
+							//$trial_expire_date = add_days_to_date($join_date,$trialDays);  
+							//$is_expire = is_date_expired($trial_expire_date);
+                            $is_expire = is_date_expired($trialDays); 
+                            //echo '<pre>'; print_r($is_expire); echo '</hr>';
+                            
+                            //echo '<pre>'; print_r($trial_expire_date); echo '</hr>';
+                             
+                             //echo '<pre>'; print_r($join_date); exit; 
 							if($is_expire)
 							{
 								$_SESSION['expired_group_id'][] = $group_id;
@@ -380,6 +390,7 @@ class MyAccount extends CI_Controller {
 					// echo "<pre>";    print_r($_SESSION['expired_group_id']);    echo "</pre>";  die();
 					if($is_expire)
 					{
+                        //echo 'i am in the expire check'; exit;
 						redirect(site_url().'group_managment/group_trail_end/');    
 					}
 					

@@ -66,7 +66,8 @@
 		if(isset($group_id))
 		 {
 			//$result = "SELECT * FROM `groups` inner join  groups_payments_details on groups.id = groups_payments_details.group_id  where groups.id =".$group_id;
-			$result = "SELECT * FROM `groups` Left outer join  groups_payments_details on groups.id = groups_payments_details.group_id  where groups.id =".$group_id;
+			//$result = "SELECT * FROM `groups` Left outer join  groups_payments_details on groups.id = groups_payments_details.group_id  where groups.id =".$group_id;
+            $result = "SELECT * FROM `groups` Left outer join  groups_payments_details on groups.id = groups_payments_details.group_id Left outer join ec_customers_group_xref on groups.id = ec_customers_group_xref.group_id where groups.id =".$group_id;
 			$result = $this->db->query($result);
 			$result = $result->result_array(); 		
 			return $result;

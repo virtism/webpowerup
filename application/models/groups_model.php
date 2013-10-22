@@ -1726,13 +1726,43 @@ $group_data = array();
 	
 	function add_member_to_group_after_payment($member_id,$group_id)
 	{
+        
+        // get number of days
+        $this->db->select('payment_cycle');
+        $this->db->where('group_id',$group_id);
+        $query = $this->db->get('groups_payments_details');
+        $day = $query->result();
+        $pay_date   = $this->calculate_trail_end_date(date("Y-m-d"),$day['0']->payment_cycle);
+        // day query end
+        
+        //chack val in db exist or not
+        $this->db->where('customer_id', $member_id);
+        $this->db->where('group_id', $group_id);
+        $check_update = $this->db->get('ec_customers_group_xref');
+        
+        if($check_update->num_rows() > 0)
+        {
+            //echo 'i am already exit'; exit;
+            $group_data = array(
+                            'groups_pay_date'       => $pay_date,
+                            'status'                => '1'
+                            );
+            $this->db->where('customer_id', $member_id);
+            $this->db->where('group_id', $group_id);
+            $r = $this->db->update('ec_customers_group_xref', $group_data);  
+            
+        }
+        else{
 		$group_data = array(
-							'group_id' => $group_id,
-							'customer_id' => $member_id
+							'group_id'              => $group_id,
+							'customer_id'           => $member_id,
+                            'groups_pay_date'       => $pay_date,
+                            'status'                => '1'
 							);
 							
 		$group_members = $this->set_autoresponder_by_group_id($group_id, $member_id);
 		$r = $this->db->insert('ec_customers_group_xref', $group_data);
+        }
 		if($r)
 		{
 			return 1;
@@ -2066,7 +2096,7 @@ $group_data = array();
 		$row = $r->row_array();
 		
 		$q2 = "SELECT 
-		CONCAT (customer_fname,' ',customer_lname) AS name,
+		CONCAT(customer_fname,' ',customer_lname) AS name,
 		customer_email AS email 
 		FROM ec_customers 
 		WHERE customer_id = '$customer_id' ";
