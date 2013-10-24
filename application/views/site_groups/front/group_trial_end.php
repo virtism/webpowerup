@@ -10,7 +10,7 @@
 
 </style>
 
-
+<?php //echo'<pre>'; print_r($_SESSION);?>
 <?php 
 if($groups)
 { ?>
@@ -18,7 +18,6 @@ if($groups)
 
 <h2>Trial Ended</h2>
 <br />
-
 
 Your trial period is expired.<br />
 <div class="trial_group">
@@ -60,6 +59,7 @@ Your trial period is expired.<br />
 			<input type="hidden" name="amount" id="price" value="<?=$amount?>">
 			<input type="hidden" name="custom" value="<?=$custom?>">
 			<input id="btnPaypal" style="margin:10px;" type="image" src="http://www.paypal.com/en_US/i/btn/x-click-but01.gif" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+            <a href="<?php echo base_url().index_page().'group_managment/delete_cus_group_xref/'.$item_number.'/'.$_SESSION['login_info']['customer_id'];?>">Cancel</a>
 		</form>
             	
         </div>
@@ -71,4 +71,6 @@ Your trial period is expired.<br />
 </div>
 
 <?php
-} ?>
+}else{ ?>
+<a href="<?php echo base_url().index_page().'site_preview/site/'.$_SESSION['site_id'];?>"> Goto Home Page</a>
+<?}?>

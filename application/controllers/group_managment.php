@@ -1132,7 +1132,7 @@ class Group_managment extends CI_Controller {
 			
 		   	if(isset($temp_name) && $temp_name != 'intro_template')
 			 {
-				$this->template->write_view('menu', $temp_name.'/menu', $data);  
+				//$this->template->write_view('menu', $temp_name.'/menu', $data);  
 			 }
 	
 			$this->template->add_js('js/validation/jquery.js');    
@@ -1156,7 +1156,7 @@ class Group_managment extends CI_Controller {
 			$data['left_menus_type'] = 'myshop'; 
 	
 			   
-			  $Regions = $this->template->regions;
+			  /*$Regions = $this->template->regions;
 			if(isset($Regions['sidebar']))
 			{
 				  $data['menus'] = $this->my_template_menu->getSidebar($this->site_id, $page_id);  
@@ -1183,7 +1183,7 @@ class Group_managment extends CI_Controller {
 			if(isset($Regions['footer']))
 			{
 				$this->template->write_view('footer', $temp_name.'/footer', $data);          
-			}
+			}*/
 			
 			
 			
@@ -1192,7 +1192,9 @@ class Group_managment extends CI_Controller {
 			{
 				foreach($_SESSION['expired_group_id'] as $key => $group_id )
 				{
-					$groups = $this->Groups_Model->get_group_by_id($group_id);
+					//$groups = $this->Groups_Model->get_customers_group_by_id($group_id);
+                    $groups = $this->Groups_Model->get_customers_group_by_id($group_id); 
+                    //echo $this->db->last_query(); exit; 
 					if($groups)
 					{ 
 						foreach($groups as $row) // $groups is array so freach loop is used
@@ -1216,6 +1218,10 @@ class Group_managment extends CI_Controller {
 	
 	function group_trail_payment()
 	{
+        if($_SESSION['expired_group_id'] != '')
+        {
+           redirect(base_url().index_page().'Group_managment/group_trail_end','refresh');  
+        }
 		// save payemt details 
 		if ($this->group_payment_model->save_payment() )
 		{
@@ -1579,5 +1585,53 @@ class Group_managment extends CI_Controller {
 		
 		return $data;
 	}
+    function delete_cus_group_xref($dgroup_id, $dcoustomer_id)
+    {
+                    $customer_id = $_SESSION['login_info']['customer_id'];
+                    $group_ids = $this->customers_model->get_all_groups_by_customer_id($customer_id);
+                    
+                    // check multiple group expire date                    
+                    if (isset($_SESSION['expired_group_id']))  
+                    {
+                        unset($_SESSION['expired_group_id']);
+                    }
+                    // echo "<pre>";    print_r($group_ids);    echo "</pre>";
+                    foreach($group_ids as $row)
+                    {
+                        $group_id = $row['group_id'];
+                        
+                        $group_data = $this->customers_model->check_group_paid($group_id);
+                        //echo '<pre>'; print_r($group_data); echo '</hr>';
+                        $trialDays = $group_data[0]['duration'];
+                        $payment_method = $group_data[0]['payment_method'];
+                        
+                            
+                        if ($payment_method == 'Trial' || $payment_method == 'Recursion')
+                        {
+                            
+                            
+                            $join_date = $row['group_joining_date'];
+                            $trialDays = $row['groups_pay_date'];
+                            //$trial_expire_date = add_days_to_date($join_date,$trialDays);  
+                            //$is_expire = is_date_expired($trial_expire_date);
+                            $is_expire = is_date_expired($trialDays); 
+                            //echo '<pre>'; print_r($is_expire); echo '</hr>';
+                            
+                            //echo '<pre>'; print_r($trial_expire_date); echo '</hr>';
+                             
+                             //echo '<pre>'; print_r($join_date); exit; 
+                            if($is_expire)
+                            {
+                                $_SESSION['expired_group_id'][] = $group_id;
+                            }
+                            
+                        }
+                          
+                        
+                    }
+        //$_SESSION['expired_group_id'];
+        $delete_group = $this->Groups_Model->delete_group_xref($dgroup_id, $dcoustomer_id);
+        redirect("group_managment/group_trail_end");
+    }
 }
 ?>

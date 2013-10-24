@@ -20,6 +20,16 @@ class Groups_Model extends CI_Model{
 		$result = $this->db->query($qry);
 		return $result->result_array();
 	}
+    function get_customers_group_by_id($group_id)
+    {
+        $this->db->select('*');
+        $this->db->from('groups');// I use aliasing make things joins easier
+        $this->db->join('ec_customers_group_xref', 'groups.id = ec_customers_group_xref.group_id');
+        $this->db->where('ec_customers_group_xref.customer_id', $_SESSION['login_info']['customer_id']);
+        $this->db->where('ec_customers_group_xref.group_id', $group_id); 
+        $result = $this->db->get();
+        return $result->result_array(); 
+    }
 	
 	function get_all_site_gropus_suctomer_view($site_id)
 	{
@@ -1749,7 +1759,49 @@ $group_data = array();
                             );
             $this->db->where('customer_id', $member_id);
             $this->db->where('group_id', $group_id);
-            $r = $this->db->update('ec_customers_group_xref', $group_data);  
+            $r = $this->db->update('ec_customers_group_xref', $group_data);
+                    $customer_id = $_SESSION['login_info']['customer_id'];
+                    $group_ids = $this->customers_model->get_all_groups_by_customer_id($customer_id);
+                    
+                    // check multiple group expire date                    
+                    if (isset($_SESSION['expired_group_id']))  
+                    {
+                        unset($_SESSION['expired_group_id']);
+                    }
+                    // echo "<pre>";    print_r($group_ids);    echo "</pre>";
+                    foreach($group_ids as $row)
+                    {
+                        $group_id = $row['group_id'];
+                        
+                        $group_data = $this->customers_model->check_group_paid($group_id);
+                        //echo '<pre>'; print_r($group_data); echo '</hr>';
+                        $trialDays = $group_data[0]['duration'];
+                        $payment_method = $group_data[0]['payment_method'];
+                        
+                            
+                        if ($payment_method == 'Trial' || $payment_method == 'Recursion')
+                        {
+                            
+                            
+                            $join_date = $row['group_joining_date'];
+                            $trialDays = $row['groups_pay_date'];
+                            //$trial_expire_date = add_days_to_date($join_date,$trialDays);  
+                            //$is_expire = is_date_expired($trial_expire_date);
+                            $is_expire = is_date_expired($trialDays); 
+                            //echo '<pre>'; print_r($is_expire); echo '</hr>';
+                            
+                            //echo '<pre>'; print_r($trial_expire_date); echo '</hr>';
+                             
+                             //echo '<pre>'; print_r($join_date); exit; 
+                            if($is_expire)
+                            {
+                                $_SESSION['expired_group_id'][] = $group_id;
+                            }
+                            
+                        }
+                          
+                        
+                    }  
             
         }
         else{
@@ -2252,6 +2304,12 @@ $group_data = array();
 		return $r;
 		 
 	}
+    function delete_group_xref($group_id,$customer_id)
+    {
+        $this->db->where('group_id', $group_id);
+        $this->db->where('customer_id', $customer_id);
+        $this->db->delete('ec_customers_group_xref');    
+    }
 	
 	function send_group_notification($customer_id,$group_id)
 	{

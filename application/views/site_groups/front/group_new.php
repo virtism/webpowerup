@@ -45,8 +45,8 @@ $(document).ready(function(e) {
 				//alert("");
 				$.ajax({
 				type: "POST",
-				//url: "<?=base_url().index_page()?>group_managment/check_group_payment_status/",
-				url: window.location.protocol+"/group_managment/check_group_payment_status/",
+				url: "<?=base_url().index_page()?>group_managment/check_group_payment_status/",
+				//url: window.location.protocol+"/group_managment/check_group_payment_status/",
 				data: dataString,
 				async: false,
 				success: function(rsp){
@@ -103,8 +103,8 @@ $(document).ready(function(e) {
 				
 				$.ajax({
 				type: "POST",
-				//url: "<?=base_url().index_page()?>sitegroups/group_fields_paypal_button/group_manage",
-				url: window.location.protocol+"/sitegroups/group_fields_paypal_button/group_manage",
+				url: "<?=base_url().index_page()?>sitegroups/group_fields_paypal_button/group_manage",
+				//url: window.location.protocol+"/sitegroups/group_fields_paypal_button/group_manage",
 				data: dataString,
 				async: false,
 				beforeSend: function(){
@@ -129,8 +129,8 @@ $(document).ready(function(e) {
 			$.ajax({
 			type: "POST",
 			async: false,
-			//url: "<?=base_url().index_page()?>customers/code_exist/"+group_code,
-			url: window.location.protocol+"/customers/code_exist/"+group_code,
+			url: "<?=base_url().index_page()?>customers/code_exist/"+group_code,
+			//url: window.location.protocol+"/customers/code_exist/"+group_code,
 			data: dataString,
 			success: function(data){
 					if(data  == 'true')
@@ -164,8 +164,8 @@ $(document).ready(function(e) {
 		$.ajax({
 			type: "POST",
 			async: false,
-			//url: "<?=base_url().index_page()?>group_managment/get_group_id_by_code/"+group_code,
-			url: window.location.protocol+"/group_managment/get_group_id_by_code/"+group_code,
+			url: "<?=base_url().index_page()?>group_managment/get_group_id_by_code/"+group_code,
+			//url: window.location.protocol+"/group_managment/get_group_id_by_code/"+group_code,
 			success: function(data){
 					// alert(data);
 					if(data != 'false')
