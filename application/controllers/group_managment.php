@@ -416,6 +416,12 @@ class Group_managment extends CI_Controller {
 	
 	function update_group()
 	{
+        ///////////this is for delete the degrate group/////////////////////////        
+        //$degrateGroup_id = $this->input->post('degrate_group');
+        //$this->Groups_Model->delete_degrate_autoresponder($degrateGroup_id , $this->customer_id);
+        ///////////this is for delete the degrate group///////////////////////// 
+        //exit;
+        
 		//current_group_id
 		//echo "here"; 		die();
 		//upgrade_group_id

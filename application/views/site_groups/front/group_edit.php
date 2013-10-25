@@ -284,8 +284,9 @@ background:none;
     <?php 
 	if ( count($group) > 0 )
 	{ 
-		echo $group['group_name'];
-	} 
+		echo $group['group_name'];?>
+        <!--<input type="hidden" name="degrate_group" value="<?php echo $group['id']?>">-->
+	<?php } 
     else 
 	{
 		echo "No group found";

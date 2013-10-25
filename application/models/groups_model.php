@@ -1677,13 +1677,16 @@ $group_data = array();
 		return $r;
 	}	
 	
-	function set_autoresponder_by_group_id($member_id, $group_id)
+	//function set_autoresponder_by_group_id($member_id, $group_id)
+    function set_autoresponder_by_group_id($group_id , $member_id) 
     {
        $query_string = "SELECT * FROM autoresponders WHERE respond_group = $group_id  AND respond_active = 1";
-       $q = $this->db->query($query_string); 
+       $q = $this->db->query($query_string);
        $data = array ();
        $group_members = $q->result_array();
-	   
+       //echo $this->db->last_query();
+       //echo '<pre>'; print_r($group_members); exit;
+	    //echo 'i am ontside the forloop'; exit;
 	   foreach($group_members as $group_member)
 		{
 			
@@ -1696,8 +1699,9 @@ $group_data = array();
 						);
 						
 			$this->db->insert('autorespond_email_record', $save_member_auto);
+             //echo 'i am inside the forloop';
 		} 
-	   
+	   //exit; 
        return true;
     }
 	
@@ -1813,6 +1817,7 @@ $group_data = array();
 							);
 							
 		$group_members = $this->set_autoresponder_by_group_id($group_id, $member_id);
+        //$group_members = $this->set_autoresponder_by_group_id($member_id,$group_id);
 		$r = $this->db->insert('ec_customers_group_xref', $group_data);
         }
 		if($r)
@@ -1871,7 +1876,7 @@ $group_data = array();
 			//Delete Auto Responder Group Refrence
 			$this->db->query("DELETE FROM autorespond_email_record  WHERE customer_id = '$member_id' AND group_id = '$current_group_id'");
 			$this->set_autoresponder_by_group_id($upgrade_group_id, $member_id);
-			
+			//$this->set_autoresponder_by_group_id($member_id , $upgrade_group_id);
 			
 			$this->db->query($query);
 			
@@ -1902,7 +1907,10 @@ $group_data = array();
 			$this->db->where('group_id', $current_group_id);
 			$this->db->where('customer_id', $member_id);
 			
-			$this->db->update('ec_customers_group_xref', $data); 
+			$this->db->update('ec_customers_group_xref', $data);
+            $this->db->query("DELETE FROM autorespond_email_record  WHERE customer_id = '$member_id' AND group_id = '$current_group_id'");
+            $this->set_autoresponder_by_group_id($upgrade_group_id, $member_id); 
+            //$this->set_autoresponder_by_group_id($member_id , $upgrade_group_id);  
 			return 1;
 		}
 		else if($n == 1)
@@ -2020,6 +2028,7 @@ $group_data = array();
 							);
 		
 		$group_members = $this->set_autoresponder_by_group_id($this->input->post("pending_membershipid"), $this->input->post("customer_id"));
+        //$group_members = $this->set_autoresponder_by_group_id($this->input->post("customer_id"),$this->input->post("pending_membershipid")); 
 		$r = $this->db->insert('ec_customers_group_xref', $group_data);
 		if($r)
 		{
@@ -2309,6 +2318,14 @@ $group_data = array();
         $this->db->where('group_id', $group_id);
         $this->db->where('customer_id', $customer_id);
         $this->db->delete('ec_customers_group_xref');    
+    }
+    
+    function delete_degrate_autoresponder($group_id,$customer_id)
+    {
+        $this->db->where('group_id', $group_id);
+        $this->db->where('customer_id', $customer_id);
+        $this->db->delete('autorespond_email_record');
+        
     }
 	
 	function send_group_notification($customer_id,$group_id)
