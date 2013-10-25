@@ -2021,22 +2021,38 @@ $group_data = array();
 		
 	}
 	function add_member_to_singel_group_registering()
-	{
-		$group_data = array(
-							'group_id' => $this->input->post("pending_membershipid"),
-							'customer_id' => $this->input->post("customer_id")
-							);
-		
-		$group_members = $this->set_autoresponder_by_group_id($this->input->post("pending_membershipid"), $this->input->post("customer_id"));
-        //$group_members = $this->set_autoresponder_by_group_id($this->input->post("customer_id"),$this->input->post("pending_membershipid")); 
-		$r = $this->db->insert('ec_customers_group_xref', $group_data);
-		if($r)
-		{
-			return 1;
-		}
-		return 0;
-		
-	}
+     {
+      
+      
+      $pending_membershipid = $this->get_edit_group($this->input->post("pending_membershipid"));
+      //echo '<pre>'; print_r($pending_membershipid); echo $pending_membershipid[0]['duration']; exit;
+      $trial_date = '';
+      if(!empty($pending_membershipid))
+      {
+       if($pending_membershipid[0]['payment_method'] == 'Trial')
+       {
+        $trial_date =  $this->calculate_trail_end_date(date("Y-m-d"), $pending_membershipid[0]['duration']);
+       }
+      }
+      
+      $group_data = array(
+           'group_id' => $this->input->post("pending_membershipid"),
+           'customer_id' => $this->input->post("customer_id"),
+           'groups_pay_date' => $trial_date
+           );
+      
+      //echo '<pre>'; print_r($pending_membershipid[0]['payment_method']);exit;
+      $group_members = $this->set_autoresponder_by_group_id($this->input->post("pending_membershipid"), $this->input->post("customer_id"));
+      
+      
+      $r = $this->db->insert('ec_customers_group_xref', $group_data);
+      if($r)
+      {
+       return 1;
+      }
+      return 0;
+      
+     }
 	
 	function get_multiple_group_members()
 	{
