@@ -649,28 +649,46 @@ class UsersController extends CI_Controller {
         $resp = null;
         # the error code from reCAPTCHA, if any
         $error = null;
-        if ($_POST["recaptcha_response_field"]) {
-                $resp = recaptcha_check_answer ($privatekey,
-                                                $_SERVER["REMOTE_ADDR"],
-                                                $_POST["recaptcha_challenge_field"],
-                                                $_POST["recaptcha_response_field"]);
-
-                if ($resp->is_valid)
-                 {
-                        echo "";
-                 } 
-                 else
-                 {
-                    $error = $resp->error;
-                    $this->session->set_flashdata('capchError', 'Incorrect Captcha');
+       
+		if($_POST["recaptcha_response_field"] != ''){ 
+            if ($_POST["recaptcha_response_field"]) 
+			{
+                    $resp = recaptcha_check_answer ($privatekey,
+                                                    $_SERVER["REMOTE_ADDR"],
+                                                    $_POST["recaptcha_challenge_field"],
+                                                    $_POST["recaptcha_response_field"]);                                                   
+                    
+                    if ($resp->is_valid)
+                     {
+                            echo "";
+                     } 
+                     else
+                     {
+                        $error = $resp->error;
+                        $this->session->set_flashdata('capchError', 'Incorrect Captcha');
+                        $this->session->set_flashdata('user_fname', $this->input->post('user_fname'));
+                        $this->session->set_flashdata('user_lname', $this->input->post('user_lname'));
+                        $this->session->set_flashdata('user_login', $this->input->post('log_in'));
+                        $this->session->set_flashdata('user_email', $this->input->post('user_email'));
+                        $this->session->set_flashdata('user_email_confirm', $this->input->post('user_email_confirm'));
+                        redirect("UsersController/signup_step1/");
+                    }
+                }
+                
+            }
+        else
+        {
+            $error = $resp->error;
+                    $this->session->set_flashdata('capchError', 'Please Enter The Code First');
                     $this->session->set_flashdata('user_fname', $this->input->post('user_fname'));
                     $this->session->set_flashdata('user_lname', $this->input->post('user_lname'));
                     $this->session->set_flashdata('user_login', $this->input->post('log_in'));
                     $this->session->set_flashdata('user_email', $this->input->post('user_email'));
                     $this->session->set_flashdata('user_email_confirm', $this->input->post('user_email_confirm'));
                     redirect("UsersController/signup_step1/");
-                }
-            }
+            
+        }	
+			
 		$this->webpowerup->hide_left_menu();
 		$this->webpowerup->hide_top_content();
 

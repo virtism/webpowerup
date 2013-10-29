@@ -22,7 +22,8 @@ function check_group_payment_status(group_id)
 		var dataString = 'group_id='+group_id;	
 		$.ajax({
 		type: "POST",
-		url: "<?=base_url().index_page()?>group_managment/check_group_payment_status/",
+		//url: "<?=base_url().index_page()?>group_managment/check_group_payment_status/",
+		url: window.location.protocol+"/group_managment/check_group_payment_status/",
 		data: dataString,
 		success: function(data){
 			  //alert("asd");
@@ -61,7 +62,8 @@ function payPal_bottom(group_id)
 			// alert(user_mail);
 			$.ajax({
 			type: "POST",
-			url: "<?=base_url().index_page()?>sitegroups/paypal_bottom_update/<?php echo $group['id']; ?>",
+			//url: "<?=base_url().index_page()?>sitegroups/paypal_bottom_update/<?php echo $group['id']; ?>",
+			url: window.location.protocol+"/sitegroups/paypal_bottom_update/<?php echo $group['id']; ?>",
 			data: dataString,
 			success: function(data){
 				   
@@ -267,7 +269,21 @@ background:none;
 <div>
 <h2>Upgrade your group</h2>
 <div>
-	<a href="<?php echo base_url().index_page()."group_managment/" ?>"> Back </a>
+	<?
+		if($this->config->item('seo_url') == 'On')
+		{			
+	?>
+			<a href="<?php echo "http://".$_SERVER['SERVER_NAME']."/group_managment/" ?>"> Back </a>
+	<?	}
+		else
+		{
+	?>
+			<a href="<?php echo base_url().index_page()."group_managment/" ?>"> Back </a>
+	<?			
+		}
+	
+	?>
+	
 </div>
 <div id="response">
 	
@@ -280,11 +296,7 @@ background:none;
  {
      echo form_open(base_url().index_page()."group_managment/update_group");
  }?>
-
-
-
-
-<!--<form id="addGroupForm" method="post" action="<?php echo base_url().index_page()."group_managment/update_group" ?>">-->
+<?php /*?><form id="addGroupForm" method="post" action="<?php echo base_url().index_page()."group_managment/update_group" ?>"><?php */?>
 <table border="0">
   <tr>
     <th  scope="col">&nbsp;</th>
@@ -296,9 +308,8 @@ background:none;
     <?php 
 	if ( count($group) > 0 )
 	{ 
-		echo $group['group_name'];?>
-        <!--<input type="hidden" name="degrate_group" value="<?php echo $group['id']?>">-->
-	<?php } 
+		echo $group['group_name'];
+	} 
     else 
 	{
 		echo "No group found";

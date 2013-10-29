@@ -307,7 +307,7 @@ else
 								$link_target = 'target="'.$left_menus[$i]['sub_menu'][$j]['item_target'].'"';
 							}
 							else
-							{ 
+							{
 								$link_url = $strLink;
 								
 								$link_target = 'target="'.$left_menus[$i]['sub_menu'][$j]['item_target'].'"';
@@ -343,7 +343,7 @@ else
 									}
 								}
 								else
-								{ 
+								{
 									?>
 									<li>	
 									<a  <?=$link_target?> href="<?=$link_url?>"><?=$left_menus[$i]['sub_menu'][$j]['item_name']?></a>
@@ -578,21 +578,19 @@ else
 								}
 							 }
 							 //exit;										 
-						} 
+						}
 					}
 					//echo $left_menus[$i]['sub_menu'][$j]["access_level"];					
 				} 
-                //echo '<pre>';print_r($registartion_menue);
-                if(isset($registartion_menue[0]['menu_id'])){
-                    if($registartion_menue[0]['menu_id'] == $left_menus[$i]['menu_id'])
-                       {
-                        ?>
-                        <li>    
-                        <a  href="<?=base_url().'Froms/index/'.$site_id.'/'.$registartion_menue[0]['form_id']?>"><?=$registartion_menue[0]['form_title']?></a>
-                        </li>
-                        
-                        <?
-                        }
+              //  echo '<pre>';print_r($registartion_menue);
+                if($registartion_menue[0]['menu_id'] == $left_menus[$i]['menu_id'])
+               {
+                ?>
+                <li>    
+                <a  href="<?=base_url().'Froms/index/'.$site_id.'/'.$registartion_menue[0]['form_id']?>"><?=$registartion_menue[0]['form_title']?></a>
+                </li>
+                
+                <?
                 }
 					//Start 1
 					if(isset($left_menus[$i]["webinar_list"]) && count($left_menus[$i]["webinar_list"]) > 0)
@@ -706,15 +704,23 @@ if(!empty($left_menus_Pbox) && $left_menus_type=='site')
 	
 ?>
 <?php
-    if(!empty($newsletter_groups_a) )
+    if($newsletter_groups_a!='')
     {
         foreach($newsletter_groups_a as $newsletter_groups_all)                               
         {
             if($newsletter_groups_all->newsgroup_position == 'Left')
             {
                  
-            ?>
-                <form action="<?=base_url().index_page()?>Create_Newsletter/save_newsletter_user/" method="post">
+            
+                if($this->config->item('seo_url') == 'On')
+				{ ?>
+ 						<form action="<?='http://'.$_SERVER['SERVER_NAME']?>/Create_Newsletter/save_newsletter_user/" method="post">				
+				<? }
+				else
+				{?>
+						<form action="<?=base_url().index_page()?>Create_Newsletter/save_newsletter_user/" method="post">
+				<? }			
+				?>	
                 <input type="hidden" value="<?php echo $newsletter_groups_all->newsgroup_id;?>" name="NL_group_id">
                 <input type="hidden" name="url" value="<?php echo $this->uri->uri_string();?>">
                 <div> <?php echo $this->session->flashdata('success_msg');?></div>
@@ -751,15 +757,24 @@ if(!empty($left_menus_Pbox) && $left_menus_type=='site')
 ?>
 </br>
 <?php
-    if(!empty($newsletter_groups_p))
+    if($newsletter_groups_p!='')
     {
         foreach($newsletter_groups_p as $newsletter_groups_show)
         {
             if($newsletter_groups_show->newsgroup_position == 'Left')
             {
                  
-            ?>
-                <form action="<?=base_url().index_page()?>Create_Newsletter/save_newsletter_user/" method="post">
+			
+				if($this->config->item('seo_url') == 'On')
+				{?>
+ 						<form action="<?='http://'.$_SERVER['SERVER_NAME']?>/Create_Newsletter/save_newsletter_user/" method="post">				
+				<? }
+				else
+				{?>
+						<form action="<?=base_url().index_page()?>Create_Newsletter/save_newsletter_user/" method="post">
+				<? }			
+				?>	
+                
                 <input type="hidden" value="<?php echo $newsletter_groups_show->newsgroup_id;?>" name="NL_group_id">
                 <input type="hidden" name="url" value="<?php echo $this->uri->uri_string();?>">
                 <div> <?php echo $this->session->flashdata('success_msg');?></div>

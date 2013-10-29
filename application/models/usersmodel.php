@@ -672,14 +672,6 @@ class UsersModel extends CI_Model {
 		$this->db->where("user_id",$user_id);
 		$this->db->update("users",$data);
 	}
-    function get_affiliate_user()
-    {
-        $this->db->where('affiliate_id !=', '0');
-        $result = $this->db->get('users');
-       // echo $this->db->last_query(); exit;
-        return $result->result();
-    }
-    
 	
 }
 ?>

@@ -163,12 +163,10 @@ class SiteController extends CI_Controller {
 		//$this->load->view("home",$data);
 		$site_domain = $this->Site_Model->get_site_domain_name($site_id);
 		//echo '----'.$site_domain[0]['domain'];
-		if(isset($site_domain[0]['domain']) && !empty($site_domain[0]['domain']))
+		/*if(isset($site_domain[0]['domain']) && !empty($site_domain[0]['domain']))
 		{
-			//$result = dns_get_record($site_domain[0]['domain']);
-			/*echo "<pre>";
-			print_r($result);
-			exit;*/
+			$result = dns_get_record($site_domain[0]['domain']);
+			
 			
 			if(empty($result))
 			{
@@ -190,7 +188,7 @@ class SiteController extends CI_Controller {
 		{
 			$result = '';		
 		
-		}
+		} */
 		
 		//echo "<pre>";
 		//print_r($site_domain);

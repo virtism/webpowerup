@@ -181,8 +181,8 @@ $(document).ready(function() {
 		//alert(window.location.protocol);
 		$.ajax({
 		type: "POST",
-		url: "<?=base_url().index_page()?>MyAccount/register_process/",
-		//url: window.location.protocol+"/MyAccount/register_process/",
+		//url: "<?=base_url().index_page()?>MyAccount/register_process/",
+		url: window.location.protocol+"/MyAccount/register_process/",
 		data: dataString,
 		success: function(rsp){
 			  
@@ -272,7 +272,8 @@ function payPal_bottom(group_id)
 		{
 			$.ajax({
 			type: "POST",
-			url: "<?=base_url().index_page()?>sitegroups/group_fields_paypal_button/register",
+			//url: "<?=base_url().index_page()?>sitegroups/group_fields_paypal_button/register",
+			url: window.location.protocol+"/sitegroups/group_fields_paypal_button/register/",
 			data: dataString,
 			success: function(data){
 				   // alert(data);
@@ -291,7 +292,8 @@ function check_group_payment_status(group_id)
 	    //alert("");
 		$.ajax({
 		type: "POST",
-		url: "<?=base_url().index_page()?>group_managment/check_group_payment_status/",
+		//url: "<?=base_url().index_page()?>group_managment/check_group_payment_status/",
+		url: window.location.protocol+"/group_managment/check_group_payment_status/",
 		data: dataString,
 		success: function(data){
 			  //alert("asd");
@@ -573,23 +575,8 @@ background:none;
     <div id="rsp"></div>
 	<div id="closeRsp"></div>
 </div>
- <?
 
-if($this->config->item('seo_url') == 'On')
- {
- 
-?>
 <form name="registerform" id="registerform" class="contact" method="post" action="http://<?=$_SERVER['SERVER_NAME']?>/MyAccount/join_group">
-<?
- }
- else
- {
- ?>
-<form name="registerform" id="registerform" class="contact" method="post" action="<?=base_url()?>MyAccount/join_group">
-<? }
-
-?>
-<!--<form name="registerform" id="registerform" class="contact" method="post" action="http://<?=$_SERVER['SERVER_NAME']?>/MyAccount/join_group">-->
 <input type="hidden" id="customer_id" name="customer_id" value="0" />
 <input type="hidden" name="site_id" value="<?=$site_id?>" id="site_id" />
 <? //	echo "<pre>";"-----------------".print_r($membership);exit;	  ?>
@@ -654,7 +641,7 @@ if($this->config->item('seo_url') == 'On')
    </tr>                  
    <tr>
 	  <td class="register-newbie-note" colspan="3" style="padding-left: 162px;;">
-		  I accept the <a href="<?php if($this->config->item('seo_url') == 'On'){echo 'http://'.$_SERVER['SERVER_NAME'].'/'.'site_preview/page/'.$site_id.'/'.$aboutUsPage;}else{ echo base_url().'site_preview/page/'.$site_id.'/'.$aboutUsPage;}?>">"Terms &amp; Conditions"</a>
+		  I accept the <a href="<?php if($this->config->item('seo_url') == 'On'){echo 'http://'.$_SERVER['SERVER_NAME'].'/'.'pages/about-us.html';}else{ echo base_url().'site_preview/page/'.$site_id.'/'.$aboutUsPage;}?>">"Terms &amp; Conditions"</a>
 		  <!-- I accept the <a target="_blank" onclick="javascript:popupOpen(this.href, '', {width:800,height:600}); return false;" href="#">"Terms &amp; Conditions"</a>-->
 	  </td>
    </tr> 

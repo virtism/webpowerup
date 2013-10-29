@@ -11,7 +11,6 @@
      // method to save news letter data
      function save_promotional_boxe($data_array)
      {
-         //echo '<pre>' ; print_r($data_array); exit;
          $query_str = "INSERT INTO promotional_boxes(box_title,box_show_title,box_product,box_position,box_order,box_publish,box_display_page,box_permissions,box_content,site_id,box_primary_color,box_txt_color) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
          $this->db->query($query_str, $data_array['data']);
      	 $last_insert_id = $this->db->insert_id();
@@ -20,7 +19,7 @@
 			 foreach($data_array['group_id'] as $group)
 			 {
 				
-				$this->db->query("INSERT INTO  access_levels_box_groups_xref(box_id, group_id, site_id) VALUES(".$last_insert_id.", ".$group.",".$data_array['data']['10'].")");   
+				$this->db->query("INSERT INTO  access_levels_box_groups_xref(box_id, group_id) VALUES(".$last_insert_id.", ".$group.")");
 			 }
 		 }
 	 }    
@@ -70,7 +69,7 @@
         
     }
 	
-	/*function get_user_group_id ($id='')
+	function get_user_group_id ($id=0)
 	{
 		//echo $id.'>>>>>>>>>>>>>';
 			$rows = array();
@@ -90,32 +89,7 @@
 			 
 		 // echo $gruop_id.': >>>>>>>>>>>>>>>> '; exit();
 		  return $gruop_id; 
-	}*/
-    
-    function get_user_group_id ($id='')
-    {
-        //echo $id.'>>>>>>>>>>>>>';
-            $rows = array();
-            $gruop_id = 0;
-            //$this->db->select('membershipid,group_code');
-            $this->db->where('customer_id',intval($id));
-            $query = $this->db->get('ec_customers_group_xref');
-            
-             //print_r($query->result_array()); exit;
-            
-            //$query = $this->db->get_where('user_packages_xref', array('user_id' => intval($id)));  
-             if ($query->num_rows() > 0){
-               foreach ($query->result_array() as $row ){
-                 // echo '%%%%%'.$row['membershipid'].'%%%';
-                   if($row['group_id'] != 0){
-                        $gruop_id = $row['group_id'];
-                   }
-                }
-             } 
-             
-         // echo $gruop_id.': >>>>>>>>>>>>>>>> '; exit();
-          return $gruop_id; 
-    }
+	}
 	
 	function is_box_group($box_id, $group_id)
 	{
@@ -166,17 +140,6 @@
 		}	
 		return $cat_name;   
  	}
-    /*function getLeftPromotionalBox($site_id)
-    {
-        $this->db->select('*');
-        $this->db->from('promotional_boxes');
-        $this->db->join('access_levels_box_groups_xref', 'promotional_boxes.site_id = access_levels_box_groups_xref.b_site_id');
-        $this->db->where('promotional_boxes.site_id',$site_id);
-        $this->db->where('access_levels_box_groups_xref.site_id',$site_id);
-        $result = $this->db->get();
-          echo $this->db->last_query();exit;
-        return $result->result();
-    } */
 	function getLeftPromotionalBox($site_id,$page_id = 1)
 	{
 			
@@ -200,13 +163,10 @@
 			   {
 				   if($row['box_permissions'] == 'Level of Access')
 				   {
-                       //echo 'i am in access'; exit;
 						if(isset($_SESSION['login_info']) && isset ($_SESSION['login_info']['customer_id']))
 						{	
 							$group_id = $this->get_user_group_id($_SESSION['login_info']['customer_id']);
-                            //echo '<pre>'; print_r($group_id); exit; 
 							$box_group = $this->is_box_group($row['box_id'],$group_id);
-                            //echo '<pre>'; print_r($group_id); exit;
 							if($box_group)
 							{
 								$names['sit_name'] = $this->getSiteNameById($site_id);		
@@ -226,7 +186,6 @@
 				   }
 				   else if($row['box_permissions'] == 'Registered Users')
 				   {
-                       //echo 'i am in Registered'; exit;
 						if(isset ($_SESSION['login_info']) && isset ($_SESSION['login_info']['customer_id']) )
 						{
 							if($_SESSION['user_info']['user_id'])
@@ -249,7 +208,6 @@
 				   }
 				   else if($row['box_permissions'] == 'Every One')
 				   {
-                       //echo 'i am in Every One'; exit; 
 						$names['sit_name'] = $this->getSiteNameById($site_id);		
 						
 						if($row['box_product'] != 0)

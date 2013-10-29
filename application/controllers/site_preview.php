@@ -21,7 +21,7 @@ class Site_preview extends CI_Controller
 		$this->load->model('Contact_Management_Model');
 		$this->load->model("Gallery_Model");
 		$this->load->model("Video_Gallery_Model");
-        $this->load->model("Newsletter_Model");
+		$this->load->model("Newsletter_Model");
 		$this->load->library('pagination');
 		$this->load->library('session');
 		$this->load->library('form_validation');       
@@ -45,7 +45,6 @@ class Site_preview extends CI_Controller
 	//Used to show Site's Preview(homepage)
 	function site($site_id='')
 	{
-        
 		/*echo "<pre>";
 		echo $_SESSION['user_info']['user_id'];
 		print_r($_SESSION['user_info']);
@@ -68,7 +67,7 @@ class Site_preview extends CI_Controller
 			[user_login] => numan@virtism.com
 		)
 		*/
-         
+
 		if(isset($_SESSION['user_info']['user_id']))
 		{
 			$site_user_id = $_SESSION['user_info']['user_id'];
@@ -78,7 +77,7 @@ class Site_preview extends CI_Controller
 		$footer_content = $this->Footer_Model->get_footer_content($site_id);
 		$rowHomepage = array();
 		$rowHomepage = $rsltHomepage[0];
-		 //echo '<pre>';print_r($rsltHomepage);exit;
+		
 		
 		$data["mode"] = '';
 		$data["site_id"] = $rowHomepage["site_id"];
@@ -242,7 +241,6 @@ class Site_preview extends CI_Controller
 		
 		
 		$data['menu'] =  $top_site_menu_basic;	
-         
 		
 		/***********	Basic Menu End		************/
 		 /***********	Ohter Menu Start		************/
@@ -429,58 +427,7 @@ class Site_preview extends CI_Controller
 			
 		
 		/***********	SLIDESHOW END		************/
-        
-                    /*$customer_id = $_SESSION['login_info']['customer_id'];
-                    $group_ids = $this->customers_model->get_all_groups_by_customer_id($customer_id);
-                    
-                    // check multiple group expire date                    
-                    if (isset($_SESSION['expired_group_id']))  
-                    {
-                        unset($_SESSION['expired_group_id']);
-                    }
-                    // echo "<pre>";    print_r($group_ids);    echo "</pre>";
-                    foreach($group_ids as $row)
-                    {
-                        //echo 'i am in the loop'; exit;
-                        $group_id = $row['group_id'];
-                        
-                        $group_data = $this->customers_model->check_group_paid($group_id);
-                        //echo '<pre>'; print_r($group_data); echo '</hr>';
-                        $trialDays = $group_data[0]['duration'];
-                        $payment_method = $group_data[0]['payment_method'];
-                        
-                            
-                        if ($payment_method == 'Trial' || $payment_method == 'Recursion')
-                        {
-                            
-                            
-                            $join_date = $row['group_joining_date'];
-                            $trialDays = $row['groups_pay_date'];
-                            //$trial_expire_date = add_days_to_date($join_date,$trialDays);  
-                            //$is_expire = is_date_expired($trial_expire_date);
-                            $is_expire = is_date_expired($trialDays); 
-                            //echo '<pre>'; print_r($is_expire); echo '</hr>';
-                            
-                            //echo '<pre>'; print_r($trial_expire_date); echo '</hr>';
-                             
-                             //echo '<pre>'; print_r($join_date); exit; 
-                            if($is_expire)
-                            {
-                                $_SESSION['expired_group_id'][] = $group_id;
-                            }
-                            
-                        }
-                          
-                        
-                    }
-                     //echo "<pre>";    print_r($is_expire);    echo "</pre>";  die();
-                    // exit;
-                    if($is_expire)
-                    {
-                        //echo 'i am in the expire check'; exit;
-                        //redirect(site_url().'group_managment/group_trail_end/');    
-                    } */
-		            //echo "<pre>";    print_r($_SESSION['expired_group_id']);exit; 
+		
 		$this->template->write_view('content','all_common/content', $data); 
 		$this->template->write_view('header', 'all_common/header', $data);
 		
@@ -497,15 +444,14 @@ class Site_preview extends CI_Controller
 		if(isset($Regions['leftbar']))
 		//case: template with leftbar & rightbar regions to show left menus in leftbar and right menus in rightbar regions respectively
 		{
-			//echo "doesnot exist";
-             			
+			//echo "doesnot exist";			
 			$data['left_menus'] = $this->my_template_menu->getLeftbar($site_id, $page_id);
 			
 			$data['private_page_users'] =  $this->Menus_Model->get_private_users_Pages($site_id);
-			  
 			
-			$data['left_menus_Pbox'] = $this->Promotional_Boxes_Model->getLeftPromotionalBox($site_id);		 			
-			//echo "<pre>"; print_r($data['left_menus_Pbox']); exit;
+			
+			//$data['left_menus_Pbox'] = $this->Promotional_Boxes_Model->getLeftPromotionalBox($site_id);		 			
+			//echo "<pre>"; print_r($data['left_menus']); exit;
 			
 			if(isset($_SESSION['customer_group_id']))
 			{
@@ -513,10 +459,9 @@ class Site_preview extends CI_Controller
 			}	
 			$data['left_menus_type'] = 'site';
 			//$data['left_menus'] = "";
-			 
+			
 			//To Check Access level and Page Checking Under Sub Menu
 			$this->template->write_view('leftbar', $temp_name.'/leftbar', $data); 
-             
 		}
 		if(isset($Regions['rightbar']))
 		{   
@@ -594,55 +539,36 @@ class Site_preview extends CI_Controller
 	function page($site_id, $page_id="")
 	{
 		//echo $site_id;exit;
-                  $all_newsletter_group = $this->Newsletter_Model->get_newsletter_groups('' , $site_id);
-                  //echo '<pre>'; print_r($all_newsletter_group); exit;
-                  foreach($all_newsletter_group as $check_all)
-                  {
-                      if($check_all->newsgroup_page_ids == '' && $check_all->newsgroup_page == 'no')
-                      {
-                          //echo $check_all->newsgroup_id.'kafhkdjshfdkjhfkasdhfkjsdhkfjshdkfhskdhfksd';
-                          $data['newsletter_groups_a'] = $this->Newsletter_Model->get_newsletter_groups_all('' , $site_id);
-                          //echo '<pre>';print_r($data['newsletter_groups_a']); 
-                          
-                      }
-                  }
-                      
-                         
-                         $newsletter_groups = $this->Newsletter_Model->get_newsletter_groups('' , $site_id);
-                          foreach($newsletter_groups as $newsletter_group)
-                          {
-                              $pages_ids = $newsletter_group->newsgroup_page_ids;
-                              $array_ids = explode(',',$pages_ids);
-                               if(in_array($page_id , $array_ids, true))
-                               {
-                                   $group_ids .= $newsletter_group->newsgroup_id.',';
-                               }
-                         }
-                          $remove_last = substr($group_ids, 0, -1);
-                          $final_value = explode(',',$group_ids);
-                          $data['newsletter_groups_p'] = $this->Newsletter_Model->get_newsletter_groups($final_value , $site_id);
-                         //echo '<pre>';print_r($data['newsletter_groups_p']);
-                          
-                      
-                  
-                  /*$newsletter_groups = $this->Newsletter_Model->get_newsletter_groups('' , $site_id);
-                  foreach($newsletter_groups as $newsletter_group)
-                  {
-                      $pages_ids = $newsletter_group->newsgroup_page_ids;
-                      $array_ids = explode(',',$pages_ids);
-                       if(in_array($page_id , $array_ids, true))
-                       {
-                           $group_ids .= $newsletter_group->newsgroup_id.',';
-                       }
-                 }
-                  $remove_last = substr($group_ids, 0, -1);
-                  $final_value = explode(',',$group_ids);
-                  $data['newsletter_groups_p'] = $this->Newsletter_Model->get_newsletter_groups($final_value , $site_id);*/
-                  
-                  
-                  
-                  
-                         
+		
+		//news letter gorup start		
+		$all_newsletter_group = $this->Newsletter_Model->get_newsletter_groups('' , $site_id);
+		//echo '<pre>'; print_r($all_newsletter_group); exit;
+		foreach($all_newsletter_group as $check_all)
+		{
+			if($check_all->newsgroup_page_ids == '' && $check_all->newsgroup_page == 'no')
+			{
+			//echo $check_all->newsgroup_id.'kafhkdjshfdkjhfkasdhfkjsdhkfjshdkfhskdhfksd';
+			$data['newsletter_groups_a'] = $this->Newsletter_Model->get_newsletter_groups_all('' , $site_id);
+			//echo '<pre>';print_r($data['newsletter_groups_a']); 
+			
+			}
+		}		
+		
+		$newsletter_groups = $this->Newsletter_Model->get_newsletter_groups('' , $site_id);
+		foreach($newsletter_groups as $newsletter_group)
+		{
+			$pages_ids = $newsletter_group->newsgroup_page_ids;
+			$array_ids = explode(',',$pages_ids);
+			if(in_array($page_id , $array_ids, true))
+			{
+			   $group_ids .= $newsletter_group->newsgroup_id.',';
+			}
+		}
+		$remove_last = substr($group_ids, 0, -1);
+		$final_value = explode(',',$group_ids);
+		$data['newsletter_groups_p'] = $this->Newsletter_Model->get_newsletter_groups($final_value , $site_id);
+		  //news letter gorup end
+		  
 		$_SESSION['site_id'] = $site_id; 
 		if($page_id != "")
 		{
@@ -764,7 +690,6 @@ class Site_preview extends CI_Controller
 		$page_access = $rowPage["page_access"];
 		$page_type = $rowPage["page_type"];
 		$page_users = $rowPage["page_users"];
-         
 		$page_groups = $rowPage["page_groups"];
  
 		$data['page_id2'] = $page_id; 
@@ -989,15 +914,13 @@ class Site_preview extends CI_Controller
 		}
 		else if($page_access == "Other")
 		{
-		     
+		
 			if(isset($_SESSION['login_info']['customer_id']))
 			{
-				  
+				
 				if( $page_type == "Normal")
-                
 				{
-                    
-					
+					/*
 					$page_groups_id = explode(",",$page_groups);  
 					$group_id = $this->Menus_Model->get_group_id_by_customer_id($_SESSION['login_info']['customer_id']);
 					if($page_groups != "" && ( $page_users == "" || $page_users == NULL) ) // for only groups
@@ -1014,11 +937,9 @@ class Site_preview extends CI_Controller
 							}
 						}
 					}
-					
-                    //echo '<pre>'; print_r($page_users_id);exit; 
+					*/ 
 					if ($page_users != "") 
 					{
-                        
 						$page_users_id = explode(",",$page_users);
 						$member_id = $_SESSION['login_info']['customer_id'];
 						if ( in_array($member_id,$page_users_id) )
@@ -1029,7 +950,7 @@ class Site_preview extends CI_Controller
 					}
 					else
 					{
-						$flag_page_access = false;    
+						$flag_page_access = FALSE;    
 					}
 				}
 				else if ($page_type == "Group")
@@ -1044,7 +965,6 @@ class Site_preview extends CI_Controller
 			}
 			else
 			{
-                
 				$flag_page_access = FALSE;                  
 			}
 		
@@ -1211,7 +1131,7 @@ class Site_preview extends CI_Controller
 			$data['private_page_users'] =  $this->Menus_Model->get_private_users_Pages($site_id);
 			//echo "<pre>"; print_r($data['private_page_users']); exit;
 			$data['left_menus_Pbox'] = $this->Promotional_Boxes_Model->getLeftPromotionalBox($site_id,$page_id);
-			//echo "<pre>"; print_r($data['left_menus_Pbox']); echo "</pre>";
+			//echo "<pre>"; print_r($data['private_page_users']); echo "</pre>";
 			if(isset($_SESSION['customer_group_id']))
 			{
 				//$customer_group_pages =  $this->Site_Model->customerGroupPages($site_id, $page_id, $_SESSION['customer_group_id']);
@@ -1413,23 +1333,51 @@ class Site_preview extends CI_Controller
 	function create_group_button($button)
 	{
 		
-	   // echo "<pre>";	print_r($_SESSION);		echo "</pre>";
+	   // echo "<pre>";	print_r($button);		echo "</pre>";
 	   
-	   if (!isset($_SESSION['login_info']['customer_id']))
-	   {
-		   $link = base_urL().index_page()."MyAccount/register/".$_SESSION['site_id'];
+	   if($this->config->item('seo_url') == 'On')
+ 		{ 
+		   if (!isset($_SESSION['login_info']['customer_id']))
+		   {
+			   //$link = base_urL().index_page()."MyAccount/register/".$_SESSION['site_id'];			   
+			   $link = 'http://'.$_SERVER['SERVER_NAME'].'/myaccount/register'.$this->config->item('custom_url_suffix');
+			   $this->session->set_userdata('group_id', $button['group_id']);
+		   }
+		   else if(isset($_SESSION['login_info']['customer_id']))
+		   {
+			  // $link = base_url().index_page()."group_managment/new_group";
+			   $link = 'http://'.$_SERVER['SERVER_NAME'].'/group_managment/new_group.'.$this->config->item('custom_url_suffix');
+		   }
 	   }
-	   else if(isset($_SESSION['login_info']['customer_id']))
+	   else
 	   {
-		   $link = base_urL().index_page()."group_managment/new_group";
+	   		if (!isset($_SESSION['login_info']['customer_id']))
+		   {
+			   $link = base_urL().index_page()."MyAccount/register/".$_SESSION['site_id'];
+		   }
+		   else if(isset($_SESSION['login_info']['customer_id']))
+		   {
+			   $link = base_urL().index_page()."group_managment/new_group";
+		   }
+			
+			
 	   }
 	   
+		 if(empty($button['group_join_button']))
+	   {
+	   
+	    	$image_path = 'media/ckeditor_uploads/'.$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id'].'/'.$button['group_join_button'];
+	   }
+	   else
+	   {
+	   		$image_path = 'images/Join-Now-Button.png';
+	   }
 		// die();
 		
 		// ['login_info']['customer_id']
 		$output = "<div class=\"group_join_content_button\">";
 		$output.= "<a href=\" ".$link." \">";
-		$output.= img('media/ckeditor_uploads/'.$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id'].'/'.$button['group_join_button']);
+		$output.= img($image_path);
 		$output.= "</a>";
 		
 		$output.= "</div>";
@@ -1873,8 +1821,7 @@ class Site_preview extends CI_Controller
 			
 			// GROUP JOIN BUTTON 
 			$group_buttons = $this->Pages_Model->get_join_group_button_by_page_id($page_id);
-			/*echo "<pre>";
-			print_r($group_buttons);exit;*/
+			
 			if($group_buttons)
 			{
 				foreach($group_buttons as $button)

@@ -234,9 +234,9 @@ class Group_payment_model extends CI_Model{
 		   'customer_name' => $customer_name,
 		   'address_city' => $address_city
 		);
-		
+		if(!empty($site_id)){
 		$r = $this->db->insert('group_customer_payment', $data); 
-		
+		}
 		if ($r)
 		{
 			return $customData;
