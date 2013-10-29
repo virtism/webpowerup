@@ -295,7 +295,7 @@ $error = null;
         <div style="clear:left;">
             <label >First Name</label>
              <div>
-             	<input type="text" maxlength="30" value="" name="user_fname" size="55" />
+             	<input type="text" maxlength="30" value="<?php echo $this->session->flashdata('user_fname');?>" name="user_fname" size="55" />
              </div>
         </div>
         
@@ -303,7 +303,7 @@ $error = null;
         <div style="clear:left;">
             <label for="user_login">Last Name</label>
              <div>
-             	<input type="text" maxlength="30" value="" name="user_lname" size="55" />
+             	<input type="text" maxlength="30" value="<?php echo $this->session->flashdata('user_lname');?>" name="user_lname" size="55" />
              </div>
         </div>
        
@@ -311,7 +311,7 @@ $error = null;
             <div style="clear:left;">
             <label for="login_mesg">User Login</label>
              <div>
-             	<input id="log_in" type="text" maxlength="30"  value="" name="log_in" size="55" />
+             	<input id="log_in" type="text" maxlength="30"  value="<?php echo $this->session->flashdata('user_login');?>" name="log_in" size="55" />
              </div>
              <div id="login_mesg" style="padding:5px;"></div>
        		</div>
@@ -336,7 +336,7 @@ $error = null;
          <div style="clear:left;">
             <label >Email</label>
              <div>
-             	 <input id="user_email"  type="text" maxlength="30"  value="" name="user_email" size="55" />
+             	 <input id="user_email"  type="text" maxlength="30"  value="<?php echo $this->session->flashdata('user_email');?>" name="user_email" size="55" />
             <label id="email_mesg"></label>
              </div>
              <div id="email_mesg" style="padding:5px;"></div>
@@ -347,7 +347,7 @@ $error = null;
          <div style="clear:left;">
             <label >Confirm Email</label>
              <div>
-             	 <input id="user_email_confirm" type="text" maxlength="30" value="" name="user_email_confirm"size="55" > 
+             	 <input id="user_email_confirm" type="text" maxlength="30" value="<?php echo $this->session->flashdata('user_email_confirm');?>" name="user_email_confirm"size="55" > 
              </div>
        	  </div>   
         <div style="clear:left;">

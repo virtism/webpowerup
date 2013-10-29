@@ -254,7 +254,8 @@ class Page_editor extends CI_Controller
 		if(isset($Regions['leftbar']))
 		//case: template with leftbar & rightbar regions to show left menus in leftbar and right menus in rightbar regions respectively
 		{
-			$data['left_menus'] = $this->my_template_menu->getLeftbar($site_id, $page_id);
+            //$data['registartion_menue']         = array();
+			$data['left_menus']                 = $this->my_template_menu->getLeftbar($site_id, $page_id);
 			$data['private_page_users'] =  $this->Menus_Model->get_private_users_Pages($site_id);
 			$data['left_menus_type'] = 'site'; 
 			$this->template->write_view('leftbar', $temp_name.'/leftbar', $data); 

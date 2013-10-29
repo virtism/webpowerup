@@ -45,6 +45,7 @@ class Site_preview extends CI_Controller
 	//Used to show Site's Preview(homepage)
 	function site($site_id='')
 	{
+        
 		/*echo "<pre>";
 		echo $_SESSION['user_info']['user_id'];
 		print_r($_SESSION['user_info']);
@@ -67,7 +68,7 @@ class Site_preview extends CI_Controller
 			[user_login] => numan@virtism.com
 		)
 		*/
-
+         
 		if(isset($_SESSION['user_info']['user_id']))
 		{
 			$site_user_id = $_SESSION['user_info']['user_id'];
@@ -77,7 +78,7 @@ class Site_preview extends CI_Controller
 		$footer_content = $this->Footer_Model->get_footer_content($site_id);
 		$rowHomepage = array();
 		$rowHomepage = $rsltHomepage[0];
-		
+		 //echo '<pre>';print_r($rsltHomepage);exit;
 		
 		$data["mode"] = '';
 		$data["site_id"] = $rowHomepage["site_id"];
@@ -241,6 +242,7 @@ class Site_preview extends CI_Controller
 		
 		
 		$data['menu'] =  $top_site_menu_basic;	
+         
 		
 		/***********	Basic Menu End		************/
 		 /***********	Ohter Menu Start		************/
@@ -495,14 +497,15 @@ class Site_preview extends CI_Controller
 		if(isset($Regions['leftbar']))
 		//case: template with leftbar & rightbar regions to show left menus in leftbar and right menus in rightbar regions respectively
 		{
-			//echo "doesnot exist";			
+			//echo "doesnot exist";
+             			
 			$data['left_menus'] = $this->my_template_menu->getLeftbar($site_id, $page_id);
 			
 			$data['private_page_users'] =  $this->Menus_Model->get_private_users_Pages($site_id);
+			  
 			
-			
-			//$data['left_menus_Pbox'] = $this->Promotional_Boxes_Model->getLeftPromotionalBox($site_id);		 			
-			//echo "<pre>"; print_r($data['left_menus']); exit;
+			$data['left_menus_Pbox'] = $this->Promotional_Boxes_Model->getLeftPromotionalBox($site_id);		 			
+			//echo "<pre>"; print_r($data['left_menus_Pbox']); exit;
 			
 			if(isset($_SESSION['customer_group_id']))
 			{
@@ -510,9 +513,10 @@ class Site_preview extends CI_Controller
 			}	
 			$data['left_menus_type'] = 'site';
 			//$data['left_menus'] = "";
-			
+			 
 			//To Check Access level and Page Checking Under Sub Menu
 			$this->template->write_view('leftbar', $temp_name.'/leftbar', $data); 
+             
 		}
 		if(isset($Regions['rightbar']))
 		{   
@@ -760,6 +764,7 @@ class Site_preview extends CI_Controller
 		$page_access = $rowPage["page_access"];
 		$page_type = $rowPage["page_type"];
 		$page_users = $rowPage["page_users"];
+         
 		$page_groups = $rowPage["page_groups"];
  
 		$data['page_id2'] = $page_id; 
@@ -984,13 +989,15 @@ class Site_preview extends CI_Controller
 		}
 		else if($page_access == "Other")
 		{
-		
+		     
 			if(isset($_SESSION['login_info']['customer_id']))
 			{
-				
+				  
 				if( $page_type == "Normal")
+                
 				{
-					/*
+                    
+					
 					$page_groups_id = explode(",",$page_groups);  
 					$group_id = $this->Menus_Model->get_group_id_by_customer_id($_SESSION['login_info']['customer_id']);
 					if($page_groups != "" && ( $page_users == "" || $page_users == NULL) ) // for only groups
@@ -1007,9 +1014,11 @@ class Site_preview extends CI_Controller
 							}
 						}
 					}
-					*/ 
+					
+                    //echo '<pre>'; print_r($page_users_id);exit; 
 					if ($page_users != "") 
 					{
+                        
 						$page_users_id = explode(",",$page_users);
 						$member_id = $_SESSION['login_info']['customer_id'];
 						if ( in_array($member_id,$page_users_id) )
@@ -1020,7 +1029,7 @@ class Site_preview extends CI_Controller
 					}
 					else
 					{
-						$flag_page_access = FALSE;    
+						$flag_page_access = false;    
 					}
 				}
 				else if ($page_type == "Group")
@@ -1035,6 +1044,7 @@ class Site_preview extends CI_Controller
 			}
 			else
 			{
+                
 				$flag_page_access = FALSE;                  
 			}
 		
@@ -1201,7 +1211,7 @@ class Site_preview extends CI_Controller
 			$data['private_page_users'] =  $this->Menus_Model->get_private_users_Pages($site_id);
 			//echo "<pre>"; print_r($data['private_page_users']); exit;
 			$data['left_menus_Pbox'] = $this->Promotional_Boxes_Model->getLeftPromotionalBox($site_id,$page_id);
-			//echo "<pre>"; print_r($data['private_page_users']); echo "</pre>";
+			//echo "<pre>"; print_r($data['left_menus_Pbox']); echo "</pre>";
 			if(isset($_SESSION['customer_group_id']))
 			{
 				//$customer_group_pages =  $this->Site_Model->customerGroupPages($site_id, $page_id, $_SESSION['customer_group_id']);

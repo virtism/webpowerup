@@ -272,7 +272,19 @@ background:none;
 <div id="response">
 	
 </div>
-<form id="addGroupForm" method="post" action="<?php echo base_url().index_page()."group_managment/update_group" ?>">
+<?php if($this->config->item('seo_url') == 'On')
+ {
+  echo form_open('http://'.$_SERVER['SERVER_NAME'].'/'.'group_managment/update_group');
+ }
+ else
+ {
+     echo form_open(base_url().index_page()."group_managment/update_group");
+ }?>
+
+
+
+
+<!--<form id="addGroupForm" method="post" action="<?php echo base_url().index_page()."group_managment/update_group" ?>">-->
 <table border="0">
   <tr>
     <th  scope="col">&nbsp;</th>

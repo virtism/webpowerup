@@ -557,8 +557,8 @@ class Menus_Model extends CI_Model{
 	}
 	
 	function check_private_page($site_id, $page_id){
-		
-		$Q =  $this->db->query("SELECT page_users  FROM pages WHERE site_id=".$this->db->escape($site_id)." AND page_id =".$page_id." AND page_privacy = 'private'  AND page_status NOT IN('Deleted') ORDER BY page_id");
+		 //echo 'jflksdjflsjdfksdjflk'.$page_id; exit;
+		$Q =  $this->db->query("SELECT page_users  FROM pages WHERE site_id=".$this->db->escape($site_id)." AND page_id =".$this->db->escape($page_id)." AND page_privacy = 'private'  AND page_status NOT IN('Deleted') ORDER BY page_id");
 		$results = $Q->result_array();		
 		return $results[0]['page_users'];
 	}

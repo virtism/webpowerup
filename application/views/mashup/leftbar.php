@@ -307,7 +307,7 @@ else
 								$link_target = 'target="'.$left_menus[$i]['sub_menu'][$j]['item_target'].'"';
 							}
 							else
-							{
+							{ 
 								$link_url = $strLink;
 								
 								$link_target = 'target="'.$left_menus[$i]['sub_menu'][$j]['item_target'].'"';
@@ -343,7 +343,7 @@ else
 									}
 								}
 								else
-								{
+								{ 
 									?>
 									<li>	
 									<a  <?=$link_target?> href="<?=$link_url?>"><?=$left_menus[$i]['sub_menu'][$j]['item_name']?></a>
@@ -578,19 +578,21 @@ else
 								}
 							 }
 							 //exit;										 
-						}
+						} 
 					}
 					//echo $left_menus[$i]['sub_menu'][$j]["access_level"];					
 				} 
-              //  echo '<pre>';print_r($registartion_menue);
-                if($registartion_menue[0]['menu_id'] == $left_menus[$i]['menu_id'])
-               {
-                ?>
-                <li>    
-                <a  href="<?=base_url().'Froms/index/'.$site_id.'/'.$registartion_menue[0]['form_id']?>"><?=$registartion_menue[0]['form_title']?></a>
-                </li>
-                
-                <?
+                //echo '<pre>';print_r($registartion_menue);
+                if(isset($registartion_menue[0]['menu_id'])){
+                    if($registartion_menue[0]['menu_id'] == $left_menus[$i]['menu_id'])
+                       {
+                        ?>
+                        <li>    
+                        <a  href="<?=base_url().'Froms/index/'.$site_id.'/'.$registartion_menue[0]['form_id']?>"><?=$registartion_menue[0]['form_title']?></a>
+                        </li>
+                        
+                        <?
+                        }
                 }
 					//Start 1
 					if(isset($left_menus[$i]["webinar_list"]) && count($left_menus[$i]["webinar_list"]) > 0)
@@ -704,7 +706,7 @@ if(!empty($left_menus_Pbox) && $left_menus_type=='site')
 	
 ?>
 <?php
-    if($newsletter_groups_a!='')
+    if(!empty($newsletter_groups_a) )
     {
         foreach($newsletter_groups_a as $newsletter_groups_all)                               
         {
@@ -749,7 +751,7 @@ if(!empty($left_menus_Pbox) && $left_menus_type=='site')
 ?>
 </br>
 <?php
-    if($newsletter_groups_p!='')
+    if(!empty($newsletter_groups_p))
     {
         foreach($newsletter_groups_p as $newsletter_groups_show)
         {

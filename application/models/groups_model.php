@@ -1680,6 +1680,7 @@ $group_data = array();
 	//function set_autoresponder_by_group_id($member_id, $group_id)
     function set_autoresponder_by_group_id($group_id , $member_id) 
     {
+        //echo $group_id ; exit;
        $query_string = "SELECT * FROM autoresponders WHERE respond_group = $group_id  AND respond_active = 1";
        $q = $this->db->query($query_string);
        $data = array ();
@@ -1875,7 +1876,10 @@ $group_data = array();
 			
 			//Delete Auto Responder Group Refrence
 			$this->db->query("DELETE FROM autorespond_email_record  WHERE customer_id = '$member_id' AND group_id = '$current_group_id'");
+            //echo '$upgrade_group_id';exit;
+            if($upgrade_group_id != ""){
 			$this->set_autoresponder_by_group_id($upgrade_group_id, $member_id);
+            }
 			//$this->set_autoresponder_by_group_id($member_id , $upgrade_group_id);
 			
 			$this->db->query($query);

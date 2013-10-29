@@ -376,7 +376,8 @@ class MenusController extends CI_Controller{
         
         //confirm user is logged in
         $this->checkLogin();
-        //prepare $data 
+        //prepare $data
+        //$data['numRecords'] = 0; 
         $data["page_id"] = "";  
         //$data["id"] = $id;
         $data["site_id"] = $site_id;   

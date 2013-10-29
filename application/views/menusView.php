@@ -14,62 +14,8 @@ div#actionMenu {
 	text-align:center;
 	clear:both;
 }
-</style>
-<script language="javascript" type="text/javascript">
-	function isChecked(){
-    for(i=1;i<=<?=$numRecords?>;i++){
-        if(document.getElementById('chkMenu'+i).checked==true){
-            return true;            
-        }
-    }
-    return false;
-}
-function publishMenu(){    
-    if(isChecked() == true){
-        form = document.getElementById('frmMenus');
-        form.action = "<?=base_url().index_page()?>menusController/publishMenu/<?=$site_id?>"+"/00";
-        form.submit();
-    }
-    else{
-        window.alert("No menu(s) selected. Please select menu(s) first to continue.");
-        return;
-    }    
-}
-function unpublishMenu(){    
-    if(isChecked() == true){
-        form = document.getElementById('frmMenus');
-        form.action = "<?=base_url().index_page()?>menusController/unpublishMenu/<?=$site_id?>"+"/00";
-        form.submit();
-    }
-    else{
-        window.alert("No menu(s) selected. Please select menu(s) first to continue.");
-        return;
-    }    
-}
-function deleteMenu(){    
-    if(isChecked() == true){
-       var msg = confirm("Are you sure you want to Delete?");
-		if(msg)
-	    {
-	    	form = document.getElementById('frmMenus');
-        	form.action = "<?=base_url().index_page()?>menusController/trashMenu/<?=$site_id?>"+"/00";
-        	form.submit();
-		}
-		return false;	
-    }
-    else{
-        window.alert("No menu(s) selected. Please select menu(s) first to continue.");
-        return;
-    }    
-}
-function selectAllMenu(){
-    state = document.getElementById('chkMenuAll').checked;    
-    for(i=1;i<=<?=$numRecords?>;i++){        
-        document.getElementById('chkMenu'+i).checked=true;        
-    }       
-}
-</script>
-
+</style> 
+ 
 <div class="RightColumnHeading">
     <h1>
     	<img src="<?=base_url();?>images/webpowerup/CreateResponder.png" alt="Manage By Menu"/>
@@ -221,3 +167,65 @@ function selectAllMenu(){
     } ?>   
 </form>
 </div>
+
+<script language="javascript" type="text/javascript">
+    function isChecked(){
+    for(i=1;i<=<?=$numRecords?>;i++){
+        if(document.getElementById('chkMenu'+i).checked==true){
+            return true;            
+        }
+    }
+    return false;
+}
+function publishMenu(){    
+    if(isChecked() == true){
+        form = document.getElementById('frmMenus');
+        form.action = "<?=base_url().index_page()?>menusController/publishMenu/<?=$site_id?>"+"/00";
+        form.submit();
+    }
+    else{
+        window.alert("No menu(s) selected. Please select menu(s) first to continue.");
+        return;
+    }    
+}
+function unpublishMenu(){    
+    if(isChecked() == true){
+        form = document.getElementById('frmMenus');
+        form.action = "<?=base_url().index_page()?>menusController/unpublishMenu/<?=$site_id?>"+"/00";
+        form.submit();
+    }
+    else{
+        window.alert("No menu(s) selected. Please select menu(s) first to continue.");
+        return;
+    }    
+}
+function deleteMenu(){    
+    if(isChecked() == true){
+       var msg = confirm("Are you sure you want to Delete?");
+        if(msg)
+        {
+            form = document.getElementById('frmMenus');
+            form.action = "<?=base_url().index_page()?>menusController/trashMenu/<?=$site_id?>"+"/00";
+            form.submit();
+        }
+        return false;    
+    }
+    else{
+        window.alert("No menu(s) selected. Please select menu(s) first to continue.");
+        return;
+    }    
+}
+function selectAllMenu(){
+    state = document.getElementById('chkMenuAll').checked;
+       
+    for(i=1;i<=<?=$numRecords?>;i++){        
+        document.getElementById('chkMenu'+i).checked=true;        
+    }
+    if(state == false)
+    {
+      for(i=1;i<=<?=$numRecords?>;i++){        
+        document.getElementById('chkMenu'+i).checked=false;        
+        }      
+    }        
+}
+</script>

@@ -600,7 +600,7 @@ class UsersController extends CI_Controller {
 		return $boolFlag;        
 	}
 	// signup step 1 process 
-	function signup_step1()
+	function signup_step1($post_array = false)
 	{
 		$this->webpowerup->hide_left_menu();
 		$this->webpowerup->hide_top_content();
@@ -614,7 +614,8 @@ class UsersController extends CI_Controller {
 				
 			
 			}
-		   $get_package_value = array ();  
+		   $get_package_value = array ();
+            //echo '<pre>'; print_r($post_array); exit;
 		   $path= realpath( getcwd() ); 
 		    
             
@@ -654,15 +655,20 @@ class UsersController extends CI_Controller {
                                                 $_POST["recaptcha_challenge_field"],
                                                 $_POST["recaptcha_response_field"]);
 
-                if ($resp->is_valid) {
-                        echo "You got it!";
-                } else {
-                        # set the error code so that we can display it
-                        //echo "error in the error condition";
-                        $error = $resp->error;
-                        $this->session->set_flashdata('capchError', 'Incorrect Captcha');
-                        redirect("UsersController/signup_step1");
-                         
+                if ($resp->is_valid)
+                 {
+                        echo "";
+                 } 
+                 else
+                 {
+                    $error = $resp->error;
+                    $this->session->set_flashdata('capchError', 'Incorrect Captcha');
+                    $this->session->set_flashdata('user_fname', $this->input->post('user_fname'));
+                    $this->session->set_flashdata('user_lname', $this->input->post('user_lname'));
+                    $this->session->set_flashdata('user_login', $this->input->post('log_in'));
+                    $this->session->set_flashdata('user_email', $this->input->post('user_email'));
+                    $this->session->set_flashdata('user_email_confirm', $this->input->post('user_email_confirm'));
+                    redirect("UsersController/signup_step1/");
                 }
             }
 		$this->webpowerup->hide_left_menu();
