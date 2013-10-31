@@ -976,7 +976,8 @@ class Site_preview extends CI_Controller
 		
 		if($flag_page_status == TRUE && $flag_page_access == TRUE)
 		{
-			$data['content'] = $this->get_page_content($page_id, $temp_name); 
+			$data['content'] = $this->get_page_content($page_id, $temp_name);
+           // echo "<pre>"; print_r($data['content']); exit; 
 		}
 		else if($flag_page_status == FALSE)
 		{
@@ -1514,7 +1515,7 @@ class Site_preview extends CI_Controller
 		// REGISTRATION FORM 
 		$content .= $this->get_reg_form_html($page_id);
 			
-			
+			//echo "<pre>";    print_r($content); echo "</pre>";exit; 
 		//Gallery Image
 		$video_content = '';
 		
