@@ -181,8 +181,8 @@ $(document).ready(function() {
 		//alert(window.location.protocol);
 		$.ajax({
 		type: "POST",
-		//url: "<?=base_url().index_page()?>MyAccount/register_process/",
-		url: window.location.protocol+"/MyAccount/register_process/",
+		url: "<?=base_url().index_page()?>MyAccount/register_process/",
+		//url: window.location.protocol+"/MyAccount/register_process/",
 		data: dataString,
 		success: function(rsp){
 			  
@@ -272,8 +272,8 @@ function payPal_bottom(group_id)
 		{
 			$.ajax({
 			type: "POST",
-			//url: "<?=base_url().index_page()?>sitegroups/group_fields_paypal_button/register",
-			url: window.location.protocol+"/sitegroups/group_fields_paypal_button/register/",
+			url: "<?=base_url().index_page()?>sitegroups/group_fields_paypal_button/register",
+			//url: window.location.protocol+"/sitegroups/group_fields_paypal_button/register/",
 			data: dataString,
 			success: function(data){
 				   // alert(data);
@@ -292,8 +292,8 @@ function check_group_payment_status(group_id)
 	    //alert("");
 		$.ajax({
 		type: "POST",
-		//url: "<?=base_url().index_page()?>group_managment/check_group_payment_status/",
-		url: window.location.protocol+"/group_managment/check_group_payment_status/",
+		url: "<?=base_url().index_page()?>group_managment/check_group_payment_status/",
+		//url: window.location.protocol+"/group_managment/check_group_payment_status/",
 		data: dataString,
 		success: function(data){
 			  //alert("asd");
@@ -575,8 +575,18 @@ background:none;
     <div id="rsp"></div>
 	<div id="closeRsp"></div>
 </div>
-
-<form name="registerform" id="registerform" class="contact" method="post" action="http://<?=$_SERVER['SERVER_NAME']?>/MyAccount/join_group">
+<?php
+if($this->config->item('seo_url') == 'On')
+ {
+     echo form_open('http://'.$_SERVER['SERVER_NAME'].'/'.'MyAccount/join_group',$attributes);
+ }
+ else
+ {
+     echo form_open(base_url().index_page().'MyAccount/login',$attributes);
+ }
+ 
+?>
+<!--<form name="registerform" id="registerform" class="contact" method="post" action="http://<?=$_SERVER['SERVER_NAME']?>/MyAccount/join_group">-->
 <input type="hidden" id="customer_id" name="customer_id" value="0" />
 <input type="hidden" name="site_id" value="<?=$site_id?>" id="site_id" />
 <? //	echo "<pre>";"-----------------".print_r($membership);exit;	  ?>

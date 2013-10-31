@@ -89,7 +89,7 @@ $(document).ready(function(e) {
 <div class="RightColumnHeading">
     <h1>
         <img src="<?=base_url();?>images/webpowerup/CreateGallery.png" alt="CreateGallery"/>
-        <span>Manage Gallery</span>
+        <span>Manage SlideShow(s)</span>
     </h1>
     
      <div class="RightSideButton">

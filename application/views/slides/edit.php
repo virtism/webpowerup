@@ -15,7 +15,7 @@
 <div class="RightColumnHeading">
         	<h1>
             	<img src="<?=base_url();?>images/webpowerup/CreateGallery.png" alt="CreateGallery"/>
-                <span>Create a Video Gallery</span>
+                <span>Create a SlideShow</span>
             </h1>
             
         </div>       
