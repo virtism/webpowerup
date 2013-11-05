@@ -23,6 +23,8 @@ class PackageModel extends CI_Model {
 			 $qry = "INSERT INTO package_module_xref(package_id,module_id) VALUES('".$package_id."','".$val."') ";
 			 $query = $this->db->query($qry);
 		}
+        
+        redirect('administrator/packages/index');
 		
 		
 	}

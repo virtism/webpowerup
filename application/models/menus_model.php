@@ -557,8 +557,8 @@ class Menus_Model extends CI_Model{
 	}
 	
 	function check_private_page($site_id, $page_id){
-		
-		$Q =  $this->db->query("SELECT page_users  FROM pages WHERE site_id=".$this->db->escape($site_id)." AND page_id =".$page_id." AND page_privacy = 'private'  AND page_status NOT IN('Deleted') ORDER BY page_id");
+		 //echo 'jflksdjflsjdfksdjflk'.$page_id; exit;
+		$Q =  $this->db->query("SELECT page_users  FROM pages WHERE site_id=".$this->db->escape($site_id)." AND page_id =".$this->db->escape($page_id)." AND page_privacy = 'private'  AND page_status NOT IN('Deleted') ORDER BY page_id");
 		$results = $Q->result_array();		
 		return $results[0]['page_users'];
 	}
@@ -2083,9 +2083,9 @@ class Menus_Model extends CI_Model{
 				{
 				  //echo "here";exit;
 				   $myshop[0]['title'] = 'Store';
-				   $myshop[0]['link'] = 'http://'.$_SERVER['HTTP_HOST'].'/MyShop/index/'.$site_id.'/'.$default_cat_id;
+				   $myshop[0]['link'] = 'MyShop/index/'.$site_id.'/'.$default_cat_id;
 				   $myshop[1]['title'] = 'My Cart';
-				   $myshop[1]['link'] = 'http://'.$_SERVER['HTTP_HOST'].'/MyShop/mycart/'.$site_id;
+				   $myshop[1]['link'] = 'MyShop/mycart/'.$site_id;
 					
 				}	
 				if(isset ($_SESSION['login_info']) && isset ($_SESSION['login_info']['customer_id']) )
@@ -2216,15 +2216,12 @@ class Menus_Model extends CI_Model{
 	function is_form_group($form_id, $site_id, $customer_id)
 	{
 		//get Logged In Customer Group 
-		if(!empty($site_id))
+		$group_id = $this->customers_model->getCustomerGroupID($customer_id);
+		$result = $this->db->query('select * from access_levels_reg_form_groups_xref where form_id='.$form_id.' and site_id='. $site_id.' and group_id = '.$group_id);
+		$data = $result->result_array();
+		if(count($data) > 0)
 		{
-			$group_id = $this->customers_model->getCustomerGroupID($customer_id);
-			$result = $this->db->query('select * from access_levels_reg_form_groups_xref where form_id='.$form_id.' and site_id='. $site_id.' and group_id = '.$group_id);
-			$data = $result->result_array();
-			if(count($data) > 0)
-			{
-				return true;
-			}
+			return true;
 		}
 		return false;				
 	}

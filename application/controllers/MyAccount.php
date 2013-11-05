@@ -445,10 +445,10 @@ class MyAccount extends CI_Controller {
 						redirect(base_url().index_page().'MyShop/mycart/'.$this->site_id,'refresh'); 
 					}
 					
-					$page_info = $this->pages_model->page_seo_link($group_page);
+					//$page_info = $this->pages_model->page_seo_link($group_page);
 					//echo '<pre>';print_r($page_info);exit;
 					//$group_page = $this->customers_model->get_customer_group_page($_SESSION['login_info']['customer_id']);
-					if(isset($group_page) && $group_page !=0)
+					/*if(isset($group_page) && $group_page !=0)
 					{					
 						if($this->config->item('seo_url') == 'On')
 						{
@@ -458,7 +458,7 @@ class MyAccount extends CI_Controller {
 						{
 							redirect(base_url().index_page().'site_preview/page/'.$this->site_id.'/'.$group_page, 'refresh');
 						}
-					}
+					}*/
 					else
 					{
 						

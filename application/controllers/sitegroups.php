@@ -25,16 +25,7 @@ class SiteGroups extends CI_Controller {
 		$this->load->library('check_user_login');
         $this->check_user_login->checkLogin();
 		
-		//$this->template->render($region = NULL, $buffer = FALSE, $parse = FALSE)  ;
-		
-		 if($this->config->item('seo_url') == 'On')
-		 {
-		  	$this->base_url_groups = 'http://'.$_SERVER['SERVER_NAME'].'/';
-		 }
-		 else
-		 {
-		 	$this->base_url_groups = $this->base_url_groups;
-		 }    
+		//$this->template->render($region = NULL, $buffer = FALSE, $parse = FALSE)  ;    
 	}
 	//checks that user has logged-in Or not
 	private function checkLogin()
@@ -57,7 +48,7 @@ class SiteGroups extends CI_Controller {
 	
 	
 		$link = substr(uri_string(),1);
-		$group_link = $this->base_url_groups.$link;
+		$group_link = base_url().$link;
 		$this->session->set_userdata("group_link", $group_link); 
 		
 		$this->breadcrumb->clear();
@@ -499,9 +490,9 @@ class SiteGroups extends CI_Controller {
 						<input type="hidden" name="business" value="<?php echo $payPal_id; ?>">
 						<input type="hidden" name="currency_code" value="USD">
 						<input type="hidden" name="rm" value="2">   
-						<input type="hidden" name="return" value="<?=$this->base_url_groups.index_page()?>group_managment/payment/">
-						<input type="hidden" name="cancel_return" value="<?=$this->base_url_groups.index_page()?>group_managment/new_group/">
-						<input type="hidden" name="notify_url" value="<?=$this->base_url_groups.index_page()?>paypal/ipn">      
+						<input type="hidden" name="return" value="<?=base_url().index_page()?>group_managment/payment/">
+						<input type="hidden" name="cancel_return" value="<?=base_url().index_page()?>group_managment/new_group/">
+						<input type="hidden" name="notify_url" value="<?=base_url().index_page()?>paypal/ipn">      
 						<input type="hidden" name="item_name" value="Charged Amount for Plan <?=$check_group_paid[0]["group_name"]?>">
 						<!--  <input type="hidden" name="item_number" value="786"> -->
 						<input type="hidden" name="quantity" value="1">
@@ -602,8 +593,8 @@ class SiteGroups extends CI_Controller {
 		// if button is generated in registeration page
 		if( $button_type == "register" )
 		{
-			$return = $this->base_url_groups."MyAccount/payment_process/".$site_id."/paid";  
-			$cancle_return = $this->base_url_groups."MyAccount/register/".$site_id;
+			$return = site_url()."MyAccount/payment_process/".$site_id."/paid";  
+			$cancle_return = site_url()."MyAccount/register/".$site_id;
 		}
 		// if button is genarated in group managment while logged in 
 		
@@ -674,14 +665,14 @@ class SiteGroups extends CI_Controller {
 		// if button is generated in registeration page
 		if( $button_type == "register" )
 		{
-			$return = $this->base_url_groups."MyAccount/payment_process/".$site_id."/paid";  
-			$cancle_return = $this->base_url_groups."MyAccount/register/".$site_id;
+			$return = site_url()."MyAccount/payment_process/".$site_id."/paid";  
+			$cancle_return = site_url()."MyAccount/register/".$site_id;
 		}
 		// if button is genarated in group managment while logged in 
 		else if( $button_type == "group_manage" )
 		{
-			$return = $this->base_url_groups."group_managment/payment/";  
-			$cancle_return = $this->base_url_groups."group_managment/new_group/";
+			$return = site_url()."group_managment/payment/";  
+			$cancle_return = site_url()."group_managment/new_group/";
 		}
 		
 		if(count($check_group_paid)>0 && $check_group_paid[0]['payment_method'] != 'Free' && $check_group_paid[0]['payment_method'] != 'Trial')
@@ -695,7 +686,7 @@ class SiteGroups extends CI_Controller {
 						<input type="hidden" name="rm" value="2">   
 						<input type="hidden" name="return" value="<?=$return?>" >
 						<input type="hidden" name="cancel_return" value="<?=$cancle_return?>">
-						<input type="hidden" name="notify_url" value="<?=$this->base_url_groups.index_page()?>paypal/ipn">      
+						<input type="hidden" name="notify_url" value="<?=base_url().index_page()?>paypal/ipn">      
 						<input type="hidden" name="item_name" value="Charged Amount for Plan <?=$check_group_paid[0]["group_name"]?>">
 						<!--  <input type="hidden" name="item_number" value="786"> -->
 						<input type="hidden" name="quantity" value="1">
@@ -797,9 +788,9 @@ class SiteGroups extends CI_Controller {
 						<input type="hidden" name="business" value="<?php echo $payPal_id; ?>">
 						<input type="hidden" name="currency_code" value="USD">
 						<input type="hidden" name="rm" value="2">   
-						<input type="hidden" name="return" value="<?=$this->base_url_groups.index_page()?>group_managment/upgrade_group_payment/">
-						<input type="hidden" name="cancel_return" value="<?=$this->base_url_groups.index_page()?>group_managment/edit_group/<?=$current_group_id?>">
-						<input type="hidden" name="notify_url" value="<?=$this->base_url_groups.index_page()?>paypal/ipn">      
+						<input type="hidden" name="return" value="<?=base_url().index_page()?>group_managment/upgrade_group_payment/">
+						<input type="hidden" name="cancel_return" value="<?=base_url().index_page()?>group_managment/edit_group/<?=$current_group_id?>">
+						<input type="hidden" name="notify_url" value="<?=base_url().index_page()?>paypal/ipn">      
 						<input type="hidden" name="item_name" value="Charged Amount for Plan <?=$check_group_paid[0]["group_name"]?>">
 						<!--  <input type="hidden" name="item_number" value="786"> -->
 						<input type="hidden" name="quantity" value="1">

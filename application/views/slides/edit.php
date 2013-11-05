@@ -11,11 +11,329 @@
 		color:#fff;
 	}
 </style>
+<script type="text/javascript" language="javascript">
+
+		// 02 April - To disappear the default values of textboxes generated on runtime.
+	function empty(value_fields)
+	{
+		//alert(value_fields);
+		document.getElementById(value_fields).value = '';
+		//$('#'.value_fields).val() ;
+		//if(value_fields == 'Title') { this.value = ''; }
+	}
+	function fill(value_fields)
+	{
+		if(document.getElementById(value_fields).value == '')
+		 { document.getElementById(value_fields).value = 'Title'; }
+	}
+
+	function empty_url(value_fields)
+	{
+		document.getElementById(value_fields).value = '';
+	}
+	function fill_url(value_fields)
+	{
+		if(document.getElementById(value_fields).value == '')
+		 { document.getElementById(value_fields).value = 'URL'; }
+	}
+	function empty_desc(value_fields)
+	{
+		document.getElementById(value_fields).value = '';
+	}
+	function fill_desc(value_fields)
+	{
+		if(document.getElementById(value_fields).value == '')
+		 { document.getElementById(value_fields).value = 'Description'; }
+	}
+		
+		// 02 April - To disappear the default values of textboxes generated on runtime.
+
+    
+    //jquery for file upload control
+    $('div.uploader input').change(function() {
+        $(this).parent().find('span.filename').text(this.value) ; 
+    });
+    
+    
+    
+    
+    var numImages = <?=$counter?>;
+    var numUploadedImages = <?=sizeof($slide_images)?>;
+    $(document).ready(function() {
+        $('a#add_more_images').click(function(){
+            numImages++;
+            $('#numImages').val(numImages);
+            /*var html = '<tr><td colspan="2"><hr/></td></tr><tr><td ><div class="section"><label>Title </label><div><input id="slide_main" class="text" type="text"  name="slide_title'+numImages+'"  maxlength="30" /><label class="messages" id="slide_title_message"  style="padding: 0;"></label></div></div></td><td><div class="section"><label>Description </label><div> <input id="slide_main" class="text" type="text" name="slide_description'+numImages+'" maxlength="30" /><label class="messages" id="slide_title_message" style="padding: 0;"></label></div></div></td></tr><tr><td width="30%"><div class="uploader" style="width: 181px;"><input onchange="setFileName($(this))" type="file" name="slide_image'+numImages+'" id="slide_image'+numImages+'" size="19" style="opacity: 0;filter: alpha(opacity=0);"><span class="filename" style="-moz-user-select: none;">No file selected</span><span class="action" style="-moz-user-select: none;">Choose File</span></div></td><td style="padding-bottom: 5px"><span style="font-size:10px">URL:</span> <input class="slider_image_url" id="slide_image_url'+numImages+'" name="slide_image_url'+numImages+'" type="text" /></td></tr>';*/
+            
+             var html ='<tr><td colspan="2"><hr/></td></tr><tr><td width="50%"><div class="section"><div><input style="width:80%;" id="slide_main'+numImages+'" onblur="fill(this.id)" onclick="empty(this.id)" class="text" type="text" name="slide_title'+numImages+'" maxlength="30" width="50%" title="Title" value="Title" /><label class="messages" id="slide_title_message" style="padding: 0;"></label></div></div></td><td><input class="slider_image_url" id="slide_image_url'+numImages+'" name="slide_image_url'+numImages+'" type="text" title="URL" value="URL" onblur="fill_url(this.id)" onclick="empty_url(this.id)"/></td></tr><tr><td ><div class="section"><div><textarea style="width:80%;" id="slide_desc'+numImages+'" name="slide_description'+numImages+'" class="watermark" rows="5" cols="20" title="Description" onblur="fill_desc(this.id)" onclick="empty_desc(this.id)">Description</textarea><label class="messages" id="slide_desc_message" style="padding: 0;"></label></div></div></td><td style="padding-bottom: 5px"><div class="uploader" style="width: 181px;"><input onchange="setFileName($(this))" type="file" name="slide_image'+numImages+'" id="slide_image'+numImages+'" size="19" style="opacity: 0;filter: alpha(opacity=0);"><span class="filename" style="-moz-user-select: none;">No file selected</span><span class="action" style="-moz-user-select: none;">Choose File</span></div></td></tr><tr><td style="padding-bottom: 5px" colspan="2"><div class="selector" id="uniform-dropdown_vegetables"><span style="-moz-user-select: none;">Select Target</span><select  name="slide_target'+numImages+'" id="slide_target'+numImages+'"><option value="0">Same Window</option><option value="1">New Window</option></select></div></td></tr>';
+			 
+			 
+            
+            $('table#images_uploader').append(html); 
+			 document.getElementById('numImages').value = numImages;
+        });
+    });
+    
+    function fade_link(objlnk){
+        // alert("I am called"+objlnk);
+        // $(this).parent().find('a').fadeIn('slow');
+        $("#"+objlnk).fadeIn('slow');
+    }
+    
+    function setFileName(uploader)
+    {
+        //jquery for file upload control
+        $(uploader).parent().find('span.filename').text($(uploader).val()) ;
+        return; 
+    }
+    
+    function validateFileUpload(fup)
+    {   
+        var handle = document.getElementById(fup); 
+        var fileName = handle.value;
+        
+        var ext = fileName.substring(fileName.lastIndexOf('.') + 1);
+        if(ext == "gif" || ext == "GIF" || ext == "JPEG" || ext == "jpeg" || ext == "jpg" || ext == "JPG" || ext == "png" || ext == "PNG")
+        {
+            return true;
+        } 
+        else
+        {        
+            return false;
+        }
+    }
+
+    function validate()
+	{
+		
+		$('label.messages').empty();
+		var flagSubmit = true;
+		var flagSelected = false;
+		
+		
+		
+		
+		if($('#slide_title').val() == '')
+		{
+			$('#slidetitle_message').html('<code>Please enter title for this slideshow.</code>');
+			flagSubmit = false;
+		}
+		/*
+		if($('#slide_description').val() == '')
+		{
+			$('#slide_desc_message').html('<code>Please enter description of slideshow.</code>');
+			flagSubmit = false;
+		}
+		*/
+		
+		if( $('#slide_width').val() == "" || $('#slide_height').val() == "" )
+		{
+			
+			$('#slide_width_height').html('<code>Please Enter Width and Height for this slideshow.</code>');
+			flagSubmit = false;
+		}
+		
+		/*	   
+		for(i=1; i<=numImages; i++)
+		{
+			var slide_image = '#slide_image'+i;
+			if($(slide_image).val() != "")
+			{
+				flagSelected = true;   
+			}    
+		}
+		if(flagSelected == false)
+		{
+			$('#slide_images_message').html('<code>Please select slide image(s)</code>');
+			flagSubmit = false;   
+		}
+		*/
+		for(i=1; i<=numImages; i++)
+		{
+			var slide_image = '#slide_image'+i;
+			if($(slide_image).val() != "")
+			{
+				flagFile = validateFileUpload('slide_image'+i);
+				if(flagFile == false)
+				{
+					$('#slide_images_message').html('<code>Invalid slide image(jpg, gif or png): '+i+'</code>');
+					flagSubmit = false;    
+				}    
+			}             
+		} 
+		
+		
+
+		/*
+		if($('#slide_destination1').is(':checked') && $('#slide_page').val() == '0')
+		{
+			$('#slide_destination_message').html('<code>Please select page for slideshow.</code>');
+			flagSubmit = false;
+		}
+		
+		if($('#slide_destination2').is(':checked') && $('#slide_module').val() == '0')
+		{
+			$('#slide_destination_message').html('<code>Please select module for slideshow.</code>');
+			flagSubmit = false;
+		}
+		
+		if($('#slide_destination3').is(':checked') && $('#slide_url').val() == '')
+		{
+			$('#slide_destination_message').html('<code>Please enter url for slideshow.</code>');
+			flagSubmit = false;
+		}
+		*/
+		/*
+		if($('#slide_pages2').is(':checked') && $('#slide_pages option:selected').val() == null)
+		{         
+			$('#slide_pages_message').html('<code>Please select page(s) to display slideshow.</code>');
+			flagSubmit = false;
+		}       
+		if($('#slide_access3').is(':checked') && $('#slide_roles option:selected').val() == null)
+		{
+			$('#slide_roles_message').html('<code>Please select role(s) to slideshow access.</code>');
+			flagSubmit = false;
+		}
+		var other = document.getElementById('slide_access3').checked;
+		var len = document.slider_upload.group_access.length;
+		var i = 0;
+		var chosen = '';
+		if(other)
+		{
+			for (i = 0; i < len; i++)
+			{
+				if (document.frmMenuInfo.group_access[i].selected)
+				{
+					 chosen = document.frmMenuInfo.group_access[i].value;
+				}
+			}
+			if(chosen =="")
+			{
+				alert("Please select Group(s) allowed to access this page");
+				flagSubmit = false;
+			}
+		}
+		*/
+		//alert(flagSubmit);
+		//flagSubmit = true; 
+		return flagSubmit;
+		
+		
+	} 
+    
+    function delete_slider_image(slider_area, slider_image_id)
+    {
+        bool = confirm('Are you sure to delete this slider image?');
+        if(bool == true)
+        {
+            numUploadedImages--;
+            $('#numUploadedImages').val(numUploadedImages);
+           // $( "tr_"+slider_image_id ).css( "display","none" );
+            $(slider_area).fadeOut('slow', function(){
+                $.ajax({
+
+                url: '<?=base_url().index_page()?>site_slides/delete_slide_image_info/'+slider_image_id,
+                success: function(data)
+                        {
+                           // alert("tr_"+slider_image_id);
+                           // $( "tr_"+slider_image_id ).css( "display","none" );
+                           location.reload();
+
+                        }
+                });  
+            });
+        }
+        else
+        {
+            return;
+        }
+    }
+    function save_slider_image_url(fetch_link, title , desc , url , slider_image_id)
+    {
+        $('#'+fetch_link).fadeOut('slow'); 
+                   
+            var title = $("."+title).val();
+            var desc = $("."+desc).val();
+            var url = $("."+url).val();
+
+            var slider_image_url = $('#'+fetch_link).val();
+            var dataString = 'slider_image_url='+url+'&&slider_image_title='+title+'&&slider_image_desc='+desc; 
+            var url_link = '<?=base_url().index_page()?>site_slides/save_slide_image_url/'+slider_image_id;
+           // alert(dataString);
+           // alert(url_link);
+            
+            $.ajax({
+            type: "POST",
+            data: dataString,
+            url: url_link,
+            success: function(data)
+                    {
+                       // alert(data);
+                        // success messege 
+                    }
+            });  
+    }
+     
+</script>
+
+
+<script type="text/javascript">
+
+$("div.NFRadio").live("click",function(){
+	var id = $(this).next("input").attr("id");
+	//alert(id);
+	if(id == "slide_pages1")
+	{
+		$('#slide_pages').fadeOut();
+	}
+	if(id == "slide_pages2")
+	{
+		
+		$('#slide_pages').fadeIn();
+		NFFix();
+	}
+	
+	if(id == "slide_access1" || id == "slide_access2" )
+	{
+		$('#slide_roles').fadeOut();
+	}
+	if(id == "slide_access3")
+	{
+		
+		
+		$('#slide_roles').fadeIn();
+		NFFix();
+	}
+	
+});
+
+$(document).ready(function(e) {
+	
+	
+	// ADD ROW DYNAMICALLY
+	
+    $("#addRow").click(function(){
+		
+		i = $("#count").val();
+		i++;
+	
+		var html = '<div class="DoubleColumn"><div class="ColumnA"><ul><li><input type="text" id="slide_main" name="slide_title'+i+'" size="45" /></li><li><textarea id="slide_desc" name="slide_description'+i+'" rows="10" cols="40"></textarea></li><li><div style=" float:left; width:100%; position:relative;"><select size="1" name="slide_target'+i+'" id="slide_target'+i+'"  style="width:340px"><option value="0">Same Window</option><option value="1">New Window</option></select></div></li></ul></div><div class="ColumnB"><ul><li><input type="text" id="slide_image_url'+i+'" name="slide_image_url'+i+'" size="45" value="URL" /></li><li><input type="file" name="slide_image'+i+'" id="slide_image'+i+'" size="35" /></li></ul></div></div>';		
+		
+		$("#rowDiv").append(html);
+		$("#count").val(i);
+		NFFix();
+		
+		return false;
+	});
+});
+    
+</script>
+
 
 <div class="RightColumnHeading">
         	<h1>
             	<img src="<?=base_url();?>images/webpowerup/CreateGallery.png" alt="CreateGallery"/>
-                <span>Create a SlideShow</span>
+                <span>Create a Video Gallery</span>
             </h1>
             
         </div>       
@@ -437,320 +755,3 @@
                     
 </form>
 </div>
-<script type="text/javascript" language="javascript">
-
-        // 02 April - To disappear the default values of textboxes generated on runtime.
-    function empty(value_fields)
-    {
-        //alert(value_fields);
-        document.getElementById(value_fields).value = '';
-        //$('#'.value_fields).val() ;
-        //if(value_fields == 'Title') { this.value = ''; }
-    }
-    function fill(value_fields)
-    {
-        if(document.getElementById(value_fields).value == '')
-         { document.getElementById(value_fields).value = 'Title'; }
-    }
-
-    function empty_url(value_fields)
-    {
-        document.getElementById(value_fields).value = '';
-    }
-    function fill_url(value_fields)
-    {
-        if(document.getElementById(value_fields).value == '')
-         { document.getElementById(value_fields).value = 'URL'; }
-    }
-    function empty_desc(value_fields)
-    {
-        document.getElementById(value_fields).value = '';
-    }
-    function fill_desc(value_fields)
-    {
-        if(document.getElementById(value_fields).value == '')
-         { document.getElementById(value_fields).value = 'Description'; }
-    }
-        
-        // 02 April - To disappear the default values of textboxes generated on runtime.
-
-    
-    //jquery for file upload control
-    $('div.uploader input').change(function() {
-        $(this).parent().find('span.filename').text(this.value) ; 
-    });
-    
-    
-    
-    
-    var numImages = <?=$counter?>;
-    var numUploadedImages = <?=sizeof($slide_images)?>;
-    $(document).ready(function() {
-        $('a#add_more_images').click(function(){
-            numImages++;
-            $('#numImages').val(numImages);
-            /*var html = '<tr><td colspan="2"><hr/></td></tr><tr><td ><div class="section"><label>Title </label><div><input id="slide_main" class="text" type="text"  name="slide_title'+numImages+'"  maxlength="30" /><label class="messages" id="slide_title_message"  style="padding: 0;"></label></div></div></td><td><div class="section"><label>Description </label><div> <input id="slide_main" class="text" type="text" name="slide_description'+numImages+'" maxlength="30" /><label class="messages" id="slide_title_message" style="padding: 0;"></label></div></div></td></tr><tr><td width="30%"><div class="uploader" style="width: 181px;"><input onchange="setFileName($(this))" type="file" name="slide_image'+numImages+'" id="slide_image'+numImages+'" size="19" style="opacity: 0;filter: alpha(opacity=0);"><span class="filename" style="-moz-user-select: none;">No file selected</span><span class="action" style="-moz-user-select: none;">Choose File</span></div></td><td style="padding-bottom: 5px"><span style="font-size:10px">URL:</span> <input class="slider_image_url" id="slide_image_url'+numImages+'" name="slide_image_url'+numImages+'" type="text" /></td></tr>';*/
-            
-             var html ='<tr><td colspan="2"><hr/></td></tr><tr><td width="50%"><div class="section"><div><input style="width:80%;" id="slide_main'+numImages+'" onblur="fill(this.id)" onclick="empty(this.id)" class="text" type="text" name="slide_title'+numImages+'" maxlength="30" width="50%" title="Title" value="Title" /><label class="messages" id="slide_title_message" style="padding: 0;"></label></div></div></td><td><input class="slider_image_url" id="slide_image_url'+numImages+'" name="slide_image_url'+numImages+'" type="text" title="URL" value="URL" onblur="fill_url(this.id)" onclick="empty_url(this.id)"/></td></tr><tr><td ><div class="section"><div><textarea style="width:80%;" id="slide_desc'+numImages+'" name="slide_description'+numImages+'" class="watermark" rows="5" cols="20" title="Description" onblur="fill_desc(this.id)" onclick="empty_desc(this.id)">Description</textarea><label class="messages" id="slide_desc_message" style="padding: 0;"></label></div></div></td><td style="padding-bottom: 5px"><div class="uploader" style="width: 181px;"><input onchange="setFileName($(this))" type="file" name="slide_image'+numImages+'" id="slide_image'+numImages+'" size="19" style="opacity: 0;filter: alpha(opacity=0);"><span class="filename" style="-moz-user-select: none;">No file selected</span><span class="action" style="-moz-user-select: none;">Choose File</span></div></td></tr><tr><td style="padding-bottom: 5px" colspan="2"><div class="selector" id="uniform-dropdown_vegetables"><span style="-moz-user-select: none;">Select Target</span><select  name="slide_target'+numImages+'" id="slide_target'+numImages+'"><option value="0">Same Window</option><option value="1">New Window</option></select></div></td></tr>';
-             
-             
-            
-            $('table#images_uploader').append(html); 
-             document.getElementById('numImages').value = numImages;
-        });
-    });
-    
-    function fade_link(objlnk){
-        // alert("I am called"+objlnk);
-        // $(this).parent().find('a').fadeIn('slow');
-        $("#"+objlnk).fadeIn('slow');
-    }
-    
-    function setFileName(uploader)
-    {
-        //jquery for file upload control
-        $(uploader).parent().find('span.filename').text($(uploader).val()) ;
-        return; 
-    }
-    
-    function validateFileUpload(fup)
-    {   
-        var handle = document.getElementById(fup); 
-        var fileName = handle.value;
-        
-        var ext = fileName.substring(fileName.lastIndexOf('.') + 1);
-        if(ext == "gif" || ext == "GIF" || ext == "JPEG" || ext == "jpeg" || ext == "jpg" || ext == "JPG" || ext == "png" || ext == "PNG")
-        {
-            return true;
-        } 
-        else
-        {        
-            return false;
-        }
-    }
-
-    function validate()
-    {
-        
-        $('label.messages').empty();
-        var flagSubmit = true;
-        var flagSelected = false;
-        
-        
-        
-        
-        if($('#slide_title').val() == '')
-        {
-            $('#slidetitle_message').html('<code>Please enter title for this slideshow.</code>');
-            flagSubmit = false;
-        }
-        /*
-        if($('#slide_description').val() == '')
-        {
-            $('#slide_desc_message').html('<code>Please enter description of slideshow.</code>');
-            flagSubmit = false;
-        }
-        */
-        
-        if( $('#slide_width').val() == "" || $('#slide_height').val() == "" )
-        {
-            
-            $('#slide_width_height').html('<code>Please Enter Width and Height for this slideshow.</code>');
-            flagSubmit = false;
-        }
-        
-        /*       
-        for(i=1; i<=numImages; i++)
-        {
-            var slide_image = '#slide_image'+i;
-            if($(slide_image).val() != "")
-            {
-                flagSelected = true;   
-            }    
-        }
-        if(flagSelected == false)
-        {
-            $('#slide_images_message').html('<code>Please select slide image(s)</code>');
-            flagSubmit = false;   
-        }
-        */
-        for(i=1; i<=numImages; i++)
-        {
-            var slide_image = '#slide_image'+i;
-            if($(slide_image).val() != "")
-            {
-                flagFile = validateFileUpload('slide_image'+i);
-                if(flagFile == false)
-                {
-                    $('#slide_images_message').html('<code>Invalid slide image(jpg, gif or png): '+i+'</code>');
-                    flagSubmit = false;    
-                }    
-            }             
-        } 
-        
-        
-
-        /*
-        if($('#slide_destination1').is(':checked') && $('#slide_page').val() == '0')
-        {
-            $('#slide_destination_message').html('<code>Please select page for slideshow.</code>');
-            flagSubmit = false;
-        }
-        
-        if($('#slide_destination2').is(':checked') && $('#slide_module').val() == '0')
-        {
-            $('#slide_destination_message').html('<code>Please select module for slideshow.</code>');
-            flagSubmit = false;
-        }
-        
-        if($('#slide_destination3').is(':checked') && $('#slide_url').val() == '')
-        {
-            $('#slide_destination_message').html('<code>Please enter url for slideshow.</code>');
-            flagSubmit = false;
-        }
-        */
-        /*
-        if($('#slide_pages2').is(':checked') && $('#slide_pages option:selected').val() == null)
-        {         
-            $('#slide_pages_message').html('<code>Please select page(s) to display slideshow.</code>');
-            flagSubmit = false;
-        }       
-        if($('#slide_access3').is(':checked') && $('#slide_roles option:selected').val() == null)
-        {
-            $('#slide_roles_message').html('<code>Please select role(s) to slideshow access.</code>');
-            flagSubmit = false;
-        }
-        var other = document.getElementById('slide_access3').checked;
-        var len = document.slider_upload.group_access.length;
-        var i = 0;
-        var chosen = '';
-        if(other)
-        {
-            for (i = 0; i < len; i++)
-            {
-                if (document.frmMenuInfo.group_access[i].selected)
-                {
-                     chosen = document.frmMenuInfo.group_access[i].value;
-                }
-            }
-            if(chosen =="")
-            {
-                alert("Please select Group(s) allowed to access this page");
-                flagSubmit = false;
-            }
-        }
-        */
-        //alert(flagSubmit);
-        //flagSubmit = true; 
-        return flagSubmit;
-        
-        
-    } 
-    
-    function delete_slider_image(slider_area, slider_image_id)
-    {
-        bool = confirm('Are you sure to delete this slider image?');
-        if(bool == true)
-        {
-            numUploadedImages--;
-            $('#numUploadedImages').val(numUploadedImages);
-           // $( "tr_"+slider_image_id ).css( "display","none" );
-            $(slider_area).fadeOut('slow', function(){
-                $.ajax({
-
-                url: '<?=base_url().index_page()?>site_slides/delete_slide_image_info/'+slider_image_id,
-                success: function(data)
-                        {
-                           // alert("tr_"+slider_image_id);
-                           // $( "tr_"+slider_image_id ).css( "display","none" );
-                           location.reload();
-
-                        }
-                });  
-            });
-        }
-        else
-        {
-            return;
-        }
-    }
-    function save_slider_image_url(fetch_link, title , desc , url , slider_image_id)
-    {
-        $('#'+fetch_link).fadeOut('slow'); 
-                   
-            var title = $("."+title).val();
-            var desc = $("."+desc).val();
-            var url = $("."+url).val();
-
-            var slider_image_url = $('#'+fetch_link).val();
-            var dataString = 'slider_image_url='+url+'&&slider_image_title='+title+'&&slider_image_desc='+desc; 
-            var url_link = '<?=base_url().index_page()?>site_slides/save_slide_image_url/'+slider_image_id;
-           // alert(dataString);
-           // alert(url_link);
-            
-            $.ajax({
-            type: "POST",
-            data: dataString,
-            url: url_link,
-            success: function(data)
-                    {
-                       // alert(data);
-                        // success messege 
-                    }
-            });  
-    }
-     
-</script>
-
-
-<script type="text/javascript">
-
-$("div.NFRadio").live("click",function(){
-    var id = $(this).next("input").attr("id");
-    //alert(id);
-    if(id == "slide_pages1")
-    {
-        $('#slide_pages').fadeOut();
-    }
-    if(id == "slide_pages2")
-    {
-        
-        $('#slide_pages').fadeIn();
-        NFFix();
-    }
-    
-    if(id == "slide_access1" || id == "slide_access2" )
-    {
-        $('#slide_roles').fadeOut();
-    }
-    if(id == "slide_access3")
-    {
-        
-        
-        $('#slide_roles').fadeIn();
-        NFFix();
-    }
-    
-});
-
-$(document).ready(function(e) {
-    
-    
-    // ADD ROW DYNAMICALLY
-    
-    $("#addRow").click(function(){
-        
-        i = $("#count").val();
-        i++;
-    
-        var html = '<div class="DoubleColumn"><div class="ColumnA"><ul><li><input type="text" id="slide_main" name="slide_title'+i+'" size="45" /></li><li><textarea id="slide_desc" name="slide_description'+i+'" rows="10" cols="40"></textarea></li><li><div style=" float:left; width:100%; position:relative;"><select size="1" name="slide_target'+i+'" id="slide_target'+i+'"  style="width:340px"><option value="0">Same Window</option><option value="1">New Window</option></select></div></li></ul></div><div class="ColumnB"><ul><li><input type="text" id="slide_image_url'+i+'" name="slide_image_url'+i+'" size="45" value="URL" /></li><li><input type="file" name="slide_image'+i+'" id="slide_image'+i+'" size="35" /></li></ul></div></div>';        
-        
-        $("#rowDiv").append(html);
-        $("#count").val(i);
-        NFFix();
-        
-        return false;
-    });
-});
-    
-</script>

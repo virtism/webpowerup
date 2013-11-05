@@ -44,7 +44,7 @@ class Gallery_Model extends CI_Model
 
         $this->db->insert('gallery_images', $gallery_image_info);
 
-       //$gallery_id = $this->db->insert_id();
+       // $gallery_id = $this->db->insert_id();
 
 		return true;      
 
@@ -67,12 +67,13 @@ class Gallery_Model extends CI_Model
     function save_gallery_pages_info($gallery_id, $page_id)
 
     {
+
         $qry = "INSERT INTO gallery_pages_xref(gallery_id, page_id) VALUES(".$this->db->escape($gallery_id).", ".$this->db->escape($page_id).")";
-        $rslt = $this->db->query($qry); 
-        /*$data['page_id']        = $page_id;
-        $this->db->where('gallery_id', $gallery_id);
-        $this->db->update('galleries', $data);*/
+
+        $rslt = $this->db->query($qry);
+
         return true;
+
     }
 
     
@@ -573,99 +574,10 @@ class Gallery_Model extends CI_Model
 	
 
 	//Get Gallery For Front Site
-    /*function get_all_gallery_data($site_id = 0, $page_id)
-    {
-      
-        $this->db->select('*');
-        $this->db->from('galleries');
-        $this->db->join('galleries_templates' , 'galleries_templates.id = galleries.template_options');
-        $this->db->where('galleries.gallery_type','image');
-        $this->db->where('galleries.site_id',$site_id);
-        $find = $this->db->get();
-        $test_array = $find->result_array();
-        foreach($test_array as $test_arrays)
-        {
 
-              if($test_arrays['gallery_pages'] == 'All')
-              {
-                    $this->db->select('*');
-                    $this->db->from('galleries');
-                    $this->db->join('galleries_templates' , 'galleries_templates.id = galleries.template_options');
-                    $this->db->where('galleries.gallery_type','image');
-                    $this->db->where('galleries.site_id',$site_id);
-                    $this->db->where('galleries.gallery_pages','All');
-                    $rslt = $this->db->get();
-                    $array_rslt = $rslt->result_array(); 
-              }
-              else if($test_arrays['gallery_pages'] == 'Other')
-              {
-                    $this->db->select('*');
-                    $this->db->from('galleries');
-                    $this->db->join('gallery_pages_xref', 'galleries.gallery_id = gallery_pages_xref.gallery_id');
-                    $this->db->join('galleries_templates' , 'galleries_templates.id = galleries.template_options');
-                    $this->db->where('galleries.gallery_type','image');
-                    $this->db->where('galleries.site_id',$site_id);
-                    $rslt = $this->db->get();
-                    $array_rslt = $rslt->result_array(); 
-              } 
-            $final_array[] = $array_rslt;   
-        }
-        
-        return $final_array;
-    }*/
-    
-    function get_all_gallery_data($site_id, $page_id)
-    {
-        
-        $rslt_gallery = '';
-        $array_rslt_gallery = array();
-        if(isset($site_id) && $site_id!=0)
-        {
-            $qry_gallery = "SELECT * FROM galleries g
-                            JOIN galleries_templates gt ON gt.id = g.template_options
-                            WHERE 
-                            g.gallery_type = 'image' 
-                            AND
-                            g.gallery_status = 'Active'
-                            AND
-                            g.gallery_published = 'Yes' 
-                            AND
-                            g.site_id=".$this->db->escape($site_id).""
-                            ;    
-            $rslt_gallery = $this->db->query($qry_gallery);
-            $array_rslt_gallery = $rslt_gallery->result_array();
-        }
-        
-        foreach($array_rslt_gallery as $result)
-        { 
-            if($result['gallery_pages']=='All')
-            {
-                 $array_rslt = $array_rslt_gallery;
-            }
-            else
-            {
-                $qry = "SELECT * FROM galleries g
-                        JOIN gallery_pages_xref gpx ON g.gallery_id = gpx.gallery_id
-                        JOIN galleries_templates gt ON gt.id = g.template_options
-                        WHERE 
-                        g.gallery_type = 'image' 
-                        AND
-                        g.gallery_status = 'Active'
-                        AND
-                        g.gallery_published = 'Yes' 
-                        AND
-                        gpx.page_id=".$this->db->escape($page_id)."";    
-                $rslt = $this->db->query($qry);
-                $array_rslt = $rslt->result_array();
-            
-            } 
-        }
-        return $array_rslt;    
-    }
-    
-	//function get_all_gallery_data($site_id = 0, $page_id)
+	function get_all_gallery_data($site_id = 0, $page_id)
 
-	//{
+	{
 
 			
 
@@ -696,17 +608,17 @@ class Gallery_Model extends CI_Model
 
 		
 
-		/*$qry = "SELECT * FROM galleries g
+		$qry = "SELECT * FROM galleries g
 
-		JOIN gallery_pages_xref gpx ON g.gallery_id = gpx.gallery_id        
+		JOIN gallery_pages_xref gpx ON g.gallery_id = gpx.gallery_id
 
 		JOIN galleries_templates gt ON gt.id = g.template_options
 
 		WHERE 
 		g.gallery_type = 'image' AND
-		g.site_id=".$this->db->escape($site_id);	
+		gpx.page_id=".$this->db->escape($page_id);	
         
-       // echo $qry;---gpx.page_id=".$this->db->escape($page_id);    	
+       // echo $qry;	
 
         $rslt = $this->db->query($qry);
 
@@ -716,7 +628,7 @@ class Gallery_Model extends CI_Model
 
 		
 
-	}*/
+	}
 
 	function get_gallery_template_files($template_id)
 

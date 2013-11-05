@@ -302,19 +302,13 @@ class Video_Gallery_Model extends CI_Model
 	
 	function get_user_of_site($site_id)
 	{
-	 
-	 if(!empty($site_id))
-	 {
-	 
-		  $qry = $this->db->query("SELECT users.user_login,users.user_id
-							FROM users
-							INNER JOIN sites 
-							ON sites.user_id=users.user_id
-							WHERE sites.site_id = ".$site_id."");
-		  
-	 		return $array_rslt = $qry->result_array();
-		}
-		return false; 
+	  $qry = $this->db->query("SELECT users.user_login,users.user_id
+					    FROM users
+						INNER JOIN sites 
+						ON sites.user_id=users.user_id
+						WHERE sites.site_id = ".$site_id."");
+	  
+	 	return $array_rslt = $qry->result_array(); 
 	}
 }
 ?>

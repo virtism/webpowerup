@@ -287,14 +287,7 @@ function checkEmail(user_mail)
 						</span></td>
 					</tr>
 					<tr>
-					  <td style="padding-left: 208px;" colspan="3" class="register-newbie-note"><strong style="color:#000; font-size:12px; text-transform:capitalize !important;">I accept the </strong>
-					  <?  if($this->config->item('seo_url') == 'On')
- 					{ ?>
-					  <a style="color:#000;text-transform:capitalize !important;" href="<?='http://'.$_SERVER['SERVER_NAME'].'/'.'page/about-us.html'?>" >"Terms &amp; Conditions"</a>
-					  <?  }else{?>
-					   <a style="color:#000;text-transform:capitalize !important;" href="#" onclick="javascript:popupOpen(this.href, '', {width:800,height:600}); return false;" target="_blank">"Terms &amp; Conditions"</a>
- 					<? { ?> 
-					  </td>
+					  <td style="padding-left: 208px;" colspan="3" class="register-newbie-note"><strong style="color:#000; font-size:12px; text-transform:capitalize !important;">I accept the </strong><a style="color:#000;text-transform:capitalize !important;" href="#" onclick="javascript:popupOpen(this.href, '', {width:800,height:600}); return false;" target="_blank">"Terms &amp; Conditions"</a></td>
 					</tr>
 					<tr>
 					  <td style="padding-left: 202px;" colspan="3" class="register-newbie-note"><?php   echo form_submit('submit','Continue');?></td>

@@ -20,6 +20,16 @@ class Groups_Model extends CI_Model{
 		$result = $this->db->query($qry);
 		return $result->result_array();
 	}
+    function get_customers_group_by_id($group_id)
+    {
+        $this->db->select('*');
+        $this->db->from('groups');// I use aliasing make things joins easier
+        $this->db->join('ec_customers_group_xref', 'groups.id = ec_customers_group_xref.group_id');
+        $this->db->where('ec_customers_group_xref.customer_id', $_SESSION['login_info']['customer_id']);
+        $this->db->where('ec_customers_group_xref.group_id', $group_id); 
+        $result = $this->db->get();
+        return $result->result_array(); 
+    }
 	
 	function get_all_site_gropus_suctomer_view($site_id)
 	{
@@ -1667,13 +1677,17 @@ $group_data = array();
 		return $r;
 	}	
 	
-	function set_autoresponder_by_group_id($member_id, $group_id)
+	//function set_autoresponder_by_group_id($member_id, $group_id)
+    function set_autoresponder_by_group_id($group_id , $member_id) 
     {
+        //echo $group_id ; exit;
        $query_string = "SELECT * FROM autoresponders WHERE respond_group = $group_id  AND respond_active = 1";
-       $q = $this->db->query($query_string); 
+       $q = $this->db->query($query_string);
        $data = array ();
        $group_members = $q->result_array();
-	   
+       //echo $this->db->last_query();
+       //echo '<pre>'; print_r($group_members); exit;
+	    //echo 'i am ontside the forloop'; exit;
 	   foreach($group_members as $group_member)
 		{
 			
@@ -1686,8 +1700,9 @@ $group_data = array();
 						);
 						
 			$this->db->insert('autorespond_email_record', $save_member_auto);
+             //echo 'i am inside the forloop';
 		} 
-	   
+	   //exit; 
        return true;
     }
 	
@@ -1896,7 +1911,10 @@ $group_data = array();
 			$this->db->where('group_id', $current_group_id);
 			$this->db->where('customer_id', $member_id);
 			
-			$this->db->update('ec_customers_group_xref', $data); 
+			$this->db->update('ec_customers_group_xref', $data);
+            $this->db->query("DELETE FROM autorespond_email_record  WHERE customer_id = '$member_id' AND group_id = '$current_group_id'");
+            $this->set_autoresponder_by_group_id($upgrade_group_id, $member_id); 
+            //$this->set_autoresponder_by_group_id($member_id , $upgrade_group_id);  
 			return 1;
 		}
 		else if($n == 1)
@@ -2007,38 +2025,38 @@ $group_data = array();
 		
 	}
 	function add_member_to_singel_group_registering()
-	{
-		
-		
-		$pending_membershipid = $this->get_edit_group($this->input->post("pending_membershipid"));
-		//echo '<pre>'; print_r($pending_membershipid); echo $pending_membershipid[0]['duration']; exit;
-		$trial_date = '';
-		if(!empty($pending_membershipid))
-		{
-			if($pending_membershipid[0]['payment_method'] == 'Trial')
-			{
-				$trial_date = 	$this->calculate_trail_end_date(date("Y-m-d"), $pending_membershipid[0]['duration']);
-			}
-		}
-		
-		$group_data = array(
-							'group_id' => $this->input->post("pending_membershipid"),
-							'customer_id' => $this->input->post("customer_id"),
-							'groups_pay_date' => $trial_date
-							);
-		
-		//echo '<pre>'; print_r($pending_membershipid[0]['payment_method']);exit;
-		$group_members = $this->set_autoresponder_by_group_id($this->input->post("pending_membershipid"), $this->input->post("customer_id"));
-		
-		
-		$r = $this->db->insert('ec_customers_group_xref', $group_data);
-		if($r)
-		{
-			return 1;
-		}
-		return 0;
-		
-	}
+     {
+      
+      
+      $pending_membershipid = $this->get_edit_group($this->input->post("pending_membershipid"));
+      //echo '<pre>'; print_r($pending_membershipid); echo $pending_membershipid[0]['duration']; exit;
+      $trial_date = '';
+      if(!empty($pending_membershipid))
+      {
+       if($pending_membershipid[0]['payment_method'] == 'Trial')
+       {
+        $trial_date =  $this->calculate_trail_end_date(date("Y-m-d"), $pending_membershipid[0]['duration']);
+       }
+      }
+      
+      $group_data = array(
+           'group_id' => $this->input->post("pending_membershipid"),
+           'customer_id' => $this->input->post("customer_id"),
+           'groups_pay_date' => $trial_date
+           );
+      
+      //echo '<pre>'; print_r($pending_membershipid[0]['payment_method']);exit;
+      $group_members = $this->set_autoresponder_by_group_id($this->input->post("pending_membershipid"), $this->input->post("customer_id"));
+      
+      
+      $r = $this->db->insert('ec_customers_group_xref', $group_data);
+      if($r)
+      {
+       return 1;
+      }
+      return 0;
+      
+     }
 	
 	function get_multiple_group_members()
 	{
@@ -2315,6 +2333,20 @@ $group_data = array();
 		return $r;
 		 
 	}
+    function delete_group_xref($group_id,$customer_id)
+    {
+        $this->db->where('group_id', $group_id);
+        $this->db->where('customer_id', $customer_id);
+        $this->db->delete('ec_customers_group_xref');    
+    }
+    
+    function delete_degrate_autoresponder($group_id,$customer_id)
+    {
+        $this->db->where('group_id', $group_id);
+        $this->db->where('customer_id', $customer_id);
+        $this->db->delete('autorespond_email_record');
+        
+    }
 	
 	function send_group_notification($customer_id,$group_id)
 	{
