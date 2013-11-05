@@ -1224,10 +1224,10 @@ class Group_managment extends CI_Controller {
 	
 	function group_trail_payment()
 	{
-        if($_SESSION['expired_group_id'] != '')
+        /*if($_SESSION['expired_group_id'] != '')
         {
            redirect(base_url().index_page().'Group_managment/group_trail_end','refresh');  
-        }
+        }*/
 		// save payemt details 
 		if ($this->group_payment_model->save_payment() )
 		{
@@ -1496,7 +1496,7 @@ class Group_managment extends CI_Controller {
 	{
 		$member_id = $this->customer_id;
 		$this->Groups_Model->unsubsribe_group($member_id,$group_id);
-		$r = $this->Groups_Model->upgrade_group($member_id, $group_id);		
+		$r = $this->Groups_Model->upgrade_group($member_id);		
 		if($this->config->item('seo_url') == 'On')
 		{			
 			$path = 'http://'.$_SERVER['SERVER_NAME'].'/group_managment';			

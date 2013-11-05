@@ -1412,60 +1412,29 @@ class Site_preview extends CI_Controller
 	
 	function create_group_button($button)
 	{
-     //echo "<pre>"; print_r($button);  echo "</pre>";exit;
-        $group_id = $button['group_id'];
-        $group_name = $button['group_name'];
-        if($this->config->item('seo_url') == 'On')
-       { 
-         if (!isset($_SESSION['login_info']['customer_id']))
-         {
-          //$link = base_urL().index_page()."MyAccount/register/".$_SESSION['site_id'];      
-          $link = 'http://'.$_SERVER['SERVER_NAME'].'/myaccount/register.'.$this->config->item('custom_url_suffix');
-         }
-         else if(isset($_SESSION['login_info']['customer_id']))
-         {
-         // $link = base_url().index_page()."group_managment/new_group";
-          $link = 'http://'.$_SERVER['SERVER_NAME'].'/group_managment/new_group.'.$this->config->item('custom_url_suffix');
-         }
-        }
-        else
-        {
-          if (!isset($_SESSION['login_info']['customer_id']))
-         {
-          $link = base_urL().index_page()."MyAccount/register/".$_SESSION['site_id'];
-         }
-         else if(isset($_SESSION['login_info']['customer_id']))
-         {
-          $link = base_urL().index_page()."group_managment/new_group";
-         }
-       
-       
-        }
-        
-        if($button['group_join_button'] !="")
-        {
-        
-          $image_path = base_urL().index_page().'media/ckeditor_uploads/'.$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id'].'/'.$button['group_join_button'];
-        }
-        else
-        {
-          $image_path = base_urL().index_page().'images/up2.png';
-        }
-      // die();
-      
-      // ['login_info']['customer_id']
-      $output = "<div class=\"group_join_content_button\">";
-      $output .= "<form action='$link' method='post'>";
-      $output .= "<input type='hidden' name='post_group_id' value='$group_id'>";
-      $output .= "<input type='image' src='$image_path' />"; 
-      //$output.= "<a href=\" ".$link." \">";
-      //$output.= img($image_path);
-      //$output.= "</a>";
-      $output.="</form>";
-      
-      $output.= "</div>";
-      
-      return $output;
+		
+	   // echo "<pre>";	print_r($_SESSION);		echo "</pre>";
+	   
+	   if (!isset($_SESSION['login_info']['customer_id']))
+	   {
+		   $link = base_urL().index_page()."MyAccount/register/".$_SESSION['site_id'];
+	   }
+	   else if(isset($_SESSION['login_info']['customer_id']))
+	   {
+		   $link = base_urL().index_page()."group_managment/new_group";
+	   }
+	   
+		// die();
+		
+		// ['login_info']['customer_id']
+		$output = "<div class=\"group_join_content_button\">";
+		$output.= "<a href=\" ".$link." \">";
+		$output.= img('media/ckeditor_uploads/'.$_SESSION['user_info']['user_login']."_".$_SESSION['user_info']['user_id'].'/'.$button['group_join_button']);
+		$output.= "</a>";
+		
+		$output.= "</div>";
+		
+		return $output;
 	}
 	
 	function create_video_html($video_gallery_data,$site_id)
@@ -1881,7 +1850,7 @@ class Site_preview extends CI_Controller
 			
 			// GROUP JOIN BUTTON 
 			$group_buttons = $this->Pages_Model->get_join_group_button_by_page_id($page_id);
-			 //echo "<pre>"; print_r($group_buttons); exit;
+			
 			if($group_buttons)
 			{
 				foreach($group_buttons as $button)

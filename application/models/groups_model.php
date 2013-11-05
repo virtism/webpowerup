@@ -1926,6 +1926,7 @@ $group_data = array();
 	
 	function unsubsribe_group($member_id,$group_id)
 	{
+        $this->db->query("DELETE FROM autorespond_email_record  WHERE customer_id = '$member_id' AND group_id = '$group_id'");
 		$this->db->where('group_id', $group_id);
 		$this->db->where('customer_id', $member_id);
 		$r = $this->db->delete('ec_customers_group_xref');

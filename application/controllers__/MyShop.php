@@ -263,17 +263,7 @@ if(!session_start()){
 				//--------------------- paging variables ----------------------------//
 					$store_settings = $this->shop_model->get_store_settings($this->site_id);
 					$total = $this->product_model->count_posts($cat_id);
-                    
-                    if($this->config->item('seo_url') == 'On')
-                    {
-                        
-                        $config['base_url'] = 'http://'.$_SERVER['SERVER_NAME'].'/MyShop/index/'.$cat_id.'/';
-                    }
-                    else
-                    {
-                        
-                        $config['base_url'] = base_url().index_page().'MyShop/index/'.$cat_id.'/';   
-                    }
+					$config['base_url'] = base_url().index_page().'MyShop/index/'.$cat_id.'/';
 				   // $config['total_rows'] = $this->db->get('tblname')->num_rows(); 
 					$config['total_rows'] = intval($total);
 					$config['per_page'] = intval($store_settings['product_per_page']);
@@ -342,7 +332,6 @@ if(!session_start()){
 				//echo '<pre>'; print_r($data['right_menus_Pbox'] ); exit();
 				$data['left_menus_type'] = 'myshop';
 				$Regions = $this->template->regions;
-                //echo $this->temp_name;exit;
 				$this->template->write_view('leftbar', $this->temp_name.'/leftbar', $data); 
 				
 				//$data['right_menus'] = '';
@@ -794,17 +783,8 @@ if(!session_start()){
 			if($this->cart_model->validate_add_cart_item() == TRUE){
 				// Check if user has javascript enabled
 				if($this->input->post('ajax') != '1'){
-                    if($this->config->item('seo_url') == 'On')
-                     {
-                        
-                        redirect('http://'.$_SERVER['SERVER_NAME'].'/MyShop/mycart');
-                     }
-                     else
-                     {
-                        redirect(base_url().index_page().'MyShop/mycart');
-                     }
-                }
-                else{
+					redirect('MyShop/mycart'); // If javascript is not enabled, reload the page with new data
+				}else{
 					  echo 'true'; // If javascript is enabled, return true, so the cart gets updated
 				}
 			}
@@ -814,15 +794,7 @@ if(!session_start()){
 		function update_cart(){
 			
 			$this->cart_model->validate_update_cart();
-            if($this->config->item('seo_url') == 'On')
-            {
-                redirect('http://'.$_SERVER['SERVER_NAME'].'MyShop/mycart');    
-            }
-            else
-            {
-                redirect(base_url().index_page().'MyShop/mycart');
-                //redirect('MyShop/mycart');  
-            }
+			redirect('MyShop/mycart');
 		}
 		
 													 
@@ -1081,44 +1053,16 @@ if(!session_start()){
 					
 						$insert_order = $this->shop_model->save_order_record($array);
 					
-				//redirect('MyShop/payment_success/');
-                    if($this->config->item('seo_url') == 'On')
-                     {
-                        
-                        redirect('http://'.$_SERVER['SERVER_NAME'].'/MyShop/payment_success/');
-                     }
-                     else
-                     {
-                        redirect(base_url().index_page().'MyShop/payment_success/');
-                     }
+				redirect('MyShop/payment_success/');
 			}
 			
 			if(isset($this->site_id) && $this->site_id!='')
 			{
-				//redirect('MyShop/index/'.$this->site_id);
-                if($this->config->item('seo_url') == 'On')
-                 {
-                    
-                    redirect('http://'.$_SERVER['SERVER_NAME'].'/MyShop/index/'.$this->site_id);
-                 }
-                 else
-                 {
-                    redirect('MyShop/index/'.$this->site_id);
-                 }
-            
+				redirect('MyShop/index/'.$this->site_id);
 			}
 			else
 			{
-				//redirect('MyShop');
-                if($this->config->item('seo_url') == 'On')
-                 {
-                    
-                    redirect('http://'.$_SERVER['SERVER_NAME'].'/MyShop/');
-                 }
-                 else
-                 {
-                    redirect('MyShop');
-                 }
+				redirect('MyShop');
 			}
 	}
 	

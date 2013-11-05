@@ -868,7 +868,7 @@ http://www.webpowerup.com/
 	
 		
 	// print_r($_SESSION);  exit();
-	 $posted_group_id = $this->input->post("post_group_id"); 
+	
 	$data = array ();
 		
 	$rsltHomepage = $this->Site_Model->getHomepage($this->site_id);
@@ -1065,13 +1065,7 @@ http://www.webpowerup.com/
 		$data['module'] = 'MyAccount';
 		
 		//Groups respect to site
-        if(trim($posted_group_id) == ""){
 		$groups = $this->Groups_Model->get_all_site_gropus_customer_view_by_group_type($this->site_id,"Registration");
-        }
-        else
-        {
-          $groups = $this->Groups_Model->get_group_by_id($posted_group_id);   
-        }
 		// echo "<pre>";"-----------------".print_r($groups);exit;	 
 		$data['membership'] = $groups;    
 		//echo "<pre>";"-----------------".print_r($data['membership']);exit;

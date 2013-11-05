@@ -1496,7 +1496,7 @@ class Group_managment extends CI_Controller {
 	{
 		$member_id = $this->customer_id;
 		$this->Groups_Model->unsubsribe_group($member_id,$group_id);
-		$r = $this->Groups_Model->upgrade_group($member_id);		
+		$r = $this->Groups_Model->upgrade_group($member_id, $group_id);		
 		if($this->config->item('seo_url') == 'On')
 		{			
 			$path = 'http://'.$_SERVER['SERVER_NAME'].'/group_managment';			

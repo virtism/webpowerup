@@ -11,11 +11,6 @@ class Packages extends CI_Controller{
         $packageArray = array();
         
         parent::__construct();
-        
-        if($this->session->userdata('auth_info') == "")
-         {
-            redirect('administrator/login/');;   
-         }
         $this->load->helper('url');
         //$this->load->view('signup');    
         $this->load->database();
@@ -59,17 +54,34 @@ class Packages extends CI_Controller{
         }   
          
     }
-
     function index()
     {
         $data['left_bar']                   = 'packages';
         $data['packages']                   = $this->Admin_model->get_packages();
         $this->load->view('s_admin/packages' , $data);
-    } 
+    }
+    function all_subAdmin()
+    {
+        $data['left_bar']                   = 'subadmin';
+        $data['sub_admins'] = $this->UsersModel->get_user_by_id();
+        $this->load->view('s_admin/sub_admin' , $data);
+    }
+    function affiliate()
+    {
+        $data['left_bar']                   = 'affiliate';  
+        $data['affiliates'] = $this->Admin_model->get_affiliate();
+        $this->load->view('s_admin/affiliate_list' , $data);
+    }
+    function get_affiliate_member($affiliate_id)
+    {
+        $data['left_bar']                   = 'affiliate';
+        $data['affiliate_members']          = $this->Admin_model->get_affiliate_member($affiliate_id);
+        $this->load->view('s_admin/affiliate_member', $data);
+        
+    }
     
     function addnew()
     {
-        $data['left_bar']                   = 'packages';
         $qry = "SELECT * FROM modules";
 
         $query = $this->db->query($qry);
@@ -77,25 +89,24 @@ class Packages extends CI_Controller{
         $data["modules"] = $modules;
         $data["packageArray"] = array();
      
-        $this->load->view('s_admin/add_package',$data);
+        //$this->load->view('new_package',$data);
         
         //confirm that user has logged-in
         //$this->check_login();
         
         //write admin/login(view) in sidebar region in gws_admin/template.php(view)
-        //$this->template->write_view('sidebar', 'gws_admin/sidebar');
+        $this->template->write_view('sidebar', 'gws_admin/sidebar');
         
         //write admin/login(view) in content region in new_package(view)
-        //$this->template->write_view('content', 'admin/packages/add', $data);
+        $this->template->write_view('content', 'admin/packages/add', $data);
         
         //display the template with its regions written above
-        //$this->template->render();
+        $this->template->render();
         
     }
     
     function editPackage($package_id)
     {
-        $data['left_bar']                   = 'packages';
         //    echo  $this->uri->segment(3);exit;
         $package_id =  $this->uri->segment(4) ;
         $packageArray = $this->PackageModel->get_package_by_id($package_id);
@@ -109,20 +120,19 @@ class Packages extends CI_Controller{
         $data["moduleArray"] = $moduleArray;
         $data["packageArray"] = $packageArray;
         
-        $this->load->view('s_admin/add_package',$data); 
         //$this->load->view("new_package",$data);
         
         //confirm that user has logged-in
         //$this->check_login();
         
         //write admin/login(view) in sidebar region in gws_admin/template.php(view)
-        //$this->template->write_view('sidebar', 'gws_admin/sidebar');
+        $this->template->write_view('sidebar', 'gws_admin/sidebar');
         
         //write admin/login(view) in content region in new_package(view)
-        //$this->template->write_view('content', 'new_package', $data);
+        $this->template->write_view('content', 'new_package', $data);
         
         //display the template with its regions written above
-        //$this->template->render();     
+        $this->template->render();     
     }
     
     function deletePackage()
