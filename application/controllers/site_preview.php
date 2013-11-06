@@ -1185,6 +1185,7 @@ class Site_preview extends CI_Controller
 			//echo "doesnot exist";
 			//echo "<pre>"; print_r($_SESSION); exit;
 			$data['left_menus'] = $this->my_template_menu->getLeftbar($site_id, $page_id);
+            
 			//echo "<pre>"; print_r($data['left_menus']); exit;
 			// 28 March - Mohsin
 			if(sizeof($data['left_menus']) > 0)

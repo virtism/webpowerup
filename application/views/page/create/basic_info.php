@@ -168,7 +168,7 @@ function validate()
         return false;   
     }
 }
-function get_group_member()
+/*function get_group_member()
 {
 	var group_ids = $("#group_access").val();
 	//alert(group_ids);
@@ -197,7 +197,7 @@ function get_group_member()
         });
 		
 	
-}
+} */
 
 $(document).ready(function(e) {
 	
@@ -274,9 +274,30 @@ else
 				<div>
 				<?php 
 				if ($private_user_id == 0 )
-				{ 
+				{
+                    if(isset($all_customer) && !empty($all_customer))
+                    { 
+                    ?>
+                    <div  style=" position:relative; margin-top:10px; float:left">
+                    <select name="members" style="width:360px;" size="1" >
+                           <option value="">Select Customer</option>
+                    <?
+                    foreach($all_customer as $all_customers)
+                    {
+                    ?>
+                        <option value="<?=$all_customers['customer_id']?>"><?=$all_customers['customer_login']?></option>        
+                    <?     
+                    } ?>
+                    </select>
+                    </div>
+                    <?php 
+                    }
+                    else 
+                    {
+                        echo "No group exist. First create group.";
+                    } 
 					
-					if(isset($groups) && !empty($groups))
+					/*if(isset($groups) && !empty($groups))
 					{ 
 					?>
 					<div  style=" position:relative; margin-top:10px; float:left">
@@ -296,7 +317,7 @@ else
 					else 
 					{
 						echo "No group exist. First create group.";
-					}
+					}*/
 				}
 				else
 				{

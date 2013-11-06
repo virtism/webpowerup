@@ -160,11 +160,14 @@ class PagesController extends CI_Controller{
 		$this->checkLogin();
 		if(isset($private)&& $private=='private')
 		{
-			$data['private'] = $private;
-			$data['groups'] = $this->Groups_Model->get_all_site_gropus($site_id);
-			$data['private_user_id'] = $private_user_id;
-			$private_user = $this->Customers_Model->getCustomer($private_user_id);
-			$data['private_user'] = $private_user;
+			$data['private']            = $private;
+			$data['groups']             = $this->Groups_Model->get_all_site_gropus($site_id);
+            $all_customer               = $this->Customers_Model->getAllCustomers($site_id);
+            $data['all_customer']       = $all_customer['customers'];
+            //echo "<pre>" ; print_r($data['all_customer']); exit;
+			$data['private_user_id']    = $private_user_id;
+			$private_user               = $this->Customers_Model->getCustomer($private_user_id);
+			$data['private_user']       = $private_user;
 		}		
 		if(isset($_POST['page_id']))
 		{
@@ -262,16 +265,19 @@ class PagesController extends CI_Controller{
 		//prepares data 
 		
 		$page_type = $this->input->post("page_type");
-		
+		 //echo $this->input->post('members'); exit;
 		// if page is private then page_type = "private" else = "Normal"
 		$_SESSION['page_type'] = $page_type;
 		
 		if($page_type == "private")
 		{
-			if(isset($_REQUEST['group_access'])){
-			$group_ids = implode(",",$this->input->post('group_access'));
-			$members_ids = implode(",",$this->input->post('members'));
-			$_SESSION['group_access'] = $group_ids; 
+            
+			if(isset($_REQUEST['members'])){
+               // echo "i am in member"; exit;
+			//$group_ids = implode(",",$this->input->post('group_access'));
+            //$members_ids = implode(",",$this->input->post('members'));
+			$members_ids = $this->input->post('members');
+			//$_SESSION['group_access'] = $group_ids; 
 			$_SESSION['members'] = $members_ids;
 			}
             else 

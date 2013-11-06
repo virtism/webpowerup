@@ -245,7 +245,7 @@ else
 			}
 ?>      <?=$editIcon?>
 		<div class="sidebox">  
-			<label style="background: #<?=$left_menus[$i]['menu_primary_color']?>;"><p style="color: #<?=$left_menus[$i]['menu_txt_color']?>;"><?=$left_menus[$i]['menu_name']?></p></label>
+			<label style="background: #<?php //$left_menus[$i]['menu_primary_color']?>;"><p style="color: #<?php //$left_menus[$i]['menu_txt_color']?>;"><?=$left_menus[$i]['menu_name']?></p></label>
 				<div class="links_area" >
 			<?php
 			if(sizeof($left_menus[$i])>0)
@@ -471,7 +471,8 @@ else
 						
 					}*/
 					else if($left_menus[$i]['sub_menu'][$j]["access_level"] == "" || $left_menus[$i]['sub_menu'][$j]["access_level"] == "Everyone")
-					{	
+					{
+                    	
 						if(isset($left_menus[$i]['sub_menu'][$j]['item_name']))
 						{
 							  
