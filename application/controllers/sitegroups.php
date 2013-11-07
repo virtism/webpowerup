@@ -107,7 +107,9 @@ class SiteGroups extends CI_Controller {
 	*/
 	function new_site_group()
 	{
-		
+    //$test =  $this->Groups_Model->isGroupAlready($_SESSION["site_id"], "Trialpaygroup");
+        //echo "<pre>"; print_r($test); exit; 
+        		
 		$this->breadcrumb->clear();
 		$this->breadcrumb->add_crumb('Main', $this->session->userdata("mainPage_link") );
 		$this->breadcrumb->add_crumb('Dashboard', $this->session->userdata("dashboard_link") ); 
@@ -971,6 +973,20 @@ class SiteGroups extends CI_Controller {
 		  
 		  redirect("sitegroups/submits/".$group_id);
 	  }
+    function isGroupAlready($site_id)
+        {
+            $group_title = $this->input->post('group_name');
+            //$page_title = str_replace("%20", " ", $page_title);
+            $boolExist = $this->Groups_Model->isGroupAlready($site_id, $group_title);
+            if($boolExist)
+            {
+                echo "True";
+            }    
+            else
+            {
+                echo "False";
+            } 
+        }
       
 	  
 	

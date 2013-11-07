@@ -2475,5 +2475,23 @@ $group_data = array();
 		
 		return $end_date;
 	}
+    function isGroupAlready($site_id, $group_name)
+    {
+        $this->db->select("*");
+        $this->db->from("groups");
+        $this->db->join("groups_sites_xref","groups.id = groups_sites_xref.group_id");
+        $this->db->where("groups_sites_xref.site_id", $site_id);
+        $this->db->where("groups.group_name", $group_name);
+        $result = $this->db->get();
+        //return $result->result_array();      
+        if($result->num_rows()>0)
+        {
+            return TRUE;
+        }  
+        else
+        {
+            return FALSE;
+        }
+    }
 }
 ?>

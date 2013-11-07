@@ -1,4 +1,53 @@
+<style>
+label.error{
+    clear: both;
+    color: #D8000C;
+    float: left;
+    font-size: 11px;
+    left: 4px;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    font-weight:normal;
+    background:none;
+    margin:0;
+    padding:0;
+}
+</style>
 <script language="javascript" type="text/javascript" src="<?=base_url()?>ckeditor/ckeditor.js"></script>
+<script type="text/javascript">
+function checkAvail1(group_name)
+{
+    //alert(group_name);
+    var message = document.getElementById("message");
+    //prefill_page_link();
+    dataString = "group_name="+group_name;
+    if(group_name != ""){
+        $.ajax({
+        type: "POST",
+        url: "<?=base_url().index_page()?>sitegroups/isGroupAlready/<?=$_SESSION["site_id"]?>/",
+        data: dataString,
+        success: function(data){
+                //alert(data);
+                if(data == 'True')
+                {
+                    submitFlag = false;
+                    //message.innerHTML = "<font style='color:red;'>Page Title already exist.</font>"; 
+                    message.innerHTML = '<label class="error">"'+group_name+'" Group Title already exist.</label>';
+                    $('#group_name').attr("value", "");  
+                }
+                else{
+                    submitFlag = true;    
+                    //message.innerHTML = "<font style='color:green;'>OK!</font>";
+                    message.innerHTML = '<label class="error" style="color: green">Group Title is available.</label>';
+                    
+                }
+            }
+        });
+    }
+}
+
+</script>
 <script type="text/javascript">
 
 
@@ -79,7 +128,12 @@
 
 $(document).ready(function(e) {
 	
-	
+    // check the group name
+    
+    $("#group_name").blur(function(e) {
+        var v = $(this).val();
+        checkAvail1(v)
+    });	
 	// ADD ROW DYNAMICALLY 
 	var count = 1;
     $("#addRow,#addRow2").click(function(){
@@ -272,13 +326,14 @@ function addRadioItem(id)
 
 <div class="form">
 <? $page_id = $this->uri->segment(3); ?>
- <form class="niceform" action="<?=base_url().index_page()?>sitegroups/do_creat_site_group/<?=$page_id?>" method="post" name="group_form" id="group_form" enctype="multipart/form-data" >
+ <form class="niceform" action="<?=base_url().index_page()?>sitegroups/do_creat_site_group/<?=$page_id?>" method="post" onSubmit="return validate()" name="group_form" id="group_form" enctype="multipart/form-data" >
  
         <fieldset>
             <dl>
                 <dt><label for="email" class="NewsletterLabel"> Group Name :</label></dt>
                 <dd>
 	                <input type="text" name="group_name" id="group_name" size="55" />
+                    <span id="message"><?=form_error('page_title')?>&nbsp;</span> 
                 </dd>
             </dl>
             
