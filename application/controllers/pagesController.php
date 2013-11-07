@@ -904,9 +904,9 @@ class PagesController extends CI_Controller{
 		
 				}
 		
-				
+				$background_image =  $config['file_name'];
 		
-				$this->Pages_Model->save_upload_page_layout_desc();
+				$this->Pages_Model->save_upload_page_layout_desc($background_image);
 		}
 		else
 		{

@@ -2599,3 +2599,8753 @@ DEBUG - 2013-11-07 12:12:51 --> Session class already loaded. Second attempt ign
 DEBUG - 2013-11-07 12:12:51 --> Form Validation Class Initialized
 DEBUG - 2013-11-07 12:12:51 --> Template class already loaded. Second attempt ignored.
 ERROR - 2013-11-07 12:12:51 --> Severity: Notice  --> Undefined property: SiteGroups::$base_url_groups C:\AppServ\www\webpowerup\application\controllers\sitegroups.php 36
+DEBUG - 2013-11-07 12:27:08 --> Config Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Hooks Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 12:27:08 --> URI Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Router Class Initialized
+ERROR - 2013-11-07 12:27:08 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 12:27:08 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 12:27:08 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 12:27:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 12:27:08 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 12:27:08 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 12:27:08 --> Output Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Input Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 12:27:08 --> Language Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Loader Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 12:27:08 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 12:27:08 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 12:27:08 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Session Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 12:27:08 --> Session routines successfully run
+DEBUG - 2013-11-07 12:27:08 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 12:27:08 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Model Class Initialized
+ERROR - 2013-11-07 12:27:08 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 12:27:08 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:08 --> Controller Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:08 --> Model Class Initialized
+ERROR - 2013-11-07 12:27:08 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 12:27:08 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:09 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-11-07 12:27:09 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:09 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:09 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 12:27:09 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 12:27:09 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:09 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 12:27:09 --> Email Class Initialized
+DEBUG - 2013-11-07 12:27:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:09 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 12:27:09 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 12:27:09 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 12:27:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:09 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 12:27:09 --> Template class already loaded. Second attempt ignored.
+ERROR - 2013-11-07 12:27:09 --> Severity: Notice  --> Undefined property: SiteGroups::$base_url_groups C:\AppServ\www\webpowerup\application\controllers\sitegroups.php 36
+ERROR - 2013-11-07 12:27:09 --> Severity: Notice  --> Undefined variable: site_id C:\AppServ\www\webpowerup\application\views\site_groups\site_new_group.php 843
+DEBUG - 2013-11-07 12:27:09 --> File loaded: application/views/site_groups/site_new_group.php
+DEBUG - 2013-11-07 12:27:09 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 12:27:09 --> Final output sent to browser
+DEBUG - 2013-11-07 12:27:09 --> Total execution time: 1.0453
+DEBUG - 2013-11-07 12:27:22 --> Config Class Initialized
+DEBUG - 2013-11-07 12:27:22 --> Hooks Class Initialized
+DEBUG - 2013-11-07 12:27:22 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 12:27:22 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 12:27:22 --> URI Class Initialized
+DEBUG - 2013-11-07 12:27:22 --> Router Class Initialized
+ERROR - 2013-11-07 12:27:22 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 12:27:22 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 12:27:22 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 12:27:22 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 12:27:22 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 12:27:22 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 12:27:23 --> Output Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Input Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 12:27:23 --> Language Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Loader Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 12:27:23 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 12:27:23 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 12:27:23 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Session Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 12:27:23 --> Session routines successfully run
+DEBUG - 2013-11-07 12:27:23 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 12:27:23 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Model Class Initialized
+ERROR - 2013-11-07 12:27:23 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 12:27:23 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:23 --> Controller Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Model Class Initialized
+ERROR - 2013-11-07 12:27:23 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 12:27:23 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:23 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-11-07 12:27:23 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:23 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:23 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 12:27:23 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 12:27:23 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 12:27:23 --> Email Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:23 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 12:27:23 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 12:27:23 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 12:27:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:23 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 12:27:23 --> Template class already loaded. Second attempt ignored.
+ERROR - 2013-11-07 12:27:23 --> Severity: Notice  --> Undefined property: SiteGroups::$base_url_groups C:\AppServ\www\webpowerup\application\controllers\sitegroups.php 36
+DEBUG - 2013-11-07 12:27:24 --> Final output sent to browser
+DEBUG - 2013-11-07 12:27:24 --> Total execution time: 1.2248
+DEBUG - 2013-11-07 12:27:40 --> Config Class Initialized
+DEBUG - 2013-11-07 12:27:40 --> Hooks Class Initialized
+DEBUG - 2013-11-07 12:27:40 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 12:27:40 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 12:27:40 --> URI Class Initialized
+DEBUG - 2013-11-07 12:27:40 --> Router Class Initialized
+ERROR - 2013-11-07 12:27:40 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 12:27:40 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 12:27:40 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 12:27:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 12:27:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 12:27:40 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 12:27:40 --> Output Class Initialized
+DEBUG - 2013-11-07 12:27:40 --> Input Class Initialized
+DEBUG - 2013-11-07 12:27:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 12:27:40 --> Language Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Loader Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 12:27:41 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 12:27:41 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 12:27:41 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Session Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 12:27:41 --> Session routines successfully run
+DEBUG - 2013-11-07 12:27:41 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 12:27:41 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Model Class Initialized
+ERROR - 2013-11-07 12:27:41 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 12:27:41 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:41 --> Controller Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Model Class Initialized
+ERROR - 2013-11-07 12:27:41 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 12:27:41 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:41 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-11-07 12:27:41 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:41 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:41 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 12:27:41 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 12:27:41 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 12:27:41 --> Email Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:41 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 12:27:41 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 12:27:41 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 12:27:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:41 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 12:27:41 --> Template class already loaded. Second attempt ignored.
+ERROR - 2013-11-07 12:27:41 --> Severity: Notice  --> Undefined property: SiteGroups::$base_url_groups C:\AppServ\www\webpowerup\application\controllers\sitegroups.php 36
+DEBUG - 2013-11-07 12:27:41 --> Final output sent to browser
+DEBUG - 2013-11-07 12:27:41 --> Total execution time: 0.6205
+DEBUG - 2013-11-07 12:27:50 --> Config Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Hooks Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 12:27:50 --> URI Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Router Class Initialized
+ERROR - 2013-11-07 12:27:50 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 12:27:50 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 12:27:50 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 12:27:50 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 12:27:50 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 12:27:50 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 12:27:50 --> Output Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Input Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 12:27:50 --> Language Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Loader Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 12:27:50 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 12:27:50 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 12:27:50 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Session Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 12:27:50 --> Session routines successfully run
+DEBUG - 2013-11-07 12:27:50 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 12:27:50 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Model Class Initialized
+ERROR - 2013-11-07 12:27:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 12:27:50 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:50 --> Controller Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Model Class Initialized
+ERROR - 2013-11-07 12:27:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 12:27:50 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:50 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-11-07 12:27:50 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:50 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:50 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 12:27:50 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 12:27:50 --> Model Class Initialized
+DEBUG - 2013-11-07 12:27:50 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 12:27:50 --> Email Class Initialized
+DEBUG - 2013-11-07 12:27:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:51 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 12:27:51 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 12:27:51 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 12:27:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:27:51 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 12:27:51 --> Template class already loaded. Second attempt ignored.
+ERROR - 2013-11-07 12:27:51 --> Severity: Notice  --> Undefined property: SiteGroups::$base_url_groups C:\AppServ\www\webpowerup\application\controllers\sitegroups.php 36
+DEBUG - 2013-11-07 12:47:13 --> Config Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Hooks Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 12:47:13 --> URI Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Router Class Initialized
+ERROR - 2013-11-07 12:47:13 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 12:47:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 12:47:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 12:47:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 12:47:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 12:47:13 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 12:47:13 --> Output Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Input Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 12:47:13 --> Language Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Loader Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 12:47:13 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 12:47:13 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 12:47:13 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Session Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 12:47:13 --> Session routines successfully run
+DEBUG - 2013-11-07 12:47:13 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 12:47:13 --> Model Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Model Class Initialized
+ERROR - 2013-11-07 12:47:13 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 12:47:13 --> Model Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Model Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:47:13 --> Controller Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Model Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Model Class Initialized
+ERROR - 2013-11-07 12:47:13 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 12:47:13 --> Model Class Initialized
+DEBUG - 2013-11-07 12:47:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:47:13 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-11-07 12:47:13 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:47:13 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:47:14 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 12:47:14 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 12:47:14 --> Model Class Initialized
+DEBUG - 2013-11-07 12:47:14 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 12:47:14 --> Email Class Initialized
+DEBUG - 2013-11-07 12:47:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:47:14 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 12:47:14 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 12:47:14 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 12:47:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 12:47:14 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 12:47:14 --> Template class already loaded. Second attempt ignored.
+ERROR - 2013-11-07 12:47:14 --> Severity: Notice  --> Undefined property: SiteGroups::$base_url_groups C:\AppServ\www\webpowerup\application\controllers\sitegroups.php 36
+ERROR - 2013-11-07 12:47:14 --> Severity: Notice  --> Undefined variable: site_id C:\AppServ\www\webpowerup\application\views\site_groups\site_new_group.php 843
+DEBUG - 2013-11-07 12:47:14 --> File loaded: application/views/site_groups/site_new_group.php
+DEBUG - 2013-11-07 12:47:14 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 12:47:14 --> Final output sent to browser
+DEBUG - 2013-11-07 12:47:14 --> Total execution time: 1.4123
+DEBUG - 2013-11-07 13:08:55 --> Config Class Initialized
+DEBUG - 2013-11-07 13:08:55 --> Hooks Class Initialized
+DEBUG - 2013-11-07 13:08:55 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 13:08:55 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 13:08:55 --> URI Class Initialized
+DEBUG - 2013-11-07 13:08:55 --> Router Class Initialized
+ERROR - 2013-11-07 13:08:55 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 13:08:55 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:08:56 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:08:56 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:08:56 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:08:56 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 13:08:56 --> Output Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Input Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 13:08:56 --> Language Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Loader Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 13:08:56 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 13:08:56 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 13:08:56 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Session Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 13:08:56 --> Session routines successfully run
+DEBUG - 2013-11-07 13:08:56 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 13:08:56 --> Model Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Model Class Initialized
+ERROR - 2013-11-07 13:08:56 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 13:08:56 --> Model Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Model Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:08:56 --> Controller Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Model Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Model Class Initialized
+ERROR - 2013-11-07 13:08:56 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 13:08:56 --> Model Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:08:56 --> Config file loaded: application/config/paypallib_config.php
+DEBUG - 2013-11-07 13:08:56 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:08:56 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:08:56 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 13:08:56 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 13:08:56 --> Model Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 13:08:56 --> Email Class Initialized
+DEBUG - 2013-11-07 13:08:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:08:56 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 13:08:57 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 13:08:57 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 13:08:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:08:57 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 13:08:57 --> Template class already loaded. Second attempt ignored.
+ERROR - 2013-11-07 13:08:57 --> Severity: Notice  --> Undefined property: SiteGroups::$base_url_groups C:\AppServ\www\webpowerup\application\controllers\sitegroups.php 36
+DEBUG - 2013-11-07 13:08:57 --> File loaded: application/views/site_groups/home.php
+DEBUG - 2013-11-07 13:08:57 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 13:08:57 --> Final output sent to browser
+DEBUG - 2013-11-07 13:08:57 --> Total execution time: 1.4940
+DEBUG - 2013-11-07 13:13:28 --> Config Class Initialized
+DEBUG - 2013-11-07 13:13:28 --> Hooks Class Initialized
+DEBUG - 2013-11-07 13:13:28 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 13:13:28 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 13:13:28 --> URI Class Initialized
+DEBUG - 2013-11-07 13:13:28 --> Router Class Initialized
+ERROR - 2013-11-07 13:13:28 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 13:13:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:13:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:13:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:13:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:13:28 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 13:13:28 --> Output Class Initialized
+DEBUG - 2013-11-07 13:13:28 --> Input Class Initialized
+DEBUG - 2013-11-07 13:13:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 13:13:28 --> Language Class Initialized
+DEBUG - 2013-11-07 13:13:28 --> Loader Class Initialized
+DEBUG - 2013-11-07 13:13:28 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 13:13:28 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 13:13:28 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 13:13:28 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 13:13:28 --> Session Class Initialized
+DEBUG - 2013-11-07 13:13:28 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 13:13:29 --> Session routines successfully run
+DEBUG - 2013-11-07 13:13:29 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:29 --> Controller Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Pagination Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:29 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:29 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:29 --> Upload Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:29 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:29 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 13:13:29 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 13:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 13:13:29 --> Email Class Initialized
+DEBUG - 2013-11-07 13:13:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:29 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 13:13:29 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 13:13:29 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 13:13:29 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 13:13:30 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 13:13:30 --> Final output sent to browser
+DEBUG - 2013-11-07 13:13:30 --> Total execution time: 1.6031
+DEBUG - 2013-11-07 13:13:34 --> Config Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Hooks Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 13:13:34 --> URI Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Router Class Initialized
+ERROR - 2013-11-07 13:13:34 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 13:13:34 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:13:34 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:13:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:13:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:13:34 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 13:13:34 --> Output Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Input Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 13:13:34 --> Language Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Loader Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 13:13:34 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 13:13:34 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 13:13:34 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Session Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 13:13:34 --> Session routines successfully run
+DEBUG - 2013-11-07 13:13:34 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 13:13:34 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 13:13:34 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 13:13:34 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:34 --> Controller Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:34 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 13:13:34 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:35 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Pagination Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:35 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:35 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:35 --> Upload Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:35 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:35 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:35 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 13:13:35 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 13:13:35 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 13:13:35 --> Email Class Initialized
+DEBUG - 2013-11-07 13:13:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:35 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 13:13:35 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 13:13:35 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 13:13:35 --> Final output sent to browser
+DEBUG - 2013-11-07 13:13:35 --> Total execution time: 1.4238
+DEBUG - 2013-11-07 13:13:38 --> Config Class Initialized
+DEBUG - 2013-11-07 13:13:38 --> Hooks Class Initialized
+DEBUG - 2013-11-07 13:13:38 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 13:13:38 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 13:13:38 --> URI Class Initialized
+DEBUG - 2013-11-07 13:13:38 --> Router Class Initialized
+ERROR - 2013-11-07 13:13:38 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 13:13:38 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:13:38 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:13:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:13:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:13:38 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 13:13:38 --> Output Class Initialized
+DEBUG - 2013-11-07 13:13:38 --> Input Class Initialized
+DEBUG - 2013-11-07 13:13:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 13:13:38 --> Language Class Initialized
+DEBUG - 2013-11-07 13:13:38 --> Loader Class Initialized
+DEBUG - 2013-11-07 13:13:38 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 13:13:38 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 13:13:38 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 13:13:38 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 13:13:38 --> Session Class Initialized
+DEBUG - 2013-11-07 13:13:38 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 13:13:38 --> Session routines successfully run
+DEBUG - 2013-11-07 13:13:38 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 13:13:38 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:38 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 13:13:38 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:38 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:39 --> Controller Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Pagination Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:39 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:39 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:39 --> Upload Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:39 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:39 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:39 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 13:13:39 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 13:13:39 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 13:13:39 --> Email Class Initialized
+DEBUG - 2013-11-07 13:13:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:39 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 13:13:39 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 13:13:39 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 13:13:39 --> Final output sent to browser
+DEBUG - 2013-11-07 13:13:39 --> Total execution time: 1.6097
+DEBUG - 2013-11-07 13:13:41 --> Config Class Initialized
+DEBUG - 2013-11-07 13:13:41 --> Hooks Class Initialized
+DEBUG - 2013-11-07 13:13:41 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 13:13:41 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 13:13:41 --> URI Class Initialized
+DEBUG - 2013-11-07 13:13:41 --> Router Class Initialized
+ERROR - 2013-11-07 13:13:41 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 13:13:41 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:13:41 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:13:41 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:13:41 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:13:41 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 13:13:41 --> Output Class Initialized
+DEBUG - 2013-11-07 13:13:41 --> Input Class Initialized
+DEBUG - 2013-11-07 13:13:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 13:13:41 --> Language Class Initialized
+DEBUG - 2013-11-07 13:13:41 --> Loader Class Initialized
+DEBUG - 2013-11-07 13:13:41 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 13:13:41 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 13:13:41 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 13:13:41 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Session Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 13:13:42 --> Session routines successfully run
+DEBUG - 2013-11-07 13:13:42 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:42 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:42 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:42 --> Controller Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:42 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Pagination Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:42 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:42 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:42 --> Upload Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:42 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:42 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:42 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 13:13:42 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 13:13:42 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 13:13:42 --> Email Class Initialized
+DEBUG - 2013-11-07 13:13:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:42 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 13:13:42 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 13:13:43 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 13:13:43 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-11-07 13:13:43 --> Config Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Hooks Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 13:13:43 --> URI Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Router Class Initialized
+ERROR - 2013-11-07 13:13:43 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 13:13:43 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:13:43 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 13:13:43 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:13:43 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 13:13:43 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 13:13:43 --> Output Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Input Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 13:13:43 --> Language Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Loader Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 13:13:43 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 13:13:43 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 13:13:43 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Session Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 13:13:43 --> Session routines successfully run
+DEBUG - 2013-11-07 13:13:43 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 13:13:43 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:43 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 13:13:43 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:43 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 13:13:43 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:43 --> Controller Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:43 --> Model Class Initialized
+ERROR - 2013-11-07 13:13:43 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 13:13:44 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:44 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Pagination Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:44 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:44 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:44 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:44 --> Upload Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:44 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:44 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:44 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 13:13:44 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 13:13:44 --> Model Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 13:13:44 --> Email Class Initialized
+DEBUG - 2013-11-07 13:13:44 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 13:13:44 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 13:13:44 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 13:13:44 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 13:13:44 --> File loaded: application/views/page/create/page_menu.php
+DEBUG - 2013-11-07 13:13:44 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 13:13:44 --> Final output sent to browser
+DEBUG - 2013-11-07 13:13:44 --> Total execution time: 1.6680
+DEBUG - 2013-11-07 14:23:34 --> Config Class Initialized
+DEBUG - 2013-11-07 14:23:34 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:23:34 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:23:34 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:23:34 --> URI Class Initialized
+DEBUG - 2013-11-07 14:23:34 --> Router Class Initialized
+ERROR - 2013-11-07 14:23:34 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:23:34 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:23:34 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:23:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:23:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:23:34 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:23:34 --> Output Class Initialized
+DEBUG - 2013-11-07 14:23:34 --> Input Class Initialized
+DEBUG - 2013-11-07 14:23:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:23:34 --> Language Class Initialized
+DEBUG - 2013-11-07 14:23:34 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:23:34 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:23:34 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:23:34 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:23:34 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Session Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:23:35 --> Session routines successfully run
+DEBUG - 2013-11-07 14:23:35 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:35 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:35 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:35 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:35 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:35 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:35 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:35 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:23:35 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:23:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:23:35 --> Email Class Initialized
+DEBUG - 2013-11-07 14:23:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:35 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:23:36 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:23:36 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:23:36 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 14:23:36 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:23:36 --> Final output sent to browser
+DEBUG - 2013-11-07 14:23:36 --> Total execution time: 1.7291
+DEBUG - 2013-11-07 14:23:40 --> Config Class Initialized
+DEBUG - 2013-11-07 14:23:40 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:23:40 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:23:40 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:23:40 --> URI Class Initialized
+DEBUG - 2013-11-07 14:23:40 --> Router Class Initialized
+ERROR - 2013-11-07 14:23:40 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:23:40 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:23:40 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:23:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:23:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:23:40 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:23:40 --> Output Class Initialized
+DEBUG - 2013-11-07 14:23:40 --> Input Class Initialized
+DEBUG - 2013-11-07 14:23:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:23:40 --> Language Class Initialized
+DEBUG - 2013-11-07 14:23:40 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:23:40 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:23:40 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:23:40 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:23:40 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:23:40 --> Session Class Initialized
+DEBUG - 2013-11-07 14:23:40 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:23:40 --> Session routines successfully run
+DEBUG - 2013-11-07 14:23:40 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:23:40 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:40 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:23:40 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:41 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:41 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:41 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:41 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:41 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:41 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:41 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:41 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:41 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:23:41 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:23:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:23:41 --> Email Class Initialized
+DEBUG - 2013-11-07 14:23:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:41 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:23:41 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:23:41 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:23:41 --> File loaded: application/views/page/viewPrivatePages.php
+DEBUG - 2013-11-07 14:23:42 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:23:42 --> Final output sent to browser
+DEBUG - 2013-11-07 14:23:42 --> Total execution time: 1.7615
+DEBUG - 2013-11-07 14:23:46 --> Config Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:23:46 --> URI Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Router Class Initialized
+ERROR - 2013-11-07 14:23:46 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:23:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:23:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:23:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:23:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:23:46 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:23:46 --> Output Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Input Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:23:46 --> Language Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:23:46 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:23:46 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:23:46 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Session Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:23:46 --> Session routines successfully run
+DEBUG - 2013-11-07 14:23:46 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:23:46 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:23:46 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:23:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:46 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:23:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:46 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:47 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:47 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:47 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:47 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:47 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:47 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:23:47 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:23:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:23:47 --> Email Class Initialized
+DEBUG - 2013-11-07 14:23:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:47 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:23:47 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:23:47 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:23:47 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 14:23:47 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:23:47 --> Final output sent to browser
+DEBUG - 2013-11-07 14:23:47 --> Total execution time: 1.4913
+DEBUG - 2013-11-07 14:23:56 --> Config Class Initialized
+DEBUG - 2013-11-07 14:23:56 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:23:56 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:23:57 --> URI Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Router Class Initialized
+ERROR - 2013-11-07 14:23:57 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:23:57 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:23:57 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:23:57 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:23:57 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:23:57 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:23:57 --> Output Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Input Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:23:57 --> Language Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:23:57 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:23:57 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:23:57 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Session Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:23:57 --> Session routines successfully run
+DEBUG - 2013-11-07 14:23:57 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:23:57 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:23:57 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:23:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:57 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Model Class Initialized
+ERROR - 2013-11-07 14:23:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:23:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:23:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:58 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:23:58 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:58 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:58 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:58 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:58 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:58 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:58 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:23:58 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:58 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:58 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:58 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:23:58 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:23:58 --> Model Class Initialized
+DEBUG - 2013-11-07 14:23:58 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:23:58 --> Email Class Initialized
+DEBUG - 2013-11-07 14:23:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:23:58 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:23:58 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:23:58 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:23:58 --> Final output sent to browser
+DEBUG - 2013-11-07 14:23:58 --> Total execution time: 1.5962
+DEBUG - 2013-11-07 14:24:01 --> Config Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:24:01 --> URI Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Router Class Initialized
+ERROR - 2013-11-07 14:24:01 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:24:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:24:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:24:01 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:24:01 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:24:01 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:24:01 --> Output Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Input Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:24:01 --> Language Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:24:01 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:24:01 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:24:01 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Session Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:24:01 --> Session routines successfully run
+DEBUG - 2013-11-07 14:24:01 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:24:01 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:01 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:24:01 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:01 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:24:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:01 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:24:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:02 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:24:02 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:02 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:02 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:02 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:02 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:02 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:02 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:02 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:24:02 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:24:02 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:24:02 --> Email Class Initialized
+DEBUG - 2013-11-07 14:24:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:02 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:24:02 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:24:02 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:24:02 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-11-07 14:24:02 --> Config Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:24:03 --> URI Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Router Class Initialized
+ERROR - 2013-11-07 14:24:03 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:24:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:24:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:24:03 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:24:03 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:24:03 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:24:03 --> Output Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Input Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:24:03 --> Language Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:24:03 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:24:03 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:24:03 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Session Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:24:03 --> Session routines successfully run
+DEBUG - 2013-11-07 14:24:03 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:24:03 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:03 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:24:03 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:03 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:24:03 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:03 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:03 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:24:03 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:03 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:24:03 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:03 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:24:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:04 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:04 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:04 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:24:04 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:04 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:04 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:04 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:24:04 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:24:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:04 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:24:04 --> Email Class Initialized
+DEBUG - 2013-11-07 14:24:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:04 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:24:04 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:24:04 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:24:04 --> File loaded: application/views/page/create/page_menu.php
+DEBUG - 2013-11-07 14:24:04 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:24:04 --> Final output sent to browser
+DEBUG - 2013-11-07 14:24:04 --> Total execution time: 1.5985
+DEBUG - 2013-11-07 14:24:53 --> Config Class Initialized
+DEBUG - 2013-11-07 14:24:53 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:24:53 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:24:53 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:24:53 --> URI Class Initialized
+DEBUG - 2013-11-07 14:24:53 --> Router Class Initialized
+ERROR - 2013-11-07 14:24:53 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:24:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:24:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:24:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:24:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:24:53 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:24:53 --> Output Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Input Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:24:54 --> Language Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:24:54 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:24:54 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:24:54 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Session Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:24:54 --> Session routines successfully run
+DEBUG - 2013-11-07 14:24:54 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:54 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:54 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:54 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:54 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:24:54 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:54 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:55 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:55 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:24:55 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:24:55 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:24:55 --> Email Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:55 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:24:55 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:24:55 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:24:55 --> Config Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:24:55 --> URI Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> Router Class Initialized
+ERROR - 2013-11-07 14:24:55 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:24:55 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:24:55 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:24:55 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:24:55 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:24:55 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:24:55 --> Output Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> Input Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:24:55 --> Language Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:24:55 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:24:55 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:24:55 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:24:55 --> Session Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:24:56 --> Session routines successfully run
+DEBUG - 2013-11-07 14:24:56 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:56 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:56 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:56 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+ERROR - 2013-11-07 14:24:56 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:56 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:56 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:56 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:56 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:56 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:56 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:24:56 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:24:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:24:56 --> Email Class Initialized
+DEBUG - 2013-11-07 14:24:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:24:56 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:24:57 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:24:57 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:24:57 --> File loaded: application/views/all_common/drag_drop_script.php
+DEBUG - 2013-11-07 14:24:57 --> File loaded: application/views/page/create/editor_board.php
+DEBUG - 2013-11-07 14:24:57 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:24:57 --> Final output sent to browser
+DEBUG - 2013-11-07 14:24:57 --> Total execution time: 1.7646
+DEBUG - 2013-11-07 14:25:03 --> Config Class Initialized
+DEBUG - 2013-11-07 14:25:03 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:25:03 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:25:04 --> URI Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Router Class Initialized
+ERROR - 2013-11-07 14:25:04 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:25:04 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:04 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:04 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:25:04 --> Output Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Input Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:25:04 --> Language Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:25:04 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:25:04 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:25:04 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Session Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:25:04 --> Session routines successfully run
+DEBUG - 2013-11-07 14:25:04 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:25:04 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:04 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:25:04 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:04 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:25:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:04 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:04 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:25:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:04 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:05 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:05 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:05 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:05 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:05 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:05 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:05 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:25:05 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:25:05 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:25:05 --> Email Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:05 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:25:05 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:25:05 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:25:05 --> Config Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:25:05 --> URI Class Initialized
+DEBUG - 2013-11-07 14:25:05 --> Router Class Initialized
+ERROR - 2013-11-07 14:25:05 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:25:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:06 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:25:06 --> Output Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Input Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:25:06 --> Language Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:25:06 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:25:06 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:25:06 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Session Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:25:06 --> Session routines successfully run
+DEBUG - 2013-11-07 14:25:06 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:06 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:06 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:06 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:06 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:06 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:25:06 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:07 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:07 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:07 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:07 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:07 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:07 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:25:07 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:07 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:07 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:07 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:25:07 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:25:07 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:07 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:25:07 --> Email Class Initialized
+DEBUG - 2013-11-07 14:25:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:07 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:25:07 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:25:07 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:25:07 --> File loaded: application/views/page/create/layout_desc.php
+DEBUG - 2013-11-07 14:25:07 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:25:07 --> Final output sent to browser
+DEBUG - 2013-11-07 14:25:07 --> Total execution time: 1.7820
+DEBUG - 2013-11-07 14:25:25 --> Config Class Initialized
+DEBUG - 2013-11-07 14:25:25 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:25:25 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:25:25 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:25:25 --> URI Class Initialized
+DEBUG - 2013-11-07 14:25:25 --> Router Class Initialized
+ERROR - 2013-11-07 14:25:25 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:25:25 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:25 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:25 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:25 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:25 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:25:25 --> Output Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Input Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:25:26 --> Language Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:25:26 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:25:26 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:25:26 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Session Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:25:26 --> Session routines successfully run
+DEBUG - 2013-11-07 14:25:26 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:26 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:26 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:26 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:26 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:27 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:25:27 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:27 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:27 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:27 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:25:27 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:25:27 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:27 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:25:27 --> Email Class Initialized
+DEBUG - 2013-11-07 14:25:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:27 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:25:27 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:25:27 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:25:28 --> Config Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:25:28 --> URI Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Router Class Initialized
+ERROR - 2013-11-07 14:25:28 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:25:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:28 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:25:28 --> Output Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Input Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:25:28 --> Language Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:25:28 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:25:28 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:25:28 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Session Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:25:28 --> Session routines successfully run
+DEBUG - 2013-11-07 14:25:28 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:25:28 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:25:28 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:25:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:28 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:25:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:29 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:29 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:29 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:29 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:29 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:29 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:25:29 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:25:29 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:25:29 --> Email Class Initialized
+DEBUG - 2013-11-07 14:25:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:29 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:25:29 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:25:29 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:25:29 --> File loaded: application/views/page/create/create_page_success.php
+DEBUG - 2013-11-07 14:25:29 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:25:29 --> Final output sent to browser
+DEBUG - 2013-11-07 14:25:29 --> Total execution time: 1.7562
+DEBUG - 2013-11-07 14:25:33 --> Config Class Initialized
+DEBUG - 2013-11-07 14:25:33 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:25:33 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:25:33 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:25:33 --> URI Class Initialized
+DEBUG - 2013-11-07 14:25:33 --> Router Class Initialized
+ERROR - 2013-11-07 14:25:33 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:25:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:33 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:25:34 --> Output Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Input Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:25:34 --> Language Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:25:34 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:25:34 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:25:34 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Session Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:25:34 --> Session routines successfully run
+DEBUG - 2013-11-07 14:25:34 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:34 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:34 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 14:25:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:35 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:35 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:35 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:35 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:35 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 14:25:35 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 14:25:35 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:38 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 14:25:39 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 14:25:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:39 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 14:25:39 --> File loaded: application/views/all_common/content.php
+DEBUG - 2013-11-07 14:25:39 --> File loaded: application/views/all_common/header.php
+ERROR - 2013-11-07 14:25:39 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 14:25:39 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 14:25:39 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+ERROR - 2013-11-07 14:25:39 --> Severity: Notice  --> Undefined variable: newsletter_groups_p C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 187
+DEBUG - 2013-11-07 14:25:39 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 14:25:39 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 14:25:39 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 14:25:39 --> Final output sent to browser
+DEBUG - 2013-11-07 14:25:39 --> Total execution time: 6.0209
+DEBUG - 2013-11-07 14:25:44 --> Config Class Initialized
+DEBUG - 2013-11-07 14:25:44 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:25:44 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:25:44 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:25:44 --> URI Class Initialized
+DEBUG - 2013-11-07 14:25:44 --> Router Class Initialized
+ERROR - 2013-11-07 14:25:44 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:25:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:44 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:25:44 --> Output Class Initialized
+DEBUG - 2013-11-07 14:25:44 --> Input Class Initialized
+DEBUG - 2013-11-07 14:25:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:25:44 --> Language Class Initialized
+DEBUG - 2013-11-07 14:25:44 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:25:44 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:25:44 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:25:44 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:25:44 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Session Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:25:45 --> Session routines successfully run
+DEBUG - 2013-11-07 14:25:45 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:45 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:45 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:45 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:45 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:45 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:45 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:45 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 14:25:45 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 14:25:46 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 14:25:46 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 14:25:46 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:49 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 14:25:49 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 14:25:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:49 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 14:25:49 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 14:25:49 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 14:25:49 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 14:25:49 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 14:25:49 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 14:25:49 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 14:25:49 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 14:25:49 --> Final output sent to browser
+DEBUG - 2013-11-07 14:25:49 --> Total execution time: 5.1518
+DEBUG - 2013-11-07 14:25:49 --> Config Class Initialized
+DEBUG - 2013-11-07 14:25:49 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:25:49 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:25:49 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:25:49 --> URI Class Initialized
+DEBUG - 2013-11-07 14:25:49 --> Router Class Initialized
+ERROR - 2013-11-07 14:25:49 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:25:49 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:49 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:25:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:25:49 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:25:49 --> Output Class Initialized
+DEBUG - 2013-11-07 14:25:49 --> Input Class Initialized
+DEBUG - 2013-11-07 14:25:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:25:49 --> Language Class Initialized
+DEBUG - 2013-11-07 14:25:50 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:25:50 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:25:50 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:25:50 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:25:50 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:25:50 --> Session Class Initialized
+DEBUG - 2013-11-07 14:25:50 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:25:50 --> Session routines successfully run
+DEBUG - 2013-11-07 14:25:50 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:25:50 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:50 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:25:50 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:50 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:25:50 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:25:50 --> Model Class Initialized
+DEBUG - 2013-11-07 14:25:50 --> Model Class Initialized
+ERROR - 2013-11-07 14:25:50 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 14:35:44 --> Config Class Initialized
+DEBUG - 2013-11-07 14:35:44 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:35:44 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:35:44 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:35:44 --> URI Class Initialized
+DEBUG - 2013-11-07 14:35:44 --> Router Class Initialized
+ERROR - 2013-11-07 14:35:44 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:35:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:35:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:35:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:35:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:35:44 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:35:44 --> Output Class Initialized
+DEBUG - 2013-11-07 14:35:44 --> Input Class Initialized
+DEBUG - 2013-11-07 14:35:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:35:45 --> Language Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:35:45 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:35:45 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:35:45 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Session Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:35:45 --> Session routines successfully run
+DEBUG - 2013-11-07 14:35:45 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:35:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:35:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:35:45 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:35:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:35:45 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:35:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:46 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:35:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:35:46 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:35:46 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:35:46 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:35:46 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 14:35:46 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 14:35:46 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 14:35:46 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 14:35:46 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:35:49 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 14:35:49 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 14:35:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:35:49 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 14:35:49 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 14:35:49 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 14:35:49 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 14:35:49 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 14:35:49 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 14:35:49 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 14:35:49 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 14:35:49 --> Final output sent to browser
+DEBUG - 2013-11-07 14:35:49 --> Total execution time: 4.8604
+DEBUG - 2013-11-07 14:36:50 --> Config Class Initialized
+DEBUG - 2013-11-07 14:36:50 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:36:50 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:36:50 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:36:50 --> URI Class Initialized
+DEBUG - 2013-11-07 14:36:50 --> Router Class Initialized
+ERROR - 2013-11-07 14:36:50 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:36:50 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:36:50 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:36:50 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:36:50 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:36:50 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:36:50 --> Output Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Input Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:36:51 --> Language Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:36:51 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:36:51 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:36:51 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Session Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:36:51 --> Session routines successfully run
+DEBUG - 2013-11-07 14:36:51 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+ERROR - 2013-11-07 14:36:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+ERROR - 2013-11-07 14:36:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:36:51 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+ERROR - 2013-11-07 14:36:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:36:51 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:51 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:36:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:36:51 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:36:52 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:36:52 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:36:52 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:36:52 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:36:52 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:36:52 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:36:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:36:52 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:36:52 --> Email Class Initialized
+DEBUG - 2013-11-07 14:36:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:36:52 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:36:52 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:36:52 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:36:52 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 14:36:52 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:36:52 --> Final output sent to browser
+DEBUG - 2013-11-07 14:36:52 --> Total execution time: 1.8646
+DEBUG - 2013-11-07 14:37:29 --> Config Class Initialized
+DEBUG - 2013-11-07 14:37:29 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:37:29 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:37:29 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:37:29 --> URI Class Initialized
+DEBUG - 2013-11-07 14:37:29 --> Router Class Initialized
+ERROR - 2013-11-07 14:37:29 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:37:29 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:29 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:29 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:29 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:29 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:37:29 --> Output Class Initialized
+DEBUG - 2013-11-07 14:37:29 --> Input Class Initialized
+DEBUG - 2013-11-07 14:37:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:37:29 --> Language Class Initialized
+DEBUG - 2013-11-07 14:37:29 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:37:29 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:37:29 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:37:29 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:37:29 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:37:29 --> Session Class Initialized
+DEBUG - 2013-11-07 14:37:29 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:37:29 --> Session routines successfully run
+DEBUG - 2013-11-07 14:37:29 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:37:29 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:30 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:30 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:30 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:30 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:30 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:30 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:30 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:37:30 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:37:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:37:30 --> Email Class Initialized
+DEBUG - 2013-11-07 14:37:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:30 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:37:31 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:37:31 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:37:31 --> Final output sent to browser
+DEBUG - 2013-11-07 14:37:31 --> Total execution time: 1.8899
+DEBUG - 2013-11-07 14:37:31 --> Config Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:37:31 --> URI Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Router Class Initialized
+ERROR - 2013-11-07 14:37:31 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:37:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:31 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:31 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:31 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:37:31 --> Output Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Input Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:37:31 --> Language Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:37:31 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:37:31 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:37:31 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Session Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:37:31 --> Session routines successfully run
+DEBUG - 2013-11-07 14:37:31 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:37:31 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:31 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:37:31 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:31 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:37:31 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:32 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:32 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:32 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:32 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:32 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:32 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:32 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:32 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:37:32 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:37:32 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:37:32 --> Email Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:32 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:37:32 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:37:32 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:37:32 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-11-07 14:37:32 --> Config Class Initialized
+DEBUG - 2013-11-07 14:37:32 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:37:33 --> URI Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Router Class Initialized
+ERROR - 2013-11-07 14:37:33 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:37:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:33 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:37:33 --> Output Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Input Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:37:33 --> Language Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:37:33 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:37:33 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:37:33 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Session Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:37:33 --> Session routines successfully run
+DEBUG - 2013-11-07 14:37:33 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:37:33 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:37:33 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:37:33 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:33 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:37:33 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:33 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:33 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:37:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:34 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:37:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:34 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:34 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:34 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:37:34 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:34 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:34 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:34 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:37:34 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:37:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:34 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:37:34 --> Email Class Initialized
+DEBUG - 2013-11-07 14:37:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:34 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:37:34 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:37:34 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:37:34 --> File loaded: application/views/page/create/page_menu.php
+DEBUG - 2013-11-07 14:37:34 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:37:34 --> Final output sent to browser
+DEBUG - 2013-11-07 14:37:34 --> Total execution time: 1.7771
+DEBUG - 2013-11-07 14:37:38 --> Config Class Initialized
+DEBUG - 2013-11-07 14:37:38 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:37:38 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:37:38 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:37:38 --> URI Class Initialized
+DEBUG - 2013-11-07 14:37:38 --> Router Class Initialized
+ERROR - 2013-11-07 14:37:38 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:37:38 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:38 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:38 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:37:38 --> Output Class Initialized
+DEBUG - 2013-11-07 14:37:38 --> Input Class Initialized
+DEBUG - 2013-11-07 14:37:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:37:38 --> Language Class Initialized
+DEBUG - 2013-11-07 14:37:38 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:37:38 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:37:38 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:37:38 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:37:38 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:37:38 --> Session Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:37:39 --> Session routines successfully run
+DEBUG - 2013-11-07 14:37:39 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:39 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:39 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:39 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:39 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:39 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:39 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:39 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:37:39 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:37:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:37:39 --> Email Class Initialized
+DEBUG - 2013-11-07 14:37:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:39 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:37:39 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:37:39 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:37:40 --> Config Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:37:40 --> URI Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Router Class Initialized
+ERROR - 2013-11-07 14:37:40 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:37:40 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:40 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:40 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:37:40 --> Output Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Input Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:37:40 --> Language Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:37:40 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:37:40 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:37:40 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Session Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:37:40 --> Session routines successfully run
+DEBUG - 2013-11-07 14:37:40 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:37:40 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:40 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:37:40 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:40 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:37:40 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:40 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:40 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:37:40 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:40 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:37:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:40 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:37:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:41 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:41 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:41 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:37:41 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:41 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:41 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:41 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:37:41 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:37:41 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:41 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:37:41 --> Email Class Initialized
+DEBUG - 2013-11-07 14:37:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:41 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:37:41 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:37:41 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:37:41 --> File loaded: application/views/all_common/drag_drop_script.php
+DEBUG - 2013-11-07 14:37:41 --> File loaded: application/views/page/create/editor_board.php
+DEBUG - 2013-11-07 14:37:41 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:37:41 --> Final output sent to browser
+DEBUG - 2013-11-07 14:37:41 --> Total execution time: 1.4258
+DEBUG - 2013-11-07 14:37:51 --> Config Class Initialized
+DEBUG - 2013-11-07 14:37:51 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:37:51 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:37:51 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:37:51 --> URI Class Initialized
+DEBUG - 2013-11-07 14:37:51 --> Router Class Initialized
+ERROR - 2013-11-07 14:37:51 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:37:51 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:51 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:51 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:51 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:51 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:37:51 --> Output Class Initialized
+DEBUG - 2013-11-07 14:37:51 --> Input Class Initialized
+DEBUG - 2013-11-07 14:37:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:37:51 --> Language Class Initialized
+DEBUG - 2013-11-07 14:37:51 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:37:52 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:37:52 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:37:52 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Session Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:37:52 --> Session routines successfully run
+DEBUG - 2013-11-07 14:37:52 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:52 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:52 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:52 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:52 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:52 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:52 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:53 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:53 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:37:53 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:53 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:53 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:53 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:37:53 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:37:53 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:53 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:37:53 --> Email Class Initialized
+DEBUG - 2013-11-07 14:37:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:53 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:37:53 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:37:53 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:37:53 --> Config Class Initialized
+DEBUG - 2013-11-07 14:37:53 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:37:53 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:37:53 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:37:53 --> URI Class Initialized
+DEBUG - 2013-11-07 14:37:53 --> Router Class Initialized
+ERROR - 2013-11-07 14:37:53 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:37:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:37:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:37:53 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:37:53 --> Output Class Initialized
+DEBUG - 2013-11-07 14:37:53 --> Input Class Initialized
+DEBUG - 2013-11-07 14:37:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:37:53 --> Language Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:37:54 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:37:54 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:37:54 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Session Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:37:54 --> Session routines successfully run
+DEBUG - 2013-11-07 14:37:54 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:54 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+ERROR - 2013-11-07 14:37:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:54 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:54 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:55 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:55 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:37:55 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:55 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:55 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:55 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:37:55 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:37:55 --> Model Class Initialized
+DEBUG - 2013-11-07 14:37:55 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:37:55 --> Email Class Initialized
+DEBUG - 2013-11-07 14:37:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:37:55 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:37:55 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:37:55 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:37:55 --> File loaded: application/views/page/create/layout_desc.php
+DEBUG - 2013-11-07 14:37:55 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:37:55 --> Final output sent to browser
+DEBUG - 2013-11-07 14:37:55 --> Total execution time: 2.0493
+DEBUG - 2013-11-07 14:49:09 --> Config Class Initialized
+DEBUG - 2013-11-07 14:49:09 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:49:09 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:49:09 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:49:09 --> URI Class Initialized
+DEBUG - 2013-11-07 14:49:09 --> Router Class Initialized
+ERROR - 2013-11-07 14:49:09 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:49:09 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:09 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:09 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:09 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:09 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:49:09 --> Output Class Initialized
+DEBUG - 2013-11-07 14:49:09 --> Input Class Initialized
+DEBUG - 2013-11-07 14:49:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:49:09 --> Language Class Initialized
+DEBUG - 2013-11-07 14:49:09 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:49:09 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:49:09 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:49:09 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:49:09 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:49:09 --> Session Class Initialized
+DEBUG - 2013-11-07 14:49:09 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:49:09 --> Session routines successfully run
+DEBUG - 2013-11-07 14:49:09 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:49:09 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:49:09 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:09 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:49:09 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:10 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:10 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:10 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:10 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:10 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:10 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:10 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:49:10 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:49:10 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:49:10 --> Email Class Initialized
+DEBUG - 2013-11-07 14:49:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:10 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:49:11 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:49:11 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:49:11 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 14:49:11 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:49:11 --> Final output sent to browser
+DEBUG - 2013-11-07 14:49:11 --> Total execution time: 2.2498
+DEBUG - 2013-11-07 14:49:19 --> Config Class Initialized
+DEBUG - 2013-11-07 14:49:19 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:49:19 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:49:19 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:49:20 --> URI Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Router Class Initialized
+ERROR - 2013-11-07 14:49:20 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:49:20 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:20 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:20 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:20 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:20 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:49:20 --> Output Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Input Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:49:20 --> Language Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:49:20 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:49:20 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:49:20 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Session Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:49:20 --> Session routines successfully run
+DEBUG - 2013-11-07 14:49:20 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:49:20 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:49:20 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:49:20 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:20 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:20 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:49:21 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:21 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:21 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:21 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:21 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:21 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:21 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:21 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:49:21 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:49:21 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:49:21 --> Email Class Initialized
+DEBUG - 2013-11-07 14:49:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:21 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:49:21 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:49:21 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:49:21 --> Final output sent to browser
+DEBUG - 2013-11-07 14:49:21 --> Total execution time: 1.9151
+DEBUG - 2013-11-07 14:49:27 --> Config Class Initialized
+DEBUG - 2013-11-07 14:49:27 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:49:27 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:49:27 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:49:27 --> URI Class Initialized
+DEBUG - 2013-11-07 14:49:27 --> Router Class Initialized
+ERROR - 2013-11-07 14:49:27 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:49:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:27 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:49:27 --> Output Class Initialized
+DEBUG - 2013-11-07 14:49:27 --> Input Class Initialized
+DEBUG - 2013-11-07 14:49:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:49:28 --> Language Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:49:28 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:49:28 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:49:28 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Session Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:49:28 --> Session routines successfully run
+DEBUG - 2013-11-07 14:49:28 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:28 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:28 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:28 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:29 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:29 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:49:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:29 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:29 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:49:29 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:49:29 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:29 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:49:29 --> Email Class Initialized
+DEBUG - 2013-11-07 14:49:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:29 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:49:29 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:49:29 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:49:29 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-11-07 14:49:29 --> Config Class Initialized
+DEBUG - 2013-11-07 14:49:29 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:49:29 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:49:29 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:49:29 --> URI Class Initialized
+DEBUG - 2013-11-07 14:49:29 --> Router Class Initialized
+ERROR - 2013-11-07 14:49:29 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:49:29 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:29 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:29 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:29 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:29 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:49:29 --> Output Class Initialized
+DEBUG - 2013-11-07 14:49:29 --> Input Class Initialized
+DEBUG - 2013-11-07 14:49:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:49:29 --> Language Class Initialized
+DEBUG - 2013-11-07 14:49:29 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:49:30 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:49:30 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:49:30 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Session Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:49:30 --> Session routines successfully run
+DEBUG - 2013-11-07 14:49:30 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:30 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:30 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:30 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:30 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:49:30 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:30 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:30 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:30 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:49:31 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:49:31 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:31 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:49:31 --> Email Class Initialized
+DEBUG - 2013-11-07 14:49:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:31 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:49:31 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:49:31 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:49:31 --> File loaded: application/views/page/create/page_menu.php
+DEBUG - 2013-11-07 14:49:31 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:49:31 --> Final output sent to browser
+DEBUG - 2013-11-07 14:49:31 --> Total execution time: 1.8574
+DEBUG - 2013-11-07 14:49:35 --> Config Class Initialized
+DEBUG - 2013-11-07 14:49:35 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:49:35 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:49:35 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:49:35 --> URI Class Initialized
+DEBUG - 2013-11-07 14:49:35 --> Router Class Initialized
+ERROR - 2013-11-07 14:49:35 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:49:35 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:35 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:35 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:35 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:35 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:49:35 --> Output Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Input Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:49:36 --> Language Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:49:36 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:49:36 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:49:36 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Session Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:49:36 --> Session routines successfully run
+DEBUG - 2013-11-07 14:49:36 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:36 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:36 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:36 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:36 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:36 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:36 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:36 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:36 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:37 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:37 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:37 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:37 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:49:37 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:49:37 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:49:37 --> Email Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:37 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:49:37 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:49:37 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:49:37 --> Config Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:49:37 --> URI Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> Router Class Initialized
+ERROR - 2013-11-07 14:49:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:49:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:37 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:49:37 --> Output Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> Input Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:49:37 --> Language Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:49:37 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:49:37 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:49:37 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:49:37 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Session Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:49:38 --> Session routines successfully run
+DEBUG - 2013-11-07 14:49:38 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:38 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:38 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:38 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:38 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:38 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:38 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:38 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:38 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:38 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:49:38 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:49:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:49:38 --> Email Class Initialized
+DEBUG - 2013-11-07 14:49:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:38 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:49:39 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:49:39 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:49:39 --> File loaded: application/views/all_common/drag_drop_script.php
+DEBUG - 2013-11-07 14:49:39 --> File loaded: application/views/page/create/editor_board.php
+DEBUG - 2013-11-07 14:49:39 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:49:39 --> Final output sent to browser
+DEBUG - 2013-11-07 14:49:39 --> Total execution time: 1.8202
+DEBUG - 2013-11-07 14:49:48 --> Config Class Initialized
+DEBUG - 2013-11-07 14:49:48 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:49:48 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:49:48 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:49:48 --> URI Class Initialized
+DEBUG - 2013-11-07 14:49:48 --> Router Class Initialized
+ERROR - 2013-11-07 14:49:48 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:49:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:48 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:49:48 --> Output Class Initialized
+DEBUG - 2013-11-07 14:49:48 --> Input Class Initialized
+DEBUG - 2013-11-07 14:49:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:49:48 --> Language Class Initialized
+DEBUG - 2013-11-07 14:49:48 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:49:48 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:49:49 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:49:49 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:49:49 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Session Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:49:49 --> Session routines successfully run
+DEBUG - 2013-11-07 14:49:49 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:49 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:49 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:49 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:49 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:49 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:49 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:49 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:50 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:49:50 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:50 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:50 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:50 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:49:50 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:49:50 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:50 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:49:50 --> Email Class Initialized
+DEBUG - 2013-11-07 14:49:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:50 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:49:50 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:49:50 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:49:50 --> Config Class Initialized
+DEBUG - 2013-11-07 14:49:50 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:49:50 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:49:50 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:49:50 --> URI Class Initialized
+DEBUG - 2013-11-07 14:49:50 --> Router Class Initialized
+ERROR - 2013-11-07 14:49:50 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:49:50 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:50 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:49:50 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:50 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:49:50 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:49:50 --> Output Class Initialized
+DEBUG - 2013-11-07 14:49:50 --> Input Class Initialized
+DEBUG - 2013-11-07 14:49:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:49:50 --> Language Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:49:51 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:49:51 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:49:51 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Session Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:49:51 --> Session routines successfully run
+DEBUG - 2013-11-07 14:49:51 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:51 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+ERROR - 2013-11-07 14:49:51 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:51 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:51 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:52 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:52 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:49:52 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:52 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:52 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:52 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:49:52 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:49:52 --> Model Class Initialized
+DEBUG - 2013-11-07 14:49:52 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:49:52 --> Email Class Initialized
+DEBUG - 2013-11-07 14:49:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:49:52 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:49:52 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:49:52 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:49:52 --> File loaded: application/views/page/create/layout_desc.php
+DEBUG - 2013-11-07 14:49:52 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:49:52 --> Final output sent to browser
+DEBUG - 2013-11-07 14:49:52 --> Total execution time: 2.1265
+DEBUG - 2013-11-07 14:50:11 --> Config Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:50:11 --> URI Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> Router Class Initialized
+ERROR - 2013-11-07 14:50:11 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:50:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:50:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:50:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:50:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:50:11 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:50:11 --> Output Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> Input Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:50:11 --> Language Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:50:11 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:50:11 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:50:11 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> Session Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:50:11 --> Session routines successfully run
+DEBUG - 2013-11-07 14:50:11 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:50:11 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:11 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:50:11 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:11 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:50:11 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:11 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:12 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:12 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:12 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:12 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:12 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:12 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:12 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:50:12 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:50:12 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:50:12 --> Email Class Initialized
+DEBUG - 2013-11-07 14:50:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:12 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:50:12 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:50:12 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:50:13 --> Config Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:50:13 --> URI Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Router Class Initialized
+ERROR - 2013-11-07 14:50:13 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:50:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:50:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:50:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:50:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:50:13 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:50:13 --> Output Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Input Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:50:13 --> Language Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:50:13 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:50:13 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:50:13 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Session Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:50:13 --> Session routines successfully run
+DEBUG - 2013-11-07 14:50:13 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:50:13 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:13 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:50:13 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:13 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:50:13 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:13 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:13 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:14 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:50:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:14 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:14 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:14 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:14 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:14 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:14 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:50:14 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:50:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:50:14 --> Email Class Initialized
+DEBUG - 2013-11-07 14:50:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:14 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:50:14 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:50:14 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:50:14 --> File loaded: application/views/page/create/create_page_success.php
+DEBUG - 2013-11-07 14:50:14 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:50:14 --> Final output sent to browser
+DEBUG - 2013-11-07 14:50:14 --> Total execution time: 1.7895
+DEBUG - 2013-11-07 14:50:25 --> Config Class Initialized
+DEBUG - 2013-11-07 14:50:25 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:50:25 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:50:25 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:50:25 --> URI Class Initialized
+DEBUG - 2013-11-07 14:50:25 --> Router Class Initialized
+ERROR - 2013-11-07 14:50:25 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:50:25 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:50:25 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:50:25 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:50:25 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:50:25 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:50:26 --> Output Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Input Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:50:26 --> Language Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:50:26 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:50:26 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:50:26 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Session Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:50:26 --> Session routines successfully run
+DEBUG - 2013-11-07 14:50:26 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:50:26 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:50:26 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:50:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:26 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:50:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:50:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:27 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:50:27 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:27 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 14:50:27 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:27 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:27 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:27 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:27 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:27 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:27 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:27 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:27 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:27 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:27 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 14:50:27 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 14:50:27 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 14:50:27 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 14:50:27 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:30 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 14:50:30 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 14:50:30 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:30 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 14:50:30 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 14:50:30 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 14:50:30 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 14:50:30 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 14:50:30 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 14:50:30 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 14:50:30 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 14:50:30 --> Final output sent to browser
+DEBUG - 2013-11-07 14:50:30 --> Total execution time: 5.0180
+DEBUG - 2013-11-07 14:50:33 --> Config Class Initialized
+DEBUG - 2013-11-07 14:50:33 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:50:33 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:50:33 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:50:33 --> URI Class Initialized
+DEBUG - 2013-11-07 14:50:33 --> Router Class Initialized
+ERROR - 2013-11-07 14:50:33 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:50:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:50:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:50:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:50:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:50:33 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:50:33 --> Output Class Initialized
+DEBUG - 2013-11-07 14:50:33 --> Input Class Initialized
+DEBUG - 2013-11-07 14:50:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:50:33 --> Language Class Initialized
+DEBUG - 2013-11-07 14:50:33 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:50:33 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:50:33 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:50:33 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:50:34 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Session Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:50:34 --> Session routines successfully run
+DEBUG - 2013-11-07 14:50:34 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:34 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:34 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:34 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:35 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:35 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:35 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:35 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:35 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 14:50:35 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 14:50:35 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 14:50:35 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 14:50:35 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:38 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 14:50:38 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 14:50:38 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:38 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 14:50:38 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 14:50:38 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 14:50:38 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 14:50:38 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 14:50:38 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 14:50:38 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 14:50:38 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 14:50:38 --> Final output sent to browser
+DEBUG - 2013-11-07 14:50:38 --> Total execution time: 5.1505
+DEBUG - 2013-11-07 14:50:38 --> Config Class Initialized
+DEBUG - 2013-11-07 14:50:38 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:50:38 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:50:38 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:50:38 --> URI Class Initialized
+DEBUG - 2013-11-07 14:50:38 --> Router Class Initialized
+ERROR - 2013-11-07 14:50:38 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:50:38 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:50:39 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:50:39 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:50:39 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:50:39 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:50:39 --> Output Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Input Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:50:39 --> Language Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:50:39 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:50:39 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:50:39 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Session Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:50:39 --> Session routines successfully run
+DEBUG - 2013-11-07 14:50:39 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:50:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:50:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:50:39 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Model Class Initialized
+DEBUG - 2013-11-07 14:50:39 --> Model Class Initialized
+ERROR - 2013-11-07 14:50:39 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 14:54:21 --> Config Class Initialized
+DEBUG - 2013-11-07 14:54:21 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:54:21 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:54:21 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:54:21 --> URI Class Initialized
+DEBUG - 2013-11-07 14:54:21 --> Router Class Initialized
+ERROR - 2013-11-07 14:54:21 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:54:21 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:22 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:22 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:22 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:22 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:54:22 --> Output Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Input Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:54:22 --> Language Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:54:22 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:54:22 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:54:22 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Session Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:54:22 --> Session routines successfully run
+DEBUG - 2013-11-07 14:54:22 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:54:22 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:22 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:54:22 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:22 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:54:22 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:22 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:22 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:54:22 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:22 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:22 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:23 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:23 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:23 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:23 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:23 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:23 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:54:23 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:54:23 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:54:23 --> Email Class Initialized
+DEBUG - 2013-11-07 14:54:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:23 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:54:23 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:54:23 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:54:23 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 14:54:24 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:54:24 --> Final output sent to browser
+DEBUG - 2013-11-07 14:54:24 --> Total execution time: 2.2750
+DEBUG - 2013-11-07 14:54:34 --> Config Class Initialized
+DEBUG - 2013-11-07 14:54:34 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:54:34 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:54:34 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:54:34 --> URI Class Initialized
+DEBUG - 2013-11-07 14:54:34 --> Router Class Initialized
+ERROR - 2013-11-07 14:54:34 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:54:34 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:34 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:34 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:34 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:54:34 --> Output Class Initialized
+DEBUG - 2013-11-07 14:54:34 --> Input Class Initialized
+DEBUG - 2013-11-07 14:54:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:54:35 --> Language Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:54:35 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:54:35 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:54:35 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Session Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:54:35 --> Session routines successfully run
+DEBUG - 2013-11-07 14:54:35 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:35 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:35 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:35 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:35 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:36 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:36 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:36 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:36 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:54:36 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:36 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:36 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:36 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:54:36 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:54:36 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:36 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:54:36 --> Email Class Initialized
+DEBUG - 2013-11-07 14:54:36 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:36 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:54:36 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:54:36 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:54:36 --> Final output sent to browser
+DEBUG - 2013-11-07 14:54:36 --> Total execution time: 1.9508
+DEBUG - 2013-11-07 14:54:44 --> Config Class Initialized
+DEBUG - 2013-11-07 14:54:44 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:54:44 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:54:44 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:54:44 --> URI Class Initialized
+DEBUG - 2013-11-07 14:54:44 --> Router Class Initialized
+ERROR - 2013-11-07 14:54:44 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:54:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:44 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:54:44 --> Output Class Initialized
+DEBUG - 2013-11-07 14:54:44 --> Input Class Initialized
+DEBUG - 2013-11-07 14:54:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:54:44 --> Language Class Initialized
+DEBUG - 2013-11-07 14:54:44 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:54:44 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:54:44 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:54:44 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:54:45 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Session Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:54:45 --> Session routines successfully run
+DEBUG - 2013-11-07 14:54:45 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:45 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:45 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:45 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:46 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:46 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:54:46 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:46 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:46 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:46 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:54:46 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:54:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:46 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:54:46 --> Email Class Initialized
+DEBUG - 2013-11-07 14:54:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:46 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:54:46 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:54:46 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:54:46 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-11-07 14:54:46 --> Config Class Initialized
+DEBUG - 2013-11-07 14:54:46 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:54:46 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:54:46 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:54:46 --> URI Class Initialized
+DEBUG - 2013-11-07 14:54:46 --> Router Class Initialized
+ERROR - 2013-11-07 14:54:46 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:54:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:47 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:54:47 --> Output Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Input Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:54:47 --> Language Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:54:47 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:54:47 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:54:47 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Session Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:54:47 --> Session routines successfully run
+DEBUG - 2013-11-07 14:54:47 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:54:47 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:47 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:54:47 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:47 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:54:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:47 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:47 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:54:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:47 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:48 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:48 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:48 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:48 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:48 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:48 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:54:48 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:54:48 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:54:48 --> Email Class Initialized
+DEBUG - 2013-11-07 14:54:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:48 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:54:48 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:54:48 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:54:48 --> File loaded: application/views/page/create/page_menu.php
+DEBUG - 2013-11-07 14:54:48 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:54:48 --> Final output sent to browser
+DEBUG - 2013-11-07 14:54:48 --> Total execution time: 2.1876
+DEBUG - 2013-11-07 14:54:55 --> Config Class Initialized
+DEBUG - 2013-11-07 14:54:55 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:54:55 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:54:55 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:54:56 --> URI Class Initialized
+DEBUG - 2013-11-07 14:54:56 --> Router Class Initialized
+ERROR - 2013-11-07 14:54:56 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:54:56 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:56 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:56 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:56 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:56 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:54:56 --> Output Class Initialized
+DEBUG - 2013-11-07 14:54:56 --> Input Class Initialized
+DEBUG - 2013-11-07 14:54:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:54:56 --> Language Class Initialized
+DEBUG - 2013-11-07 14:54:56 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:54:56 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:54:56 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:54:56 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:54:56 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:54:56 --> Session Class Initialized
+DEBUG - 2013-11-07 14:54:56 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:54:56 --> Session routines successfully run
+DEBUG - 2013-11-07 14:54:56 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:54:56 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:56 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:54:56 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:56 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:54:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:56 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:57 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:57 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:57 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:57 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:57 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:57 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:57 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:54:57 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:54:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:54:57 --> Email Class Initialized
+DEBUG - 2013-11-07 14:54:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:57 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:54:58 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:54:58 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:54:58 --> Config Class Initialized
+DEBUG - 2013-11-07 14:54:58 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:54:58 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:54:58 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:54:58 --> URI Class Initialized
+DEBUG - 2013-11-07 14:54:58 --> Router Class Initialized
+ERROR - 2013-11-07 14:54:58 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:54:58 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:58 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:54:58 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:58 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:54:58 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:54:58 --> Output Class Initialized
+DEBUG - 2013-11-07 14:54:58 --> Input Class Initialized
+DEBUG - 2013-11-07 14:54:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:54:58 --> Language Class Initialized
+DEBUG - 2013-11-07 14:54:58 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:54:58 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:54:58 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:54:58 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:54:58 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:54:58 --> Session Class Initialized
+DEBUG - 2013-11-07 14:54:58 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:54:58 --> Session routines successfully run
+DEBUG - 2013-11-07 14:54:59 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:59 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:59 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:59 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+ERROR - 2013-11-07 14:54:59 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:59 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:59 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:59 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:59 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:59 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:54:59 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:54:59 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:54:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:54:59 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:54:59 --> Email Class Initialized
+DEBUG - 2013-11-07 14:55:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:00 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:55:00 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:55:00 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:55:00 --> File loaded: application/views/all_common/drag_drop_script.php
+DEBUG - 2013-11-07 14:55:00 --> File loaded: application/views/page/create/editor_board.php
+DEBUG - 2013-11-07 14:55:00 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:55:00 --> Final output sent to browser
+DEBUG - 2013-11-07 14:55:00 --> Total execution time: 2.1486
+DEBUG - 2013-11-07 14:55:12 --> Config Class Initialized
+DEBUG - 2013-11-07 14:55:12 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:55:13 --> URI Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Router Class Initialized
+ERROR - 2013-11-07 14:55:13 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:55:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:55:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:55:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:55:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:55:13 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:55:13 --> Output Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Input Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:55:13 --> Language Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:55:13 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:55:13 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:55:13 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Session Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:55:13 --> Session routines successfully run
+DEBUG - 2013-11-07 14:55:13 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:55:13 --> Model Class Initialized
+ERROR - 2013-11-07 14:55:13 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:55:13 --> Model Class Initialized
+ERROR - 2013-11-07 14:55:13 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:55:13 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:13 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:55:13 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Model Class Initialized
+ERROR - 2013-11-07 14:55:14 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:55:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:14 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:14 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:14 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:14 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:14 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:14 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:55:14 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:55:14 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:55:14 --> Email Class Initialized
+DEBUG - 2013-11-07 14:55:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:14 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:55:14 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:55:14 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:55:14 --> Config Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:55:15 --> URI Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Router Class Initialized
+ERROR - 2013-11-07 14:55:15 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:55:15 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:55:15 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:55:15 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:55:15 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:55:15 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:55:15 --> Output Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Input Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:55:15 --> Language Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:55:15 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:55:15 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:55:15 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Session Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:55:15 --> Session routines successfully run
+DEBUG - 2013-11-07 14:55:15 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:55:15 --> Model Class Initialized
+ERROR - 2013-11-07 14:55:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:55:15 --> Model Class Initialized
+ERROR - 2013-11-07 14:55:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:55:15 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:15 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Model Class Initialized
+ERROR - 2013-11-07 14:55:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:55:15 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:15 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:16 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:16 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:16 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:16 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:16 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:16 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:16 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:55:16 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:55:16 --> Model Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:55:16 --> Email Class Initialized
+DEBUG - 2013-11-07 14:55:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:55:16 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:55:16 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:55:16 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:55:16 --> File loaded: application/views/page/create/layout_desc.php
+DEBUG - 2013-11-07 14:55:16 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:55:16 --> Final output sent to browser
+DEBUG - 2013-11-07 14:55:16 --> Total execution time: 1.8144
+DEBUG - 2013-11-07 14:56:43 --> Config Class Initialized
+DEBUG - 2013-11-07 14:56:43 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:56:43 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:56:43 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:56:43 --> URI Class Initialized
+DEBUG - 2013-11-07 14:56:43 --> Router Class Initialized
+ERROR - 2013-11-07 14:56:43 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:56:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:56:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:56:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:56:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:56:44 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:56:44 --> Output Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Input Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:56:44 --> Language Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:56:44 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:56:44 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:56:44 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Session Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:56:44 --> Session routines successfully run
+DEBUG - 2013-11-07 14:56:44 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:56:44 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:44 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:56:44 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:44 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:56:44 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:44 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:44 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:56:44 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:44 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:45 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:45 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:45 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:45 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:45 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:45 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:56:45 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:56:45 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:56:45 --> Email Class Initialized
+DEBUG - 2013-11-07 14:56:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:45 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:56:45 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:56:45 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:56:46 --> Config Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:56:46 --> URI Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> Router Class Initialized
+ERROR - 2013-11-07 14:56:46 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:56:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:56:46 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:56:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:56:46 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:56:46 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:56:46 --> Output Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> Input Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:56:46 --> Language Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:56:46 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:56:46 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:56:46 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> Session Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:56:46 --> Session routines successfully run
+DEBUG - 2013-11-07 14:56:46 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:56:46 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:56:46 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:56:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:46 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:47 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:47 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:47 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:47 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:47 --> Upload Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:47 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:47 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:47 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 14:56:47 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 14:56:47 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 14:56:47 --> Email Class Initialized
+DEBUG - 2013-11-07 14:56:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:47 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 14:56:47 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 14:56:47 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 14:56:47 --> File loaded: application/views/page/create/create_page_success.php
+DEBUG - 2013-11-07 14:56:48 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 14:56:48 --> Final output sent to browser
+DEBUG - 2013-11-07 14:56:48 --> Total execution time: 2.0601
+DEBUG - 2013-11-07 14:56:52 --> Config Class Initialized
+DEBUG - 2013-11-07 14:56:52 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:56:52 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:56:52 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:56:52 --> URI Class Initialized
+DEBUG - 2013-11-07 14:56:52 --> Router Class Initialized
+ERROR - 2013-11-07 14:56:52 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:56:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:56:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:56:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:56:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:56:52 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:56:52 --> Output Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Input Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:56:53 --> Language Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:56:53 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:56:53 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:56:53 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Session Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:56:53 --> Session routines successfully run
+DEBUG - 2013-11-07 14:56:53 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:56:53 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:53 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:56:53 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:53 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:56:53 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:53 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:53 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:56:53 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:53 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:53 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:56:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:54 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:56:54 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 14:56:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:54 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:54 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:54 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:54 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:54 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:54 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 14:56:54 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 14:56:54 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 14:56:54 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 14:56:54 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:57 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 14:56:57 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 14:56:57 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:57 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 14:56:57 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 14:56:57 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 14:56:57 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 14:56:57 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 14:56:57 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 14:56:57 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 14:56:57 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 14:56:58 --> Final output sent to browser
+DEBUG - 2013-11-07 14:56:58 --> Total execution time: 5.4170
+DEBUG - 2013-11-07 14:56:58 --> Config Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:56:58 --> URI Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> Router Class Initialized
+ERROR - 2013-11-07 14:56:58 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:56:58 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:56:58 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:56:58 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:56:58 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:56:58 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:56:58 --> Output Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> Input Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:56:58 --> Language Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:56:58 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:56:58 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:56:58 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> Session Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:56:58 --> Session routines successfully run
+DEBUG - 2013-11-07 14:56:58 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:56:58 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:58 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:59 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:56:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:56:59 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:56:59 --> Model Class Initialized
+DEBUG - 2013-11-07 14:56:59 --> Model Class Initialized
+ERROR - 2013-11-07 14:56:59 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 14:57:00 --> Config Class Initialized
+DEBUG - 2013-11-07 14:57:00 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:57:00 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:57:00 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:57:00 --> URI Class Initialized
+DEBUG - 2013-11-07 14:57:00 --> Router Class Initialized
+ERROR - 2013-11-07 14:57:00 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:57:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:57:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:57:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:57:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:57:00 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:57:00 --> Output Class Initialized
+DEBUG - 2013-11-07 14:57:00 --> Input Class Initialized
+DEBUG - 2013-11-07 14:57:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:57:00 --> Language Class Initialized
+DEBUG - 2013-11-07 14:57:00 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:57:00 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:57:00 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:57:00 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:57:00 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:57:00 --> Session Class Initialized
+DEBUG - 2013-11-07 14:57:00 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:57:00 --> Session routines successfully run
+DEBUG - 2013-11-07 14:57:00 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:57:00 --> Model Class Initialized
+ERROR - 2013-11-07 14:57:00 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+ERROR - 2013-11-07 14:57:01 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:57:01 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+ERROR - 2013-11-07 14:57:01 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Pagination Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:57:01 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+ERROR - 2013-11-07 14:57:01 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:01 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:57:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:57:01 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:57:01 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:57:01 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:57:01 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 14:57:01 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 14:57:01 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 14:57:01 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 14:57:01 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:57:04 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 14:57:04 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 14:57:04 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 14:57:04 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 14:57:04 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 14:57:04 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 14:57:04 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 14:57:04 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 14:57:04 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 14:57:04 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 14:57:04 --> Final output sent to browser
+DEBUG - 2013-11-07 14:57:04 --> Total execution time: 3.9110
+DEBUG - 2013-11-07 14:57:04 --> Config Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> Hooks Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 14:57:04 --> URI Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> Router Class Initialized
+ERROR - 2013-11-07 14:57:04 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 14:57:04 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:57:04 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 14:57:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:57:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 14:57:04 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 14:57:04 --> Output Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> Input Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 14:57:04 --> Language Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> Loader Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 14:57:04 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 14:57:04 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 14:57:04 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> Session Class Initialized
+DEBUG - 2013-11-07 14:57:04 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 14:57:04 --> Session routines successfully run
+DEBUG - 2013-11-07 14:57:04 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 14:57:05 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:05 --> Model Class Initialized
+ERROR - 2013-11-07 14:57:05 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 14:57:05 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:05 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:05 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 14:57:05 --> Controller Class Initialized
+DEBUG - 2013-11-07 14:57:05 --> Model Class Initialized
+DEBUG - 2013-11-07 14:57:05 --> Model Class Initialized
+ERROR - 2013-11-07 14:57:05 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 15:00:47 --> Config Class Initialized
+DEBUG - 2013-11-07 15:00:47 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:00:47 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:00:48 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:00:48 --> URI Class Initialized
+DEBUG - 2013-11-07 15:00:48 --> Router Class Initialized
+ERROR - 2013-11-07 15:00:48 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:00:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:00:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:00:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:00:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:00:48 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:00:48 --> Output Class Initialized
+DEBUG - 2013-11-07 15:00:48 --> Input Class Initialized
+DEBUG - 2013-11-07 15:00:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:00:48 --> Language Class Initialized
+DEBUG - 2013-11-07 15:00:48 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:00:48 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:00:48 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:00:48 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:00:48 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:00:48 --> Session Class Initialized
+DEBUG - 2013-11-07 15:00:48 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:00:48 --> Session routines successfully run
+DEBUG - 2013-11-07 15:00:48 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:00:48 --> Model Class Initialized
+ERROR - 2013-11-07 15:00:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:00:48 --> Model Class Initialized
+ERROR - 2013-11-07 15:00:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:00:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:00:48 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+ERROR - 2013-11-07 15:00:49 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:00:49 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:00:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:00:49 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:00:49 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:00:49 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:00:49 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:00:49 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:00:49 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:00:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:00:49 --> Email Class Initialized
+DEBUG - 2013-11-07 15:00:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:00:49 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:00:50 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:00:50 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:00:50 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 15:00:50 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:00:50 --> Final output sent to browser
+DEBUG - 2013-11-07 15:00:50 --> Total execution time: 2.3594
+DEBUG - 2013-11-07 15:01:32 --> Config Class Initialized
+DEBUG - 2013-11-07 15:01:32 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:01:32 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:01:32 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:01:32 --> URI Class Initialized
+DEBUG - 2013-11-07 15:01:32 --> Router Class Initialized
+ERROR - 2013-11-07 15:01:32 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:01:32 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:32 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:32 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:32 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:32 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:01:32 --> Output Class Initialized
+DEBUG - 2013-11-07 15:01:32 --> Input Class Initialized
+DEBUG - 2013-11-07 15:01:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:01:32 --> Language Class Initialized
+DEBUG - 2013-11-07 15:01:32 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:01:32 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:01:32 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:01:32 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:01:32 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:01:32 --> Session Class Initialized
+DEBUG - 2013-11-07 15:01:32 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:01:32 --> Session routines successfully run
+DEBUG - 2013-11-07 15:01:32 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:01:32 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:32 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:33 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:33 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:33 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:33 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:01:33 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:33 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:33 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:33 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:01:33 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:01:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:34 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:01:34 --> Email Class Initialized
+DEBUG - 2013-11-07 15:01:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:34 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:01:34 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:01:34 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:01:34 --> Final output sent to browser
+DEBUG - 2013-11-07 15:01:34 --> Total execution time: 2.2299
+DEBUG - 2013-11-07 15:01:36 --> Config Class Initialized
+DEBUG - 2013-11-07 15:01:36 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:01:36 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:01:36 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:01:36 --> URI Class Initialized
+DEBUG - 2013-11-07 15:01:36 --> Router Class Initialized
+ERROR - 2013-11-07 15:01:36 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:01:36 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:36 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:36 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:36 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:36 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:01:37 --> Output Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Input Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:01:37 --> Language Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:01:37 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:01:37 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:01:37 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Session Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:01:37 --> Session routines successfully run
+DEBUG - 2013-11-07 15:01:37 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:37 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:37 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:01:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:38 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:38 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:38 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:38 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:01:38 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:01:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:01:38 --> Email Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:38 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:01:38 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:01:38 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:01:38 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-11-07 15:01:38 --> Config Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:01:38 --> URI Class Initialized
+DEBUG - 2013-11-07 15:01:38 --> Router Class Initialized
+ERROR - 2013-11-07 15:01:38 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:01:38 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:38 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:38 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:38 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:01:39 --> Output Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Input Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:01:39 --> Language Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:01:39 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:01:39 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:01:39 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Session Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:01:39 --> Session routines successfully run
+DEBUG - 2013-11-07 15:01:39 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:39 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:39 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:39 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:40 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:40 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:01:40 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:40 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:40 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:40 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:01:40 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:01:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:40 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:01:40 --> Email Class Initialized
+DEBUG - 2013-11-07 15:01:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:40 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:01:40 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:01:40 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:01:40 --> File loaded: application/views/page/create/page_menu.php
+DEBUG - 2013-11-07 15:01:40 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:01:40 --> Final output sent to browser
+DEBUG - 2013-11-07 15:01:40 --> Total execution time: 1.8360
+DEBUG - 2013-11-07 15:01:44 --> Config Class Initialized
+DEBUG - 2013-11-07 15:01:44 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:01:44 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:01:44 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:01:44 --> URI Class Initialized
+DEBUG - 2013-11-07 15:01:45 --> Router Class Initialized
+ERROR - 2013-11-07 15:01:45 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:01:45 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:45 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:45 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:45 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:45 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:01:45 --> Output Class Initialized
+DEBUG - 2013-11-07 15:01:45 --> Input Class Initialized
+DEBUG - 2013-11-07 15:01:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:01:45 --> Language Class Initialized
+DEBUG - 2013-11-07 15:01:45 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:01:45 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:01:45 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:01:45 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:01:45 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:01:45 --> Session Class Initialized
+DEBUG - 2013-11-07 15:01:45 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:01:45 --> Session routines successfully run
+DEBUG - 2013-11-07 15:01:45 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:01:45 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:01:45 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:01:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:45 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:46 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:46 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:46 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:46 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:46 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:46 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:01:46 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:01:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:46 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:01:47 --> Email Class Initialized
+DEBUG - 2013-11-07 15:01:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:47 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:01:47 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:01:47 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:01:47 --> Config Class Initialized
+DEBUG - 2013-11-07 15:01:47 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:01:47 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:01:47 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:01:47 --> URI Class Initialized
+DEBUG - 2013-11-07 15:01:47 --> Router Class Initialized
+ERROR - 2013-11-07 15:01:47 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:01:47 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:47 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:47 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:01:47 --> Output Class Initialized
+DEBUG - 2013-11-07 15:01:47 --> Input Class Initialized
+DEBUG - 2013-11-07 15:01:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:01:47 --> Language Class Initialized
+DEBUG - 2013-11-07 15:01:47 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:01:47 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:01:47 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:01:47 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:01:47 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Session Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:01:48 --> Session routines successfully run
+DEBUG - 2013-11-07 15:01:48 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:48 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:48 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:48 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:48 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:01:48 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:49 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:49 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:49 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:01:49 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:01:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:49 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:01:49 --> Email Class Initialized
+DEBUG - 2013-11-07 15:01:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:49 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:01:49 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:01:49 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:01:49 --> File loaded: application/views/all_common/drag_drop_script.php
+DEBUG - 2013-11-07 15:01:49 --> File loaded: application/views/page/create/editor_board.php
+DEBUG - 2013-11-07 15:01:49 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:01:49 --> Final output sent to browser
+DEBUG - 2013-11-07 15:01:49 --> Total execution time: 2.3680
+DEBUG - 2013-11-07 15:01:55 --> Config Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:01:55 --> URI Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Router Class Initialized
+ERROR - 2013-11-07 15:01:55 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:01:55 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:55 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:55 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:55 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:55 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:01:55 --> Output Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Input Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:01:55 --> Language Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:01:55 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:01:55 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:01:55 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Session Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:01:55 --> Session routines successfully run
+DEBUG - 2013-11-07 15:01:55 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:01:55 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:55 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:01:55 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:55 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:01:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:56 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:56 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:56 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:56 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:56 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:56 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:56 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:56 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:01:56 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:01:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:01:56 --> Email Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:56 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:01:56 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:01:56 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:01:56 --> Config Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:01:56 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:01:56 --> URI Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Router Class Initialized
+ERROR - 2013-11-07 15:01:57 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:01:57 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:57 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:01:57 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:57 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:01:57 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:01:57 --> Output Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Input Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:01:57 --> Language Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:01:57 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:01:57 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:01:57 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Session Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:01:57 --> Session routines successfully run
+DEBUG - 2013-11-07 15:01:57 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:57 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+ERROR - 2013-11-07 15:01:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:57 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:58 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:58 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:58 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:58 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:58 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:01:58 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:58 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:58 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:58 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:01:58 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:01:58 --> Model Class Initialized
+DEBUG - 2013-11-07 15:01:58 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:01:58 --> Email Class Initialized
+DEBUG - 2013-11-07 15:01:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:01:58 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:01:58 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:01:58 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:01:58 --> File loaded: application/views/page/create/layout_desc.php
+DEBUG - 2013-11-07 15:01:58 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:01:58 --> Final output sent to browser
+DEBUG - 2013-11-07 15:01:58 --> Total execution time: 1.7103
+DEBUG - 2013-11-07 15:02:10 --> Config Class Initialized
+DEBUG - 2013-11-07 15:02:11 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:02:11 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:02:11 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:02:11 --> URI Class Initialized
+DEBUG - 2013-11-07 15:02:11 --> Router Class Initialized
+ERROR - 2013-11-07 15:02:11 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:02:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:02:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:02:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:02:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:02:11 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:02:11 --> Output Class Initialized
+DEBUG - 2013-11-07 15:02:11 --> Input Class Initialized
+DEBUG - 2013-11-07 15:02:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:02:11 --> Language Class Initialized
+DEBUG - 2013-11-07 15:02:11 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:02:11 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:02:11 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:02:11 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:02:11 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:02:11 --> Session Class Initialized
+DEBUG - 2013-11-07 15:02:11 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:02:11 --> Session routines successfully run
+DEBUG - 2013-11-07 15:02:11 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:02:11 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:11 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:12 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:12 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:12 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:12 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:02:12 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:12 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:12 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:12 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:02:12 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:02:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:13 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:02:13 --> Email Class Initialized
+DEBUG - 2013-11-07 15:02:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:13 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:02:13 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:02:13 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:02:13 --> Config Class Initialized
+DEBUG - 2013-11-07 15:02:13 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:02:13 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:02:13 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:02:13 --> URI Class Initialized
+DEBUG - 2013-11-07 15:02:13 --> Router Class Initialized
+ERROR - 2013-11-07 15:02:13 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:02:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:02:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:02:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:02:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:02:13 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:02:13 --> Output Class Initialized
+DEBUG - 2013-11-07 15:02:13 --> Input Class Initialized
+DEBUG - 2013-11-07 15:02:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:02:13 --> Language Class Initialized
+DEBUG - 2013-11-07 15:02:13 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:02:13 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:02:13 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:02:13 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:02:14 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Session Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:02:14 --> Session routines successfully run
+DEBUG - 2013-11-07 15:02:14 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:14 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:14 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:14 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:14 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:14 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:14 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:14 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:02:14 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:14 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:14 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:15 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:02:15 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:02:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:15 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:02:15 --> Email Class Initialized
+DEBUG - 2013-11-07 15:02:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:15 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:02:15 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:02:15 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:02:15 --> File loaded: application/views/page/create/create_page_success.php
+DEBUG - 2013-11-07 15:02:15 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:02:15 --> Final output sent to browser
+DEBUG - 2013-11-07 15:02:15 --> Total execution time: 2.1086
+DEBUG - 2013-11-07 15:02:19 --> Config Class Initialized
+DEBUG - 2013-11-07 15:02:19 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:02:19 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:02:19 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:02:19 --> URI Class Initialized
+DEBUG - 2013-11-07 15:02:19 --> Router Class Initialized
+ERROR - 2013-11-07 15:02:19 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:02:19 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:02:19 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:02:19 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:02:19 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:02:19 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:02:19 --> Output Class Initialized
+DEBUG - 2013-11-07 15:02:19 --> Input Class Initialized
+DEBUG - 2013-11-07 15:02:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:02:19 --> Language Class Initialized
+DEBUG - 2013-11-07 15:02:19 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:02:19 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:02:19 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:02:19 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:02:20 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Session Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:02:20 --> Session routines successfully run
+DEBUG - 2013-11-07 15:02:20 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:20 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:20 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:02:20 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:21 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:21 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:21 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:21 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:21 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:02:21 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:02:21 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:02:21 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:02:21 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:24 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:02:24 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:02:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:25 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:02:25 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:02:25 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:02:25 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:02:25 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:02:25 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:02:25 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:02:25 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:02:25 --> Final output sent to browser
+DEBUG - 2013-11-07 15:02:25 --> Total execution time: 5.9962
+DEBUG - 2013-11-07 15:02:25 --> Config Class Initialized
+DEBUG - 2013-11-07 15:02:25 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:02:25 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:02:25 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:02:25 --> URI Class Initialized
+DEBUG - 2013-11-07 15:02:25 --> Router Class Initialized
+ERROR - 2013-11-07 15:02:25 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:02:25 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:02:25 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:02:25 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:02:25 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-11-07 15:02:25 --> Config Class Initialized
+ERROR - 2013-11-07 15:02:25 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:02:25 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:02:25 --> Output Class Initialized
+DEBUG - 2013-11-07 15:02:25 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:02:25 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:02:26 --> Input Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:02:26 --> URI Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Language Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Router Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Loader Class Initialized
+ERROR - 2013-11-07 15:02:26 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+DEBUG - 2013-11-07 15:02:26 --> Helper loaded: url_helper
+ERROR - 2013-11-07 15:02:26 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-11-07 15:02:26 --> Helper loaded: form_helper
+ERROR - 2013-11-07 15:02:26 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+DEBUG - 2013-11-07 15:02:26 --> Helper loaded: custom_helper
+ERROR - 2013-11-07 15:02:26 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-11-07 15:02:26 --> Database Driver Class Initialized
+ERROR - 2013-11-07 15:02:26 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+DEBUG - 2013-11-07 15:02:26 --> Session Class Initialized
+ERROR - 2013-11-07 15:02:26 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:02:26 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:02:26 --> Output Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Session routines successfully run
+DEBUG - 2013-11-07 15:02:26 --> Input Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:02:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:02:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Language Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:02:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:26 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:26 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 15:02:26 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:02:26 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:02:26 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:02:26 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Session Class Initialized
+DEBUG - 2013-11-07 15:02:26 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:02:26 --> Session routines successfully run
+DEBUG - 2013-11-07 15:02:26 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:27 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:27 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:27 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:27 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:27 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:27 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:27 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:27 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:27 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:27 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:27 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:02:27 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:02:27 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:02:27 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:02:27 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:30 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:02:30 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:02:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:30 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:02:30 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:02:30 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:02:30 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:02:30 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:02:30 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:02:30 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:02:30 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:02:30 --> Final output sent to browser
+DEBUG - 2013-11-07 15:02:30 --> Total execution time: 4.6730
+DEBUG - 2013-11-07 15:02:30 --> Config Class Initialized
+DEBUG - 2013-11-07 15:02:30 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:02:30 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:02:30 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:02:30 --> URI Class Initialized
+DEBUG - 2013-11-07 15:02:30 --> Router Class Initialized
+ERROR - 2013-11-07 15:02:30 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:02:30 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:02:30 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:02:30 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:02:30 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:02:30 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:02:30 --> Output Class Initialized
+DEBUG - 2013-11-07 15:02:30 --> Input Class Initialized
+DEBUG - 2013-11-07 15:02:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:02:30 --> Language Class Initialized
+DEBUG - 2013-11-07 15:02:31 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:02:31 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:02:31 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:02:31 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:02:31 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:02:31 --> Session Class Initialized
+DEBUG - 2013-11-07 15:02:31 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:02:31 --> Session routines successfully run
+DEBUG - 2013-11-07 15:02:31 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:02:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:31 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:31 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:02:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:02:31 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:02:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:02:31 --> Model Class Initialized
+ERROR - 2013-11-07 15:02:31 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 15:04:29 --> Config Class Initialized
+DEBUG - 2013-11-07 15:04:29 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:04:29 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:04:29 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:04:29 --> URI Class Initialized
+DEBUG - 2013-11-07 15:04:29 --> Router Class Initialized
+ERROR - 2013-11-07 15:04:29 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:04:29 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:04:29 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:04:29 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:04:29 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:04:30 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:04:30 --> Output Class Initialized
+DEBUG - 2013-11-07 15:04:30 --> Input Class Initialized
+DEBUG - 2013-11-07 15:04:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:04:30 --> Language Class Initialized
+DEBUG - 2013-11-07 15:04:30 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:04:30 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:04:30 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:04:30 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:04:30 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:04:30 --> Session Class Initialized
+DEBUG - 2013-11-07 15:04:30 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:04:30 --> Session routines successfully run
+DEBUG - 2013-11-07 15:04:30 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:04:30 --> Model Class Initialized
+ERROR - 2013-11-07 15:04:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:04:30 --> Model Class Initialized
+ERROR - 2013-11-07 15:04:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:04:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:04:30 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:04:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:30 --> Model Class Initialized
+ERROR - 2013-11-07 15:04:30 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:04:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:04:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:04:31 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:04:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:04:31 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:04:31 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:04:31 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:04:31 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:04:31 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:04:31 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:04:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:04:31 --> Email Class Initialized
+DEBUG - 2013-11-07 15:04:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:04:31 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:04:32 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:04:32 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:04:32 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 15:04:32 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:04:32 --> Final output sent to browser
+DEBUG - 2013-11-07 15:04:32 --> Total execution time: 2.6431
+DEBUG - 2013-11-07 15:05:23 --> Config Class Initialized
+DEBUG - 2013-11-07 15:05:23 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:05:23 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:05:23 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:05:23 --> URI Class Initialized
+DEBUG - 2013-11-07 15:05:23 --> Router Class Initialized
+ERROR - 2013-11-07 15:05:23 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:05:23 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:23 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:23 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:23 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:23 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:05:23 --> Output Class Initialized
+DEBUG - 2013-11-07 15:05:23 --> Input Class Initialized
+DEBUG - 2013-11-07 15:05:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:05:23 --> Language Class Initialized
+DEBUG - 2013-11-07 15:05:23 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:05:23 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:05:23 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:05:23 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:05:24 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Session Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:05:24 --> Session routines successfully run
+DEBUG - 2013-11-07 15:05:24 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:24 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:24 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:24 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:24 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:24 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:24 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:25 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:25 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:25 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:05:25 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:25 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:25 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:25 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:05:25 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:05:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:25 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:05:25 --> Email Class Initialized
+DEBUG - 2013-11-07 15:05:25 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:25 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:05:25 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:05:25 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:05:25 --> Final output sent to browser
+DEBUG - 2013-11-07 15:05:25 --> Total execution time: 2.3065
+DEBUG - 2013-11-07 15:05:25 --> Config Class Initialized
+DEBUG - 2013-11-07 15:05:25 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:05:26 --> URI Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> Router Class Initialized
+ERROR - 2013-11-07 15:05:26 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:05:26 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:26 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:26 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:26 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:26 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:05:26 --> Output Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> Input Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:05:26 --> Language Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:05:26 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:05:26 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:05:26 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> Session Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:05:26 --> Session routines successfully run
+DEBUG - 2013-11-07 15:05:26 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:05:26 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:05:26 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:05:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:27 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:27 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:27 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:27 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:27 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:27 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:27 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:27 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:05:27 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:05:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:27 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:05:28 --> Email Class Initialized
+DEBUG - 2013-11-07 15:05:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:28 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:05:28 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:05:28 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:05:28 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-11-07 15:05:28 --> Config Class Initialized
+DEBUG - 2013-11-07 15:05:28 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:05:28 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:05:28 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:05:28 --> URI Class Initialized
+DEBUG - 2013-11-07 15:05:28 --> Router Class Initialized
+ERROR - 2013-11-07 15:05:28 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:05:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:28 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:05:28 --> Output Class Initialized
+DEBUG - 2013-11-07 15:05:28 --> Input Class Initialized
+DEBUG - 2013-11-07 15:05:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:05:29 --> Language Class Initialized
+DEBUG - 2013-11-07 15:05:29 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:05:29 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:05:29 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:05:29 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:05:29 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:05:29 --> Session Class Initialized
+DEBUG - 2013-11-07 15:05:29 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:05:29 --> Session routines successfully run
+DEBUG - 2013-11-07 15:05:29 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:05:29 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:05:29 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:05:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:29 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:05:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:29 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:05:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:29 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:30 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:30 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:30 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:30 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:30 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:30 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:05:30 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:05:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:05:30 --> Email Class Initialized
+DEBUG - 2013-11-07 15:05:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:30 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:05:30 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:05:30 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:05:31 --> File loaded: application/views/page/create/page_menu.php
+DEBUG - 2013-11-07 15:05:31 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:05:31 --> Final output sent to browser
+DEBUG - 2013-11-07 15:05:31 --> Total execution time: 2.7852
+DEBUG - 2013-11-07 15:05:36 --> Config Class Initialized
+DEBUG - 2013-11-07 15:05:36 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:05:36 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:05:36 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:05:36 --> URI Class Initialized
+DEBUG - 2013-11-07 15:05:36 --> Router Class Initialized
+ERROR - 2013-11-07 15:05:37 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:05:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:37 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:37 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:37 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:05:37 --> Output Class Initialized
+DEBUG - 2013-11-07 15:05:37 --> Input Class Initialized
+DEBUG - 2013-11-07 15:05:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:05:37 --> Language Class Initialized
+DEBUG - 2013-11-07 15:05:37 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:05:37 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:05:37 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:05:37 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:05:37 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:05:37 --> Session Class Initialized
+DEBUG - 2013-11-07 15:05:37 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:05:37 --> Session routines successfully run
+DEBUG - 2013-11-07 15:05:37 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:05:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:05:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:05:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:37 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:05:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:05:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:38 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:38 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:38 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:38 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:38 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:05:38 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:05:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:05:38 --> Email Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:38 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:05:38 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:05:38 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:05:38 --> Config Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:05:38 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:05:39 --> URI Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Router Class Initialized
+ERROR - 2013-11-07 15:05:39 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:05:39 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:39 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:39 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:39 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:39 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:05:39 --> Output Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Input Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:05:39 --> Language Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:05:39 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:05:39 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:05:39 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Session Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:05:39 --> Session routines successfully run
+DEBUG - 2013-11-07 15:05:39 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:05:39 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:05:39 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:05:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:39 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:05:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:39 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:40 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:40 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:40 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:40 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:40 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:40 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:05:40 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:05:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:05:40 --> Email Class Initialized
+DEBUG - 2013-11-07 15:05:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:40 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:05:40 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:05:40 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:05:40 --> File loaded: application/views/all_common/drag_drop_script.php
+DEBUG - 2013-11-07 15:05:40 --> File loaded: application/views/page/create/editor_board.php
+DEBUG - 2013-11-07 15:05:40 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:05:40 --> Final output sent to browser
+DEBUG - 2013-11-07 15:05:40 --> Total execution time: 2.0170
+DEBUG - 2013-11-07 15:05:49 --> Config Class Initialized
+DEBUG - 2013-11-07 15:05:49 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:05:49 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:05:49 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:05:49 --> URI Class Initialized
+DEBUG - 2013-11-07 15:05:49 --> Router Class Initialized
+ERROR - 2013-11-07 15:05:49 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:05:49 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:49 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:49 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:49 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:05:49 --> Output Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Input Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:05:50 --> Language Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:05:50 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:05:50 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:05:50 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Session Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:05:50 --> Session routines successfully run
+DEBUG - 2013-11-07 15:05:50 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:05:50 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:05:50 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:05:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:50 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:05:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:51 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:51 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:51 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:51 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:51 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:51 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:51 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:05:51 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:05:51 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:05:51 --> Email Class Initialized
+DEBUG - 2013-11-07 15:05:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:51 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:05:51 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:05:51 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:05:52 --> Config Class Initialized
+DEBUG - 2013-11-07 15:05:52 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:05:52 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:05:52 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:05:52 --> URI Class Initialized
+DEBUG - 2013-11-07 15:05:52 --> Router Class Initialized
+ERROR - 2013-11-07 15:05:52 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:05:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:05:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:05:52 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:05:52 --> Output Class Initialized
+DEBUG - 2013-11-07 15:05:52 --> Input Class Initialized
+DEBUG - 2013-11-07 15:05:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:05:52 --> Language Class Initialized
+DEBUG - 2013-11-07 15:05:52 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:05:52 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:05:52 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:05:52 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:05:52 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:05:52 --> Session Class Initialized
+DEBUG - 2013-11-07 15:05:52 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:05:52 --> Session routines successfully run
+DEBUG - 2013-11-07 15:05:52 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:05:52 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:52 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:05:52 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:53 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:53 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+ERROR - 2013-11-07 15:05:53 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:53 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:53 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:53 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:53 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:53 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:53 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:05:53 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:05:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:05:53 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:05:54 --> Email Class Initialized
+DEBUG - 2013-11-07 15:05:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:05:54 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:05:54 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:05:54 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:05:54 --> File loaded: application/views/page/create/layout_desc.php
+DEBUG - 2013-11-07 15:05:54 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:05:54 --> Final output sent to browser
+DEBUG - 2013-11-07 15:05:54 --> Total execution time: 2.3729
+DEBUG - 2013-11-07 15:06:15 --> Config Class Initialized
+DEBUG - 2013-11-07 15:06:15 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:06:15 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:06:15 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:06:15 --> URI Class Initialized
+DEBUG - 2013-11-07 15:06:15 --> Router Class Initialized
+ERROR - 2013-11-07 15:06:15 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:06:15 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:06:16 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:06:16 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:06:16 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:06:16 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:06:16 --> Output Class Initialized
+DEBUG - 2013-11-07 15:06:16 --> Input Class Initialized
+DEBUG - 2013-11-07 15:06:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:06:16 --> Language Class Initialized
+DEBUG - 2013-11-07 15:06:16 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:06:16 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:06:16 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:06:16 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:06:16 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:06:16 --> Session Class Initialized
+DEBUG - 2013-11-07 15:06:16 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:06:16 --> Session routines successfully run
+DEBUG - 2013-11-07 15:06:16 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:06:16 --> Model Class Initialized
+ERROR - 2013-11-07 15:06:16 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:06:16 --> Model Class Initialized
+ERROR - 2013-11-07 15:06:16 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:06:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:06:16 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+ERROR - 2013-11-07 15:06:17 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:06:17 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:06:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:06:17 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:06:17 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:06:17 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:06:17 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:06:17 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:06:17 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:06:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:06:17 --> Email Class Initialized
+DEBUG - 2013-11-07 15:06:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:06:17 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:06:18 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:06:18 --> File loaded: application/views/webpowerup/footer.php
+ERROR - 2013-11-07 15:06:18 --> Severity: Notice  --> Undefined variable: background_image C:\AppServ\www\webpowerup\application\models\pages_model.php 1177
+DEBUG - 2013-11-07 15:06:18 --> DB Transaction Failure
+ERROR - 2013-11-07 15:06:18 --> Query error: Column 'background_image' cannot be null
+DEBUG - 2013-11-07 15:06:18 --> Language file loaded: language/english/db_lang.php
+ERROR - 2013-11-07 15:06:18 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\system\core\Exceptions.php:170) C:\AppServ\www\webpowerup\system\core\Common.php 409
+DEBUG - 2013-11-07 15:07:32 --> Config Class Initialized
+DEBUG - 2013-11-07 15:07:32 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:07:32 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:07:32 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:07:32 --> URI Class Initialized
+DEBUG - 2013-11-07 15:07:32 --> Router Class Initialized
+ERROR - 2013-11-07 15:07:33 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:07:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:07:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:07:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:07:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:07:33 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:07:33 --> Output Class Initialized
+DEBUG - 2013-11-07 15:07:33 --> Input Class Initialized
+DEBUG - 2013-11-07 15:07:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:07:33 --> Language Class Initialized
+DEBUG - 2013-11-07 15:07:33 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:07:33 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:07:33 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:07:33 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:07:33 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:07:33 --> Session Class Initialized
+DEBUG - 2013-11-07 15:07:33 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:07:33 --> Session routines successfully run
+DEBUG - 2013-11-07 15:07:33 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:07:33 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:07:33 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:07:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:34 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:34 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:34 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:34 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:34 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:34 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:34 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:07:34 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:07:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:34 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:07:35 --> Email Class Initialized
+DEBUG - 2013-11-07 15:07:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:35 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:07:35 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:07:35 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:07:35 --> File loaded: application/views/page/create/layout_desc.php
+DEBUG - 2013-11-07 15:07:35 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:07:35 --> Final output sent to browser
+DEBUG - 2013-11-07 15:07:35 --> Total execution time: 2.6099
+DEBUG - 2013-11-07 15:07:45 --> Config Class Initialized
+DEBUG - 2013-11-07 15:07:45 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:07:45 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:07:45 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:07:45 --> URI Class Initialized
+DEBUG - 2013-11-07 15:07:45 --> Router Class Initialized
+ERROR - 2013-11-07 15:07:45 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:07:45 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:07:45 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:07:45 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:07:45 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:07:45 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:07:45 --> Output Class Initialized
+DEBUG - 2013-11-07 15:07:45 --> Input Class Initialized
+DEBUG - 2013-11-07 15:07:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:07:45 --> Language Class Initialized
+DEBUG - 2013-11-07 15:07:45 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:07:46 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:07:46 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:07:46 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:07:46 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:07:46 --> Session Class Initialized
+DEBUG - 2013-11-07 15:07:46 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:07:46 --> Session routines successfully run
+DEBUG - 2013-11-07 15:07:46 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:07:46 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:07:46 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:07:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:46 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:07:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:46 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:07:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:47 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:47 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:47 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:47 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:47 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:47 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:47 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:07:47 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:07:47 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:07:47 --> Email Class Initialized
+DEBUG - 2013-11-07 15:07:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:47 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:07:47 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:07:47 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:07:48 --> Config Class Initialized
+DEBUG - 2013-11-07 15:07:48 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:07:48 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:07:48 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:07:48 --> URI Class Initialized
+DEBUG - 2013-11-07 15:07:48 --> Router Class Initialized
+ERROR - 2013-11-07 15:07:48 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:07:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:07:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:07:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:07:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:07:48 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:07:48 --> Output Class Initialized
+DEBUG - 2013-11-07 15:07:48 --> Input Class Initialized
+DEBUG - 2013-11-07 15:07:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:07:48 --> Language Class Initialized
+DEBUG - 2013-11-07 15:07:48 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:07:48 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:07:48 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:07:48 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:07:48 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:07:48 --> Session Class Initialized
+DEBUG - 2013-11-07 15:07:48 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:07:48 --> Session routines successfully run
+DEBUG - 2013-11-07 15:07:48 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:07:48 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:07:48 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:49 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:49 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:49 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:49 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:49 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:49 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:49 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:49 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:07:49 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:07:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:49 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:07:49 --> Email Class Initialized
+DEBUG - 2013-11-07 15:07:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:50 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:07:50 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:07:50 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:07:50 --> File loaded: application/views/page/create/create_page_success.php
+DEBUG - 2013-11-07 15:07:50 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:07:50 --> Final output sent to browser
+DEBUG - 2013-11-07 15:07:50 --> Total execution time: 2.3250
+DEBUG - 2013-11-07 15:07:54 --> Config Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:07:54 --> URI Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Router Class Initialized
+ERROR - 2013-11-07 15:07:54 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:07:54 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:07:54 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:07:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:07:54 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:07:54 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:07:54 --> Output Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Input Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:07:54 --> Language Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:07:54 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:07:54 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:07:54 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Session Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:07:54 --> Session routines successfully run
+DEBUG - 2013-11-07 15:07:54 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:07:54 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:07:54 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:07:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:54 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:07:54 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:07:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:55 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+ERROR - 2013-11-07 15:07:55 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:55 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:55 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:55 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:55 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:55 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:07:55 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:07:55 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:07:55 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:07:55 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:07:59 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:07:59 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:07:59 --> Model Class Initialized
+DEBUG - 2013-11-07 15:07:59 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:07:59 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:07:59 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:07:59 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:07:59 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:07:59 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:07:59 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:07:59 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:07:59 --> Final output sent to browser
+DEBUG - 2013-11-07 15:07:59 --> Total execution time: 5.6769
+DEBUG - 2013-11-07 15:08:00 --> Config Class Initialized
+DEBUG - 2013-11-07 15:08:00 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:08:00 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:08:00 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:08:00 --> URI Class Initialized
+DEBUG - 2013-11-07 15:08:00 --> Router Class Initialized
+ERROR - 2013-11-07 15:08:00 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:08:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:08:00 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:08:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:08:00 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:08:00 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:08:00 --> Output Class Initialized
+DEBUG - 2013-11-07 15:08:00 --> Input Class Initialized
+DEBUG - 2013-11-07 15:08:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:08:00 --> Language Class Initialized
+DEBUG - 2013-11-07 15:08:00 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:08:00 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:08:00 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:08:00 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:08:00 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:08:00 --> Session Class Initialized
+DEBUG - 2013-11-07 15:08:00 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:08:01 --> Session routines successfully run
+DEBUG - 2013-11-07 15:08:01 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:08:01 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:01 --> Model Class Initialized
+ERROR - 2013-11-07 15:08:01 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:08:01 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:01 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:08:01 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:08:01 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:01 --> Model Class Initialized
+ERROR - 2013-11-07 15:08:01 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 15:08:03 --> Config Class Initialized
+DEBUG - 2013-11-07 15:08:03 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:08:03 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:08:03 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:08:03 --> URI Class Initialized
+DEBUG - 2013-11-07 15:08:03 --> Router Class Initialized
+ERROR - 2013-11-07 15:08:03 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:08:03 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:08:04 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:08:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:08:04 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:08:04 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:08:04 --> Output Class Initialized
+DEBUG - 2013-11-07 15:08:04 --> Input Class Initialized
+DEBUG - 2013-11-07 15:08:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:08:04 --> Language Class Initialized
+DEBUG - 2013-11-07 15:08:04 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:08:04 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:08:04 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:08:04 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:08:04 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:08:04 --> Session Class Initialized
+DEBUG - 2013-11-07 15:08:04 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:08:04 --> Session routines successfully run
+DEBUG - 2013-11-07 15:08:04 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:08:04 --> Model Class Initialized
+ERROR - 2013-11-07 15:08:04 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:08:04 --> Model Class Initialized
+ERROR - 2013-11-07 15:08:04 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:08:04 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:04 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:08:04 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+ERROR - 2013-11-07 15:08:05 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:08:05 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+ERROR - 2013-11-07 15:08:05 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:05 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:08:05 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:08:05 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:08:05 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:08:05 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:08:05 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:08:05 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:08:06 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:08:06 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:08:06 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:08:09 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:08:09 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:08:09 --> Model Class Initialized
+DEBUG - 2013-11-07 15:08:09 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:08:09 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:08:09 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:08:09 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:08:09 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:08:09 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:08:09 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:08:09 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:08:09 --> Final output sent to browser
+DEBUG - 2013-11-07 15:08:09 --> Total execution time: 5.9247
+DEBUG - 2013-11-07 15:10:01 --> Config Class Initialized
+DEBUG - 2013-11-07 15:10:01 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:10:01 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:10:01 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:10:01 --> URI Class Initialized
+DEBUG - 2013-11-07 15:10:01 --> Router Class Initialized
+ERROR - 2013-11-07 15:10:01 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:10:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:10:01 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:10:01 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:10:01 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:10:01 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:10:01 --> Output Class Initialized
+DEBUG - 2013-11-07 15:10:01 --> Input Class Initialized
+DEBUG - 2013-11-07 15:10:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:10:02 --> Language Class Initialized
+DEBUG - 2013-11-07 15:10:02 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:10:02 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:10:02 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:10:02 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:10:02 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:10:02 --> Session Class Initialized
+DEBUG - 2013-11-07 15:10:02 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:10:02 --> Session routines successfully run
+DEBUG - 2013-11-07 15:10:02 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:10:02 --> Model Class Initialized
+ERROR - 2013-11-07 15:10:02 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:10:02 --> Model Class Initialized
+ERROR - 2013-11-07 15:10:02 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:10:02 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:02 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:10:02 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:10:02 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:02 --> Model Class Initialized
+ERROR - 2013-11-07 15:10:02 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:10:03 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:10:03 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:10:03 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:10:03 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:10:03 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:10:03 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:10:03 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:10:03 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:10:03 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:10:03 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:10:03 --> Model Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:10:03 --> Email Class Initialized
+DEBUG - 2013-11-07 15:10:03 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:10:03 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:10:04 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:10:04 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:10:04 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 15:10:04 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:10:04 --> Final output sent to browser
+DEBUG - 2013-11-07 15:10:04 --> Total execution time: 2.8485
+DEBUG - 2013-11-07 15:11:06 --> Config Class Initialized
+DEBUG - 2013-11-07 15:11:06 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:11:06 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:11:06 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:11:06 --> URI Class Initialized
+DEBUG - 2013-11-07 15:11:06 --> Router Class Initialized
+ERROR - 2013-11-07 15:11:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:11:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:06 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:11:06 --> Output Class Initialized
+DEBUG - 2013-11-07 15:11:06 --> Input Class Initialized
+DEBUG - 2013-11-07 15:11:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:11:06 --> Language Class Initialized
+DEBUG - 2013-11-07 15:11:06 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:11:07 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:11:07 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:11:07 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Session Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:11:07 --> Session routines successfully run
+DEBUG - 2013-11-07 15:11:07 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:11:07 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:07 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:11:07 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:07 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:11:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:07 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:07 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:11:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:11:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:08 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:11:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:08 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:08 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:08 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:08 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:11:08 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:08 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:08 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:08 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:11:08 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:11:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:08 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:11:08 --> Email Class Initialized
+DEBUG - 2013-11-07 15:11:08 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:08 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:11:08 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:11:08 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:11:08 --> Final output sent to browser
+DEBUG - 2013-11-07 15:11:08 --> Total execution time: 2.5240
+DEBUG - 2013-11-07 15:11:11 --> Config Class Initialized
+DEBUG - 2013-11-07 15:11:11 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:11:11 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:11:11 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:11:11 --> URI Class Initialized
+DEBUG - 2013-11-07 15:11:11 --> Router Class Initialized
+ERROR - 2013-11-07 15:11:11 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:11:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:11 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:11 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:11 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:11:11 --> Output Class Initialized
+DEBUG - 2013-11-07 15:11:12 --> Input Class Initialized
+DEBUG - 2013-11-07 15:11:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:11:12 --> Language Class Initialized
+DEBUG - 2013-11-07 15:11:12 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:11:12 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:11:12 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:11:12 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:11:12 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:11:12 --> Session Class Initialized
+DEBUG - 2013-11-07 15:11:12 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:11:12 --> Session routines successfully run
+DEBUG - 2013-11-07 15:11:12 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:11:12 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:11:12 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:11:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:12 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:12 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:11:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:12 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:12 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:11:12 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:13 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:13 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:13 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:13 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:13 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:13 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:13 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:11:13 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:11:13 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:11:13 --> Email Class Initialized
+DEBUG - 2013-11-07 15:11:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:13 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:11:14 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:11:14 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:11:14 --> Final output sent to browser
+DEBUG - 2013-11-07 15:11:14 --> Total execution time: 2.6663
+DEBUG - 2013-11-07 15:11:14 --> Config Class Initialized
+DEBUG - 2013-11-07 15:11:14 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:11:14 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:11:14 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:11:14 --> URI Class Initialized
+DEBUG - 2013-11-07 15:11:14 --> Router Class Initialized
+ERROR - 2013-11-07 15:11:14 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:11:14 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:14 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:14 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:14 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:14 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:11:14 --> Output Class Initialized
+DEBUG - 2013-11-07 15:11:14 --> Input Class Initialized
+DEBUG - 2013-11-07 15:11:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:11:15 --> Language Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:11:15 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:11:15 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:11:15 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Session Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:11:15 --> Session routines successfully run
+DEBUG - 2013-11-07 15:11:15 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:11:15 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:11:15 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:11:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:15 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:11:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:15 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:16 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:16 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:16 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:16 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:16 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:16 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:11:16 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:11:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:11:16 --> Email Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:16 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:11:16 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:11:16 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:11:16 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-11-07 15:11:16 --> Config Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:11:16 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:11:17 --> URI Class Initialized
+DEBUG - 2013-11-07 15:11:17 --> Router Class Initialized
+ERROR - 2013-11-07 15:11:17 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:11:17 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:17 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:17 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:17 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:17 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:11:17 --> Output Class Initialized
+DEBUG - 2013-11-07 15:11:17 --> Input Class Initialized
+DEBUG - 2013-11-07 15:11:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:11:17 --> Language Class Initialized
+DEBUG - 2013-11-07 15:11:17 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:11:17 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:11:17 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:11:17 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:11:17 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:11:17 --> Session Class Initialized
+DEBUG - 2013-11-07 15:11:17 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:11:17 --> Session routines successfully run
+DEBUG - 2013-11-07 15:11:17 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:11:17 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:17 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:11:17 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:17 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:11:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:17 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:17 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:18 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:18 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:18 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:18 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:18 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:18 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:18 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:11:18 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:11:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:11:18 --> Email Class Initialized
+DEBUG - 2013-11-07 15:11:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:18 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:11:18 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:11:19 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:11:19 --> File loaded: application/views/page/create/page_menu.php
+DEBUG - 2013-11-07 15:11:19 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:11:19 --> Final output sent to browser
+DEBUG - 2013-11-07 15:11:19 --> Total execution time: 2.2962
+DEBUG - 2013-11-07 15:11:24 --> Config Class Initialized
+DEBUG - 2013-11-07 15:11:24 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:11:24 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:11:24 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:11:24 --> URI Class Initialized
+DEBUG - 2013-11-07 15:11:24 --> Router Class Initialized
+ERROR - 2013-11-07 15:11:24 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:11:24 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:24 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:24 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:24 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:24 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:11:24 --> Output Class Initialized
+DEBUG - 2013-11-07 15:11:25 --> Input Class Initialized
+DEBUG - 2013-11-07 15:11:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:11:25 --> Language Class Initialized
+DEBUG - 2013-11-07 15:11:25 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:11:25 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:11:25 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:11:25 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:11:25 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:11:25 --> Session Class Initialized
+DEBUG - 2013-11-07 15:11:25 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:11:25 --> Session routines successfully run
+DEBUG - 2013-11-07 15:11:25 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:11:25 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:25 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:11:25 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:25 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:11:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:25 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:25 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:11:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:25 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:25 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:11:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:26 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:26 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:26 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:26 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:26 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:26 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:11:26 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:11:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:11:26 --> Email Class Initialized
+DEBUG - 2013-11-07 15:11:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:27 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:11:27 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:11:27 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:11:27 --> Config Class Initialized
+DEBUG - 2013-11-07 15:11:27 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:11:27 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:11:27 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:11:27 --> URI Class Initialized
+DEBUG - 2013-11-07 15:11:27 --> Router Class Initialized
+ERROR - 2013-11-07 15:11:27 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:11:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:27 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:11:27 --> Output Class Initialized
+DEBUG - 2013-11-07 15:11:27 --> Input Class Initialized
+DEBUG - 2013-11-07 15:11:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:11:27 --> Language Class Initialized
+DEBUG - 2013-11-07 15:11:27 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:11:27 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:11:27 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:11:27 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:11:28 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Session Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:11:28 --> Session routines successfully run
+DEBUG - 2013-11-07 15:11:28 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:28 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:28 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:29 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:29 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:29 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:11:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:29 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:29 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:11:29 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:11:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:29 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:11:29 --> Email Class Initialized
+DEBUG - 2013-11-07 15:11:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:29 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:11:29 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:11:29 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:11:29 --> File loaded: application/views/all_common/drag_drop_script.php
+DEBUG - 2013-11-07 15:11:29 --> File loaded: application/views/page/create/editor_board.php
+DEBUG - 2013-11-07 15:11:29 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:11:29 --> Final output sent to browser
+DEBUG - 2013-11-07 15:11:29 --> Total execution time: 2.6235
+DEBUG - 2013-11-07 15:11:36 --> Config Class Initialized
+DEBUG - 2013-11-07 15:11:36 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:11:36 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:11:36 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:11:36 --> URI Class Initialized
+DEBUG - 2013-11-07 15:11:36 --> Router Class Initialized
+ERROR - 2013-11-07 15:11:36 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:11:36 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:36 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:36 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:36 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:36 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:11:36 --> Output Class Initialized
+DEBUG - 2013-11-07 15:11:36 --> Input Class Initialized
+DEBUG - 2013-11-07 15:11:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:11:36 --> Language Class Initialized
+DEBUG - 2013-11-07 15:11:36 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:11:36 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:11:36 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:11:36 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:11:37 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Session Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:11:37 --> Session routines successfully run
+DEBUG - 2013-11-07 15:11:37 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:37 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:37 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:11:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:38 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:38 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:38 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:11:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:38 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:38 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:11:38 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:11:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:38 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:11:38 --> Email Class Initialized
+DEBUG - 2013-11-07 15:11:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:38 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:11:38 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:11:38 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:11:39 --> Config Class Initialized
+DEBUG - 2013-11-07 15:11:39 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:11:39 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:11:39 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:11:39 --> URI Class Initialized
+DEBUG - 2013-11-07 15:11:39 --> Router Class Initialized
+ERROR - 2013-11-07 15:11:39 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:11:39 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:39 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:39 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:39 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:39 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:11:39 --> Output Class Initialized
+DEBUG - 2013-11-07 15:11:39 --> Input Class Initialized
+DEBUG - 2013-11-07 15:11:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:11:39 --> Language Class Initialized
+DEBUG - 2013-11-07 15:11:39 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:11:39 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:11:39 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:11:39 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:11:39 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:11:39 --> Session Class Initialized
+DEBUG - 2013-11-07 15:11:39 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:11:39 --> Session routines successfully run
+DEBUG - 2013-11-07 15:11:39 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:11:39 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:39 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:11:39 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:40 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:40 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:40 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:40 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:40 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:40 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:11:40 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:40 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:40 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:40 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:11:40 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:11:41 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:41 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:11:41 --> Email Class Initialized
+DEBUG - 2013-11-07 15:11:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:41 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:11:41 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:11:41 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:11:41 --> File loaded: application/views/page/create/layout_desc.php
+DEBUG - 2013-11-07 15:11:41 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:11:41 --> Final output sent to browser
+DEBUG - 2013-11-07 15:11:41 --> Total execution time: 2.4233
+DEBUG - 2013-11-07 15:11:53 --> Config Class Initialized
+DEBUG - 2013-11-07 15:11:53 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:11:53 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:11:53 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:11:53 --> URI Class Initialized
+DEBUG - 2013-11-07 15:11:53 --> Router Class Initialized
+ERROR - 2013-11-07 15:11:53 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:11:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:53 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:11:53 --> Output Class Initialized
+DEBUG - 2013-11-07 15:11:54 --> Input Class Initialized
+DEBUG - 2013-11-07 15:11:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:11:54 --> Language Class Initialized
+DEBUG - 2013-11-07 15:11:54 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:11:54 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:11:54 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:11:54 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:11:54 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:11:54 --> Session Class Initialized
+DEBUG - 2013-11-07 15:11:54 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:11:54 --> Session routines successfully run
+DEBUG - 2013-11-07 15:11:54 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:11:54 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:11:54 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:11:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:54 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:11:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:54 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:11:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:55 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:55 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:55 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:55 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:55 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:55 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:11:55 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:11:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:11:55 --> Email Class Initialized
+DEBUG - 2013-11-07 15:11:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:55 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:11:56 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:11:56 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:11:56 --> Config Class Initialized
+DEBUG - 2013-11-07 15:11:56 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:11:56 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:11:56 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:11:56 --> URI Class Initialized
+DEBUG - 2013-11-07 15:11:56 --> Router Class Initialized
+ERROR - 2013-11-07 15:11:56 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:11:56 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:56 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:11:56 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:56 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:11:56 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:11:56 --> Output Class Initialized
+DEBUG - 2013-11-07 15:11:56 --> Input Class Initialized
+DEBUG - 2013-11-07 15:11:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:11:56 --> Language Class Initialized
+DEBUG - 2013-11-07 15:11:56 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:11:56 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:11:56 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:11:56 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:11:56 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:11:56 --> Session Class Initialized
+DEBUG - 2013-11-07 15:11:56 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:11:57 --> Session routines successfully run
+DEBUG - 2013-11-07 15:11:57 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:57 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+ERROR - 2013-11-07 15:11:57 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:57 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:57 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:57 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:11:57 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:57 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:57 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:58 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:11:58 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:11:58 --> Model Class Initialized
+DEBUG - 2013-11-07 15:11:58 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:11:58 --> Email Class Initialized
+DEBUG - 2013-11-07 15:11:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:11:58 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:11:58 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:11:58 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:11:58 --> File loaded: application/views/page/create/create_page_success.php
+DEBUG - 2013-11-07 15:11:58 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:11:58 --> Final output sent to browser
+DEBUG - 2013-11-07 15:11:58 --> Total execution time: 2.2344
+DEBUG - 2013-11-07 15:12:05 --> Config Class Initialized
+DEBUG - 2013-11-07 15:12:05 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:12:05 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:12:05 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:12:05 --> URI Class Initialized
+DEBUG - 2013-11-07 15:12:05 --> Router Class Initialized
+ERROR - 2013-11-07 15:12:05 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:12:05 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:12:05 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:12:05 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:12:05 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:12:05 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:12:05 --> Output Class Initialized
+DEBUG - 2013-11-07 15:12:05 --> Input Class Initialized
+DEBUG - 2013-11-07 15:12:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:12:05 --> Language Class Initialized
+DEBUG - 2013-11-07 15:12:05 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:12:05 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:12:05 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:12:05 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:12:06 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Session Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:12:06 --> Session routines successfully run
+DEBUG - 2013-11-07 15:12:06 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+ERROR - 2013-11-07 15:12:06 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+ERROR - 2013-11-07 15:12:06 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:06 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+ERROR - 2013-11-07 15:12:06 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:06 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:12:06 --> Model Class Initialized
+ERROR - 2013-11-07 15:12:07 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:12:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:07 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:07 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:07 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:07 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:07 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:12:07 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:12:07 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:12:07 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:12:07 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:11 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:12:11 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:12:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:11 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:12:11 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:12:11 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:12:11 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:12:11 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:12:11 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:12:11 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:12:11 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:12:11 --> Final output sent to browser
+DEBUG - 2013-11-07 15:12:11 --> Total execution time: 6.3573
+DEBUG - 2013-11-07 15:12:52 --> Config Class Initialized
+DEBUG - 2013-11-07 15:12:52 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:12:52 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:12:52 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:12:52 --> URI Class Initialized
+DEBUG - 2013-11-07 15:12:52 --> Router Class Initialized
+ERROR - 2013-11-07 15:12:52 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:12:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:12:53 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:12:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:12:53 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:12:53 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:12:53 --> Output Class Initialized
+DEBUG - 2013-11-07 15:12:53 --> Input Class Initialized
+DEBUG - 2013-11-07 15:12:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:12:53 --> Language Class Initialized
+DEBUG - 2013-11-07 15:12:53 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:12:53 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:12:53 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:12:53 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:12:53 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:12:53 --> Session Class Initialized
+DEBUG - 2013-11-07 15:12:53 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:12:53 --> Session routines successfully run
+DEBUG - 2013-11-07 15:12:53 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:12:53 --> Model Class Initialized
+ERROR - 2013-11-07 15:12:53 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:12:53 --> Model Class Initialized
+ERROR - 2013-11-07 15:12:53 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:12:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:54 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+ERROR - 2013-11-07 15:12:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:54 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+ERROR - 2013-11-07 15:12:54 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:54 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:54 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:54 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:54 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:54 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:12:55 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:12:55 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:12:55 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:12:55 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:12:58 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:12:58 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:12:58 --> Model Class Initialized
+DEBUG - 2013-11-07 15:12:58 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:12:58 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:12:58 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:12:58 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:12:58 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:12:58 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:12:58 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:12:58 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:12:59 --> Final output sent to browser
+DEBUG - 2013-11-07 15:12:59 --> Total execution time: 6.3622
+DEBUG - 2013-11-07 15:13:05 --> Config Class Initialized
+DEBUG - 2013-11-07 15:13:05 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:13:05 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:13:06 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:13:06 --> URI Class Initialized
+DEBUG - 2013-11-07 15:13:06 --> Router Class Initialized
+ERROR - 2013-11-07 15:13:06 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:13:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:06 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:06 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:06 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:13:06 --> Output Class Initialized
+DEBUG - 2013-11-07 15:13:06 --> Input Class Initialized
+DEBUG - 2013-11-07 15:13:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:13:06 --> Language Class Initialized
+DEBUG - 2013-11-07 15:13:06 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:13:06 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:13:06 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:13:06 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:13:06 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:13:06 --> Session Class Initialized
+DEBUG - 2013-11-07 15:13:06 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:13:06 --> Session routines successfully run
+DEBUG - 2013-11-07 15:13:06 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:13:06 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:07 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:07 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:07 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:07 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:07 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:07 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:08 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:08 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:08 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:13:08 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:08 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:08 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:08 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:13:08 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:13:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:08 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:13:08 --> Email Class Initialized
+DEBUG - 2013-11-07 15:13:08 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:08 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:13:08 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:13:08 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:13:08 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 15:13:08 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:13:08 --> Final output sent to browser
+DEBUG - 2013-11-07 15:13:08 --> Total execution time: 2.9578
+DEBUG - 2013-11-07 15:13:13 --> Config Class Initialized
+DEBUG - 2013-11-07 15:13:13 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:13:13 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:13:13 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:13:13 --> URI Class Initialized
+DEBUG - 2013-11-07 15:13:13 --> Router Class Initialized
+ERROR - 2013-11-07 15:13:13 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:13:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:13 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:13 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:13 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:13:14 --> Output Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Input Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:13:14 --> Language Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:13:14 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:13:14 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:13:14 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Session Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:13:14 --> Session routines successfully run
+DEBUG - 2013-11-07 15:13:14 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:13:14 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:14 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:13:14 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:14 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:13:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:14 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:14 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:13:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:14 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:15 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:15 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:15 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:15 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:15 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:15 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:13:15 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:13:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:13:15 --> Email Class Initialized
+DEBUG - 2013-11-07 15:13:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:15 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:13:15 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:13:15 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:13:16 --> Final output sent to browser
+DEBUG - 2013-11-07 15:13:16 --> Total execution time: 2.4694
+DEBUG - 2013-11-07 15:13:17 --> Config Class Initialized
+DEBUG - 2013-11-07 15:13:17 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:13:17 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:13:17 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:13:17 --> URI Class Initialized
+DEBUG - 2013-11-07 15:13:17 --> Router Class Initialized
+ERROR - 2013-11-07 15:13:17 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:13:17 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:17 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:17 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:17 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:17 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:13:17 --> Output Class Initialized
+DEBUG - 2013-11-07 15:13:17 --> Input Class Initialized
+DEBUG - 2013-11-07 15:13:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:13:17 --> Language Class Initialized
+DEBUG - 2013-11-07 15:13:17 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:13:17 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:13:17 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:13:17 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:13:17 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Session Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:13:18 --> Session routines successfully run
+DEBUG - 2013-11-07 15:13:18 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:18 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:18 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:18 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:18 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:18 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:19 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:19 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:19 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:19 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:13:19 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:19 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:19 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:19 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:13:19 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:13:19 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:19 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:13:19 --> Email Class Initialized
+DEBUG - 2013-11-07 15:13:19 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:19 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:13:19 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:13:19 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:13:19 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-11-07 15:13:19 --> Config Class Initialized
+DEBUG - 2013-11-07 15:13:19 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:13:19 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:13:19 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:13:20 --> URI Class Initialized
+DEBUG - 2013-11-07 15:13:20 --> Router Class Initialized
+ERROR - 2013-11-07 15:13:20 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:13:20 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:20 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:20 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:20 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:20 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:13:20 --> Output Class Initialized
+DEBUG - 2013-11-07 15:13:20 --> Input Class Initialized
+DEBUG - 2013-11-07 15:13:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:13:20 --> Language Class Initialized
+DEBUG - 2013-11-07 15:13:20 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:13:20 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:13:20 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:13:20 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:13:20 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:13:20 --> Session Class Initialized
+DEBUG - 2013-11-07 15:13:20 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:13:20 --> Session routines successfully run
+DEBUG - 2013-11-07 15:13:20 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:13:20 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:13:20 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:13:20 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:20 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:20 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:21 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:21 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:21 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:21 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:21 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:21 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:21 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:13:21 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:13:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:13:21 --> Email Class Initialized
+DEBUG - 2013-11-07 15:13:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:21 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:13:22 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:13:22 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:13:22 --> File loaded: application/views/page/create/page_menu.php
+DEBUG - 2013-11-07 15:13:22 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:13:22 --> Final output sent to browser
+DEBUG - 2013-11-07 15:13:22 --> Total execution time: 2.3982
+DEBUG - 2013-11-07 15:13:27 --> Config Class Initialized
+DEBUG - 2013-11-07 15:13:27 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:13:27 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:13:27 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:13:27 --> URI Class Initialized
+DEBUG - 2013-11-07 15:13:27 --> Router Class Initialized
+ERROR - 2013-11-07 15:13:27 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:13:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:27 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:13:27 --> Output Class Initialized
+DEBUG - 2013-11-07 15:13:27 --> Input Class Initialized
+DEBUG - 2013-11-07 15:13:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:13:27 --> Language Class Initialized
+DEBUG - 2013-11-07 15:13:27 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:13:27 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:13:27 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:13:27 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:13:27 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> Session Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:13:28 --> Session routines successfully run
+DEBUG - 2013-11-07 15:13:28 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:13:28 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:13:28 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:13:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:28 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:13:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:13:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:28 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:29 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:29 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:29 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:13:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:29 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:29 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:13:29 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:13:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:29 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:13:29 --> Email Class Initialized
+DEBUG - 2013-11-07 15:13:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:29 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:13:29 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:13:29 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:13:29 --> Config Class Initialized
+DEBUG - 2013-11-07 15:13:30 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:13:30 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:13:30 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:13:30 --> URI Class Initialized
+DEBUG - 2013-11-07 15:13:30 --> Router Class Initialized
+ERROR - 2013-11-07 15:13:30 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:13:30 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:30 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:13:30 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:30 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:13:30 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:13:30 --> Output Class Initialized
+DEBUG - 2013-11-07 15:13:30 --> Input Class Initialized
+DEBUG - 2013-11-07 15:13:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:13:30 --> Language Class Initialized
+DEBUG - 2013-11-07 15:13:30 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:13:30 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:13:30 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:13:30 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:13:30 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:13:30 --> Session Class Initialized
+DEBUG - 2013-11-07 15:13:30 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:13:30 --> Session routines successfully run
+DEBUG - 2013-11-07 15:13:31 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:31 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:31 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:31 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+ERROR - 2013-11-07 15:13:31 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:31 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:31 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:32 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:32 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:13:32 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:32 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:32 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:32 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:13:32 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:13:32 --> Model Class Initialized
+DEBUG - 2013-11-07 15:13:32 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:13:32 --> Email Class Initialized
+DEBUG - 2013-11-07 15:13:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:13:32 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:13:32 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:13:32 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:13:32 --> File loaded: application/views/all_common/drag_drop_script.php
+DEBUG - 2013-11-07 15:13:32 --> File loaded: application/views/page/create/editor_board.php
+DEBUG - 2013-11-07 15:13:32 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:13:32 --> Final output sent to browser
+DEBUG - 2013-11-07 15:13:32 --> Total execution time: 2.8532
+DEBUG - 2013-11-07 15:14:06 --> Config Class Initialized
+DEBUG - 2013-11-07 15:14:06 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:14:06 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:14:06 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:14:07 --> URI Class Initialized
+DEBUG - 2013-11-07 15:14:07 --> Router Class Initialized
+ERROR - 2013-11-07 15:14:07 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:14:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:07 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:07 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:07 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:14:07 --> Output Class Initialized
+DEBUG - 2013-11-07 15:14:07 --> Input Class Initialized
+DEBUG - 2013-11-07 15:14:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:14:07 --> Language Class Initialized
+DEBUG - 2013-11-07 15:14:07 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:14:07 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:14:07 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:14:07 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:14:07 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:14:07 --> Session Class Initialized
+DEBUG - 2013-11-07 15:14:07 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:14:07 --> Session routines successfully run
+DEBUG - 2013-11-07 15:14:07 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:14:07 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:08 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:08 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:08 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:08 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:08 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:08 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:08 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:08 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:09 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:14:09 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:09 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:09 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:09 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:14:09 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:14:09 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:09 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:14:09 --> Email Class Initialized
+DEBUG - 2013-11-07 15:14:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:09 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:14:09 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:14:09 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:14:09 --> Config Class Initialized
+DEBUG - 2013-11-07 15:14:09 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:14:09 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:14:09 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:14:09 --> URI Class Initialized
+DEBUG - 2013-11-07 15:14:09 --> Router Class Initialized
+ERROR - 2013-11-07 15:14:09 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:14:09 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:09 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:09 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:09 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:10 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:14:10 --> Output Class Initialized
+DEBUG - 2013-11-07 15:14:10 --> Input Class Initialized
+DEBUG - 2013-11-07 15:14:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:14:10 --> Language Class Initialized
+DEBUG - 2013-11-07 15:14:10 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:14:10 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:14:10 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:14:10 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:14:10 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:14:10 --> Session Class Initialized
+DEBUG - 2013-11-07 15:14:10 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:14:10 --> Session routines successfully run
+DEBUG - 2013-11-07 15:14:10 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:14:10 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:14:10 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:14:10 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:10 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:10 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:14:10 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:10 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:10 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:14:10 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:11 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:11 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:11 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:11 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:11 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:11 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:11 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:14:11 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:14:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:14:11 --> Email Class Initialized
+DEBUG - 2013-11-07 15:14:11 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:11 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:14:12 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:14:12 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:14:12 --> File loaded: application/views/page/create/layout_desc.php
+DEBUG - 2013-11-07 15:14:12 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:14:12 --> Final output sent to browser
+DEBUG - 2013-11-07 15:14:12 --> Total execution time: 2.6082
+DEBUG - 2013-11-07 15:14:25 --> Config Class Initialized
+DEBUG - 2013-11-07 15:14:25 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:14:25 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:14:25 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:14:25 --> URI Class Initialized
+DEBUG - 2013-11-07 15:14:25 --> Router Class Initialized
+ERROR - 2013-11-07 15:14:25 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:14:25 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:25 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:25 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:25 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:25 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:14:25 --> Output Class Initialized
+DEBUG - 2013-11-07 15:14:25 --> Input Class Initialized
+DEBUG - 2013-11-07 15:14:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:14:25 --> Language Class Initialized
+DEBUG - 2013-11-07 15:14:25 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:14:26 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:14:26 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:14:26 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:14:26 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:14:26 --> Session Class Initialized
+DEBUG - 2013-11-07 15:14:26 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:14:26 --> Session routines successfully run
+DEBUG - 2013-11-07 15:14:26 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:14:26 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:14:26 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:14:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:26 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:14:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:26 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:14:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:26 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:27 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:14:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:27 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:14:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:27 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:27 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:27 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:14:27 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:27 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:27 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:27 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:14:27 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:14:27 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:27 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:14:27 --> Email Class Initialized
+DEBUG - 2013-11-07 15:14:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:27 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:14:27 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:14:28 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:14:28 --> Config Class Initialized
+DEBUG - 2013-11-07 15:14:28 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:14:28 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:14:28 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:14:28 --> URI Class Initialized
+DEBUG - 2013-11-07 15:14:28 --> Router Class Initialized
+ERROR - 2013-11-07 15:14:28 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:14:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:28 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:28 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:28 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:14:28 --> Output Class Initialized
+DEBUG - 2013-11-07 15:14:28 --> Input Class Initialized
+DEBUG - 2013-11-07 15:14:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:14:28 --> Language Class Initialized
+DEBUG - 2013-11-07 15:14:28 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:14:28 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:14:28 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:14:28 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:14:28 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Session Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:14:29 --> Session routines successfully run
+DEBUG - 2013-11-07 15:14:29 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:29 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:29 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:29 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:30 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:30 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:30 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:14:30 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:30 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:30 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:30 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:14:30 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:14:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:30 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:14:30 --> Email Class Initialized
+DEBUG - 2013-11-07 15:14:30 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:30 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:14:30 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:14:30 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:14:30 --> File loaded: application/views/page/create/create_page_success.php
+DEBUG - 2013-11-07 15:14:30 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:14:30 --> Final output sent to browser
+DEBUG - 2013-11-07 15:14:30 --> Total execution time: 2.7626
+DEBUG - 2013-11-07 15:14:40 --> Config Class Initialized
+DEBUG - 2013-11-07 15:14:40 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:14:40 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:14:40 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:14:40 --> URI Class Initialized
+DEBUG - 2013-11-07 15:14:40 --> Router Class Initialized
+ERROR - 2013-11-07 15:14:40 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:14:40 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:40 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:40 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:40 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:14:41 --> Output Class Initialized
+DEBUG - 2013-11-07 15:14:41 --> Input Class Initialized
+DEBUG - 2013-11-07 15:14:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:14:41 --> Language Class Initialized
+DEBUG - 2013-11-07 15:14:41 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:14:41 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:14:41 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:14:41 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:14:41 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:14:41 --> Session Class Initialized
+DEBUG - 2013-11-07 15:14:41 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:14:41 --> Session routines successfully run
+DEBUG - 2013-11-07 15:14:41 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:14:41 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:41 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:14:41 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:41 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:14:41 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:41 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:41 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:41 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:14:41 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:42 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:42 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:42 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:42 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:42 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:42 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:42 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:43 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:14:43 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:14:43 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:14:43 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:14:43 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:46 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:14:46 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:14:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:46 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:14:46 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:14:46 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:14:46 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:14:46 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:14:46 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:14:46 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:14:46 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:14:46 --> Final output sent to browser
+DEBUG - 2013-11-07 15:14:46 --> Total execution time: 6.3940
+DEBUG - 2013-11-07 15:14:48 --> Config Class Initialized
+DEBUG - 2013-11-07 15:14:48 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:14:48 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:14:48 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:14:48 --> URI Class Initialized
+DEBUG - 2013-11-07 15:14:48 --> Router Class Initialized
+ERROR - 2013-11-07 15:14:48 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:14:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:48 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:48 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:49 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:14:49 --> Output Class Initialized
+DEBUG - 2013-11-07 15:14:49 --> Input Class Initialized
+DEBUG - 2013-11-07 15:14:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:14:49 --> Language Class Initialized
+DEBUG - 2013-11-07 15:14:49 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:14:49 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:14:49 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:14:49 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:14:49 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:14:49 --> Session Class Initialized
+DEBUG - 2013-11-07 15:14:49 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:14:49 --> Session routines successfully run
+DEBUG - 2013-11-07 15:14:49 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:14:49 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:49 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:14:49 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:49 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:14:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:49 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:50 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:50 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:50 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:50 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:50 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:50 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:51 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:14:51 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:14:51 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:14:51 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:14:51 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:54 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:14:54 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:14:54 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:54 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:14:54 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:14:54 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:14:54 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:14:54 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:14:54 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:14:54 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:14:54 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:14:54 --> Final output sent to browser
+DEBUG - 2013-11-07 15:14:54 --> Total execution time: 6.3856
+DEBUG - 2013-11-07 15:14:55 --> Config Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:14:55 --> URI Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> Router Class Initialized
+ERROR - 2013-11-07 15:14:55 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:14:55 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:55 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:14:55 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:55 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:14:55 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:14:55 --> Output Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> Input Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:14:55 --> Language Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:14:55 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:14:55 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:14:55 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> Session Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:14:55 --> Session routines successfully run
+DEBUG - 2013-11-07 15:14:55 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:14:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:55 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:55 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:14:55 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:14:56 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:14:56 --> Model Class Initialized
+DEBUG - 2013-11-07 15:14:56 --> Model Class Initialized
+ERROR - 2013-11-07 15:14:56 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 15:16:34 --> Config Class Initialized
+DEBUG - 2013-11-07 15:16:34 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:16:34 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:16:34 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:16:35 --> URI Class Initialized
+DEBUG - 2013-11-07 15:16:35 --> Router Class Initialized
+ERROR - 2013-11-07 15:16:35 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:16:35 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:16:35 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:16:35 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:16:35 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:16:35 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:16:35 --> Output Class Initialized
+DEBUG - 2013-11-07 15:16:35 --> Input Class Initialized
+DEBUG - 2013-11-07 15:16:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:16:35 --> Language Class Initialized
+DEBUG - 2013-11-07 15:16:35 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:16:35 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:16:35 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:16:35 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:16:35 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:16:35 --> Session Class Initialized
+DEBUG - 2013-11-07 15:16:35 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:16:35 --> Session routines successfully run
+DEBUG - 2013-11-07 15:16:35 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:16:35 --> Model Class Initialized
+DEBUG - 2013-11-07 15:16:36 --> Model Class Initialized
+ERROR - 2013-11-07 15:16:36 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:16:36 --> Model Class Initialized
+DEBUG - 2013-11-07 15:16:36 --> Model Class Initialized
+DEBUG - 2013-11-07 15:16:36 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:16:36 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:16:36 --> Model Class Initialized
+DEBUG - 2013-11-07 15:16:36 --> Model Class Initialized
+ERROR - 2013-11-07 15:16:36 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 15:17:10 --> Config Class Initialized
+DEBUG - 2013-11-07 15:17:10 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:17:10 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:17:10 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:17:10 --> URI Class Initialized
+DEBUG - 2013-11-07 15:17:10 --> Router Class Initialized
+ERROR - 2013-11-07 15:17:10 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:17:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:17:10 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:17:10 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:17:10 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:17:10 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:17:10 --> Output Class Initialized
+DEBUG - 2013-11-07 15:17:10 --> Input Class Initialized
+DEBUG - 2013-11-07 15:17:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:17:11 --> Language Class Initialized
+DEBUG - 2013-11-07 15:17:11 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:17:11 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:17:11 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:17:11 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:17:11 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:17:11 --> Session Class Initialized
+DEBUG - 2013-11-07 15:17:11 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:17:11 --> Session routines successfully run
+DEBUG - 2013-11-07 15:17:11 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:17:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:17:11 --> Model Class Initialized
+ERROR - 2013-11-07 15:17:11 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:17:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:17:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:17:11 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:17:11 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:17:11 --> Model Class Initialized
+DEBUG - 2013-11-07 15:17:11 --> Model Class Initialized
+ERROR - 2013-11-07 15:17:11 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 15:18:24 --> Config Class Initialized
+DEBUG - 2013-11-07 15:18:24 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:18:24 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:18:24 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:18:24 --> URI Class Initialized
+DEBUG - 2013-11-07 15:18:24 --> Router Class Initialized
+ERROR - 2013-11-07 15:18:24 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:18:24 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:18:24 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:18:24 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:18:24 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:18:24 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:18:24 --> Output Class Initialized
+DEBUG - 2013-11-07 15:18:24 --> Input Class Initialized
+DEBUG - 2013-11-07 15:18:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:18:24 --> Language Class Initialized
+DEBUG - 2013-11-07 15:18:25 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:18:25 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:18:25 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:18:25 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:18:25 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:18:25 --> Session Class Initialized
+DEBUG - 2013-11-07 15:18:25 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:18:25 --> Session routines successfully run
+DEBUG - 2013-11-07 15:18:25 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:18:25 --> Model Class Initialized
+ERROR - 2013-11-07 15:18:25 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:18:25 --> Model Class Initialized
+ERROR - 2013-11-07 15:18:25 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:18:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:25 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:18:25 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:18:25 --> Model Class Initialized
+ERROR - 2013-11-07 15:18:25 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:18:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:18:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:18:26 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> Model Class Initialized
+ERROR - 2013-11-07 15:18:26 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:18:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:26 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:18:26 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:18:26 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:18:26 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:18:26 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:18:26 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:18:26 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:18:26 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:18:26 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:18:26 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:18:30 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:18:30 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:18:30 --> Model Class Initialized
+DEBUG - 2013-11-07 15:18:30 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:18:30 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:18:30 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:18:30 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:18:30 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:18:30 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:18:30 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:18:30 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:18:30 --> Final output sent to browser
+DEBUG - 2013-11-07 15:18:30 --> Total execution time: 6.3529
+DEBUG - 2013-11-07 15:24:43 --> Config Class Initialized
+DEBUG - 2013-11-07 15:24:43 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:24:44 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:24:44 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:24:44 --> URI Class Initialized
+DEBUG - 2013-11-07 15:24:44 --> Router Class Initialized
+ERROR - 2013-11-07 15:24:44 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:24:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:24:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:24:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:24:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:24:44 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:24:44 --> Output Class Initialized
+DEBUG - 2013-11-07 15:24:44 --> Input Class Initialized
+DEBUG - 2013-11-07 15:24:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:24:44 --> Language Class Initialized
+DEBUG - 2013-11-07 15:24:44 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:24:44 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:24:44 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:24:44 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:24:44 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:24:45 --> Session Class Initialized
+DEBUG - 2013-11-07 15:24:45 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:24:45 --> Session routines successfully run
+DEBUG - 2013-11-07 15:24:45 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:24:45 --> Model Class Initialized
+ERROR - 2013-11-07 15:24:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:24:45 --> Model Class Initialized
+ERROR - 2013-11-07 15:24:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:24:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:24:45 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:24:45 --> Model Class Initialized
+ERROR - 2013-11-07 15:24:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:24:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:45 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:24:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:45 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:24:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:24:46 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:24:46 --> Model Class Initialized
+ERROR - 2013-11-07 15:24:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:24:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:46 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:24:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:24:46 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:24:46 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:24:46 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:24:46 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:24:46 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:24:46 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:24:46 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:24:46 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:24:50 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:24:51 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:24:51 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:51 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:24:51 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:24:51 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:24:51 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:24:51 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:24:51 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:24:51 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:24:51 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:24:51 --> Final output sent to browser
+DEBUG - 2013-11-07 15:24:51 --> Total execution time: 7.6363
+DEBUG - 2013-11-07 15:24:52 --> Config Class Initialized
+DEBUG - 2013-11-07 15:24:52 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:24:52 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:24:52 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:24:52 --> URI Class Initialized
+DEBUG - 2013-11-07 15:24:52 --> Router Class Initialized
+ERROR - 2013-11-07 15:24:52 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:24:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:24:52 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:24:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:24:52 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:24:52 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:24:52 --> Output Class Initialized
+DEBUG - 2013-11-07 15:24:52 --> Input Class Initialized
+DEBUG - 2013-11-07 15:24:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:24:52 --> Language Class Initialized
+DEBUG - 2013-11-07 15:24:52 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:24:52 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:24:52 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:24:53 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:24:53 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:24:53 --> Session Class Initialized
+DEBUG - 2013-11-07 15:24:53 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:24:53 --> Session routines successfully run
+DEBUG - 2013-11-07 15:24:53 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:24:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:53 --> Model Class Initialized
+ERROR - 2013-11-07 15:24:53 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:24:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:24:53 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:24:53 --> Model Class Initialized
+DEBUG - 2013-11-07 15:24:53 --> Model Class Initialized
+ERROR - 2013-11-07 15:24:53 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 15:26:05 --> Config Class Initialized
+DEBUG - 2013-11-07 15:26:05 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:26:05 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:26:05 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:26:05 --> URI Class Initialized
+DEBUG - 2013-11-07 15:26:05 --> Router Class Initialized
+ERROR - 2013-11-07 15:26:05 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:26:05 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:05 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:05 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:05 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:05 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:26:05 --> Output Class Initialized
+DEBUG - 2013-11-07 15:26:05 --> Input Class Initialized
+DEBUG - 2013-11-07 15:26:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:26:05 --> Language Class Initialized
+DEBUG - 2013-11-07 15:26:05 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:26:06 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:26:06 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:26:06 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:26:06 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:26:06 --> Session Class Initialized
+DEBUG - 2013-11-07 15:26:06 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:26:06 --> Session routines successfully run
+DEBUG - 2013-11-07 15:26:06 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:26:06 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:06 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:26:06 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:06 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:26:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:06 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:26:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:06 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:06 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:26:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:06 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:06 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:07 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:07 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:07 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:07 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:07 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:07 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:26:07 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:26:07 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:26:07 --> Email Class Initialized
+DEBUG - 2013-11-07 15:26:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:07 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:26:08 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:26:08 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:26:08 --> File loaded: application/views/page/create/basic_info.php
+DEBUG - 2013-11-07 15:26:08 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:26:08 --> Final output sent to browser
+DEBUG - 2013-11-07 15:26:08 --> Total execution time: 3.0812
+DEBUG - 2013-11-07 15:26:16 --> Config Class Initialized
+DEBUG - 2013-11-07 15:26:17 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:26:17 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:26:17 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:26:17 --> URI Class Initialized
+DEBUG - 2013-11-07 15:26:17 --> Router Class Initialized
+ERROR - 2013-11-07 15:26:17 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:26:17 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:17 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:17 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:17 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:17 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:26:17 --> Output Class Initialized
+DEBUG - 2013-11-07 15:26:17 --> Input Class Initialized
+DEBUG - 2013-11-07 15:26:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:26:17 --> Language Class Initialized
+DEBUG - 2013-11-07 15:26:17 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:26:17 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:26:17 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:26:17 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:26:17 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:26:17 --> Session Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:26:18 --> Session routines successfully run
+DEBUG - 2013-11-07 15:26:18 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:18 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:18 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:18 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:18 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:18 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:19 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:19 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:19 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:19 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:19 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:19 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:26:19 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:19 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:19 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:19 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:26:19 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:26:19 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:19 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:26:19 --> Email Class Initialized
+DEBUG - 2013-11-07 15:26:19 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:19 --> Config Class Initialized
+DEBUG - 2013-11-07 15:26:19 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:26:19 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:26:19 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:26:19 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:26:19 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:26:19 --> URI Class Initialized
+DEBUG - 2013-11-07 15:26:19 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:26:20 --> Router Class Initialized
+DEBUG - 2013-11-07 15:26:20 --> Final output sent to browser
+DEBUG - 2013-11-07 15:26:20 --> Total execution time: 3.0611
+ERROR - 2013-11-07 15:26:20 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:26:20 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:20 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:20 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:20 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:20 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:26:20 --> Output Class Initialized
+DEBUG - 2013-11-07 15:26:20 --> Input Class Initialized
+DEBUG - 2013-11-07 15:26:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:26:20 --> Language Class Initialized
+DEBUG - 2013-11-07 15:26:20 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:26:20 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:26:20 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:26:20 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:26:20 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:26:20 --> Session Class Initialized
+DEBUG - 2013-11-07 15:26:20 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:26:20 --> Session routines successfully run
+DEBUG - 2013-11-07 15:26:20 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:26:20 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:26:20 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:20 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:21 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:21 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:21 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:21 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:21 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:21 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:26:21 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:21 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:21 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:22 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:26:22 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:26:22 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:22 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:26:22 --> Email Class Initialized
+DEBUG - 2013-11-07 15:26:22 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:22 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:26:22 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:26:22 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:26:22 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2013-11-07 15:26:22 --> Config Class Initialized
+DEBUG - 2013-11-07 15:26:22 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:26:22 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:26:22 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:26:22 --> URI Class Initialized
+DEBUG - 2013-11-07 15:26:22 --> Router Class Initialized
+ERROR - 2013-11-07 15:26:22 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:26:22 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:22 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:22 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:22 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:22 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:26:22 --> Output Class Initialized
+DEBUG - 2013-11-07 15:26:22 --> Input Class Initialized
+DEBUG - 2013-11-07 15:26:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:26:23 --> Language Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:26:23 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:26:23 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:26:23 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Session Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:26:23 --> Session routines successfully run
+DEBUG - 2013-11-07 15:26:23 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:26:23 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:23 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:26:23 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:23 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:26:23 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:23 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:23 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:26:23 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:23 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:26:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:24 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:26:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:24 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:24 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:24 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:26:24 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:24 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:24 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:24 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:26:24 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:26:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:24 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:26:24 --> Email Class Initialized
+DEBUG - 2013-11-07 15:26:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:24 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:26:24 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:26:24 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:26:24 --> File loaded: application/views/page/create/page_menu.php
+DEBUG - 2013-11-07 15:26:24 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:26:24 --> Final output sent to browser
+DEBUG - 2013-11-07 15:26:24 --> Total execution time: 2.4478
+DEBUG - 2013-11-07 15:26:27 --> Config Class Initialized
+DEBUG - 2013-11-07 15:26:27 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:26:27 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:26:27 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:26:27 --> URI Class Initialized
+DEBUG - 2013-11-07 15:26:27 --> Router Class Initialized
+ERROR - 2013-11-07 15:26:27 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:26:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:27 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:27 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:27 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:26:27 --> Output Class Initialized
+DEBUG - 2013-11-07 15:26:27 --> Input Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:26:28 --> Language Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:26:28 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:26:28 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:26:28 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Session Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:26:28 --> Session routines successfully run
+DEBUG - 2013-11-07 15:26:28 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:28 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:28 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:28 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:26:28 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:29 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:29 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:29 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:26:29 --> File loaded: application/views/page_editor/createMenu.php
+DEBUG - 2013-11-07 15:26:29 --> Final output sent to browser
+DEBUG - 2013-11-07 15:26:29 --> Total execution time: 1.7333
+DEBUG - 2013-11-07 15:26:33 --> Config Class Initialized
+DEBUG - 2013-11-07 15:26:33 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:26:33 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:26:33 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:26:33 --> URI Class Initialized
+DEBUG - 2013-11-07 15:26:33 --> Router Class Initialized
+ERROR - 2013-11-07 15:26:33 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:26:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:33 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:33 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:33 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:26:33 --> Output Class Initialized
+DEBUG - 2013-11-07 15:26:33 --> Input Class Initialized
+DEBUG - 2013-11-07 15:26:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:26:33 --> Language Class Initialized
+DEBUG - 2013-11-07 15:26:34 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:26:34 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:26:34 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:26:34 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:26:34 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:26:34 --> Session Class Initialized
+DEBUG - 2013-11-07 15:26:34 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:26:34 --> Session routines successfully run
+DEBUG - 2013-11-07 15:26:34 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:26:34 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:26:34 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:26:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:34 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:26:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:34 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:34 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:26:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:34 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:34 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:35 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:35 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:35 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:35 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:35 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:35 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:35 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:26:35 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:26:35 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:26:35 --> Email Class Initialized
+DEBUG - 2013-11-07 15:26:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:35 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:26:36 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:26:36 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:26:36 --> Config Class Initialized
+DEBUG - 2013-11-07 15:26:36 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:26:36 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:26:36 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:26:36 --> URI Class Initialized
+DEBUG - 2013-11-07 15:26:36 --> Router Class Initialized
+ERROR - 2013-11-07 15:26:36 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:26:36 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:36 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:36 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:36 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:36 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:26:36 --> Output Class Initialized
+DEBUG - 2013-11-07 15:26:36 --> Input Class Initialized
+DEBUG - 2013-11-07 15:26:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:26:36 --> Language Class Initialized
+DEBUG - 2013-11-07 15:26:36 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:26:36 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:26:37 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:26:37 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:26:37 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:26:37 --> Session Class Initialized
+DEBUG - 2013-11-07 15:26:37 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:26:37 --> Session routines successfully run
+DEBUG - 2013-11-07 15:26:37 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:26:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:26:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:26:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:37 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:37 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:26:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:37 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:37 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:26:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:37 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:37 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:37 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:26:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:38 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:26:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:38 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:38 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:38 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:26:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:38 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:38 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:38 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:26:38 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:26:38 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:38 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:26:38 --> Email Class Initialized
+DEBUG - 2013-11-07 15:26:38 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:38 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:26:38 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:26:38 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:26:38 --> File loaded: application/views/all_common/drag_drop_script.php
+DEBUG - 2013-11-07 15:26:38 --> File loaded: application/views/page/create/editor_board.php
+DEBUG - 2013-11-07 15:26:39 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:26:39 --> Final output sent to browser
+DEBUG - 2013-11-07 15:26:39 --> Total execution time: 2.8668
+DEBUG - 2013-11-07 15:26:44 --> Config Class Initialized
+DEBUG - 2013-11-07 15:26:44 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:26:44 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:26:44 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:26:44 --> URI Class Initialized
+DEBUG - 2013-11-07 15:26:44 --> Router Class Initialized
+ERROR - 2013-11-07 15:26:44 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:26:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:44 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:44 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:45 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:26:45 --> Output Class Initialized
+DEBUG - 2013-11-07 15:26:45 --> Input Class Initialized
+DEBUG - 2013-11-07 15:26:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:26:45 --> Language Class Initialized
+DEBUG - 2013-11-07 15:26:45 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:26:45 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:26:45 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:26:45 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:26:45 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:26:45 --> Session Class Initialized
+DEBUG - 2013-11-07 15:26:45 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:26:45 --> Session routines successfully run
+DEBUG - 2013-11-07 15:26:45 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:26:45 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:26:45 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:45 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:26:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:45 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:46 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:46 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:26:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:46 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:46 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:46 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:26:46 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:46 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:47 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:47 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:26:47 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:26:47 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:47 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:26:47 --> Email Class Initialized
+DEBUG - 2013-11-07 15:26:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:47 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:26:47 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:26:47 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:26:47 --> Config Class Initialized
+DEBUG - 2013-11-07 15:26:47 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:26:47 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:26:47 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:26:47 --> URI Class Initialized
+DEBUG - 2013-11-07 15:26:47 --> Router Class Initialized
+ERROR - 2013-11-07 15:26:47 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:26:47 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:47 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:26:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:47 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:26:48 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:26:48 --> Output Class Initialized
+DEBUG - 2013-11-07 15:26:48 --> Input Class Initialized
+DEBUG - 2013-11-07 15:26:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:26:48 --> Language Class Initialized
+DEBUG - 2013-11-07 15:26:48 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:26:48 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:26:48 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:26:48 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:26:48 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:26:48 --> Session Class Initialized
+DEBUG - 2013-11-07 15:26:48 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:26:48 --> Session routines successfully run
+DEBUG - 2013-11-07 15:26:48 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:26:48 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:26:48 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:48 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:26:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:48 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:26:48 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Model Class Initialized
+ERROR - 2013-11-07 15:26:49 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:26:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:49 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:49 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:49 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:49 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:49 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:49 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:26:49 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:26:49 --> Model Class Initialized
+DEBUG - 2013-11-07 15:26:49 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:26:49 --> Email Class Initialized
+DEBUG - 2013-11-07 15:26:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:26:50 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:26:50 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:26:50 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:26:50 --> File loaded: application/views/page/create/layout_desc.php
+DEBUG - 2013-11-07 15:26:50 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:26:50 --> Final output sent to browser
+DEBUG - 2013-11-07 15:26:50 --> Total execution time: 2.8170
+DEBUG - 2013-11-07 15:27:13 --> Config Class Initialized
+DEBUG - 2013-11-07 15:27:13 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:27:13 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:27:14 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:27:14 --> URI Class Initialized
+DEBUG - 2013-11-07 15:27:14 --> Router Class Initialized
+ERROR - 2013-11-07 15:27:14 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:27:14 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:27:14 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:27:14 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:27:14 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:27:14 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:27:14 --> Output Class Initialized
+DEBUG - 2013-11-07 15:27:14 --> Input Class Initialized
+DEBUG - 2013-11-07 15:27:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:27:14 --> Language Class Initialized
+DEBUG - 2013-11-07 15:27:14 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:27:14 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:27:14 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:27:14 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:27:14 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:27:14 --> Session Class Initialized
+DEBUG - 2013-11-07 15:27:14 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:27:15 --> Session routines successfully run
+DEBUG - 2013-11-07 15:27:15 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:15 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:15 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:15 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:15 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:27:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:15 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:27:15 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:16 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:16 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:16 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:27:16 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:16 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:16 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:16 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:27:16 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:27:16 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:16 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:27:16 --> Email Class Initialized
+DEBUG - 2013-11-07 15:27:16 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:16 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:27:16 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:27:16 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:27:17 --> Config Class Initialized
+DEBUG - 2013-11-07 15:27:17 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:27:17 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:27:17 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:27:17 --> URI Class Initialized
+DEBUG - 2013-11-07 15:27:17 --> Router Class Initialized
+ERROR - 2013-11-07 15:27:17 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:27:17 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:27:17 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:27:17 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:27:17 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:27:17 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:27:17 --> Output Class Initialized
+DEBUG - 2013-11-07 15:27:17 --> Input Class Initialized
+DEBUG - 2013-11-07 15:27:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:27:17 --> Language Class Initialized
+DEBUG - 2013-11-07 15:27:17 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:27:17 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:27:17 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:27:17 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:27:18 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> Session Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:27:18 --> Session routines successfully run
+DEBUG - 2013-11-07 15:27:18 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:27:18 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:18 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:27:18 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:18 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:27:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:18 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:18 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:27:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:27:18 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:18 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:27:19 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:19 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:19 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:19 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:19 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:19 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:19 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:19 --> Upload Class Initialized
+DEBUG - 2013-11-07 15:27:19 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:19 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:19 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:19 --> File loaded: application/views/webpowerup/header.php
+DEBUG - 2013-11-07 15:27:19 --> File loaded: application/views/webpowerup/UserInfo.php
+DEBUG - 2013-11-07 15:27:19 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:19 --> Helper loaded: date_helper
+DEBUG - 2013-11-07 15:27:19 --> Email Class Initialized
+DEBUG - 2013-11-07 15:27:19 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:19 --> File loaded: application/views/webpowerup/SwitchMenu.php
+DEBUG - 2013-11-07 15:27:19 --> File loaded: application/views/webpowerup/contentTop.php
+DEBUG - 2013-11-07 15:27:19 --> File loaded: application/views/webpowerup/footer.php
+DEBUG - 2013-11-07 15:27:19 --> File loaded: application/views/page/create/create_page_success.php
+DEBUG - 2013-11-07 15:27:20 --> File loaded: application/views/../templates/webpowerup/template.php
+DEBUG - 2013-11-07 15:27:20 --> Final output sent to browser
+DEBUG - 2013-11-07 15:27:20 --> Total execution time: 3.0119
+DEBUG - 2013-11-07 15:27:23 --> Config Class Initialized
+DEBUG - 2013-11-07 15:27:23 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:27:23 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:27:23 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:27:23 --> URI Class Initialized
+DEBUG - 2013-11-07 15:27:23 --> Router Class Initialized
+ERROR - 2013-11-07 15:27:23 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:27:23 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:27:23 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:27:23 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:27:23 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:27:23 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:27:23 --> Output Class Initialized
+DEBUG - 2013-11-07 15:27:23 --> Input Class Initialized
+DEBUG - 2013-11-07 15:27:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:27:24 --> Language Class Initialized
+DEBUG - 2013-11-07 15:27:24 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:27:24 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:27:24 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:27:24 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:27:24 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:27:24 --> Session Class Initialized
+DEBUG - 2013-11-07 15:27:24 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:27:24 --> Session routines successfully run
+DEBUG - 2013-11-07 15:27:24 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:27:24 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:24 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:27:24 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:24 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:27:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:24 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:27:24 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:24 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:27:24 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:25 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:25 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:25 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:25 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:25 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:25 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:25 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:25 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:27:26 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:27:26 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:27:26 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:27:26 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:29 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:27:29 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:27:29 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:29 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:27:29 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:27:29 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:27:29 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:27:29 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:27:29 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:27:29 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:27:30 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:27:30 --> Final output sent to browser
+DEBUG - 2013-11-07 15:27:30 --> Total execution time: 6.7679
+DEBUG - 2013-11-07 15:27:30 --> Config Class Initialized
+DEBUG - 2013-11-07 15:27:30 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:27:30 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:27:30 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:27:30 --> URI Class Initialized
+DEBUG - 2013-11-07 15:27:30 --> Router Class Initialized
+ERROR - 2013-11-07 15:27:30 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:27:30 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:27:30 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:27:30 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:27:30 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:27:30 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:27:30 --> Output Class Initialized
+DEBUG - 2013-11-07 15:27:30 --> Input Class Initialized
+DEBUG - 2013-11-07 15:27:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:27:30 --> Language Class Initialized
+DEBUG - 2013-11-07 15:27:30 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:27:30 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:27:30 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:27:30 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:27:31 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:27:31 --> Session Class Initialized
+DEBUG - 2013-11-07 15:27:31 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:27:31 --> Session routines successfully run
+DEBUG - 2013-11-07 15:27:31 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:27:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:31 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:31 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:27:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:31 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:27:31 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:31 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:31 --> 404 Page Not Found --> media/ckeditor_uploads
+DEBUG - 2013-11-07 15:27:32 --> Config Class Initialized
+DEBUG - 2013-11-07 15:27:32 --> Hooks Class Initialized
+DEBUG - 2013-11-07 15:27:32 --> Utf8 Class Initialized
+DEBUG - 2013-11-07 15:27:32 --> UTF-8 Support Enabled
+DEBUG - 2013-11-07 15:27:32 --> URI Class Initialized
+DEBUG - 2013-11-07 15:27:32 --> Router Class Initialized
+ERROR - 2013-11-07 15:27:32 --> Severity: Warning  --> mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) C:\AppServ\www\webpowerup\application\config\routes.php 83
+ERROR - 2013-11-07 15:27:32 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:27:32 --> Severity: Warning  --> mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 84
+ERROR - 2013-11-07 15:27:32 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:27:32 --> Severity: Warning  --> mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established C:\AppServ\www\webpowerup\application\config\routes.php 85
+ERROR - 2013-11-07 15:27:32 --> Severity: Warning  --> mysql_fetch_array(): supplied argument is not a valid MySQL result resource C:\AppServ\www\webpowerup\application\config\routes.php 86
+DEBUG - 2013-11-07 15:27:32 --> Output Class Initialized
+DEBUG - 2013-11-07 15:27:32 --> Input Class Initialized
+DEBUG - 2013-11-07 15:27:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-11-07 15:27:32 --> Language Class Initialized
+DEBUG - 2013-11-07 15:27:32 --> Loader Class Initialized
+DEBUG - 2013-11-07 15:27:32 --> Helper loaded: url_helper
+DEBUG - 2013-11-07 15:27:32 --> Helper loaded: form_helper
+DEBUG - 2013-11-07 15:27:32 --> Helper loaded: custom_helper
+DEBUG - 2013-11-07 15:27:32 --> Database Driver Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Session Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Helper loaded: string_helper
+DEBUG - 2013-11-07 15:27:33 --> Session routines successfully run
+DEBUG - 2013-11-07 15:27:33 --> Helper loaded: html_helper
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\sitesmodel.php 2
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\usersmodel.php 2
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:33 --> Controller Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\customers_model.php 2
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Pagination Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:33 --> Form Validation Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+ERROR - 2013-11-07 15:27:33 --> Severity: Notice  --> A session had already been started - ignoring session_start() C:\AppServ\www\webpowerup\application\models\footer_model.php 2
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:33 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:34 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:34 --> Template class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:34 --> My_template_menu class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:34 --> Config file loaded: application/config/paypallib_config.php
+ERROR - 2013-11-07 15:27:34 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 621
+ERROR - 2013-11-07 15:27:34 --> Severity: Notice  --> Undefined variable: group_ids C:\AppServ\www\webpowerup\application\controllers\site_preview.php 622
+ERROR - 2013-11-07 15:27:34 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at C:\AppServ\www\webpowerup\application\models\slideshow_model.php:729) C:\AppServ\www\webpowerup\system\libraries\Session.php 670
+DEBUG - 2013-11-07 15:27:34 --> Parser class already loaded. Second attempt ignored.
+DEBUG - 2013-11-07 15:27:36 --> File loaded: application/views/mashup/menu.php
+ERROR - 2013-11-07 15:27:36 --> Severity: Notice  --> Undefined variable: array_rslt C:\AppServ\www\webpowerup\application\models\video_gallery_model.php 89
+DEBUG - 2013-11-07 15:27:36 --> Model Class Initialized
+DEBUG - 2013-11-07 15:27:36 --> File loaded: application/views/all_common/top_slider.php
+DEBUG - 2013-11-07 15:27:36 --> File loaded: application/views/all_common/content.php
+ERROR - 2013-11-07 15:27:36 --> Severity: Notice  --> Undefined index:  login_info C:\AppServ\www\webpowerup\application\views\mashup\leftbar.php 531
+DEBUG - 2013-11-07 15:27:36 --> File loaded: application/views/mashup/leftbar.php
+ERROR - 2013-11-07 15:27:37 --> Severity: Notice  --> Undefined variable: newsletter_groups_a C:\AppServ\www\webpowerup\application\views\mashup\rightbar.php 142
+DEBUG - 2013-11-07 15:27:37 --> File loaded: application/views/mashup/rightbar.php
+DEBUG - 2013-11-07 15:27:37 --> File loaded: application/views/mashup/footer.php
+DEBUG - 2013-11-07 15:27:37 --> File loaded: application/views/../templates/mashup/template.php
+DEBUG - 2013-11-07 15:27:37 --> Final output sent to browser
+DEBUG - 2013-11-07 15:27:37 --> Total execution time: 4.8459

@@ -1040,7 +1040,8 @@ class Pages_Model extends CI_Model{
         }
         if($page_background == 'Other'){
             //echo $this->db->escape($background_area);exit();
-            $background_image = $this->input->post("DateTime").$_FILES["background_image"]["name"];
+            $background_image = $this->input->post("DateTime").str_replace(" ","_",$_FILES["background_image"]["name"]);
+            
             //$this->db->query("INSERT INTO backgrounds(background_image, background_status) VALUES(".$this->db->escape($background_image).", 'Active')");
             $this->db->query("INSERT INTO backgrounds(background_image, background_area, background_style, background_status) VALUES(".$this->db->escape($background_image).", ".$this->db->escape($background_area).", ".$this->db->escape($background_style).", 'Active')");
             
@@ -1102,7 +1103,7 @@ class Pages_Model extends CI_Model{
     
 	//addressed in pagesController function save_upload_page_layout_desc
 	//saves page layout: page header, background and status information in DB
-	function save_upload_page_layout_desc()
+	function save_upload_page_layout_desc($background_image = false)
 	{
 		/*echo "<pre>";
 		print_r($_POST);exit();*/
@@ -1170,7 +1171,8 @@ class Pages_Model extends CI_Model{
 		}
 		if($page_background == 'Other'){
 			//echo $this->db->escape($background_area);exit();
-			$background_image = $this->input->post("DateTime").$_FILES["background_image"]["name"];
+			//$background_image = $this->input->post("DateTime").$_FILES["background_image"]["name"];
+            //$background_image = $this->input->post("DateTime").str_replace(" ","_",$_FILES["background_image"]["name"]); 
 			//$this->db->query("INSERT INTO backgrounds(background_image, background_status) VALUES(".$this->db->escape($background_image).", 'Active')");
 			$this->db->query("INSERT INTO backgrounds(background_image, background_area, background_style, background_status) VALUES(".$this->db->escape($background_image).", ".$this->db->escape($background_area).", ".$this->db->escape($background_style).", 'Active')");
 			
